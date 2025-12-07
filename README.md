@@ -1,5 +1,12 @@
 # Papaya
-More details on how to contribute and about the config schema are following :)
+This repository contains various assets which are used by the [Papaya Games Launcher](https://play.google.com/store/apps/details?id=com.sebschaef.papaya) Android app:
+- Translations
+- Icons for the various supported gaming platforms
+- Configuration for the various gaming platforms, supported emulators and game streaming apps
+
+You are more than welcome to contribute to any of these assets :)
+
+To contribute, you can either directly open a Pull Request with your additions or you can send me them somewhere else and I'll add them to this Repository.
 
 ## Translations
 How to add translations for another Locale:
@@ -16,7 +23,14 @@ If you don't know how to use Git, you can also download a translation file, tran
 - [Reddit](https://www.reddit.com/user/IllegalArgException/)
 
 ## Icons
-TBD
+Any new icons should match the current style:
+- Monochrome
+- Relatively simple, not too detailled
+- They should be recognizable even if they are displayed in a small size
+
+The art style: 
+- The current icons usually show the controller for the platform or the device itself if it is a Handheld
+- Usually, the icon resembles the shape with cutouts where the screen is located and where the analog sticks are located. Consider this just as a guideline, because for older consoles without screens and analog sticks this scheme does not work.
 
 ## Config - Presets
 TBD
