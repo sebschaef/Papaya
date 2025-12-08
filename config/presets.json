@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 3,
+  "presetConfigurationVersion": 4,
   "platforms": [
     {
       "key": "and",
@@ -4374,7 +4374,31 @@
       "launchConfiguration": {
         "explicitActivity": "org.vita3k.emulator.Emulator",
         "action": "LAUNCH_%1$id",
-        "launchById": true
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "AppStartParameters",
+            "stringValue": "-r,%1$id"
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "org.vita3k.emulator.ikhoeyZX",
+      "name": "Vita3K ZX",
+      "supportedPlatforms": [
+        "psv"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "org.vita3k.emulator.Emulator",
+        "action": "LAUNCH_%1$id",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "AppStartParameters",
+            "stringValue": "-r,%1$id"
+          }
+        ]
       }
     },
     {
@@ -4550,6 +4574,26 @@
             "booleanValue": true
           }
         ]
+      }
+    },
+    {
+      "packageName": "com.flycast.emulator",
+      "name": "Flycast",
+      "supportedPlatforms": [
+        "sdc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.flycast.emulator.MainActivity"
+      }
+    },
+    {
+      "packageName": "io.recompiled.redream",
+      "name": "redream",
+      "supportedPlatforms": [
+        "sdc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "io.recompiled.redream.MainActivity"
       }
     }
   ],
