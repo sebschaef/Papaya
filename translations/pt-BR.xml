@@ -41,7 +41,7 @@
 
     <string name="gallery_games_welcome_embedded_title">@string/gallery_games_welcome_dialog_title</string>
     <string name="gallery_games_welcome_embedded_text">Comece adicionando seus jogos:</string>
-    <string name="gallery_games_welcome_embedded_cta">Adicionar sua primeira plataforma</string>
+    <string name="gallery_games_welcome_embedded_cta">Adicione sua primeira plataforma</string>
 
     <string name="gallery_games_cover_loading_label">Carregando</string>
 
@@ -89,9 +89,9 @@
     <string name="platform_configuration_android_games_selection_description">Selecione seus Apps de jogos</string>
 
     <!-- Platform configuration - Emulator apps selection step -->
-    <string name="platform_configuration_emulator_apps_selection_title">Apps de Emuladores</string>
-    <string name="platform_configuration_emulator_apps_selection_description">Selecione os Apps de emuladores</string>
-    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Não consegue encontrar seu app de emulador na lista?</string>
+    <string name="platform_configuration_emulator_apps_selection_title">Emuladores</string>
+    <string name="platform_configuration_emulator_apps_selection_description">Selecione os emuladores</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Não encontrou seu app de emulador na lista?</string>
     <string name="platform_configuration_emulator_apps_selection_tip_box_description">Infelizmente isso significa que o emulador não é suportado nativamente.\nNo entanto, você pode adicionar a configuração manualmente em [Configurações] > [Avançado] > [Apps de emuladores personalizados] > [Criar].</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Instalado</string>
@@ -114,7 +114,7 @@
 
     <!-- Platform configuration - Enable notifications -->
     <string name="platform_configuration_enable_notifications_title">Ativar notificações?</string>
-    <string name="platform_configuration_enable_notifications_description">Veja o progresso em uma notificação quando eu buscar as capas dos seus jogos:</string>
+    <string name="platform_configuration_enable_notifications_description">Acompanhe o progresso por uma notificação enquanto busco as capas dos seus jogos:</string>
     <string name="platform_configuration_enable_notifications_option_yes">Sim, quero ver o progresso da busca</string>
     <string name="platform_configuration_enable_notifications_option_no">Não, talvez mais tarde</string>
 
@@ -228,7 +228,7 @@
     <string name="settings_platform_options_menu_option_edit">Editar</string>
     <string name="settings_platform_options_menu_option_remove">Remover</string>
     <string name="settings_platform_options_warning_dialog_remove_title">Remover plataforma \"%1$s\"?</string>
-    <string name="settings_platform_options_warning_dialog_remove_text">A configuração será excluída. Seus arquivos de jogos e apps permanecerão intocados.</string>
+    <string name="settings_platform_options_warning_dialog_remove_text">A configuração será excluída; seus jogos e apps não serão alterados.</string>
     <string name="settings_platform_options_warning_dialog_remove_confirm">Remover plataforma</string>
     <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
@@ -300,11 +300,11 @@
     <string name="settings_custom_emulator_app_options_menu_option_edit">Editar</string>
     <string name="settings_custom_emulator_app_options_menu_option_remove">Remover</string>
     <string name="settings_custom_emulator_app_options_warning_dialog_remove_title">Remover \"%1$s\"?</string>
-    <string name="settings_custom_emulator_app_options_warning_dialog_remove_text">A configuração do app de emulador personalizado será excluída e não poderá ser restaurada.</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_text">A configuração de emulador personalizado será excluída e não poderá ser recuperada.</string>
     <string name="settings_custom_emulator_app_options_warning_dialog_remove_confirm">Remover configuração de emulador</string>
     <string name="settings_custom_emulator_app_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
-    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_title">Remoção não possível!</string>
-    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_text">A configuração do app de emulador personalizado ainda está sendo usada. Selecione outro emulador para estes jogos:\n%1$s</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_title">Não é possível remover!</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_text">A configuração do emulador personalizado ainda está em uso. Escolha outro emulador para estes jogos:\n%1$s</string>
     <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
 
     <!-- Settings - Custom emulator app creator -->
@@ -387,7 +387,7 @@
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_cancel">@string/common_cancel</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_add">Adicionar</string>
     <string name="settings_custom_platform_creator_cta_save">@string/common_save</string>
-    <string name="settings_custom_platform_creator_error_dialog_title">Remoção não possível!</string>
+    <string name="settings_custom_platform_creator_error_dialog_title">Não é possível remover!</string>
     <string name="settings_custom_platform_creator_error_dialog_text">Esta configuração de plataforma personalizada já está em uso, então você não pode remover tipos de arquivo adicionados anteriormente.\nVocê pode apenas adicionar novos tipos de arquivo ou remover as plataformas que usam esta configuração: %1$s</string>
     <string name="settings_custom_platform_creator_error_dialog_confirm">@string/common_okay</string>
 
@@ -418,7 +418,7 @@
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Dá aos seus lançamentos de jogos uma sensação Retro e aos diálogos um som de aviso significativo</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Pelo ícone legal do Discord abaixo</string>
     <string name="settings_about_section_community_title">Comunidade</string>
-    <string name="settings_about_section_community_text">Se você quer contribuir e ajudar a moldar o futuro do Papaya, por favor junte-se à Comunidade. Claro que você também é muito bem-vindo se quiser apenas ver as últimas notícias ou encontrou algum bug!</string>
+    <string name="settings_about_section_community_text">Se você quiser contribuir e ajudar a moldar o futuro do Papaya, junte-se à Comunidade. E claro, você também é muito bem-vindo caso queira apenas acompanhar as novidades ou relatar algum bug!</string>
     <string name="settings_about_section_community_option_discord">Discord do Papaya</string>
     <string name="settings_about_section_community_option_email">Email</string>
     <string name="settings_about_section_built_by_title">Construído por</string>
@@ -441,21 +441,21 @@
     <string name="buy_license_cancel_quit">Fechar Papaya</string>
     <string name="buy_license_go_back">Voltar</string>
     <string name="buy_license_error_generic_title">Não foi possível iniciar o checkout</string>
-    <string name="buy_license_error_generic_message">Certifique-se de que sua conexão com a internet está funcionando e que o Google Play Services está habilitado.</string>
+    <string name="buy_license_error_generic_message">Verifique se sua conexão com a internet está ativa e se o Google Play Services está habilitado.</string>
 
     <!-- Shared UI -->
     <string name="shared_ui_loading_screen_label_default">Carregando</string>
     <string name="shared_ui_toggleablebox_contentdescription_checked">Selecionado</string>
     <string name="shared_ui_toggleablebox_contentdescription_unchecked">Não selecionado</string>
-    <string name="snackbar_platform_scraper_enqueued">Enfileirado: Buscando detalhes dos seus jogos de \"%1$s\".</string>
+    <string name="snackbar_platform_scraper_enqueued">Na fila: Buscando detalhes dos seus jogos de \"%1$s\".</string>
     <string name="snackbar_platform_scraper_running">Executando em segundo plano: Buscando detalhes dos seus jogos de \"%1$s\".</string>
     <string name="snackbar_platform_scraper_succeeded">Busca de detalhes dos seus jogos de \"%1$s\" concluída.</string>
     <string name="snackbar_platform_scraper_failure">Falha ao buscar detalhes dos seus jogos de \"%1$s\".</string>
-    <string name="snackbar_platform_detect_new_games_enqueued">Enfileirado: Detectando novos jogos de \"%1$s\".</string>
+    <string name="snackbar_platform_detect_new_games_enqueued">Na fila: Detectando novos jogos de \"%1$s\".</string>
     <string name="snackbar_platform_detect_new_games_running">Executando em segundo plano: Detectando novos jogos de \"%1$s\".</string>
     <string name="snackbar_platform_detect_new_games_succeeded">Detecção de novos jogos de \"%1$s\" concluída.</string>
     <string name="snackbar_platform_detect_new_games_failure">Falha ao detectar novos jogos de \"%1$s\".</string>
-    <string name="snackbar_platform_scrape_streaming_game_enqueued">Enfileirado: Buscando detalhes do jogo de streaming fixado.</string>
+    <string name="snackbar_platform_scrape_streaming_game_enqueued">Na fila: Buscando detalhes do jogo de streaming fixado.</string>
     <string name="snackbar_platform_scrape_streaming_game_running">Executando em segundo plano: Buscando detalhes do jogo de streaming fixado.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Busca de detalhes do jogo de streaming fixado concluída.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Falha ao buscar detalhes do jogo de streaming fixado.</string>
@@ -467,7 +467,7 @@
     <string name="background_work_platform_scraper_base_title">Buscando detalhes dos seus jogos</string>
     <string name="background_work_platform_scraper_generic_title">Buscando detalhes dos seus %1$d jogos de \"%2$s\"</string>
     <string name="background_work_platform_scraper_progress_title">Buscando detalhes de jogos (%1$d/%2$d): %3$s</string>
-    <string name="background_work_detect_new_games_generic_title">Procurando novos arquivos de jogos</string>
+    <string name="background_work_detect_new_games_generic_title">Procurando novos jogos</string>
     <string name="background_work_detect_new_games_scraper_progress_title">@string/background_work_platform_scraper_progress_title</string>
     <string name="background_work_streaming_game_scraper_title">Buscando capa e detalhes do jogo</string>
 
