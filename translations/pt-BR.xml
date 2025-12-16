@@ -6,7 +6,7 @@
     <string name="common_back">Voltar</string>
     <string name="common_exit">Sair</string>
     <string name="common_cancel">Cancelar</string>
-    <string name="common_custom">PERSONALIZADO</string>
+    <string name="common_custom">Personalizado</string>
     <string name="common_save">Salvar</string>
     <string name="common_saving">Salvando</string>
     <string name="common_okay">Ok</string>
@@ -35,7 +35,7 @@
     <string name="gallery_games_welcome_dialog_confirm">Sim, buscar as capas</string>
     <string name="gallery_games_welcome_dialog_dismiss">Não, talvez mais tarde</string>
     <plurals name="gallery_games_welcome_dialog_text_game_quantity">
-        <item quantity="one">um jogo Android</item>
+        <item quantity="one">%d jogo Android</item>
         <item quantity="other">%d jogos Android</item>
     </plurals>
 
@@ -107,6 +107,8 @@
     <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Arquivo de jogo</string>
     <string name="platform_configuration_game_files_selection_error_no_files_title">Nenhum jogo encontrado nesta pasta</string>
     <string name="platform_configuration_game_files_selection_error_no_files_description">Selecione uma pasta que contenha arquivos dos tipos: %1$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">Sem acesso a essas pastas</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">O sistema negou o acesso às seguintes pastas. Certifique-se de que o cartão SD esteja inserido ou volte um passo e tente adicionar as pastas novamente:\n\n%1$s</string>
 
     <!-- Platform configuration - Game emulator matching step -->
     <string name="platform_configuration_game_emulator_matching_title">Combinações de Jogo + Emulador</string>
@@ -120,24 +122,24 @@
 
     <!-- Platform configuration - summary -->
     <plurals name="platform_configuration_summary_game_apps">
-        <item quantity="one">Um jogo</item>
+        <item quantity="one">%d jogo</item>
         <item quantity="other">%d jogos</item>
     </plurals>
     <plurals name="platform_configuration_summary_emulator_apps">
-        <item quantity="one">Um emulador</item>
+        <item quantity="one">%d emulador</item>
         <item quantity="other">%d emuladores</item>
     </plurals>
     <plurals name="platform_configuration_summary_folders">
-        <item quantity="one">Uma pasta</item>
+        <item quantity="one">%d pasta</item>
         <item quantity="other">%d pastas</item>
     </plurals>
     <plurals name="platform_configuration_summary_game_files">
-        <item quantity="one">Um jogo</item>
+        <item quantity="one">%d jogo</item>
         <item quantity="other">%d jogos</item>
     </plurals>
     <string name="platform_configuration_summary_amount_games_in_folders">%1$s em %2$s</string>
     <plurals name="platform_configuration_summary_amount_of_games_in_folders_folders">
-        <item quantity="one">uma pasta</item>
+        <item quantity="one">%d pasta</item>
         <item quantity="other">%d pastas</item>
     </plurals>
     <string name="platform_configuration_summary_steps_left">Etapa %1$d de %2$d</string>
@@ -155,6 +157,8 @@
     <string name="item_options_app_menu_option_launch">Iniciar App</string>
     <string name="item_options_app_menu_option_settings">Abrir configurações do App</string>
     <string name="item_options_app_menu_option_uninstall">Desinstalar app</string>
+    <string name="item_options_app_menu_option_launch_display">Tela</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Padrão</string>
     <string name="item_options_app_menu_error_launch_shortcut_title">Não foi possível iniciar o atalho</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
@@ -166,6 +170,7 @@
     <string name="item_options_game_file_menu_option_launch_game">Iniciar jogo</string>
     <string name="item_options_game_file_menu_option_launch_emulator">Iniciar emulador</string>
     <string name="item_options_game_file_menu_option_scrape">Buscar detalhes do jogo</string>
+    <string name="item_options_game_file_menu_option_edit">Editar detalhes do jogo</string>
     <string name="item_options_game_file_menu_option_hide">Ocultar jogo</string>
     <string name="item_options_game_file_menu_option_change_emulator">Mudar Emulador</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver em %1$s</string>
@@ -197,6 +202,16 @@
     <string name="item_options_scrape_fetching_results_for">resultados para \"%1$s\"…</string>
     <string name="item_options_scrape_error_no_internet_connection">Sem conexão com a internet</string>
     <string name="item_options_scrape_error_unknown">Erro desconhecido</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Imagem de capa</string>
+    <string name="item_options_edit_section_cover_name">Nome</string>
+    <string name="item_options_edit_section_cover_release_date">Data de lançamento</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Editar</string>
+    <string name="item_options_edit_exit_warning_dialog_title">Sair do editor de detalhes do jogo?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">Todas as configurações realizadas serão perdidas.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Sair e descartar alterações</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Key hints -->
     <string name="settings_key_hints_navigate">@string/common_navigate</string>
@@ -248,6 +263,8 @@
     <string name="settings_platform_edit_loading_reading_files">Lendo arquivos</string>
     <string name="settings_platform_edit_loading_reading_more_files">Lendo mais arquivos</string>
     <string name="settings_platform_edit_loading_setting_up_menu">Configurando a estrutura do menu</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">Sem acesso às pastas desta plataforma</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">O sistema negou o acesso às seguintes pastas. Certifique-se de que seu cartão SD esteja inserido ou volte e tente acessar o Editor novamente:\n\n%1$s</string>
     <string name="settings_platform_edit_title_saving">@string/common_saving</string>
     <string name="settings_platform_edit_warning_dialog_exit_title">Sair do editor de plataforma?</string>
     <string name="settings_platform_edit_warning_dialog_exit_text">Todas as alterações feitas serão perdidas.</string>
@@ -276,6 +293,10 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Formato dos ícones de apps</string>
     <string name="settings_appearance_general_setting_background_style_title">Fundo &amp; estilo</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Definir Papaya como launcher</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Tela de inicialização padrão</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Mesma tela (revelia)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Outra tela</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Sempre pergunte</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carrossel</string>
@@ -412,14 +433,19 @@
     <!-- Settings - About -->
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
     <string name="settings_about_section_attribution_title">Atribuições</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Metadados do jogo</string>
     <string name="settings_about_section_attribution_igdb">❤️ &lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriquece sua coleção de jogos com capas bonitas e mais detalhes</string>
     <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriquecendo sua coleção de jogos com capas bonitas e mais detalhes</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Traduções</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Português brasileiro por &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Sons e ícones</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Sons de navegação clicky clacky</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Dá aos seus lançamentos de jogos uma sensação Retro e aos diálogos um som de aviso significativo</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Pelo ícone legal do Discord abaixo</string>
     <string name="settings_about_section_community_title">Comunidade</string>
     <string name="settings_about_section_community_text">Se você quiser contribuir e ajudar a moldar o futuro do Papaya, junte-se à Comunidade. E claro, você também é muito bem-vindo caso queira apenas acompanhar as novidades ou relatar algum bug!</string>
     <string name="settings_about_section_community_option_discord">Discord do Papaya</string>
+    <string name="settings_about_section_community_option_github">GitHub do Papaya</string>
     <string name="settings_about_section_community_option_email">Email</string>
     <string name="settings_about_section_built_by_title">Construído por</string>
     <string name="settings_about_section_built_by_text">Sebastian Schäf em Berlim</string>
@@ -459,6 +485,9 @@
     <string name="snackbar_platform_scrape_streaming_game_running">Executando em segundo plano: Buscando detalhes do jogo de streaming fixado.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Busca de detalhes do jogo de streaming fixado concluída.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Falha ao buscar detalhes do jogo de streaming fixado.</string>
+    <string name="shared_ui_display_selection_this_display">Esta tela</string>
+    <string name="shared_ui_display_selection_external_display">Externo</string>
+    <string name="shared_ui_display_selection_launch_on">Lançar em</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
