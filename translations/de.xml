@@ -107,6 +107,8 @@
     <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Spieldatei</string>
     <string name="platform_configuration_game_files_selection_error_no_files_title">Ich konnte keine Spieledateien in diesen Ordnern finden</string>
     <string name="platform_configuration_game_files_selection_error_no_files_description">Bitte wähle einen Ordner aus, der folgende Dateitypen enthält: %1$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">Keinen Zugriff auf diese Ordner</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">Das System hat den Zugriff auf die folgenden Ordner verweigert. Bitte stelle sicher dass du die SD-Karte eingelegt hast oder gehe einen Schritt zurück und versuche die Ordner nochmal hinzuzufügen:\n\n%1$s</string>
 
     <!-- Platform configuration - Game emulator matching step -->
     <string name="platform_configuration_game_emulator_matching_title">Spiele-Emulatoren Kombinationen</string>
@@ -155,6 +157,8 @@
     <string name="item_options_app_menu_option_launch">App starten</string>
     <string name="item_options_app_menu_option_settings">Öffne App-Einstellungen</string>
     <string name="item_options_app_menu_option_uninstall">App deinstallieren</string>
+    <string name="item_options_app_menu_option_launch_display">Display</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Standardeinstellung</string>
     <string name="item_options_app_menu_error_launch_shortcut_title">Verknüpfung konnte nicht gestartet werden</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
@@ -166,6 +170,7 @@
     <string name="item_options_game_file_menu_option_launch_game">Spiel starten</string>
     <string name="item_options_game_file_menu_option_launch_emulator">Emulator starten</string>
     <string name="item_options_game_file_menu_option_scrape">Nach Spieleinformationen suchen</string>
+    <string name="item_options_game_file_menu_option_edit">Spieleinformationen bearbeiten</string>
     <string name="item_options_game_file_menu_option_hide">Spiel ausblenden</string>
     <string name="item_options_game_file_menu_option_change_emulator">Emulator wechseln</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Auf %1$s ansehen</string>
@@ -197,6 +202,16 @@
     <string name="item_options_scrape_fetching_results_for">Ergebnisse für \"%1$s\"…</string>
     <string name="item_options_scrape_error_no_internet_connection">Keine Internetverbindung</string>
     <string name="item_options_scrape_error_unknown">Unbekannter Fehler</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Cover</string>
+    <string name="item_options_edit_section_cover_name">Name</string>
+    <string name="item_options_edit_section_cover_release_date">Veröffentlichungsdatum</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Bearbeiten</string>
+    <string name="item_options_edit_exit_warning_dialog_title">Editor verlassen?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">Alle Änderungen werden verworfen.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Verlassen ohne zu Speichern</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Key hints -->
     <string name="settings_key_hints_navigate">@string/common_navigate</string>
@@ -248,6 +263,8 @@
     <string name="settings_platform_edit_loading_reading_files">Lese Spieldateien</string>
     <string name="settings_platform_edit_loading_reading_more_files">Weitere Spieledateien werden gelesen</string>
     <string name="settings_platform_edit_loading_setting_up_menu">Aufbauen der Menüstruktur</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">Keinen Zugriff auf die Ordner dieser Plattform</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">Das System hat den Zugriff auf die folgenden Ordner verweigert. Bitte stelle sicher dass du die SD-Karte eingelegt hast oder gehe zurück zum vorherigen Bildschirm und versuche den Editor nochmal zu starten:\n\n%1$s</string>
     <string name="settings_platform_edit_title_saving">@string/common_saving</string>
     <string name="settings_platform_edit_warning_dialog_exit_title">Den Plattformeditor verlassen?</string>
     <string name="settings_platform_edit_warning_dialog_exit_text">Alle Änderungen gehen verloren.</string>
@@ -276,6 +293,10 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Form der App Icons</string>
     <string name="settings_appearance_general_setting_background_style_title">Hintergrund &amp; Stil</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Papaya als Standard-Start-App festlegen</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Standard-Start-Display</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Gleiches Display (Standard)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Anderes Display</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Immer fragen</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Karussell</string>
@@ -415,14 +436,19 @@
     <!-- Settings - About -->
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
     <string name="settings_about_section_attribution_title">Danksagungen</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Spiel-Metadaten</string>
     <string name="settings_about_section_attribution_igdb">❤️ &lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Bereichert deine Spielesammlung mit wunderschönen Covern und mehr Details</string>
     <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Bereichert deine Spielesammlung mit wunderschönen Covern und mehr Details</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Übersetzungen</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brasilianisches Portugiesisch von &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Töne &amp; Icons</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Wunderschöne Klick-Sounds wenn du durch deine Spielesammlung scrollst</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gibt dir ein wohliges Retro-Gefühl, wenn du deine Spiele startest und verleiht den Warnungsdialogen mehr Bedeutung</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Für das schöne Discord-Icon (s.u.)</string>
     <string name="settings_about_section_community_title">Community</string>
     <string name="settings_about_section_community_text">Wenn du etwas beitragen und damit die Zukunft von Papaya mitgestalten möchtest, werde gerne Teil der Community. Natürlich bist du genauso herzlich willkommen, wenn du nur die Neuigkeiten verfolgen möchtest oder einen Fehler gefunden hast!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
+    <string name="settings_about_section_community_option_github">Papaya GitHub</string>
     <string name="settings_about_section_community_option_email">E-mail</string>
     <string name="settings_about_section_built_by_title">Entwickelt von</string>
     <string name="settings_about_section_built_by_text">Sebastian Schäf in Berlin</string>
@@ -462,6 +488,9 @@
     <string name="snackbar_platform_scrape_streaming_game_running">Läuft im Hintergrund: Suche nach Informationen für das angepinnte Streaming-Spiel.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Fertig: Suche nach Informationen für das angepinnte Streaming-Spiel.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Die Suche nach Informationen für das angepinnte Streaming-Spiel ist fehlgeschlagen.</string>
+    <string name="shared_ui_display_selection_this_display">Dieses Display</string>
+    <string name="shared_ui_display_selection_external_display">Extern</string>
+    <string name="shared_ui_display_selection_launch_on">Starte auf</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>

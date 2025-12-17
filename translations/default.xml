@@ -114,6 +114,8 @@
     <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Game file</string>
     <string name="platform_configuration_game_files_selection_error_no_files_title">No game files found in these folders</string>
     <string name="platform_configuration_game_files_selection_error_no_files_description">Please select a folder which contains files of the types: %1$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">No access to these folders</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">The system denied the access to the following folders. Please make sure that your SD card is inserted or go one step back and try to add the folders again:\n\n%1$s</string>
 
     <!-- Platform configuration - Game emulator matching step -->
     <string name="platform_configuration_game_emulator_matching_title">Game + Emulator combinations</string>
@@ -162,6 +164,8 @@
     <string name="item_options_app_menu_option_launch">Launch App</string>
     <string name="item_options_app_menu_option_settings">Open App settings</string>
     <string name="item_options_app_menu_option_uninstall">Uninstall app</string>
+    <string name="item_options_app_menu_option_launch_display">Launch display</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Standard</string>
     <string name="item_options_app_menu_error_launch_shortcut_title">Shortcut could not be started</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
@@ -173,6 +177,7 @@
     <string name="item_options_game_file_menu_option_launch_game">Launch game</string>
     <string name="item_options_game_file_menu_option_launch_emulator">Launch emulator</string>
     <string name="item_options_game_file_menu_option_scrape">Scrape game details</string>
+    <string name="item_options_game_file_menu_option_edit">Edit game details</string>
     <string name="item_options_game_file_menu_option_hide">Hide game</string>
     <string name="item_options_game_file_menu_option_change_emulator">Change Emulator</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">View on %1$s</string>
@@ -204,6 +209,16 @@
     <string name="item_options_scrape_fetching_results_for">results for \"%1$s\"…</string>
     <string name="item_options_scrape_error_no_internet_connection">No internet connection</string>
     <string name="item_options_scrape_error_unknown">Unknown error</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Cover image</string>
+    <string name="item_options_edit_section_cover_name">Name</string>
+    <string name="item_options_edit_section_cover_release_date">Release date</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Edit</string>
+    <string name="item_options_edit_exit_warning_dialog_title">Exit the game details editor?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">All configurations made will be lost.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Exit and discard changes</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Key hints -->
     <string name="settings_key_hints_navigate">@string/common_navigate</string>
@@ -255,6 +270,8 @@
     <string name="settings_platform_edit_loading_reading_files">Reading game files</string>
     <string name="settings_platform_edit_loading_reading_more_files">Reading more game files</string>
     <string name="settings_platform_edit_loading_setting_up_menu">Setting up the menu structure</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">No access to the folders of this platforms</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">The system denied the access to the following folders. Please make sure that your SD card is inserted or go back and try to enter the Editor again:\n\n%1$s</string>
     <string name="settings_platform_edit_title_saving">@string/common_saving</string>
     <string name="settings_platform_edit_warning_dialog_exit_title">Exit the platform editor?</string>
     <string name="settings_platform_edit_warning_dialog_exit_text">All changes made will be lost.</string>
@@ -283,6 +300,10 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">App icons shape</string>
     <string name="settings_appearance_general_setting_background_style_title">Background &amp; style</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Set Papaya as launcher</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Default launch display</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Same display (default)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Other display</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Always ask</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carousel</string>
@@ -429,14 +450,19 @@
     <!-- Settings - About -->
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
     <string name="settings_about_section_attribution_title">Attribution</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Game Metadata</string>
     <string name="settings_about_section_attribution_igdb">❤️ &lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriches your games collection with beautiful covers and more details</string>
     <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriching your games collection with beautiful covers and more details</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Translations</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazilian Portuguese by &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Sounds &amp; Icons</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Clicky clacky navigation sounds</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gives your game launches a Retro feeling and the dialogs a meaningful warning sound</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: For the neat Discord icon below</string>
     <string name="settings_about_section_community_title">Community</string>
     <string name="settings_about_section_community_text">If you want to contribute and help shape the future of Papaya, please join the Community. Of course you are also very welcome if you only want to see the latest news or found any bugs!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
+    <string name="settings_about_section_community_option_github">Papaya GitHub</string>
     <string name="settings_about_section_community_option_email">Email</string>
     <string name="settings_about_section_built_by_title">Built by</string>
     <string name="settings_about_section_built_by_text">Sebastian Schäf in Berlin</string>
@@ -476,6 +502,9 @@
     <string name="snackbar_platform_scrape_streaming_game_running">Running in background: Scraping details for pinned streaming game.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Finished scraping details for pinned streaming game.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Scraping details for pinned streaming game failed.</string>
+    <string name="shared_ui_display_selection_this_display">This display</string>
+    <string name="shared_ui_display_selection_external_display">External</string>
+    <string name="shared_ui_display_selection_launch_on">Launch on</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
