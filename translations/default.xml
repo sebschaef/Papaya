@@ -291,6 +291,8 @@
 
     <!-- Settings - Appearance - General -->
     <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
+    <string name="settings_appearance_general_behaviour_title">Behaviour</string>
+    <string name="settings_appearance_general_appearance_title">Appearance</string>
     <string name="settings_appearance_general_setting_audio_feedback_title">Sounds</string>
     <string name="settings_appearance_general_setting_haptic_feedback_title">Vibration</string>
     <string name="settings_appearance_general_setting_dark_mode_title">Dark mode</string>
@@ -304,10 +306,41 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Same display (default)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Other display</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Always ask</string>
+    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Button hints</string>
+    <string name="settings_appearance_general_setting_key_hints_option_disabled">Disabled</string>
+    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
+    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
+    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">App cover aspect ratio</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Game cover aspect ratio</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptive</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Display system navigation bar</string>
 
     <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_gallery_general_title">General</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Display tab bar only on interaction</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Layout</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carousel</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Grid</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Carousel preferences</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Display platform bar only on interaction</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Alignment</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Top</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Center</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Bottom</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Size</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Game title position</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Below game cover</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Above game cover</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Grid preferences</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Size</string>
 
     <!-- Settings - Appearance - Landscape layout-->
     <string name="settings_appearance_landscape_layout_menu_title">Layout in Landscape mode</string>
@@ -455,6 +488,7 @@
     <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriching your games collection with beautiful covers and more details</string>
     <string name="settings_about_section_attribution_subtitle_translations">Translations</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazilian Portuguese by &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Latin american and Caribbean Spanish also by &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sounds &amp; Icons</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Clicky clacky navigation sounds</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gives your game launches a Retro feeling and the dialogs a meaningful warning sound</string>

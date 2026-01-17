@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 5,
+  "presetConfigurationVersion": 6,
   "platforms": [
     {
       "key": "and",
@@ -1093,6 +1093,18 @@
         },
         {
           "type": "elf"
+        },
+        {
+          "type": "zcia"
+        },
+        {
+          "type": "zcci"
+        },
+        {
+          "type": "z3dsx"
+        },
+        {
+          "type": "zcxi"
         }
       ],
       "scraperPlatformId": {
@@ -1546,6 +1558,10 @@
         },
         {
           "type": "steam",
+          "idBy": "content"
+        },
+        {
+          "type": "localgameid",
           "idBy": "content"
         },
         {
