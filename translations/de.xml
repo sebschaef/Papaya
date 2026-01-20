@@ -284,6 +284,8 @@
 
     <!-- Settings - Appearance - General -->
     <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
+    <string name="settings_appearance_general_behaviour_title">Verhalten</string>
+    <string name="settings_appearance_general_appearance_title">Erscheinungsbild</string>
     <string name="settings_appearance_general_setting_audio_feedback_title">Töne</string>
     <string name="settings_appearance_general_setting_haptic_feedback_title">Vibration</string>
     <string name="settings_appearance_general_setting_dark_mode_title">Dark mode</string>
@@ -297,10 +299,31 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Gleiches Display (Standard)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Anderes Display</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Immer fragen</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Button-Hinweise</string>
+    <string name="settings_appearance_general_setting_key_hints_option_disabled">Deaktiviert</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">App-Cover-Seitenverhältnis</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Spiel-Cover-Seitenverhältnis</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptiv</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Zeige Systemsteuerungsleiste</string>
 
     <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_gallery_general_title">Allgemein</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Zeige Tabs nur bei Interaktion</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Layout</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Karussell</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Raster</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Karussell-Einstellungen</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Zeige Plattformliste nur bei Interaktion</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Ausrichtung</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Oben</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Mitte</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Unten</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Größe</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Position des Spieltitels</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Unterhalb des Spielcovers</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Oberhalb des Spielcovers</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Raster-Einstellungen</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Größe</string>
 
     <!-- Settings - Appearance - Landscape layout-->
     <string name="settings_appearance_landscape_layout_menu_title">Erscheinungsbild im Querformat</string>
@@ -441,6 +464,7 @@
     <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Bereichert deine Spielesammlung mit wunderschönen Covern und mehr Details</string>
     <string name="settings_about_section_attribution_subtitle_translations">Übersetzungen</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Brasilianisches Portugiesisch von &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Lateinamerikanisches und karibisches Spanisch ebenfalls von &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Töne &amp; Icons</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Wunderschöne Klick-Sounds wenn du durch deine Spielesammlung scrollst</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gibt dir ein wohliges Retro-Gefühl, wenn du deine Spiele startest und verleiht den Warnungsdialogen mehr Bedeutung</string>
