@@ -301,30 +301,30 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Misma pantalla (predeterminado)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Otra pantalla</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Preguntar siempre</string>
-    <string name="settings_appearance_general_setting_key_hints_title">Nota del botón</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Indicaciones de botones</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Desactivado</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Relación de aspecto de las portadas de las Apps</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Relación de aspecto de las portadas de los juegos</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptado</string>
-    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Mostrar la barra de navegación del sistema</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Proporción de carátula de app</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Proporción de carátula del juego</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptable</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Mostrar barra de navegación del sistema</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_gallery_general_title">General</string>
-    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Mostrar la barra de pestañas solo en la interacción</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_title">Disposición</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Mostrar barra de pestañas solo al interactuar</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Layout</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carrusel</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Cuadrícula</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Configuración del Carrusel</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Mostrar la barra de la plataforma solo en la interacción</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Preferencias del carrusel</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Mostrar barra de plataformas solo al interactuar</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Alineación</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Superior</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Centrar</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Fondo</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Arriba</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Centro</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Abajo</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Tamaño</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Posición del título del juego</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Debajo de la portada del juego</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Arriba de la portada del juego</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Configuración de la cuadrícula</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Debajo de la carátula</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Encima de la carátula</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Preferencias de la cuadrícula</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Tamaño</string>
 
     <!-- Settings - Appearance - Landscape layout-->
