@@ -350,8 +350,39 @@
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Advanced configuration</string>
+    <string name="settings_advanced_menu_option_config_updater">Platform &amp; Emulator configurations Update</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Custom platform configurations</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Custom emulator Apps</string>
+
+    <!-- Settings - Config Updater -->
+    <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
+    <string name="settings_config_updater_label_checking_for_update">Checking for Update</string>
+    <string name="settings_config_updater_label_up_to_date">Your configuration is up to date</string>
+    <string name="settings_config_updater_label_up_to_date_update_successful">Update installed successfully</string>
+    <string name="settings_config_updater_label_up_to_date_installed_version">Version %d</string>
+    <string name="settings_config_updater_cta_update">Update now</string>
+    <string name="settings_config_updater_update_title">Update available</string>
+    <string name="settings_config_updater_update_subtitle">@string/settings_config_updater_label_up_to_date_installed_version</string>
+    <string name="settings_config_updater_update_description">This update includes:</string>
+    <string name="settings_config_updater_update_hint">The Installation usually takes only a few seconds</string>
+    <string name="settings_config_updater_button_cancel_update">Maybe later</string>
+    <string name="settings_config_updater_error_cta_retry">Try again</string>
+    <string name="settings_config_updater_error_button_cancel">@string/common_cancel</string>
+    <string name="settings_config_updater_cta_up_to_date">@string/common_okay</string>
+    <string name="settings_config_updater_installation_progress_initial">Preparing the Installation</string>
+    <string name="settings_config_updater_installation_progress_download">Downloading the Update</string>
+    <string name="settings_config_updater_installation_progress_verification">Verifying the Update</string>
+    <string name="settings_config_updater_installation_progress_installation">Installing the Update</string>
+    <string name="settings_config_updater_installation_progress_warning">Do not close the App! Closing the App right now might corrupt your configuration.</string>
+    <string name="settings_config_updater_error_no_internet_connection">@string/item_options_scrape_error_no_internet_connection</string>
+    <string name="settings_config_updater_error_checking_updates_failed">Checking for Updates failed</string>
+    <string name="settings_config_updater_error_download_failed">Downloading the Update failed</string>
+    <string name="settings_config_updater_error_incompatible_schema">The Update is not compatible with your App Version</string>
+    <string name="settings_config_updater_error_incompatible_schema_subtitle">Please check the PlayStore if a new App Version is available.</string>
+    <string name="settings_config_updater_error_verification_failed">The Update file is corrupted</string>
+    <string name="settings_config_updater_error_installation_failed">The Installation failed</string>
+    <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
+    <string name="settings_config_updater_error_subtitle_not_installed">No changes have been made to your installed configuration.</string>
 
     <!-- Settings - Custom emulator apps -->
     <string name="settings_custom_emulator_apps_title">Custom emulator configurations</string>
