@@ -168,10 +168,13 @@
     <string name="item_options_app_menu_error_launch_app_settings_message_generic">Falló al abrir los ajustes de la app por una razón desconocida:\n%1$s</string>
 
     <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_section_launch">Lanzamiento</string>
     <string name="item_options_game_file_menu_option_launch_game">Jugar</string>
     <string name="item_options_game_file_menu_option_launch_emulator">Abrir emulador</string>
+    <string name="item_options_game_file_menu_section_edit">Editar</string>
     <string name="item_options_game_file_menu_option_scrape">Descargar info del juego</string>
     <string name="item_options_game_file_menu_option_edit">Editar info del juego</string>
+    <string name="item_options_game_file_menu_section_other">Más</string>
     <string name="item_options_game_file_menu_option_hide">Ocultar juego</string>
     <string name="item_options_game_file_menu_option_change_emulator">Cambiar emulador</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver en %1$s</string>
@@ -181,8 +184,11 @@
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Game app -->
+    <string name="item_options_game_app_menu_section_launch">@string/item_options_game_file_menu_section_launch</string>
     <string name="item_options_game_app_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
     <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
@@ -242,6 +248,7 @@
     <!-- Settings - Platform options -->
     <string name="settings_platform_options_menu_option_detect_new_games">Detectar juegos nuevos</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Descargar carátulas e info faltante</string>
+    <string name="settings_platform_options_menu_option_scrape_all">Descargar carátulas e info toda</string>
     <string name="settings_platform_options_menu_option_edit">Editar</string>
     <string name="settings_platform_options_menu_option_remove">Eliminar</string>
     <string name="settings_platform_options_warning_dialog_remove_title">¿Eliminar plataforma \"%1$s\"?</string>
@@ -336,6 +343,7 @@
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Configuración avanzada</string>
     <string name="settings_advanced_menu_option_config_updater">Actualización de configuraciones de plataforma y emulador</string>
+    <string name="settings_advanced_menu_option_scrapers">Configuración del Scraper</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Plataformas personalizadas</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Emuladores personalizados</string>
 
@@ -368,6 +376,39 @@
     <string name="settings_config_updater_error_installation_failed">La instalación falló</string>
     <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
     <string name="settings_config_updater_error_subtitle_not_installed">No se han realizado cambios en la configuración instalada.</string>
+
+    <!-- Settings - Scrapers -->
+    <string name="settings_scrapers_title">Scrapers</string>
+    <string name="settings_scrapers_reorder_title">Reordenar Scrapers</string>
+    <string name="settings_scrapers_reorder_cta_done">@string/common_done</string>
+    <string name="settings_scrapers_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_scrapers_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_scrapers_label_disabled">Desactivado</string>
+    <string name="settings_scrapers_label_missing_api_key">Requiere clave API</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_title">Configuración de %1$s</string>
+    <string name="settings_scraper_options_setting_is_enabled_label">Activado</string>
+    <string name="settings_scraper_options_setting_api_key_label">Clave API personal</string>
+    <string name="settings_scraper_options_setting_api_key_value_not_set">No establecido</string>
+    <string name="settings_scraper_options_setting_website_label">Abrir %1$s en el navegador</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Proporción de carátula</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Cualquier</string>
+    <string name="settings_scraper_options_setting_cover_type_label">Tipo de carátula</string>
+    <string name="settings_scraper_options_setting_cover_type_option_any">Cualquier</string>
+    <string name="settings_scraper_options_setting_cover_type_option_static">Estático</string>
+    <string name="settings_scraper_options_setting_cover_type_option_animated">Animado</string>
+
+    <!-- Settings - Scraper API key -->
+    <string name="settings_scraper_api_key_title">Clave API de %1$s</string>
+    <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
+    <string name="settings_scraper_api_key_save_try">Guardar y probar</string>
+    <string name="settings_scraper_api_key_test_idle_label">Después de guardar, verá aquí si la clave es válida.</string>
+    <string name="settings_scraper_api_key_test_request_sent_label">Solicitud de prueba enviada. Esperando respuesta…</string>
+    <string name="settings_scraper_api_key_test_success_label">✅ ¡Solicitud de prueba exitosa! Su clave es válida y se guardó correctamente.</string>
+    <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Sin conexión a internet. Tu clave se guardó correctamente, pero no se pudo verificar.</string>
+    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ La solicitud de prueba falló por un motivo no relacionado. Su clave se guardó correctamente, pero no se pudo verificar.</string>
+    <string name="settings_scraper_api_key_test_failure_wrong_credentials_label">❌ La solicitud de prueba falló. La clave introducida parece ser inválida. Verifique que no falten caracteres. La clave introducida se ha guardado.</string>
 
     <!-- Settings - Custom emulator apps -->
     <string name="settings_custom_emulator_apps_title">Configuración de emuladores personalizados</string>
@@ -480,7 +521,7 @@
     <string name="settings_privacy_policy_section_processed_data_title">Datos personales procesados</string>
     <string name="settings_privacy_policy_section_processed_data_text">Papaya procesa información sobre las apps instaladas en tu dispositivo. Además, cuando le das explícitamente acceso a ciertas carpetas de tu dispositivo, también procesará metadatos de los archivos ubicados dentro de esa carpeta (nombre del archivo, nombre de la carpeta).</string>
     <string name="settings_privacy_policy_section_data_usage_title">Cómo se usan tus datos</string>
-    <string name="settings_privacy_policy_section_data_usage_text">Papaya usa la información sobre las apps instaladas en tu dispositivo únicamente para mostrar las listas de apps en la pantalla de inicio y para guiarte cuando configuras accesos directos a juegos dentro de estas apps (Preseleccionando apps instaladas). Estos datos no se comparten con terceros y solo se almacenan localmente en tu dispositivo.&lt;br&gt;&lt;br&gt;Los metadatos mencionados de archivos en ciertas carpetas a las que le das acceso explícito a Papaya, se usan para enriquecer los accesos directos a juegos en otras apps: Los nombres de archivo o nombres de carpeta pueden enviarse a &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt; y/o &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt; a cambio de más detalles sobre el acceso directo del juego. Estos detalles incluyen carátulas, fechas de lanzamiento, géneros, etc. Estos datos adicionales se usan nuevamente solo para mostrarlos en tu pantalla de inicio. Nota que estos metadatos de archivo pueden compartirse solo con uno o ambos de estos dos servicios mencionados arriba.</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya usa la información sobre las apps instaladas en tu dispositivo únicamente para mostrar las listas de apps en la pantalla de inicio y para guiarte cuando configuras accesos directos a juegos dentro de estas apps (Preseleccionando apps instaladas). Estos datos no se comparten con terceros y solo se almacenan localmente en tu dispositivo.&lt;br&gt;&lt;br&gt;Los metadatos mencionados de archivos en ciertas carpetas a las que le das acceso explícito a Papaya, se usan para enriquecer los accesos directos a juegos en otras apps: Los nombres de archivo o nombres de carpeta pueden enviarse a &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; y/o &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; a cambio de más detalles sobre el acceso directo del juego. Estos detalles incluyen carátulas, fechas de lanzamiento, géneros, etc. Estos datos adicionales se usan nuevamente solo para mostrarlos en tu pantalla de inicio. Nota que estos metadatos de archivo pueden compartirse solo con uno de estos cuatro servicios mencionados arriba.</string>
     <string name="settings_privacy_policy_section_managing_data_title">Administrando tus datos personales</string>
     <string name="settings_privacy_policy_section_managing_data_text">Papaya guarda tus datos personales (Apps instaladas, metadatos de archivo) en tu dispositivo. Puedes borrar todos tus datos personales a través del menú de ajustes de app de Android: Mantén presionado el ícono de la app Papaya, selecciona "Información de la app", haz clic en "almacenamiento y caché" y finalmente "borrar almacenamiento". Nota: Desinstalar la app puede que no necesariamente elimine tus datos personales si una opción de copia de seguridad está habilitada.</string>
     <string name="settings_privacy_policy_section_contact_title">Contacto</string>
@@ -490,8 +531,10 @@
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
     <string name="settings_about_section_attribution_title">Atribuciones</string>
     <string name="settings_about_section_attribution_subtitle_scrapers">Metadatos del juego</string>
-    <string name="settings_about_section_attribution_igdb">❤️ &lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriquece tu colección de juegos con carátulas hermosas y más detalles</string>
-    <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriquece tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
     <string name="settings_about_section_attribution_subtitle_translations">Traducciones</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Portugués brasileño por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Español latinoamericano y caribeño también por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
