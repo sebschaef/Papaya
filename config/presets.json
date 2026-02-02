@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 7,
+  "presetConfigurationVersion": 8,
   "platforms": [
     {
       "key": "and",
@@ -834,6 +834,62 @@
       ]
     },
     {
+      "key": "pi8",
+      "shortName": "PICO",
+      "name": "PICO-8",
+      "supportedFiles": [
+        {
+          "type": "p8"
+        },
+        {
+          "type": "png",
+          "ignoredNames": [
+            "bezel"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pce",
+      "shortName": "PCE",
+      "name": "NEC PC Engine (TurboGrafx-16)",
+      "supportedFiles": [
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "img"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "pce"
+        },
+        {
+          "type": "sgx"
+        },
+        {
+          "type": "toc"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ]
+    },
+    {
       "key": "sgg",
       "shortName": "SGG",
       "name": "Sega Game Gear",
@@ -1060,6 +1116,9 @@
         },
         {
           "type": "nds"
+        },
+        {
+          "type": "zip"
         }
       ],
       "scraperPlatformId": {
@@ -1771,7 +1830,8 @@
       "name": "RetroArch - FinalBurn Neo",
       "supportedPlatforms": [
         "arc",
-        "cps"
+        "cps",
+        "neo"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -2474,6 +2534,39 @@
       }
     },
     {
+      "packageName": "com.retroarch",
+      "core": "retro8_libretro_android.so",
+      "name": "RetroArch - Retro8",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "mednafen_pce_fast",
+      "name": "RetroArch - Beetle PCE FAST",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "mednafen_pce",
+      "name": "RetroArch - Beetle PCE",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
       "packageName": "com.retroarch.aarch64",
       "core": "opera_libretro_android.so",
       "name": "RetroArch (64bit) - Opera",
@@ -2600,7 +2693,8 @@
       "name": "RetroArch (64bit) - FinalBurn Neo",
       "supportedPlatforms": [
         "arc",
-        "cps"
+        "cps",
+        "neo"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3303,6 +3397,39 @@
       }
     },
     {
+      "packageName": "com.retroarch.aarch64",
+      "core": "retro8_libretro_android.so",
+      "name": "RetroArch (64bit) - Retro8",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "mednafen_pce_fast",
+      "name": "RetroArch (64bit) - Beetle PCE FAST",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "mednafen_pce",
+      "name": "RetroArch (64bit) - Beetle PCE",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
       "packageName": "com.retroarch.ra32",
       "core": "opera_libretro_android.so",
       "name": "RetroArch (32bit) - Opera",
@@ -3429,7 +3556,8 @@
       "name": "RetroArch (32bit) - FinalBurn Neo",
       "supportedPlatforms": [
         "arc",
-        "cps"
+        "cps",
+        "neo"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -4132,6 +4260,39 @@
       }
     },
     {
+      "packageName": "com.retroarch.ra32",
+      "core": "retro8_libretro_android.so",
+      "name": "RetroArch (32bit) - Retro8",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "mednafen_pce_fast",
+      "name": "RetroArch (32bit) - Beetle PCE FAST",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "mednafen_pce",
+      "name": "RetroArch (32bit) - Beetle PCE",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
       "packageName": "org.mupen64plusae.v3.fzurita.pro",
       "name": "M64Plus FZ Pro",
       "supportedPlatforms": [
@@ -4463,6 +4624,16 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "io.recompiled.redream.MainActivity"
+      }
+    },
+    {
+      "packageName": "io.wip.pico8",
+      "name": "PICO-8 Android",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.godot.game.GodotAppLauncher"
       }
     }
   ],
