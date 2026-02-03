@@ -830,6 +830,9 @@
       "supportedFiles": [
         {
           "type": "neo"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
