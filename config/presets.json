@@ -486,25 +486,37 @@
       "name": "Atari Jaguar",
       "supportedFiles": [
         {
+          "type": "7z"
+        },
+        {
+          "type": "abs"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "cdi"
+        },
+        {
+          "type": "cof"
+        },
+        {
+          "type": "cue"
+        },
+        {
           "type": "j64"
         },
         {
           "type": "jag"
         },
         {
+          "type": "prg"
+        },
+        {
           "type": "rom"
         },
         {
-          "type": "abs"
-        },
-        {
-          "type": "cof"
-        },
-        {
-          "type": "bin"
-        },
-        {
-          "type": "prg"
+          "type": "zip"
         }
       ]
     },
@@ -521,6 +533,9 @@
         },
         {
           "type": "o"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -804,6 +819,9 @@
       "name": "Nintendo Entertainment System (NES/Famicom)",
       "supportedFiles": [
         {
+          "type": "3dsen"
+        },
+        {
           "type": "nes"
         },
         {
@@ -833,6 +851,9 @@
         },
         {
           "type": "zip"
+        },
+        {
+          "type": "7z"
         }
       ]
     },
@@ -843,6 +864,12 @@
       "supportedFiles": [
         {
           "type": "p8"
+        },
+         {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
         },
         {
           "type": "png",
@@ -932,19 +959,61 @@
       "name": "Sega Master System (Mark III)",
       "supportedFiles": [
         {
-          "type": "sms"
+          "type": "68k"
+        },
+        {
+          "type": "7z"
         },
         {
           "type": "bin"
         },
         {
+          "type": "bms"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "col"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "gen"
+        },
+        {
+          "type": "gg"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "md"
+        },
+        {
+          "type": "mdx"
+        },
+        {
           "type": "rom"
         },
         {
-          "type": "zip"
+          "type": "sg"
         },
         {
-          "type": "7z"
+          "type": "sgd"
+        },
+        {
+          "type": "smd"
+        },
+        {
+          "type": "sms"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -952,42 +1021,51 @@
       "key": "gen",
       "shortName": "SMD",
       "name": "Sega Mega Drive (Genesis)",
-      "supportedFiles": [
+     "supportedFiles": [
         {
-          "type": "m3u"
-        },
-        {
-          "type": "mdx"
-        },
-        {
-          "type": "md"
-        },
-        {
-          "type": "smd"
-        },
-        {
-          "type": "gen"
-        },
-        {
-          "type": "bin"
-        },
-        {
-          "type": "cue"
-        },
-        {
-          "type": "iso"
-        },
-        {
-          "type": "chd"
+          "type": "7z"
         },
         {
           "type": "bms"
         },
         {
-          "type": "zip"
+          "type": "chd"
         },
         {
-          "type": "7z"
+          "type": "cue"
+        },
+        {
+          "type": "gen"
+        },
+        {
+          "type": "gg"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "md"
+        },
+        {
+          "type": "mdx"
+        },
+        {
+          "type": "sg"
+        },
+        {
+          "type": "sgd"
+        },
+        {
+          "type": "smd"
+        },
+        {
+          "type": "sms"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -1122,6 +1200,9 @@
         },
         {
           "type": "zip"
+        },
+        {
+          "type": "7z"
         }
       ],
       "scraperPlatformId": {
@@ -1167,6 +1248,12 @@
         },
         {
           "type": "zcxi"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
         }
       ],
       "scraperPlatformId": {
