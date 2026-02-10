@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- // Autorem polskiej wersji językowej jest TRK88PL -->
-
-    <!-- Meta -->
-    <string name="app_name" translatable="false">Papaya</string>
-    <string name="title_activity_emulator_configuration" translatable="false">EmulatorConfigurationActivity</string>
-    <string name="title_activity_settings_main_menu" translatable="false">SettingsMainMenuActivity</string>
-    <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
-    <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
-
     <!-- Common -->
     <string name="common_select">Wybierz</string>
     <string name="common_navigate">Nawigacja</string>
@@ -34,6 +26,7 @@
     <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
     <string name="gallery_key_hints_tab">Karta</string>
     <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Sortuj</string>
     <string name="gallery_key_hints_options">Opcje</string>
     <string name="gallery_key_hints_back">@string/common_back</string>
     <string name="gallery_key_hints_launch">Uruchom</string>
@@ -64,6 +57,18 @@
     <string name="gallery_games_error_app_launch_failed_title">Nie udało się uruchomić aplikacji</string>
     <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
     <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <string name="gallery_games_sorting_option_by_platform">Według platformy</string>
+    <string name="gallery_games_sorting_option_by_release_year">Według daty wydania</string>
+    <string name="gallery_games_sorting_option_by_first_letter">Według nazwy</string>
+    <string name="gallery_games_sorting_option_by_genre">Według gatunku</string>
+    <string name="gallery_games_sorting_option_all">Wszystko</string>
+
+    <string name="gallery_games_sorting_section_recents_title">Ostatnio</string>
+    <string name="gallery_games_sorting_section_favourites_title">Ulubione</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Nic</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Liczbowy</string>
+    <string name="gallery_games_sorting_section_all_title">Wszystko</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Następny krok</string>
@@ -105,7 +110,7 @@
     <string name="platform_configuration_emulator_apps_selection_title">Emulatory</string>
     <string name="platform_configuration_emulator_apps_selection_description">Wybierz aplikacje emulatorów</string>
     <string name="platform_configuration_emulator_apps_selection_tip_box_title">Nie ma Twojego emulatora na liście?</string>
-    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Ten emulator nie jest domyślnie wspierany.\nMożesz dodać go ręcznie:\nUstawienia → Zaawansowane → Własne emulatory → Utwórz</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Ten emulator nie jest domyślnie wspierany.\nMożesz dodać go ręcznie:\n[Ustawienia] → [Zaawansowane] → [Własne emulatory] → [Utwórz]</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Zainstalowany</string>
 
@@ -199,11 +204,13 @@
     <string name="item_options_game_file_menu_option_scrape">Pobierz dane gry</string>
     <string name="item_options_game_file_menu_option_edit">Edytuj informacje o grze</string>
     <string name="item_options_game_file_menu_section_other">Inne</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Dodaj do ulubionych</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Usuń z ulubionych</string>
     <string name="item_options_game_file_menu_option_hide">Ukryj grę</string>
     <string name="item_options_game_file_menu_option_change_emulator">Zmień emulator</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Zobacz na %1$s</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Ukryć „%1$s”?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">Gra zniknie z kolekcji.\nMożesz ją przywrócić w dowolnym momencie:\nUstawienia → Konfiguracja platform → [Platforma] → Edytuj</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Gra zniknie z kolekcji.\nMożesz ją przywrócić w dowolnym momencie:\n[Ustawienia] → [Konfiguracja platform] → [Platforma] → [Edytuj]</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Ukryj grę</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -213,9 +220,16 @@
     <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
     <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
     <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Nie gra</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">Przenieś „%1$s” do szuflady App?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Możesz w każdej chwili cofnąć tę zmianę w [Ustawienia] > [Konfiguracja platformy] > [Platforma] > [Edytuj], ponownie oznaczając App jako grę.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Przenieś App</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Streaming game -->
     <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
@@ -337,19 +351,12 @@
     <string name="settings_appearance_general_setting_blur_title">Rozmycie</string>
     <string name="settings_appearance_general_setting_key_hints_title">Podpowiedzi przycisków</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Wyłączone</string>
-    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
-    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
-    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Proporcje okładek aplikacji</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Proporcje okładek gier</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Dostosuj automatycznie</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Pokaż systemowy pasek nawigacji</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Wyświetl sekcję „Ostatnie”</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Wyświetl sekcję „Ulubione”</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_gallery_general_title">Ogólne</string>
@@ -430,10 +437,6 @@
     <string name="settings_scraper_options_setting_website_label">Otwórz %1$s w przeglądarce</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Proporcje okładki</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Dowolne</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_2_3" translatable="false">2:3</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_92_43" translatable="false">92:43</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_22_31" translatable="false">22:31</string>
     <string name="settings_scraper_options_setting_cover_type_label">Rodzaj okładki</string>
     <string name="settings_scraper_options_setting_cover_type_option_any">Dowolna</string>
     <string name="settings_scraper_options_setting_cover_type_option_static">Statyczna</string>
@@ -472,12 +475,11 @@
     <string name="settings_custom_emulator_app_section_metadata_hint_name">Np. RetroArch – PPSSPP</string>
     <string name="settings_custom_emulator_app_section_platform_title">Platforma</string>
     <string name="settings_custom_emulator_app_section_platform_label_config">Konfiguracja</string>
-    <string name="settings_custom_emulator_app_section_platform_hint_config">Zawiera m.in. obsługiwane typy plików. Możesz stworzyć własną konfigurację platformy w: Ustawienia → Zaawansowane → Własne platformy → Utwórz.</string>
+    <string name="settings_custom_emulator_app_section_platform_hint_config">Zawiera m.in. obsługiwane typy plików. Możesz stworzyć własną konfigurację platformy w: [Ustawienia] → [Zaawansowane] → [Własne platformy] → [Utwórz].</string>
     <string name="settings_custom_emulator_app_section_emulator_title">Emulator</string>
     <string name="settings_custom_emulator_app_section_emulator_label_app">Aplikacja</string>
     <string name="settings_custom_emulator_app_section_emulator_label_core">Core (rdzeń)</string>
     <string name="settings_custom_emulator_app_section_emulator_hint_core">Np. dla RetroArch: /data/data/com.retroarch/cores/ppsspp_libretro_android.so</string>
-    <string name="settings_custom_emulator_app_section_emulator_label_activity" translatable="false">Activity</string>
     <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Nieokreślone</string>
     <string name="settings_custom_emulator_app_section_emulator_hint_activity">Zazwyczaj zostaw „Nieokreślone”. Tylko niektóre aplikacje wymagają konkretnej Activity (np. EmulationActivity).</string>
     <string name="settings_custom_emulator_app_section_parameter_type_title">Typ parametru</string>
@@ -485,7 +487,7 @@
     <string name="settings_custom_emulator_app_section_parameter_type_option_id">ID gry</string>
     <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Większość emulatorów oczekuje ścieżki do pliku. Niektóre (np. Vita3K, ScummVM) używają ID gry zamiast pliku.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_title">Obsługa ID gry</string>
-    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Wybrana konfiguracja platformy nie określa typu pliku z ID gry. Możesz stworzyć własną konfigurację platformy i dodać typ pliku z informacją, jak odczytywać ID gry. Przejdź do: Ustawienia → Zaawansowane → Własne konfiguracje platform → Utwórz.\n\nMożesz kontynuować tworzenie tej konfiguracji i zapisać ją. Możesz nawet spróbować uruchomić grę, ale najprawdopodobniej się nie uda, bo nie wiem, skąd wziąć ID gry.</string>
+    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Wybrana konfiguracja platformy nie określa typu pliku z ID gry. Możesz stworzyć własną konfigurację platformy i dodać typ pliku z informacją, jak odczytywać ID gry. Przejdź do: [Ustawienia] → [Zaawansowane] → [Własne konfiguracje platform] → [Utwórz].\n\nMożesz kontynuować tworzenie tej konfiguracji i zapisać ją. Możesz nawet spróbować uruchomić grę, ale najprawdopodobniej się nie uda, bo nie wiem, skąd wziąć ID gry.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Standardowa akcja Intent do otwierania dokumentu to „android.intent.action.VIEW” – używa jej większość emulatorów. W rzadkich przypadkach stosowana jest niestandardowa akcja, np. dla emulatorów opartych na Yuzu jest to „android.nfc.action.TECH_DISCOVERED”.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">Parametr ID</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Przekaż ID przez parametr DATA</string>
@@ -569,11 +571,11 @@
     <!-- Settings - Privacy Policy -->
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
     <string name="settings_privacy_policy_section_processed_data_title">Przetwarzane dane osobowe</string>
-    <string name="settings_privacy_policy_section_processed_data_text">Papaya przetwarza informacje o zainstalowanych aplikacjach na Twoim urządzeniu. Dodatkowo, gdy wyraźnie udzielisz Papai dostępu do określonych folderów, będzie przetwarzać metadane plików w tych folderach (nazwy plików, nazwy folderów).</string>
+    <string name="settings_privacy_policy_section_processed_data_text">Papaya przetwarza informacje o zainstalowanych aplikacjach na Twoim urządzeniu. Dodatkowo, gdy wyraźnie udzielisz Papaya dostępu do określonych folderów, będzie przetwarzać metadane plików w tych folderach (nazwy plików, nazwy folderów).</string>
     <string name="settings_privacy_policy_section_data_usage_title">Jak wykorzystywane są Twoje dane</string>
-    <string name="settings_privacy_policy_section_data_usage_text">Papaya wykorzystuje informacje o zainstalowanych aplikacjach wyłącznie do wyświetlania list aplikacji na ekranie głównym oraz do ułatwienia konfiguracji skrótów do gier w tych aplikacjach (automatyczne wybieranie zainstalowanych aplikacji). Dane te nie są udostępniane żadnym podmiotom trzecim i przechowywane są wyłącznie lokalnie na Twoim urządzeniu.&lt;br&gt;&lt;br&gt;Metadane plików (nazwy plików/folderów) z folderów, do których udzieliłeś dostępu, mogą być wysyłane do serwisów &lt;a href="https://api.igdb.com/">api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/">thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/">steamgriddb.com&lt;/a&gt; i/lub &lt;a href="https://rawg.io/">rawg.io&lt;/a&gt; w zamian za dodatkowe informacje o grze (okładki, daty premiery, gatunki itp.). Te dodatkowe dane służą wyłącznie do wyświetlania ich na ekranie głównym. Metadane mogą być przekazane do jednego z wymienionych serwisów.</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya wykorzystuje informacje o zainstalowanych aplikacjach wyłącznie do wyświetlania list aplikacji na ekranie głównym oraz do ułatwienia konfiguracji skrótów do gier w tych aplikacjach (automatyczne wybieranie zainstalowanych aplikacji). Dane te nie są udostępniane żadnym podmiotom trzecim i przechowywane są wyłącznie lokalnie na Twoim urządzeniu.&lt;br&gt;&lt;br&gt;Metadane plików (nazwy plików/folderów) z folderów, do których udzieliłeś dostępu, mogą być wysyłane do serwisów &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; i/lub &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; w zamian za dodatkowe informacje o grze (okładki, daty premiery, gatunki itp.). Te dodatkowe dane służą wyłącznie do wyświetlania ich na ekranie głównym. Metadane mogą być przekazane do jednego z wymienionych serwisów.</string>
     <string name="settings_privacy_policy_section_managing_data_title">Zarządzanie danymi osobowymi</string>
-    <string name="settings_privacy_policy_section_managing_data_text">Papaya przechowuje Twoje dane (listę aplikacji, metadane plików) lokalnie na urządzeniu. Możesz je usunąć w ustawieniach Androida: przytrzymaj ikonę Papai → Informacje o aplikacji → Pamięć i pamięć podręczna → Wyczyść dane. Uwaga: odinstalowanie aplikacji nie zawsze usuwa dane, jeśli włączona jest kopia zapasowa.</string>
+    <string name="settings_privacy_policy_section_managing_data_text">Papaya przechowuje Twoje dane (listę aplikacji, metadane plików) lokalnie na urządzeniu. Możesz je usunąć w ustawieniach Androida: przytrzymaj ikonę Papaya → Informacje o aplikacji → Pamięć i pamięć podręczna → Wyczyść dane. Uwaga: odinstalowanie aplikacji nie zawsze usuwa dane, jeśli włączona jest kopia zapasowa.</string>
     <string name="settings_privacy_policy_section_contact_title">Kontakt</string>
     <string name="settings_privacy_policy_section_contact_text">Jeśli masz pytania dotyczące przetwarzania danych, napisz na: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Administrator: Sebastian Schäf</string>
 
@@ -581,25 +583,29 @@
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
     <string name="settings_about_section_attribution_title">Źródła i podziękowania</string>
     <string name="settings_about_section_attribution_subtitle_scrapers">Metadane gier</string>
-    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/">IGDB.com&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
-    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/">thegamesdb.net&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
-    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/">steamgriddb.com&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
-    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/">rawg.io&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
+    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
+    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
+    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
+    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
     <string name="settings_about_section_attribution_subtitle_translations">Tłumaczenia</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazylijski portugalski – &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Hiszpański latynoamerykański i karaibski – &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Polski by &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Dźwięki i ikony</string>
-    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/">freesound_community&lt;/a&gt;: dźwięki kliknięć i nawigacji</string>
-    <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/">Universfield&lt;/a&gt;: retro dźwięk uruchamiania gier i ostrzeżenia dialogów</string>
-    <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de">Icons8&lt;/a&gt;: ikona Discord poniżej</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękuję za niesamowite ikony platformy! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS o SNES.</string>
+    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: dźwięki kliknięć i nawigacji</string>
+    <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: retro dźwięk uruchamiania gier i ostrzeżenia dialogów</string>
+    <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: ikona Discord poniżej</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Konfiguracja platformy i emulatora</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękujemy za dodanie obsługi większej liczby typów plików dla różnych platform! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS o 3DS.</string>
     <string name="settings_about_section_community_title">Społeczność</string>
-    <string name="settings_about_section_community_text">Chcesz pomóc kształtować przyszłość Papai? Dołącz do społeczności – mile widziane pomysły, zgłoszenia błędów i po prostu rozmowy!</string>
+    <string name="settings_about_section_community_text">Chcesz pomóc kształtować przyszłość Papaya? Dołącz do społeczności – mile widziane pomysły, zgłoszenia błędów i po prostu rozmowy!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
     <string name="settings_about_section_community_option_github">Papaya GitHub</string>
     <string name="settings_about_section_community_option_email">E-mail</string>
     <string name="settings_about_section_built_by_title">Stworzone przez</string>
     <string name="settings_about_section_built_by_text">Sebastian Schäf – Berlin</string>
-    <string name="settings_about_section_built_by_thank_you">Dziękujemy, że korzystasz z Papai! 🧡</string>
+    <string name="settings_about_section_built_by_thank_you">Dziękujemy, że korzystasz z Papaya! 🧡</string>
 
     <!-- Buy license -->
     <string name="buy_license_trial_title">Okres próbny</string>
@@ -638,6 +644,9 @@
     <string name="shared_ui_display_selection_this_display">Ten ekran</string>
     <string name="shared_ui_display_selection_external_display">Zewnętrzny</string>
     <string name="shared_ui_display_selection_launch_on">Uruchom na</string>
+    <string name="shared_ui_last_played_today">Dzisiaj</string>
+    <string name="shared_ui_last_played_yesterday">Wczoraj</string>
+    <string name="shared_ui_last_played_days_ago">%1$s dni temu</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
