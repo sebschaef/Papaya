@@ -25,6 +25,7 @@
     <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
     <string name="gallery_key_hints_tab">Aba</string>
     <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Ordenar</string>
     <string name="gallery_key_hints_options">Opções</string>
     <string name="gallery_key_hints_back">@string/common_back</string>
     <string name="gallery_key_hints_launch">Iniciar</string>
@@ -51,6 +52,18 @@
     <string name="gallery_games_error_app_launch_failed_title">Não foi possível iniciar o App</string>
     <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
     <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <string name="gallery_games_sorting_option_by_platform">Por plataforma</string>
+    <string name="gallery_games_sorting_option_by_release_year">Por data de lançamento</string>
+    <string name="gallery_games_sorting_option_by_first_letter">Por nome</string>
+    <string name="gallery_games_sorting_option_by_genre">Por gênero</string>
+    <string name="gallery_games_sorting_option_all">Todo</string>
+
+    <string name="gallery_games_sorting_section_recents_title">Recentes</string>
+    <string name="gallery_games_sorting_section_favourites_title">Favoritos</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Nenhum</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numérico</string>
+    <string name="gallery_games_sorting_section_all_title">Todo</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Próxima etapa</string>
@@ -174,6 +187,8 @@
     <string name="item_options_game_file_menu_option_scrape">Buscar detalhes do jogo</string>
     <string name="item_options_game_file_menu_option_edit">Editar detalhes do jogo</string>
     <string name="item_options_game_file_menu_section_other">Mais</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Adicionar aos favoritos</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Remover dos favoritos</string>
     <string name="item_options_game_file_menu_option_hide">Ocultar jogo</string>
     <string name="item_options_game_file_menu_option_change_emulator">Mudar Emulador</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver em %1$s</string>
@@ -188,9 +203,16 @@
     <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
     <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
     <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Não é um jogo</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">Mover "%1$s" para a gaveta de Apps?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Você pode reverter isso a qualquer momento em [Configurações] > [Configuração da plataforma] > [Plataforma] > [Editar], marcando o aplicativo como um jogo novamente.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Mover App</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Streaming game -->
     <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
@@ -313,6 +335,8 @@
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Proporção da capa do jogo</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptável</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Exibir barra de navegação do sistema</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Exibir a seção "Recentes"</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Exibir a seção "Favoritos"</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_gallery_general_title">Geral</string>
@@ -537,10 +561,14 @@
     <string name="settings_about_section_attribution_subtitle_translations">Traduções</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Português brasileiro por &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Espanhol latino-americano e caribenho também por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Polonesa por &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sons e ícones</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado pelos ícones incríveis da plataforma! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS e SNES.</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Sons de navegação clicky clacky</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Dá aos seus lançamentos de jogos uma sensação Retro e aos diálogos um som de aviso significativo</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Pelo ícone legal do Discord abaixo</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Configuração da plataforma e do emulador</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado por adicionar suporte a mais tipos de arquivo para diversas plataformas! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS e 3DS.</string>
     <string name="settings_about_section_community_title">Comunidade</string>
     <string name="settings_about_section_community_text">Se você quiser contribuir e ajudar a moldar o futuro do Papaya, junte-se à Comunidade. E claro, você também é muito bem-vindo caso queira apenas acompanhar as novidades ou relatar algum bug!</string>
     <string name="settings_about_section_community_option_discord">Discord do Papaya</string>
@@ -587,6 +615,9 @@
     <string name="shared_ui_display_selection_this_display">Esta tela</string>
     <string name="shared_ui_display_selection_external_display">Externo</string>
     <string name="shared_ui_display_selection_launch_on">Lançar em</string>
+    <string name="shared_ui_last_played_today">Hoje</string>
+    <string name="shared_ui_last_played_yesterday">Ontem</string>
+    <string name="shared_ui_last_played_days_ago">%1$s dias atrás</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>

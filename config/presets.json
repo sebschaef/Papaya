@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 8,
+  "presetConfigurationVersion": 9,
   "platforms": [
     {
       "key": "and",
@@ -4724,6 +4724,26 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.godot.game.GodotAppLauncher"
+      }
+    },
+    {
+      "packageName": "com.seleuco.mame4d2024",
+      "name": "MAME4droid Current",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
+      }
+    },
+    {
+      "packageName": "com.seleuco.mame4droid",
+      "name": "MAME4droid",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
       }
     }
   ],

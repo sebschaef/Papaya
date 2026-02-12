@@ -25,6 +25,7 @@
     <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
     <string name="gallery_key_hints_tab">Tab</string>
     <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Sortieren</string>
     <string name="gallery_key_hints_options">Optionen</string>
     <string name="gallery_key_hints_back">@string/common_back</string>
     <string name="gallery_key_hints_launch">Starten</string>
@@ -51,6 +52,18 @@
     <string name="gallery_games_error_app_launch_failed_title">App konnte nicht gestartet werden</string>
     <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
     <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <string name="gallery_games_sorting_option_by_platform">Nach Plattform</string>
+    <string name="gallery_games_sorting_option_by_release_year">Nach Erscheinungsdatum</string>
+    <string name="gallery_games_sorting_option_by_first_letter">Nach Name</string>
+    <string name="gallery_games_sorting_option_by_genre">Nach Genre</string>
+    <string name="gallery_games_sorting_option_all">Alle</string>
+
+    <string name="gallery_games_sorting_section_recents_title">Zuletzt</string>
+    <string name="gallery_games_sorting_section_favourites_title">Favoriten</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Keines</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerisch</string>
+    <string name="gallery_games_sorting_section_all_title">Alle</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Nächster Schritt</string>
@@ -174,6 +187,8 @@
     <string name="item_options_game_file_menu_option_scrape">Nach Spieleinformationen suchen</string>
     <string name="item_options_game_file_menu_option_edit">Spieleinformationen bearbeiten</string>
     <string name="item_options_game_file_menu_section_other">Mehr</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Zu Favoriten hinzufügen</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Aus Favoriten entfernen</string>
     <string name="item_options_game_file_menu_option_hide">Spiel ausblenden</string>
     <string name="item_options_game_file_menu_option_change_emulator">Emulator wechseln</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Auf %1$s ansehen</string>
@@ -188,9 +203,16 @@
     <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
     <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
     <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Kein Spiel</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">\”%1$s\" in den Apps-Tab verschieben?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Du kannst das jederzeit wieder rückgängig machen indem du die App in [Einstellungen] > [Plattform-Einstellungen] > [Plattform] > [Bearbeiten] wieder als Spiel markierst.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">App verschieben</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Streaming game -->
     <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
@@ -311,7 +333,9 @@
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">App-Cover-Seitenverhältnis</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Spiel-Cover-Seitenverhältnis</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptiv</string>
-    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Zeige Systemsteuerungsleiste</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Systemsteuerungsleiste anzeigen</string>
+    <string name="settings_appearance_general_setting_recents_section_title">\"Zuletzt\"-Gruppe anzeigen</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">\"Favoriten\"-Gruppe anzeigen</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_gallery_general_title">Allgemein</string>
@@ -539,10 +563,14 @@
     <string name="settings_about_section_attribution_subtitle_translations">Übersetzungen</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Brasilianisches Portugiesisch von &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Lateinamerikanisches und karibisches Spanisch ebenfalls von &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Polnisch von &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Töne &amp; Icons</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die schönen Plattform-Icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS und SNES.</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Wunderschöne Klick-Sounds wenn du durch deine Spielesammlung scrollst</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gibt dir ein wohliges Retro-Gefühl, wenn du deine Spiele startest und verleiht den Warnungsdialogen mehr Bedeutung</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Für das schöne Discord-Icon (s.u.)</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Plattform &amp; Emulator-Konfiguration</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die Unterstützung von neuen Dateitypen für verschiedene Plattformen! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS und 3DS.</string>
     <string name="settings_about_section_community_title">Community</string>
     <string name="settings_about_section_community_text">Wenn du etwas beitragen und damit die Zukunft von Papaya mitgestalten möchtest, werde gerne Teil der Community. Natürlich bist du genauso herzlich willkommen, wenn du nur die Neuigkeiten verfolgen möchtest oder einen Fehler gefunden hast!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
@@ -589,6 +617,9 @@
     <string name="shared_ui_display_selection_this_display">Dieses Display</string>
     <string name="shared_ui_display_selection_external_display">Extern</string>
     <string name="shared_ui_display_selection_launch_on">Starte auf</string>
+    <string name="shared_ui_last_played_today">Heute</string>
+    <string name="shared_ui_last_played_yesterday">Gestern</string>
+    <string name="shared_ui_last_played_days_ago">Vor %1$s Tagen</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>

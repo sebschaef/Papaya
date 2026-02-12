@@ -31,13 +31,14 @@
     <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
     <string name="gallery_key_hints_tab">Tab</string>
     <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Sort</string>
     <string name="gallery_key_hints_options">Options</string>
     <string name="gallery_key_hints_back">@string/common_back</string>
     <string name="gallery_key_hints_launch">Launch</string>
 
     <!-- Gallery - Games -->
     <string name="gallery_games_welcome_dialog_title">Welcome!</string>
-    <string name="gallery_games_welcome_dialog_text">I found %1$s and added it to your collection.\nDo you want to download their covers right now?\n</string>
+    <string name="gallery_games_welcome_dialog_text">I found %1$s and added them to your collection.\nDo you want to download their covers right now?\n</string>
     <string name="gallery_games_welcome_dialog_confirm">Yes, scrape the covers</string>
     <string name="gallery_games_welcome_dialog_dismiss">No, maybe later</string>
     <plurals name="gallery_games_welcome_dialog_text_game_quantity">
@@ -58,6 +59,18 @@
     <string name="gallery_games_error_app_launch_failed_title">App could not be started</string>
     <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
     <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <string name="gallery_games_sorting_option_by_platform">By platform</string>
+    <string name="gallery_games_sorting_option_by_release_year">By release date</string>
+    <string name="gallery_games_sorting_option_by_first_letter">By name</string>
+    <string name="gallery_games_sorting_option_by_genre">By genre</string>
+    <string name="gallery_games_sorting_option_all">All</string>
+
+    <string name="gallery_games_sorting_section_recents_title">Recents</string>
+    <string name="gallery_games_sorting_section_favourites_title">Favorites</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">None</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerical</string>
+    <string name="gallery_games_sorting_section_all_title">All</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Next step</string>
@@ -181,6 +194,8 @@
     <string name="item_options_game_file_menu_option_scrape">Scrape game details</string>
     <string name="item_options_game_file_menu_option_edit">Edit game details</string>
     <string name="item_options_game_file_menu_section_other">Other</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Add to Favorites</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Remove from Favorites</string>
     <string name="item_options_game_file_menu_option_hide">Hide game</string>
     <string name="item_options_game_file_menu_option_change_emulator">Change Emulator</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">View on %1$s</string>
@@ -195,9 +210,16 @@
     <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
     <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
     <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Not a game</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">Move \”%1$s\" to the App drawer?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">You can revert this anytime in [Settings] > [Platform configuration] > [Platform] > [Edit] by marking the App as a game again.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Move App</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Streaming game -->
     <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
@@ -329,6 +351,8 @@
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Display system navigation bar</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Display \"Recents\" section</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Display \"Favorites\" section</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_gallery_general_title">General</string>
@@ -567,10 +591,14 @@
     <string name="settings_about_section_attribution_subtitle_translations">Translations</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazilian Portuguese by &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Latin american and Caribbean Spanish also by &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Polish by &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sounds &amp; Icons</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Thank you for the amazing platform icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS and SNES.</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Clicky clacky navigation sounds</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gives your game launches a Retro feeling and the dialogs a meaningful warning sound</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: For the neat Discord icon below</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Platform &amp; Emulator configuration</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Thank you for adding the support of more file types for various platforms! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS and 3DS.</string>
     <string name="settings_about_section_community_title">Community</string>
     <string name="settings_about_section_community_text">If you want to contribute and help shape the future of Papaya, please join the Community. Of course you are also very welcome if you only want to see the latest news or found any bugs!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
@@ -617,6 +645,9 @@
     <string name="shared_ui_display_selection_this_display">This display</string>
     <string name="shared_ui_display_selection_external_display">External</string>
     <string name="shared_ui_display_selection_launch_on">Launch on</string>
+    <string name="shared_ui_last_played_today">Today</string>
+    <string name="shared_ui_last_played_yesterday">Yesterday</string>
+    <string name="shared_ui_last_played_days_ago">%1$s days ago</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
