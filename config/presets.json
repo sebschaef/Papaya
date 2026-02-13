@@ -1021,7 +1021,7 @@
       "key": "gen",
       "shortName": "SMD",
       "name": "Sega Mega Drive (Genesis)",
-      "supportedFiles": [
+     "supportedFiles": [
         {
           "type": "7z"
         },
