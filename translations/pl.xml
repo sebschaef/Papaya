@@ -295,15 +295,14 @@
     <string name="settings_platform_options_warning_dialog_remove_confirm">Usuń platformę</string>
     <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
-    <!-- TODO -->
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
     <string name="settings_platform_edit_key_hints_back">@string/common_back</string>
     <string name="settings_platform_edit_key_hints_select">@string/common_select</string>
-    <string name="settings_platform_edit_key_hints_back_to_overview">Back to overview</string>
-    <string name="settings_platform_edit_key_hints_select_unselect">Select / Unselect</string>
-    <string name="settings_platform_edit_key_hints_add_remove_folder">Add / Remove folder</string>
-    <string name="settings_platform_edit_key_hints_open_emulator_selection">Open emulator selection</string>
+    <string name="settings_platform_edit_key_hints_back_to_overview">Wróć do przeglądu</string>
+    <string name="settings_platform_edit_key_hints_select_unselect">Zaznacz / Odznacz</string>
+    <string name="settings_platform_edit_key_hints_add_remove_folder">Dodaj / Usuń folder</string>
+    <string name="settings_platform_edit_key_hints_open_emulator_selection">Otwórz wybór enulatora</string>
     <string name="settings_platform_edit_key_hints_cancel">@string/common_cancel</string>
 
     <!-- Settings - Platform edit -->
@@ -590,14 +589,14 @@
     <string name="settings_about_section_attribution_subtitle_translations">Tłumaczenia</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazylijski portugalski – &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Hiszpański latynoamerykański i karaibski – &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
-    <string name="settings_about_section_attribution_pl">🇵🇱 Polski by &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Polski - &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Dźwięki i ikony</string>
-    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękuję za niesamowite ikony platformy! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS o SNES.</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękuję za niesamowite ikony platformy! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS oraz SNES.</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: dźwięki kliknięć i nawigacji</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: retro dźwięk uruchamiania gier i ostrzeżenia dialogów</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: ikona Discord poniżej</string>
     <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Konfiguracja platformy i emulatora</string>
-    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękujemy za dodanie obsługi większej liczby typów plików dla różnych platform! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS o 3DS.</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękujemy za dodanie obsługi większej liczby typów plików dla różnych platform! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS oraz 3DS.</string>
     <string name="settings_about_section_community_title">Społeczność</string>
     <string name="settings_about_section_community_text">Chcesz pomóc kształtować przyszłość Papaya? Dołącz do społeczności – mile widziane pomysły, zgłoszenia błędów i po prostu rozmowy!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
@@ -623,7 +622,7 @@
     <string name="buy_license_cancel_quit">Zamknij Papayę</string>
     <string name="buy_license_go_back">Wróć</string>
     <string name="buy_license_error_generic_title">Nie udało się rozpocząć płatności</string>
-    <string name="buy_license_error_generic_message">Sprawdź połączenie z internetem i czy usługi Google Play są włączone.</string>
+    <string name="buy_license_error_generic_message">Sprawdź połączenie z internetem oraz czy usługi Google Play są włączone.</string>
 
     <!-- Shared UI -->
     <string name="shared_ui_loading_screen_label_default">Wczytywanie…</string>
