@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 10,
+  "presetConfigurationVersion": 11,
   "platforms": [
     {
       "key": "and",
@@ -1354,6 +1354,9 @@
         },
         {
           "type": "self"
+        },
+        {
+          "type": "iso"
         },
         {
           "type": "bin",
