@@ -4555,6 +4555,17 @@
       }
     },
     {
+      "packageName": "me.magnum.melonds.nightly",
+      "name": "melonDS Nightly",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "uri",
+        "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      }
+    },
+    {
       "packageName": "com.github.stenzek.duckstation",
       "name": "DuckStation",
       "supportedPlatforms": [
