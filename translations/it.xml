@@ -1,10 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Meta -->
-    <string name="app_name" translatable="false">Papaya</string>
-    <string name="title_activity_emulator_configuration" translatable="false">EmulatorConfigurationActivity</string>
-    <string name="title_activity_settings_main_menu" translatable="false">SettingsMainMenuActivity</string>
-    <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
-    <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
 
     <!-- Common -->
     <string name="common_select">Seleziona</string>
@@ -12,7 +7,7 @@
     <string name="common_back">Indietro</string>
     <string name="common_exit">Esci</string>
     <string name="common_cancel">Cancella</string>
-    <string name="common_custom">PERSONALIZZATO</string>
+    <string name="common_custom">Personalizzato</string>
     <string name="common_save">Salva</string>
     <string name="common_saving">Salvando</string>
     <string name="common_okay">Ok</string>
@@ -335,21 +330,11 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Stesso schermo (default)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Altro schermo</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Chiedi sempre</string>
-    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
     <string name="settings_appearance_general_setting_key_hints_title">Suggerimenti dei pulsanti</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Disattivato</string>
-    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
-    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
-    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Proporzioni delle copertine delle app</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Proporzioni delle copertine dei giochi</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adattive</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Mostra barra di navigazione del sistema</string>
     <string name="settings_appearance_general_setting_recents_section_title">Mostra sezione \"Recenti\"</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Mostra sezione \"Preferiti\"</string>
@@ -433,10 +418,6 @@
     <string name="settings_scraper_options_setting_website_label">Apri %1$s nel browser</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Proporzioni delle copertine</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Qualsiasi</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_2_3" translatable="false">2:3</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_92_43" translatable="false">92:43</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_22_31" translatable="false">22:31</string>
     <string name="settings_scraper_options_setting_cover_type_label">Tipo copertina</string>
     <string name="settings_scraper_options_setting_cover_type_option_any">Qualsiasi</string>
     <string name="settings_scraper_options_setting_cover_type_option_static">Statico</string>
@@ -490,7 +471,7 @@
     <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">La configurazione della piattaforma selezionata seguente non include una specificazione dei file ID. Puoi creare la tua configurazione della piattaforma personalizzata ed aggiungere un tipo di file con specificazione su come ottenere l\'ID. Vai su [Impostazioni] > [Avanzate] > [Configurazione piattaforma personalizzata] > [Crea] per crearla.\n Puoi continuare ad impostare questa configurazione e salvarla. Puoi anche provare ad avviare un gioco, ma molto probabilmente fallirà perchè non so dove trovare l\'ID del gioco.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">La intent action standard per aprire un documento è \'android.intent.action.VIEW\' la quale è usata da la maggior parte degli emulatori. In casi rari una Intent Action personalizzata è utilizzata: Es. per emulatori basati su Yuzu, è \'android.nfc.action.TECH_DISCOVERED\'.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">parametro ID</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Passa l'ID attraverso il parametro DATA</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Passa l\'ID attraverso il parametro DATA</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">Il metodo standard per passare un ID ad un\'altra app è tramite il parametro DATA. Alcuni emulatori però richiedono che venga mandato tramite un parametro personalizzato.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Nome parametro ID personalizzato</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Di solito, l\'ID viene passato come un file di testo (\'String\'). Se l\'ID è un numero, è possibile che è esplicitamente passato un tipo Numero (\"Integer\').</string>
@@ -512,10 +493,10 @@
     <string name="settings_custom_emulator_app_box_try_it_cta_launch">Avvia</string>
     <string name="settings_custom_emulator_app_box_try_it_result_success">✅ App avviata con successo!</string>
     <string name="settings_custom_emulator_app_box_try_it_result_empty">Dopo aver premuto su \'Avvia\' vedrai un risultato qui.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l'emulatore. Però, non riesco a recuperare un ID gioco dal tipo di file \'%1$s\' definito nella configurazione della piattaforma selezionata. Per favore definisci nella configurazione della piattaforma come devo leggere l\'ID nel tipo di file fornito.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l'emulatore. Il tipo \'%1$s\' specifica come leggere l\'ID gioco dal nome della cartella. Però, sembra che il file di prova non si trova in una cartella.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l'emulatore. Il tipo \'%1$s\' specifica come leggere l\'ID gioco dal contenuto del file. Però, sembra che il file di prova non contiene un ID in un formato leggibile: L\'ID dovrebbe essere l'unico contenuto del file.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l'emulatore. Il tipo \'%1$s\' specifica come leggere l\'ID gioco dal contenuto del file. Però, non sono riuscito ad accedere al contenuto del file.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l\'emulatore. Però, non riesco a recuperare un ID gioco dal tipo di file \'%1$s\' definito nella configurazione della piattaforma selezionata. Per favore definisci nella configurazione della piattaforma come devo leggere l\'ID nel tipo di file fornito.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l\'emulatore. Il tipo \'%1$s\' specifica come leggere l\'ID gioco dal nome della cartella. Però, sembra che il file di prova non si trova in una cartella.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l\'emulatore. Il tipo \'%1$s\' specifica come leggere l\'ID gioco dal contenuto del file. Però, sembra che il file di prova non contiene un ID in un formato leggibile: L\'ID dovrebbe essere l\'unico contenuto del file.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Nessun ID gioco trovato! La configurazione specifica di usare un ID gioco per avviare l\'emulatore. Il tipo \'%1$s\' specifica come leggere l\'ID gioco dal contenuto del file. Però, non sono riuscito ad accedere al contenuto del file.</string>
 
     <!-- Settings - Custom platforms -->
     <string name="settings_custom_platforms_title">Configurazioni pattaforma personalizzate</string>
@@ -542,7 +523,7 @@
     <string name="settings_custom_platform_creator_section_game_file_types_button_add">Aggiungi tipo file</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">File gioco</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">File ID gioco</string>
-    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Dove è definito l'ID?</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Dove è definito l\'ID?</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_content">Dentro il file</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_folder">Nome cartella parente</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_cancel">@string/common_cancel</string>
@@ -582,7 +563,7 @@
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Portoghese Brasiliano da &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Latino Americano e Spagnolo Caraibico sempre da &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_pl">🇵🇱 Polacco da &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
-    <string name="settings_about_section_attribution_it">🌎 Italiano da &lt;b&gt;Cappy13&lt;/b&gt;. Grazie mille! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Italiano da &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Suoni &amp; Icone</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Grazie per le bellissime icone piattaforma! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS e SNES.</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;:Suoni di navigazione (Click Clack)</string>
