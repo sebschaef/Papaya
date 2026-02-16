@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 9,
+  "presetConfigurationVersion": 10,
   "platforms": [
     {
       "key": "and",
@@ -865,7 +865,7 @@
         {
           "type": "p8"
         },
-         {
+        {
           "type": "zip"
         },
         {
@@ -4462,6 +4462,18 @@
       ]
     },
     {
+      "packageName": "aenu.aps3e",
+      "name": "aPS3e",
+      "supportedPlatforms": [
+        "ps3"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "aenu.aps3e.EmulatorActivity",
+        "action": "aenu.intent.action.APS3E",
+        "fileParameterName": "iso_uri"
+      }
+    },
+    {
       "packageName": "com.explusalpha.Snes9xPlus",
       "name": "SNES9x Plus",
       "supportedPlatforms": [
@@ -4556,7 +4568,7 @@
     },
     {
       "packageName": "me.magnum.melonds.nightly",
-      "name": "melonDS Nightly",
+      "name": "melonDS (Nightly)",
       "supportedPlatforms": [
         "nds"
       ],
@@ -4756,6 +4768,26 @@
       "launchConfiguration": {
         "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
       }
+    },
+    {
+      "packageName": "come.nanodata.armsx2",
+      "name": "ARMSX2",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "kr.co.iefriends.pcsx2.MainActivity"
+      }
+    },
+    {
+      "packageName": "come.nanodata.armsx2.debug",
+      "name": "ARMSX2 (Nightly)",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "kr.co.iefriends.pcsx2.activities.MainActivity"
+      }
     }
   ],
   "streamingApps": [
@@ -4773,6 +4805,12 @@
     },
     {
       "packageName": "com.valvesoftware.steamlink",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.nvidia.geforcenow",
       "supportedPlatforms": [
         "win"
       ]
