@@ -4760,14 +4760,14 @@
         "explicitActivity": "app.gamenative.MainActivity",
         "idParameterName": "app_id",
         "fileParameterType": "int",
-        "launchById": true
-      },
-      "additionalParameters": [
-        {
-          "key": "game_source",
-          "stringValue": "EPIC"
-        }
-      ]
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "EPIC"
+          }
+        ]
+      }
     },
     {
       "packageName": "app.gamenative",
