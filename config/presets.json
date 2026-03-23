@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 9,
+  "presetConfigurationVersion": 12,
   "platforms": [
     {
       "key": "and",
@@ -865,7 +865,7 @@
         {
           "type": "p8"
         },
-         {
+        {
           "type": "zip"
         },
         {
@@ -1289,6 +1289,9 @@
           "type": "mdf"
         },
         {
+          "type": "m3u"
+        },
+        {
           "type": "pbp",
           "nonDescriptiveNames": [
             "eboot",
@@ -1354,6 +1357,9 @@
         },
         {
           "type": "self"
+        },
+        {
+          "type": "iso"
         },
         {
           "type": "bin",
@@ -1707,6 +1713,18 @@
         },
         {
           "type": "steam",
+          "idBy": "content"
+        },
+        {
+          "type": "gog",
+          "idBy": "content"
+        },
+        {
+          "type": "epic",
+          "idBy": "content"
+        },
+        {
+          "type": "pcgame",
           "idBy": "content"
         },
         {
@@ -4455,11 +4473,53 @@
       }
     },
     {
+      "packageName": "switch.com.miHoYo.Yuanshen.eden",
+      "name": "Eden (Optimized)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "switch.dev.legacy.eden_emulator",
+      "name": "Eden (Legacy)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "switch.dev.eden.eden_nightly",
+      "name": "Eden (Nightly)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
       "packageName": "net.rpcs3",
       "name": "RPCS3",
       "supportedPlatforms": [
         "ps3"
       ]
+    },
+    {
+      "packageName": "aenu.aps3e",
+      "name": "aPS3e",
+      "supportedPlatforms": [
+        "ps3"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "aenu.aps3e.EmulatorActivity",
+        "action": "aenu.intent.action.APS3E",
+        "fileParameterName": "iso_uri"
+      }
     },
     {
       "packageName": "com.explusalpha.Snes9xPlus",
@@ -4556,7 +4616,7 @@
     },
     {
       "packageName": "me.magnum.melonds.nightly",
-      "name": "melonDS Nightly",
+      "name": "melonDS (Nightly)",
       "supportedPlatforms": [
         "nds"
       ],
@@ -4655,7 +4715,7 @@
     },
     {
       "packageName": "app.gamenative",
-      "name": "GameNative",
+      "name": "GameNative (Steam)",
       "supportedPlatforms": [
         "win"
       ],
@@ -4665,6 +4725,69 @@
         "idParameterName": "app_id",
         "fileParameterType": "int",
         "launchById": true
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative (GOG)",
+      "core": "gog",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "GOG"
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative (Epic)",
+      "core": "epic",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "EPIC"
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative (Custom)",
+      "core": "custom",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "CUSTOM_GAME"
+          }
+        ]
       }
     },
     {
@@ -4738,6 +4861,16 @@
       }
     },
     {
+      "packageName": "com.sa_moo_rai.picpic",
+      "name": "PicPic",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.sa_moo_rai.picpic.MainActivity"
+      }
+    },
+    {
       "packageName": "com.seleuco.mame4d2024",
       "name": "MAME4droid Current",
       "supportedPlatforms": [
@@ -4755,6 +4888,26 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
+      }
+    },
+    {
+      "packageName": "come.nanodata.armsx2",
+      "name": "ARMSX2",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "kr.co.iefriends.pcsx2.MainActivity"
+      }
+    },
+    {
+      "packageName": "come.nanodata.armsx2.debug",
+      "name": "ARMSX2 (Nightly)",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "kr.co.iefriends.pcsx2.activities.MainActivity"
       }
     }
   ],
@@ -4776,6 +4929,21 @@
       "supportedPlatforms": [
         "win"
       ]
+    },
+    {
+      "packageName": "com.nvidia.geforcenow",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "tv.parsec.client",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.amazon.tails"
     },
     {
       "packageName": "com.playstation.remoteplay"

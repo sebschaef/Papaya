@@ -269,12 +269,29 @@
     <string name="settings_platform_options_menu_option_detect_new_games">Nach neuen Spieledateien suchen</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Suche nach fehlenden Spielecovern und Informationen</string>
     <string name="settings_platform_options_menu_option_scrape_all">Suche nach allen Spielecovern und Informationen</string>
+    <string name="settings_platform_options_menu_option_appearance">Erscheinungsbild</string>
     <string name="settings_platform_options_menu_option_edit">Bearbeiten</string>
     <string name="settings_platform_options_menu_option_remove">Löschen</string>
     <string name="settings_platform_options_warning_dialog_remove_title">\"%1$s\" löschen?</string>
     <string name="settings_platform_options_warning_dialog_remove_text">Die Plattform werden entfernt. Deine Spieledateien und Apps bleiben unberührt.</string>
     <string name="settings_platform_options_warning_dialog_remove_confirm">Plattform löschen</string>
     <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Erscheinungsbild</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Plattform-Bild</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Einfarbig</string>
+    <string name="settings_platform_edit_appearance_section_name">Name</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Abkürzung</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Löschen</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">Den Erscheinungsbild-Editor verlassen?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Alle Änderungen gehen verloren.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Verlassen und Änderungen verwerfen</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">Das Plattform-Bild löschen?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">Für die Plattform wird dann stattdessen das Standard-Icon oder der Name verwendet.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Bild entfernen</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
@@ -321,8 +338,19 @@
     <string name="settings_appearance_general_setting_dark_mode_option_system">Automatisch (Systemvorgabe)</string>
     <string name="settings_appearance_general_setting_dark_mode_option_dark">Dunkel</string>
     <string name="settings_appearance_general_setting_dark_mode_option_light">Hell</string>
+    <string name="settings_appearance_general_setting_theme_color_title">Akzent-Farbe</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Automatisch</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Blau</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Rot</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Grün</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Gelb</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Lila</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Schriftfarbe über dem Hintergrundbild</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automatisch</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Schwarz</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Weiß</string>
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Form der App Icons</string>
-    <string name="settings_appearance_general_setting_background_style_title">Hintergrund &amp; Stil</string>
+    <string name="settings_appearance_general_setting_background_style_title">Hintergrund</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Papaya als Standard-Start-App festlegen</string>
     <string name="settings_appearance_general_setting_launch_display_title">Standard-Start-Display</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Gleiches Display (Standard)</string>
@@ -362,6 +390,12 @@
     <!-- Settings - Appearance - Portrait layout-->
     <string name="settings_appearance_portrait_layout_menu_title">Erscheinungsbild im Hochformat</string>
 
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Hintergrund</string>
+    <string name="settings_appearance_background_system_title">Gerät</string>
+    <string name="settings_appearance_background_system_option_system">Hintergrund des Geräts</string>
+    <string name="settings_appearance_background_image_title">Bild</string>
+    <string name="settings_appearance_background_color_title">Farbe</string>
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Erweiterte Einstellungen</string>
@@ -561,16 +595,18 @@
     <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Bereichert deine Spielesammlung mit wunderschönen Covern und mehr Details</string>
     <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Bereichert deine Spielesammlung mit wunderschönen Covern und mehr Details</string>
     <string name="settings_about_section_attribution_subtitle_translations">Übersetzungen</string>
-    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brasilianisches Portugiesisch von &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
-    <string name="settings_about_section_attribution_es_419">🌎 Lateinamerikanisches und karibisches Spanisch ebenfalls von &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brasilianisches Portugiesisch von &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Lateinamerikanisches und karibisches Spanisch ebenfalls von &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_pl">🇵🇱 Polnisch von &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Italienisch von &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Töne &amp; Icons</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die schönen Plattform-Icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS und SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Vielen Dank für das schöne PICO-8-Icon! 🙏</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Wunderschöne Klick-Sounds wenn du durch deine Spielesammlung scrollst</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gibt dir ein wohliges Retro-Gefühl, wenn du deine Spiele startest und verleiht den Warnungsdialogen mehr Bedeutung</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Für das schöne Discord-Icon (s.u.)</string>
     <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Plattform &amp; Emulator-Konfiguration</string>
-    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die Unterstützung von neuen Dateitypen für verschiedene Plattformen! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS und 3DS.</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die Unterstützung von neuen Dateitypen für verschiedene Plattformen! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS und 3DS.</string>
     <string name="settings_about_section_community_title">Community</string>
     <string name="settings_about_section_community_text">Wenn du etwas beitragen und damit die Zukunft von Papaya mitgestalten möchtest, werde gerne Teil der Community. Natürlich bist du genauso herzlich willkommen, wenn du nur die Neuigkeiten verfolgen möchtest oder einen Fehler gefunden hast!</string>
     <string name="settings_about_section_community_option_discord">Papaya Discord</string>
