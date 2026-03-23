@@ -39,4 +39,8 @@
     <string name="settings_appearance_background_image_title">Image</string>
     <string name="settings_appearance_background_color_title">Color</string>
 
+    <!-- Settings - About -->
+    <string name="settings_about_section_attribution_it">🇮🇹 Italian by &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Thank you for the amazing platform icon for PICO-8! 🙏</string>
+
 </resources>

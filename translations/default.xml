@@ -631,6 +631,7 @@
     <string name="settings_about_section_attribution_it">🇮🇹 Italian by &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sounds &amp; Icons</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Thank you for the amazing platform icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS and SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Thank you for the amazing platform icon for PICO-8! 🙏</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Clicky clacky navigation sounds</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Gives your game launches a Retro feeling and the dialogs a meaningful warning sound</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: For the neat Discord icon below</string>
