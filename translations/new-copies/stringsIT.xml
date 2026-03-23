@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_appearance">Apparenza</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Apparenza della piattaforma</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Immagine piattaforma</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">monocromatico</string>
+    <string name="settings_platform_edit_appearance_section_name">Nome</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Nome abbreviato</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Rimuovi</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">Uscire dall'editor d'apparenza della piattaforma?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Tutte le modifiche fatte verranno perse.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Esci e scarta modifiche</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">Rimuovere l'immagine piattaforma?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">La piattaforma userà il nome/icona base.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Rimuovi immagine</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_setting_theme_color_title">Colore tema</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Auto</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Blu</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Rosso</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Verde</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Giallo</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Viola</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Colore testo su sfondo</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Auto</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Nero</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Bianco</string>
+
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Sfondo</string>
+    <string name="settings_appearance_background_system_title">Sistema</string>
+    <string name="settings_appearance_background_system_option_system">Sfondo del sistema</string>
+    <string name="settings_appearance_background_image_title">Immagine</string>
+    <string name="settings_appearance_background_color_title">Colore</string>
+
+    <!-- Settings - About -->
+    <string name="settings_about_section_attribution_it">🇮🇹 Italiano da &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Grazie mille per le icone fantastiche del PICO-8! 🙏</string>
+
+</resources>
