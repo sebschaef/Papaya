@@ -288,12 +288,29 @@
     <string name="settings_platform_options_menu_option_detect_new_games">Wyszukaj nowe gry</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Pobierz brakujące okładki i dane</string>
     <string name="settings_platform_options_menu_option_scrape_all">Pobierz wszystkie okładki i dane</string>
+    <string name="settings_platform_options_menu_option_appearance">Wygląd</string>
     <string name="settings_platform_options_menu_option_edit">Edytuj</string>
     <string name="settings_platform_options_menu_option_remove">Usuń</string>
     <string name="settings_platform_options_warning_dialog_remove_title">Usunąć platformę „%1$s”?</string>
     <string name="settings_platform_options_warning_dialog_remove_text">Konfiguracja platformy zostanie usunięta.\nPliki gier i aplikacje pozostaną nietknięte.</string>
     <string name="settings_platform_options_warning_dialog_remove_confirm">Usuń platformę</string>
     <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Wygląd platformy</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Obraz platformy</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Monochromatyczny</string>
+    <string name="settings_platform_edit_appearance_section_name">Nazwa</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Krótka nazwa</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Usuń</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">Wyjść z edytora wyglądu platformy?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Wszystkie wprowadzone zmiany zostaną utracone.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Wyjdź i odrzuć zmiany</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">Usunąć obraz platformy?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">Platforma użyje wtedy domyślnej ikony lub nazwy.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Usuń obraz</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
@@ -340,8 +357,19 @@
     <string name="settings_appearance_general_setting_dark_mode_option_system">Zgodnie z systemem</string>
     <string name="settings_appearance_general_setting_dark_mode_option_dark">Ciemny</string>
     <string name="settings_appearance_general_setting_dark_mode_option_light">Jasny</string>
+    <string name="settings_appearance_general_setting_theme_color_title">Kolor motywu</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Automatyczny</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Niebieski</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Czerwony</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Zielony</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Żółty</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Fioletowy</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Kolor tekstu na tapecie</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automatyczny</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Czarny</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Biały</string>
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Kształt ikon aplikacji</string>
-    <string name="settings_appearance_general_setting_background_style_title">Tło i styl</string>
+    <string name="settings_appearance_general_setting_background_style_title">Tło</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Ustaw Papayę jako domyślny launcher</string>
     <string name="settings_appearance_general_setting_launch_display_title">Domyślny ekran uruchamiania</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Ten sam ekran (domyślnie)</string>
@@ -381,6 +409,13 @@
 
     <!-- Settings - Appearance - Portrait layout-->
     <string name="settings_appearance_portrait_layout_menu_title">Układ w trybie pionowym</string>
+
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Tło</string>
+    <string name="settings_appearance_background_system_title">System</string>
+    <string name="settings_appearance_background_system_option_system">Tło systemowe</string>
+    <string name="settings_appearance_background_image_title">Obraz</string>
+    <string name="settings_appearance_background_color_title">Kolor</string>
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Zaawansowane</string>
@@ -587,11 +622,13 @@
     <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
     <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: piękne okładki i szczegółowe informacje o grach</string>
     <string name="settings_about_section_attribution_subtitle_translations">Tłumaczenia</string>
-    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazylijski portugalski – &lt;b&gt;Ariel&lt;/b&gt;. Muito obrigado! 🙏</string>
-    <string name="settings_about_section_attribution_es_419">🌎 Hiszpański latynoamerykański i karaibski – &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brazylijski portugalski – &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Hiszpański latynoamerykański i karaibski – &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_pl">🇵🇱 Polski - &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Włoski - &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Dźwięki i ikony</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Dziękuję za niesamowite ikony platformy! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS oraz SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;. Dzięki za świetną ikonę platformy dla PICO-8! 🙏</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: dźwięki kliknięć i nawigacji</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: retro dźwięk uruchamiania gier i ostrzeżenia dialogów</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: ikona Discord poniżej</string>
