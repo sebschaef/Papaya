@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 6,
+  "presetConfigurationVersion": 12,
   "platforms": [
     {
       "key": "and",
@@ -486,25 +486,37 @@
       "name": "Atari Jaguar",
       "supportedFiles": [
         {
+          "type": "7z"
+        },
+        {
+          "type": "abs"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "cdi"
+        },
+        {
+          "type": "cof"
+        },
+        {
+          "type": "cue"
+        },
+        {
           "type": "j64"
         },
         {
           "type": "jag"
         },
         {
+          "type": "prg"
+        },
+        {
           "type": "rom"
         },
         {
-          "type": "abs"
-        },
-        {
-          "type": "cof"
-        },
-        {
-          "type": "bin"
-        },
-        {
-          "type": "prg"
+          "type": "zip"
         }
       ]
     },
@@ -521,6 +533,9 @@
         },
         {
           "type": "o"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -804,6 +819,9 @@
       "name": "Nintendo Entertainment System (NES/Famicom)",
       "supportedFiles": [
         {
+          "type": "3dsen"
+        },
+        {
           "type": "nes"
         },
         {
@@ -830,6 +848,74 @@
       "supportedFiles": [
         {
           "type": "neo"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        }
+      ]
+    },
+    {
+      "key": "pi8",
+      "shortName": "PICO",
+      "name": "PICO-8",
+      "supportedFiles": [
+        {
+          "type": "p8"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "png",
+          "ignoredNames": [
+            "bezel"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pce",
+      "shortName": "PCE",
+      "name": "NEC PC Engine (TurboGrafx-16)",
+      "supportedFiles": [
+        {
+          "type": "ccd"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "img"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "pce"
+        },
+        {
+          "type": "sgx"
+        },
+        {
+          "type": "toc"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -873,19 +959,61 @@
       "name": "Sega Master System (Mark III)",
       "supportedFiles": [
         {
-          "type": "sms"
+          "type": "68k"
+        },
+        {
+          "type": "7z"
         },
         {
           "type": "bin"
         },
         {
+          "type": "bms"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "col"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "gen"
+        },
+        {
+          "type": "gg"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "md"
+        },
+        {
+          "type": "mdx"
+        },
+        {
           "type": "rom"
         },
         {
-          "type": "zip"
+          "type": "sg"
         },
         {
-          "type": "7z"
+          "type": "sgd"
+        },
+        {
+          "type": "smd"
+        },
+        {
+          "type": "sms"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -895,40 +1023,49 @@
       "name": "Sega Mega Drive (Genesis)",
       "supportedFiles": [
         {
-          "type": "m3u"
-        },
-        {
-          "type": "mdx"
-        },
-        {
-          "type": "md"
-        },
-        {
-          "type": "smd"
-        },
-        {
-          "type": "gen"
-        },
-        {
-          "type": "bin"
-        },
-        {
-          "type": "cue"
-        },
-        {
-          "type": "iso"
-        },
-        {
-          "type": "chd"
+          "type": "7z"
         },
         {
           "type": "bms"
         },
         {
-          "type": "zip"
+          "type": "chd"
         },
         {
-          "type": "7z"
+          "type": "cue"
+        },
+        {
+          "type": "gen"
+        },
+        {
+          "type": "gg"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "md"
+        },
+        {
+          "type": "mdx"
+        },
+        {
+          "type": "sg"
+        },
+        {
+          "type": "sgd"
+        },
+        {
+          "type": "smd"
+        },
+        {
+          "type": "sms"
+        },
+        {
+          "type": "zip"
         }
       ]
     },
@@ -1060,6 +1197,12 @@
         },
         {
           "type": "nds"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
         }
       ],
       "scraperPlatformId": {
@@ -1105,6 +1248,12 @@
         },
         {
           "type": "zcxi"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "7z"
         }
       ],
       "scraperPlatformId": {
@@ -1138,6 +1287,9 @@
         },
         {
           "type": "mdf"
+        },
+        {
+          "type": "m3u"
         },
         {
           "type": "pbp",
@@ -1205,6 +1357,9 @@
         },
         {
           "type": "self"
+        },
+        {
+          "type": "iso"
         },
         {
           "type": "bin",
@@ -1561,6 +1716,18 @@
           "idBy": "content"
         },
         {
+          "type": "gog",
+          "idBy": "content"
+        },
+        {
+          "type": "epic",
+          "idBy": "content"
+        },
+        {
+          "type": "pcgame",
+          "idBy": "content"
+        },
+        {
           "type": "localgameid",
           "idBy": "content"
         },
@@ -1643,2928 +1810,6 @@
       "launchConfiguration": {
         "explicitActivity": "org.ppsspp.ppsspp.PpssppActivity"
       }
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/opera_libretro_android.so",
-      "name": "RetroArch - Opera (Deprecated)",
-      "supportedPlatforms": [
-        "3do"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/puae_libretro_android.so",
-      "name": "RetroArch - PUAE (Deprecated)",
-      "supportedPlatforms": [
-        "cda",
-        "cd1",
-        "cd32",
-        "cd6"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/puae2021_libretro_android.so",
-      "name": "RetroArch - PUAE 2021 (Deprecated)",
-      "supportedPlatforms": [
-        "cda",
-        "cd1",
-        "cd32",
-        "cd6"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/cap32_libretro_android.so",
-      "name": "RetroArch - Caprice32 (Deprecated)",
-      "supportedPlatforms": [
-        "cpc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/crocods_libretro_android.so",
-      "name": "RetroArch - CrocoDS (Deprecated)",
-      "supportedPlatforms": [
-        "cpc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mamearcade_libretro_android.so",
-      "name": "RetroArch - MAME (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mame2010_libretro_android.so",
-      "name": "RetroArch - MAME 2010 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mame2003_plus_libretro_android.so",
-      "name": "RetroArch - MAME 2003-Plus (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mame2003_libretro_android.so",
-      "name": "RetroArch - MAME 2003 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mame2000_libretro_android.so",
-      "name": "RetroArch - MAME 2000 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/fbneo_libretro_android.so",
-      "name": "RetroArch - FinalBurn Neo (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/fbalpha2012_libretro_android.so",
-      "name": "RetroArch - FB Alpha 2012 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/dice_libretro_android.so",
-      "name": "RetroArch - DICE (Deprecated)",
-      "supportedPlatforms": [
-        "arc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/ardens_libretro_android.so",
-      "name": "RetroArch - Ardens (Deprecated)",
-      "supportedPlatforms": [
-        "ard"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/stella_libretro_android.so",
-      "name": "RetroArch - Stella (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/stella2014_libretro_android.so",
-      "name": "RetroArch - Stella 2014 (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/stella2023_libretro_android.so",
-      "name": "RetroArch - Stella 2023 (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/a5200_libretro_android.so",
-      "name": "RetroArch - a5200 (Deprecated)",
-      "supportedPlatforms": [
-        "a52"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/prosystem_libretro_android.so",
-      "name": "RetroArch - ProSystem (Deprecated)",
-      "supportedPlatforms": [
-        "a78"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/virtualjaguar_libretro_android.so",
-      "name": "RetroArch - Virtual Jaguar (Deprecated)",
-      "supportedPlatforms": [
-        "jag"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/handy_libretro_android.so",
-      "name": "RetroArch - Handy (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mednafen_lynx_libretro_android.so",
-      "name": "RetroArch - Beetle Lynx (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/holani_libretro_android.so",
-      "name": "RetroArch - Holani (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/hatari_libretro_android.so",
-      "name": "RetroArch - Hatari (Deprecated)",
-      "supportedPlatforms": [
-        "ast"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/vice_x64sc_libretro_android.so",
-      "name": "RetroArch - VICE x64sc (accurate) (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/vice_x64_libretro_android.so",
-      "name": "RetroArch - VICE x64 (fast) (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/vice_xscpu64_libretro_android.so",
-      "name": "RetroArch - VICE xscpu64 (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/vice_x128_libretro_android.so",
-      "name": "RetroArch - VICE x128 (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/dosbox_core_libretro_android.so",
-      "name": "RetroArch - DOSBox-core (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/dosbox_pure_libretro_android.so",
-      "name": "RetroArch - DOSBox-Pure (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/dosbox_svn_libretro_android.so",
-      "name": "RetroArch - DOSBox-SVN (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/flycast_libretro_android.so",
-      "name": "RetroArch - Flycast (Deprecated)",
-      "supportedPlatforms": [
-        "sdc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mesen_libretro_android.so",
-      "name": "RetroArch - Mesen (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/fceumm_libretro_android.so",
-      "name": "RetroArch - FCEUmm (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/nestopia_libretro_android.so",
-      "name": "RetroArch - Nestopia (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/quicknes_libretro_android.so",
-      "name": "RetroArch - QuickNES (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/smsplus_libretro_android.so",
-      "name": "RetroArch - SMS Plus GX (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/genesis_plus_gx_wide_libretro_android.so",
-      "name": "RetroArch - Genesis Plus GX Wide (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/genesis_plus_gx_libretro_android.so",
-      "name": "RetroArch - Genesis Plus GX (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/picodrive_libretro_android.so",
-      "name": "RetroArch - PicoDrive (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/gearsystem_libretro_android.so",
-      "name": "RetroArch - Gearsystem (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/yabasanshiro_libretro_android.so",
-      "name": "RetroArch - YabaSanshiro (Deprecated)",
-      "supportedPlatforms": [
-        "sat"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/yabause_libretro_android.so",
-      "name": "RetroArch - Yabause (Deprecated)",
-      "supportedPlatforms": [
-        "sat"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/ppsspp_libretro_android.so",
-      "name": "RetroArch - PPSSPP (Deprecated)",
-      "supportedPlatforms": [
-        "psp"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/melonds_libretro_android.so",
-      "name": "RetroArch - MelonDS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/melondsds_libretro_android.so",
-      "name": "RetroArch - MelonDS DS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/desmume2015_libretro_android.so",
-      "name": "RetroArch - DeSmuME 2015 (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/desmume_libretro_android.so",
-      "name": "RetroArch - DeSmuME (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/noods_libretro_android.so",
-      "name": "RetroArch - NooDS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/citra2018_libretro_android.so",
-      "name": "RetroArch - Citra (2018) (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/citra_canary_libretro_android.so",
-      "name": "RetroArch - Citra (Canary) (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/citra_libretro_android.so",
-      "name": "RetroArch - Citra (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/scummvm_libretro_android.so",
-      "name": "RetroArch - SCUMMVM (Deprecated)",
-      "supportedPlatforms": [
-        "svm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/gpsp_libretro_android.so",
-      "name": "RetroArch - gpSP (Deprecated)",
-      "supportedPlatforms": [
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/vba_next_android.so",
-      "name": "RetroArch - VBA Next (Deprecated)",
-      "supportedPlatforms": [
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/DoubleCherryGB_libretro_android.so",
-      "name": "RetroArch - DoubleCherryGB (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/gambatte_libretro_android.so",
-      "name": "RetroArch - Gambatte (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/gearboy_libretro_android.so",
-      "name": "RetroArch - GearBoy (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/sameboy_libretro_android.so",
-      "name": "RetroArch - SameBoy (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/tgbdual_libretro_android.so",
-      "name": "RetroArch - TGB Dual (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mgba_libretro_android.so",
-      "name": "RetroArch - mGBA (Deprecated)",
-      "supportedPlatforms": [
-        "gb",
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/vbam_libretro_android.so",
-      "name": "RetroArch - VBA-M (Deprecated)",
-      "supportedPlatforms": [
-        "gb",
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/dolphin_launcher_libretro_android.so",
-      "name": "RetroArch - Dolphin (Launcher) (Deprecated)",
-      "supportedPlatforms": [
-        "gc",
-        "wii"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/dolphin_libretro_android.so",
-      "name": "RetroArch - Dolphin (Deprecated)",
-      "supportedPlatforms": [
-        "gc",
-        "wii"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/duckstation_libretro_android.so",
-      "name": "RetroArch - DuckStation (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/swanstation_libretro_android.so",
-      "name": "RetroArch - SwanStation (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/pcsx_rearmed_libretro_android.so",
-      "name": "RetroArch - PCSX ReARMed (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/scummvm_libretro_android.so",
-      "name": "RetroArch - ScummVM (Deprecated)",
-      "supportedPlatforms": [
-        "scm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/snes9x_libretro_android.so",
-      "name": "RetroArch - Snes9x (Deprecated)",
-      "supportedPlatforms": [
-        "snes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/bsnes_libretro_android.so",
-      "name": "RetroArch - bsnes (Deprecated)",
-      "supportedPlatforms": [
-        "snes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mupen64plus_next_gles2_libretro_android.so",
-      "name": "RetroArch - Mupen64Plus-Next GLES2 (Deprecated)",
-      "supportedPlatforms": [
-        "n64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/mupen64plus_next_gles3_libretro_android.so",
-      "name": "RetroArch - Mupen64Plus-Next GLES3 (Deprecated)",
-      "supportedPlatforms": [
-        "n64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "/data/data/com.retroarch/cores/geolith_libretro_android.so",
-      "name": "RetroArch - Geolith (Deprecated)",
-      "supportedPlatforms": [
-        "neo"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64.aarch64/cores/opera_libretro_android.so",
-      "name": "RetroArch (64bit) - Opera (Deprecated)",
-      "supportedPlatforms": [
-        "3do"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/puae_libretro_android.so",
-      "name": "RetroArch (64bit) - PUAE (Deprecated)",
-      "supportedPlatforms": [
-        "cda",
-        "cd1",
-        "cd32",
-        "cd6"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/puae2021_libretro_android.so",
-      "name": "RetroArch (64bit) - PUAE 2021 (Deprecated)",
-      "supportedPlatforms": [
-        "cda",
-        "cd1",
-        "cd32",
-        "cd6"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/cap32_libretro_android.so",
-      "name": "RetroArch (64bit) - Caprice32 (Deprecated)",
-      "supportedPlatforms": [
-        "cpc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/crocods_libretro_android.so",
-      "name": "RetroArch (64bit) - CrocoDS (Deprecated)",
-      "supportedPlatforms": [
-        "cpc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mamearcade_libretro_android.so",
-      "name": "RetroArch (64bit) - MAME (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mame2010_libretro_android.so",
-      "name": "RetroArch (64bit) - MAME 2010 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mame2003_plus_libretro_android.so",
-      "name": "RetroArch (64bit) - MAME 2003-Plus (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mame2003_libretro_android.so",
-      "name": "RetroArch (64bit) - MAME 2003 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mame2000_libretro_android.so",
-      "name": "RetroArch (64bit) - MAME 2000 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so",
-      "name": "RetroArch (64bit) - FinalBurn Neo (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/fbalpha2012_libretro_android.so",
-      "name": "RetroArch (64bit) - FB Alpha 2012 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/dice_libretro_android.so",
-      "name": "RetroArch (64bit) - DICE (Deprecated)",
-      "supportedPlatforms": [
-        "arc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/ardens_libretro_android.so",
-      "name": "RetroArch (64bit) - Ardens (Deprecated)",
-      "supportedPlatforms": [
-        "ard"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/stella_libretro_android.so",
-      "name": "RetroArch (64bit) - Stella (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/stella2014_libretro_android.so",
-      "name": "RetroArch (64bit) - Stella 2014 (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/stella2023_libretro_android.so",
-      "name": "RetroArch (64bit) - Stella 2023 (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/a5200_libretro_android.so",
-      "name": "RetroArch (64bit) - a5200 (Deprecated)",
-      "supportedPlatforms": [
-        "a52"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/prosystem_libretro_android.so",
-      "name": "RetroArch (64bit) - ProSystem (Deprecated)",
-      "supportedPlatforms": [
-        "a78"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/virtualjaguar_libretro_android.so",
-      "name": "RetroArch (64bit) - Virtual Jaguar (Deprecated)",
-      "supportedPlatforms": [
-        "jag"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/handy_libretro_android.so",
-      "name": "RetroArch (64bit) - Handy (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mednafen_lynx_libretro_android.so",
-      "name": "RetroArch (64bit) - Beetle Lynx (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/holani_libretro_android.so",
-      "name": "RetroArch (64bit) - Holani (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/hatari_libretro_android.so",
-      "name": "RetroArch (64bit) - Hatari (Deprecated)",
-      "supportedPlatforms": [
-        "ast"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/vice_x64sc_libretro_android.so",
-      "name": "RetroArch (64bit) - VICE x64sc (accurate) (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/vice_x64_libretro_android.so",
-      "name": "RetroArch (64bit) - VICE x64 (fast) (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/vice_xscpu64_libretro_android.so",
-      "name": "RetroArch (64bit) - VICE xscpu64 (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/vice_x128_libretro_android.so",
-      "name": "RetroArch (64bit) - VICE x128 (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/dosbox_core_libretro_android.so",
-      "name": "RetroArch (64bit) - DOSBox-core (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/dosbox_pure_libretro_android.so",
-      "name": "RetroArch (64bit) - DOSBox-Pure (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/dosbox_svn_libretro_android.so",
-      "name": "RetroArch (64bit) - DOSBox-SVN (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so",
-      "name": "RetroArch (64bit) - Flycast (Deprecated)",
-      "supportedPlatforms": [
-        "sdc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mesen_libretro_android.so",
-      "name": "RetroArch (64bit) - Mesen (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/fceumm_libretro_android.so",
-      "name": "RetroArch (64bit) - FCEUmm (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/nestopia_libretro_android.so",
-      "name": "RetroArch (64bit) - Nestopia (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/quicknes_libretro_android.so",
-      "name": "RetroArch (64bit) - QuickNES (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/smsplus_libretro_android.so",
-      "name": "RetroArch (64bit) - SMS Plus GX (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/genesis_plus_gx_wide_libretro_android.so",
-      "name": "RetroArch (64bit) - Genesis Plus GX Wide (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/genesis_plus_gx_libretro_android.so",
-      "name": "RetroArch (64bit) - Genesis Plus GX (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/picodrive_libretro_android.so",
-      "name": "RetroArch (64bit) - PicoDrive (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/gearsystem_libretro_android.so",
-      "name": "RetroArch (64bit) - Gearsystem (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/yabasanshiro_libretro_android.so",
-      "name": "RetroArch (64bit) - YabaSanshiro (Deprecated)",
-      "supportedPlatforms": [
-        "sat"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/yabause_libretro_android.so",
-      "name": "RetroArch (64bit) - Yabause (Deprecated)",
-      "supportedPlatforms": [
-        "sat"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/ppsspp_libretro_android.so",
-      "name": "RetroArch (64bit) - PPSSPP (Deprecated)",
-      "supportedPlatforms": [
-        "psp"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/melonds_libretro_android.so",
-      "name": "RetroArch (64bit) - MelonDS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/melondsds_libretro_android.so",
-      "name": "RetroArch (64bit) - MelonDS DS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/desmume2015_libretro_android.so",
-      "name": "RetroArch (64bit) - DeSmuME 2015 (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/desmume_libretro_android.so",
-      "name": "RetroArch (64bit) - DeSmuME (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/noods_libretro_android.so",
-      "name": "RetroArch (64bit) - NooDS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/citra2018_libretro_android.so",
-      "name": "RetroArch (64bit) - Citra (2018) (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/citra_canary_libretro_android.so",
-      "name": "RetroArch (64bit) - Citra (Canary) (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/citra_libretro_android.so",
-      "name": "RetroArch (64bit) - Citra (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so",
-      "name": "RetroArch (64bit) - SCUMMVM (Deprecated)",
-      "supportedPlatforms": [
-        "svm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/gpsp_libretro_android.so",
-      "name": "RetroArch (64bit) - gpSP (Deprecated)",
-      "supportedPlatforms": [
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/vba_next_android.so",
-      "name": "RetroArch (64bit) - VBA Next (Deprecated)",
-      "supportedPlatforms": [
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/DoubleCherryGB_libretro_android.so",
-      "name": "RetroArch (64bit) - DoubleCherryGB (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/gambatte_libretro_android.so",
-      "name": "RetroArch (64bit) - Gambatte (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/gearboy_libretro_android.so",
-      "name": "RetroArch (64bit) - GearBoy (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/sameboy_libretro_android.so",
-      "name": "RetroArch (64bit) - SameBoy (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/tgbdual_libretro_android.so",
-      "name": "RetroArch (64bit) - TGB Dual (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mgba_libretro_android.so",
-      "name": "RetroArch (64bit) - mGBA (Deprecated)",
-      "supportedPlatforms": [
-        "gb",
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/vbam_libretro_android.so",
-      "name": "RetroArch (64bit) - VBA-M (Deprecated)",
-      "supportedPlatforms": [
-        "gb",
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/dolphin_launcher_libretro_android.so",
-      "name": "RetroArch (64bit) - Dolphin (Launcher) (Deprecated)",
-      "supportedPlatforms": [
-        "gc",
-        "wii"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/dolphin_libretro_android.so",
-      "name": "RetroArch (64bit) - Dolphin (Deprecated)",
-      "supportedPlatforms": [
-        "gc",
-        "wii"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/duckstation_libretro_android.so",
-      "name": "RetroArch (64bit) - DuckStation (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/swanstation_libretro_android.so",
-      "name": "RetroArch (64bit) - SwanStation (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro_android.so",
-      "name": "RetroArch (64bit) - PCSX ReARMed (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so",
-      "name": "RetroArch (64bit) - ScummVM (Deprecated)",
-      "supportedPlatforms": [
-        "scm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/snes9x_libretro_android.so",
-      "name": "RetroArch (64bit) - Snes9x (Deprecated)",
-      "supportedPlatforms": [
-        "snes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/bsnes_libretro_android.so",
-      "name": "RetroArch (64bit) - bsnes (Deprecated)",
-      "supportedPlatforms": [
-        "snes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mupen64plus_next_gles2_libretro_android.so",
-      "name": "RetroArch (64bit) - Mupen64Plus-Next GLES2 (Deprecated)",
-      "supportedPlatforms": [
-        "n64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/mupen64plus_next_gles3_libretro_android.so",
-      "name": "RetroArch (64bit) - Mupen64Plus-Next GLES3 (Deprecated)",
-      "supportedPlatforms": [
-        "n64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "/data/data/com.retroarch.aarch64/cores/geolith_libretro_android.so",
-      "name": "RetroArch (64bit) - Geolith (Deprecated)",
-      "supportedPlatforms": [
-        "neo"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32.ra32/cores/opera_libretro_android.so",
-      "name": "RetroArch (32bit) - Opera (Deprecated)",
-      "supportedPlatforms": [
-        "3do"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/puae_libretro_android.so",
-      "name": "RetroArch (32bit) - PUAE (Deprecated)",
-      "supportedPlatforms": [
-        "cda",
-        "cd1",
-        "cd32",
-        "cd6"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/puae2021_libretro_android.so",
-      "name": "RetroArch (32bit) - PUAE 2021 (Deprecated)",
-      "supportedPlatforms": [
-        "cda",
-        "cd1",
-        "cd32",
-        "cd6"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/cap32_libretro_android.so",
-      "name": "RetroArch (32bit) - Caprice32 (Deprecated)",
-      "supportedPlatforms": [
-        "cpc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/crocods_libretro_android.so",
-      "name": "RetroArch (32bit) - CrocoDS (Deprecated)",
-      "supportedPlatforms": [
-        "cpc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mamearcade_libretro_android.so",
-      "name": "RetroArch (32bit) - MAME (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
-      "name": "RetroArch (32bit) - MAME 2010 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mame2003_plus_libretro_android.so",
-      "name": "RetroArch (32bit) - MAME 2003-Plus (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mame2003_libretro_android.so",
-      "name": "RetroArch (32bit) - MAME 2003 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mame2000_libretro_android.so",
-      "name": "RetroArch (32bit) - MAME 2000 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/fbneo_libretro_android.so",
-      "name": "RetroArch (32bit) - FinalBurn Neo (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/fbalpha2012_libretro_android.so",
-      "name": "RetroArch (32bit) - FB Alpha 2012 (Deprecated)",
-      "supportedPlatforms": [
-        "arc",
-        "cps"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/dice_libretro_android.so",
-      "name": "RetroArch (32bit) - DICE (Deprecated)",
-      "supportedPlatforms": [
-        "arc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/ardens_libretro_android.so",
-      "name": "RetroArch (32bit) - Ardens (Deprecated)",
-      "supportedPlatforms": [
-        "ard"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/stella_libretro_android.so",
-      "name": "RetroArch (32bit) - Stella (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so",
-      "name": "RetroArch (32bit) - Stella 2014 (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/stella2023_libretro_android.so",
-      "name": "RetroArch (32bit) - Stella 2023 (Deprecated)",
-      "supportedPlatforms": [
-        "a26"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/a5200_libretro_android.so",
-      "name": "RetroArch (32bit) - a5200 (Deprecated)",
-      "supportedPlatforms": [
-        "a52"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so",
-      "name": "RetroArch (32bit) - ProSystem (Deprecated)",
-      "supportedPlatforms": [
-        "a78"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/virtualjaguar_libretro_android.so",
-      "name": "RetroArch (32bit) - Virtual Jaguar (Deprecated)",
-      "supportedPlatforms": [
-        "jag"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/handy_libretro_android.so",
-      "name": "RetroArch (32bit) - Handy (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mednafen_lynx_libretro_android.so",
-      "name": "RetroArch (32bit) - Beetle Lynx (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/holani_libretro_android.so",
-      "name": "RetroArch (32bit) - Holani (Deprecated)",
-      "supportedPlatforms": [
-        "lynx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/hatari_libretro_android.so",
-      "name": "RetroArch (32bit) - Hatari (Deprecated)",
-      "supportedPlatforms": [
-        "ast"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/vice_x64sc_libretro_android.so",
-      "name": "RetroArch (32bit) - VICE x64sc (accurate) (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/vice_x64_libretro_android.so",
-      "name": "RetroArch (32bit) - VICE x64 (fast) (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/vice_xscpu64_libretro_android.so",
-      "name": "RetroArch (32bit) - VICE xscpu64 (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/vice_x128_libretro_android.so",
-      "name": "RetroArch (32bit) - VICE x128 (Deprecated)",
-      "supportedPlatforms": [
-        "c64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/dosbox_core_libretro_android.so",
-      "name": "RetroArch (32bit) - DOSBox-core (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/dosbox_pure_libretro_android.so",
-      "name": "RetroArch (32bit) - DOSBox-Pure (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/dosbox_svn_libretro_android.so",
-      "name": "RetroArch (32bit) - DOSBox-SVN (Deprecated)",
-      "supportedPlatforms": [
-        "dos"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/flycast_libretro_android.so",
-      "name": "RetroArch (32bit) - Flycast (Deprecated)",
-      "supportedPlatforms": [
-        "sdc"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mesen_libretro_android.so",
-      "name": "RetroArch (32bit) - Mesen (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
-      "name": "RetroArch (32bit) - FCEUmm (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
-      "name": "RetroArch (32bit) - Nestopia (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/quicknes_libretro_android.so",
-      "name": "RetroArch (32bit) - QuickNES (Deprecated)",
-      "supportedPlatforms": [
-        "nes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
-      "name": "RetroArch (32bit) - SMS Plus GX (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_wide_libretro_android.so",
-      "name": "RetroArch (32bit) - Genesis Plus GX Wide (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
-      "name": "RetroArch (32bit) - Genesis Plus GX (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/picodrive_libretro_android.so",
-      "name": "RetroArch (32bit) - PicoDrive (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "gen",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/gearsystem_libretro_android.so",
-      "name": "RetroArch (32bit) - Gearsystem (Deprecated)",
-      "supportedPlatforms": [
-        "sgg",
-        "sms"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/yabasanshiro_libretro_android.so",
-      "name": "RetroArch (32bit) - YabaSanshiro (Deprecated)",
-      "supportedPlatforms": [
-        "sat"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/yabause_libretro_android.so",
-      "name": "RetroArch (32bit) - Yabause (Deprecated)",
-      "supportedPlatforms": [
-        "sat"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/ppsspp_libretro_android.so",
-      "name": "RetroArch (32bit) - PPSSPP (Deprecated)",
-      "supportedPlatforms": [
-        "psp"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/melonds_libretro_android.so",
-      "name": "RetroArch (32bit) - MelonDS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/melondsds_libretro_android.so",
-      "name": "RetroArch (32bit) - MelonDS DS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/desmume2015_libretro_android.so",
-      "name": "RetroArch (32bit) - DeSmuME 2015 (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/desmume_libretro_android.so",
-      "name": "RetroArch (32bit) - DeSmuME (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/noods_libretro_android.so",
-      "name": "RetroArch (32bit) - NooDS (Deprecated)",
-      "supportedPlatforms": [
-        "nds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/citra2018_libretro_android.so",
-      "name": "RetroArch (32bit) - Citra (2018) (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/citra_canary_libretro_android.so",
-      "name": "RetroArch (32bit) - Citra (Canary) (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/citra_libretro_android.so",
-      "name": "RetroArch (32bit) - Citra (Deprecated)",
-      "supportedPlatforms": [
-        "3ds"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/scummvm_libretro_android.so",
-      "name": "RetroArch (32bit) - SCUMMVM (Deprecated)",
-      "supportedPlatforms": [
-        "svm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/gpsp_libretro_android.so",
-      "name": "RetroArch (32bit) - gpSP (Deprecated)",
-      "supportedPlatforms": [
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/vba_next_android.so",
-      "name": "RetroArch (32bit) - VBA Next (Deprecated)",
-      "supportedPlatforms": [
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/DoubleCherryGB_libretro_android.so",
-      "name": "RetroArch (32bit) - DoubleCherryGB (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
-      "name": "RetroArch (32bit) - Gambatte (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/gearboy_libretro_android.so",
-      "name": "RetroArch (32bit) - GearBoy (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/sameboy_libretro_android.so",
-      "name": "RetroArch (32bit) - SameBoy (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/tgbdual_libretro_android.so",
-      "name": "RetroArch (32bit) - TGB Dual (Deprecated)",
-      "supportedPlatforms": [
-        "gb"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mgba_libretro_android.so",
-      "name": "RetroArch (32bit) - mGBA (Deprecated)",
-      "supportedPlatforms": [
-        "gb",
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/vbam_libretro_android.so",
-      "name": "RetroArch (32bit) - VBA-M (Deprecated)",
-      "supportedPlatforms": [
-        "gb",
-        "gba"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/dolphin_launcher_libretro_android.so",
-      "name": "RetroArch (32bit) - Dolphin (Launcher) (Deprecated)",
-      "supportedPlatforms": [
-        "gc",
-        "wii"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/dolphin_libretro_android.so",
-      "name": "RetroArch (32bit) - Dolphin (Deprecated)",
-      "supportedPlatforms": [
-        "gc",
-        "wii"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/duckstation_libretro_android.so",
-      "name": "RetroArch (32bit) - DuckStation (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/swanstation_libretro_android.so",
-      "name": "RetroArch (32bit) - SwanStation (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/pcsx_rearmed_libretro_android.so",
-      "name": "RetroArch (32bit) - PCSX ReARMed (Deprecated)",
-      "supportedPlatforms": [
-        "psx"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/scummvm_libretro_android.so",
-      "name": "RetroArch (32bit) - ScummVM (Deprecated)",
-      "supportedPlatforms": [
-        "scm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/snes9x_libretro_android.so",
-      "name": "RetroArch (32bit) - Snes9x (Deprecated)",
-      "supportedPlatforms": [
-        "snes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/bsnes_libretro_android.so",
-      "name": "RetroArch (32bit) - bsnes (Deprecated)",
-      "supportedPlatforms": [
-        "snes"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mupen64plus_next_gles2_libretro_android.so",
-      "name": "RetroArch (32bit) - Mupen64Plus-Next GLES2 (Deprecated)",
-      "supportedPlatforms": [
-        "n64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/mupen64plus_next_gles3_libretro_android.so",
-      "name": "RetroArch (32bit) - Mupen64Plus-Next GLES3 (Deprecated)",
-      "supportedPlatforms": [
-        "n64"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "/data/data/com.retroarch.ra32/cores/geolith_libretro_android.so",
-      "name": "RetroArch (32bit) - Geolith (Deprecated)",
-      "supportedPlatforms": [
-        "neo"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
-        "filePathType": "absolute"
-      },
-      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch",
@@ -4693,7 +1938,8 @@
       "name": "RetroArch - FinalBurn Neo",
       "supportedPlatforms": [
         "arc",
-        "cps"
+        "cps",
+        "neo"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -5162,13 +2408,14 @@
     {
       "packageName": "com.retroarch",
       "core": "scummvm_libretro_android.so",
-      "name": "RetroArch - SCUMMVM",
+      "name": "RetroArch - SCUMMVM (Deprecated)",
       "supportedPlatforms": [
         "svm"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
-      }
+      },
+      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch",
@@ -5395,6 +2642,39 @@
       }
     },
     {
+      "packageName": "com.retroarch",
+      "core": "retro8_libretro_android.so",
+      "name": "RetroArch - Retro8",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "mednafen_pce_fast",
+      "name": "RetroArch - Beetle PCE FAST",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "mednafen_pce",
+      "name": "RetroArch - Beetle PCE",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
       "packageName": "com.retroarch.aarch64",
       "core": "opera_libretro_android.so",
       "name": "RetroArch (64bit) - Opera",
@@ -5521,7 +2801,8 @@
       "name": "RetroArch (64bit) - FinalBurn Neo",
       "supportedPlatforms": [
         "arc",
-        "cps"
+        "cps",
+        "neo"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -5990,13 +3271,14 @@
     {
       "packageName": "com.retroarch.aarch64",
       "core": "scummvm_libretro_android.so",
-      "name": "RetroArch (64bit) - SCUMMVM",
+      "name": "RetroArch (64bit) - SCUMMVM (Deprecated)",
       "supportedPlatforms": [
         "svm"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
-      }
+      },
+      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch.aarch64",
@@ -6223,6 +3505,39 @@
       }
     },
     {
+      "packageName": "com.retroarch.aarch64",
+      "core": "retro8_libretro_android.so",
+      "name": "RetroArch (64bit) - Retro8",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "mednafen_pce_fast",
+      "name": "RetroArch (64bit) - Beetle PCE FAST",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "mednafen_pce",
+      "name": "RetroArch (64bit) - Beetle PCE",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
       "packageName": "com.retroarch.ra32",
       "core": "opera_libretro_android.so",
       "name": "RetroArch (32bit) - Opera",
@@ -6349,7 +3664,8 @@
       "name": "RetroArch (32bit) - FinalBurn Neo",
       "supportedPlatforms": [
         "arc",
-        "cps"
+        "cps",
+        "neo"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6818,13 +4134,14 @@
     {
       "packageName": "com.retroarch.ra32",
       "core": "scummvm_libretro_android.so",
-      "name": "RetroArch (32bit) - SCUMMVM",
+      "name": "RetroArch (32bit) - SCUMMVM (Deprecated)",
       "supportedPlatforms": [
         "svm"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
-      }
+      },
+      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch.ra32",
@@ -7051,6 +4368,39 @@
       }
     },
     {
+      "packageName": "com.retroarch.ra32",
+      "core": "retro8_libretro_android.so",
+      "name": "RetroArch (32bit) - Retro8",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "mednafen_pce_fast",
+      "name": "RetroArch (32bit) - Beetle PCE FAST",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "mednafen_pce",
+      "name": "RetroArch (32bit) - Beetle PCE",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
       "packageName": "org.mupen64plusae.v3.fzurita.pro",
       "name": "M64Plus FZ Pro",
       "supportedPlatforms": [
@@ -7123,11 +4473,53 @@
       }
     },
     {
+      "packageName": "switch.com.miHoYo.Yuanshen.eden",
+      "name": "Eden (Optimized)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "switch.dev.legacy.eden_emulator",
+      "name": "Eden (Legacy)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
+      "packageName": "switch.dev.eden.eden_nightly",
+      "name": "Eden (Nightly)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      }
+    },
+    {
       "packageName": "net.rpcs3",
       "name": "RPCS3",
       "supportedPlatforms": [
         "ps3"
       ]
+    },
+    {
+      "packageName": "aenu.aps3e",
+      "name": "aPS3e",
+      "supportedPlatforms": [
+        "ps3"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "aenu.aps3e.EmulatorActivity",
+        "action": "aenu.intent.action.APS3E",
+        "fileParameterName": "iso_uri"
+      }
     },
     {
       "packageName": "com.explusalpha.Snes9xPlus",
@@ -7205,14 +4597,6 @@
       }
     },
     {
-      "packageName": "info.cemu.Cemu",
-      "name": "Cemu (Deprecated)",
-      "supportedPlatforms": [
-        "wiiu"
-      ],
-      "flag": "deprecated"
-    },
-    {
       "packageName": "info.cemu.cemu",
       "name": "Cemu",
       "supportedPlatforms": [
@@ -7222,6 +4606,17 @@
     {
       "packageName": "me.magnum.melonds",
       "name": "melonDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "uri",
+        "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      }
+    },
+    {
+      "packageName": "me.magnum.melonds.nightly",
+      "name": "melonDS (Nightly)",
       "supportedPlatforms": [
         "nds"
       ],
@@ -7320,7 +4715,7 @@
     },
     {
       "packageName": "app.gamenative",
-      "name": "GameNative",
+      "name": "GameNative (Steam)",
       "supportedPlatforms": [
         "win"
       ],
@@ -7330,6 +4725,69 @@
         "idParameterName": "app_id",
         "fileParameterType": "int",
         "launchById": true
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative (GOG)",
+      "core": "gog",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "GOG"
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative (Epic)",
+      "core": "epic",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "EPIC"
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "app.gamenative",
+      "name": "GameNative (Custom)",
+      "core": "custom",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "app.gamenative.LAUNCH_GAME",
+        "explicitActivity": "app.gamenative.MainActivity",
+        "idParameterName": "app_id",
+        "fileParameterType": "int",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "game_source",
+            "stringValue": "CUSTOM_GAME"
+          }
+        ]
       }
     },
     {
@@ -7391,6 +4849,66 @@
       "launchConfiguration": {
         "explicitActivity": "io.recompiled.redream.MainActivity"
       }
+    },
+    {
+      "packageName": "io.wip.pico8",
+      "name": "PICO-8 Android",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.godot.game.GodotAppLauncher"
+      }
+    },
+    {
+      "packageName": "com.sa_moo_rai.picpic",
+      "name": "PicPic",
+      "supportedPlatforms": [
+        "pi8"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.sa_moo_rai.picpic.MainActivity"
+      }
+    },
+    {
+      "packageName": "com.seleuco.mame4d2024",
+      "name": "MAME4droid Current",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
+      }
+    },
+    {
+      "packageName": "com.seleuco.mame4droid",
+      "name": "MAME4droid",
+      "supportedPlatforms": [
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
+      }
+    },
+    {
+      "packageName": "come.nanodata.armsx2",
+      "name": "ARMSX2",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "kr.co.iefriends.pcsx2.MainActivity"
+      }
+    },
+    {
+      "packageName": "come.nanodata.armsx2.debug",
+      "name": "ARMSX2 (Nightly)",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "kr.co.iefriends.pcsx2.activities.MainActivity"
+      }
     }
   ],
   "streamingApps": [
@@ -7411,6 +4929,21 @@
       "supportedPlatforms": [
         "win"
       ]
+    },
+    {
+      "packageName": "com.nvidia.geforcenow",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "tv.parsec.client",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.amazon.tails"
     },
     {
       "packageName": "com.playstation.remoteplay"

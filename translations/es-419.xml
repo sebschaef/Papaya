@@ -26,6 +26,7 @@
     <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
     <string name="gallery_key_hints_tab">Pestaña</string>
     <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Ordenar</string>
     <string name="gallery_key_hints_options">Opciones</string>
     <string name="gallery_key_hints_back">@string/common_back</string>
     <string name="gallery_key_hints_launch">Jugar</string>
@@ -52,6 +53,18 @@
     <string name="gallery_games_error_app_launch_failed_title">No se pudo iniciar la app</string>
     <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
     <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <string name="gallery_games_sorting_option_by_platform">Por plataforma</string>
+    <string name="gallery_games_sorting_option_by_release_year">Por fecha de lanzamiento</string>
+    <string name="gallery_games_sorting_option_by_first_letter">Por nombre</string>
+    <string name="gallery_games_sorting_option_by_genre">Por género</string>
+    <string name="gallery_games_sorting_option_all">Todo</string>
+
+    <string name="gallery_games_sorting_section_recents_title">Reciente</string>
+    <string name="gallery_games_sorting_section_favourites_title">Favoritos</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Ninguno</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numérico</string>
+    <string name="gallery_games_sorting_section_all_title">Todo</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Siguiente paso</string>
@@ -168,10 +181,15 @@
     <string name="item_options_app_menu_error_launch_app_settings_message_generic">Falló al abrir los ajustes de la app por una razón desconocida:\n%1$s</string>
 
     <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_section_launch">Lanzamiento</string>
     <string name="item_options_game_file_menu_option_launch_game">Jugar</string>
     <string name="item_options_game_file_menu_option_launch_emulator">Abrir emulador</string>
+    <string name="item_options_game_file_menu_section_edit">Editar</string>
     <string name="item_options_game_file_menu_option_scrape">Descargar info del juego</string>
     <string name="item_options_game_file_menu_option_edit">Editar info del juego</string>
+    <string name="item_options_game_file_menu_section_other">Más</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Añadir a favoritos</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Eliminar de favoritos</string>
     <string name="item_options_game_file_menu_option_hide">Ocultar juego</string>
     <string name="item_options_game_file_menu_option_change_emulator">Cambiar emulador</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver en %1$s</string>
@@ -181,11 +199,21 @@
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Game app -->
+    <string name="item_options_game_app_menu_section_launch">@string/item_options_game_file_menu_section_launch</string>
     <string name="item_options_game_app_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
     <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">No es un juego</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">¿Mueve \”%1$s\" al cajón de Apps?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Puedes revertir esto en cualquier momento en [Configuración] > [Configuración de la plataforma] > [Plataforma] > [Editar] marcando la App como un juego nuevamente.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Mover App</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
     <!-- Item options - Streaming game -->
     <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
@@ -242,12 +270,30 @@
     <!-- Settings - Platform options -->
     <string name="settings_platform_options_menu_option_detect_new_games">Detectar juegos nuevos</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Descargar carátulas e info faltante</string>
+    <string name="settings_platform_options_menu_option_scrape_all">Descargar carátulas e info toda</string>
+    <string name="settings_platform_options_menu_option_appearance">Apariencia</string>
     <string name="settings_platform_options_menu_option_edit">Editar</string>
     <string name="settings_platform_options_menu_option_remove">Eliminar</string>
     <string name="settings_platform_options_warning_dialog_remove_title">¿Eliminar plataforma \"%1$s\"?</string>
     <string name="settings_platform_options_warning_dialog_remove_text">Se borrará la configuración. Tus juegos y apps no se tocarán.</string>
     <string name="settings_platform_options_warning_dialog_remove_confirm">Eliminar plataforma</string>
     <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Apariencia de la plataforma</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Imagen de la plataforma</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Monocromo</string>
+    <string name="settings_platform_edit_appearance_section_name">Nombre</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Nombre corto</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Eliminar</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">¿Salir del editor de apariencia de la plataforma?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Todos los cambios realizados se perderán.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Salir y descartar cambios</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">¿Eliminar la imagen de la plataforma?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">La plataforma usará el ícono o nombre predeterminado en su lugar.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Eliminar imagen</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
@@ -294,6 +340,17 @@
     <string name="settings_appearance_general_setting_dark_mode_option_system">Seguir al sistema</string>
     <string name="settings_appearance_general_setting_dark_mode_option_dark">Oscuro</string>
     <string name="settings_appearance_general_setting_dark_mode_option_light">Claro</string>
+    <string name="settings_appearance_general_setting_theme_color_title">Color del tema</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Automático</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Azul</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Rojo</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Verde</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Amarillo</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Morado</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Color del texto en el fondo de pantalla</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automático</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Negro</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Blanco</string>
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Forma de íconos de apps</string>
     <string name="settings_appearance_general_setting_background_style_title">Fondo y estilo</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Poner Papaya como launcher</string>
@@ -301,30 +358,32 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Misma pantalla (predeterminado)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Otra pantalla</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Preguntar siempre</string>
-    <string name="settings_appearance_general_setting_key_hints_title">Nota del botón</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Indicaciones de botones</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Desactivado</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Relación de aspecto de las portadas de las Apps</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Relación de aspecto de las portadas de los juegos</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptado</string>
-    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Mostrar la barra de navegación del sistema</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Proporción de carátula de app</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Proporción de carátula del juego</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptable</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Mostrar barra de navegación del sistema</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Mostrar la sección "Recientes"</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Mostrar la sección "Favoritos"</string>
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_gallery_general_title">General</string>
-    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Mostrar la barra de pestañas solo en la interacción</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_title">Disposición</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Mostrar barra de pestañas solo al interactuar</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Layout</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carrusel</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Cuadrícula</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Configuración del Carrusel</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Mostrar la barra de la plataforma solo en la interacción</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Preferencias del carrusel</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Mostrar barra de plataformas solo al interactuar</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Alineación</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Superior</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Centrar</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Fondo</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Arriba</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Centro</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Abajo</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Tamaño</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Posición del título del juego</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Debajo de la portada del juego</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Arriba de la portada del juego</string>
-    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Configuración de la cuadrícula</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Debajo de la carátula</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Encima de la carátula</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Preferencias de la cuadrícula</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Tamaño</string>
 
     <!-- Settings - Appearance - Landscape layout-->
@@ -333,10 +392,82 @@
     <!-- Settings - Appearance - Portrait layout-->
     <string name="settings_appearance_portrait_layout_menu_title">Layout en modo vertical</string>
 
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Fondo</string>
+    <string name="settings_appearance_background_system_title">Sistema</string>
+    <string name="settings_appearance_background_system_option_system">Fondo del sistema</string>
+    <string name="settings_appearance_background_image_title">Imagen</string>
+    <string name="settings_appearance_background_color_title">Color</string>
+
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Configuración avanzada</string>
+    <string name="settings_advanced_menu_option_config_updater">Actualización de configuraciones de plataforma y emulador</string>
+    <string name="settings_advanced_menu_option_scrapers">Configuración del Scraper</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Plataformas personalizadas</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Emuladores personalizados</string>
+
+    <!-- Settings - Config Updater -->
+    <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
+    <string name="settings_config_updater_label_checking_for_update">Buscando actualizaciones</string>
+    <string name="settings_config_updater_label_up_to_date">Su configuración está actualizada</string>
+    <string name="settings_config_updater_label_up_to_date_update_successful">Actualización instalada exitosamente</string>
+    <string name="settings_config_updater_label_up_to_date_installed_version">Versión %d</string>
+    <string name="settings_config_updater_cta_update">Actualizar ahora</string>
+    <string name="settings_config_updater_update_title">Actualización disponible</string>
+    <string name="settings_config_updater_update_subtitle">@string/settings_config_updater_label_up_to_date_installed_version</string>
+    <string name="settings_config_updater_update_description">Esta actualización incluye:</string>
+    <string name="settings_config_updater_update_hint">La instalación normalmente sólo toma unos segundos.</string>
+    <string name="settings_config_updater_button_cancel_update">Tal vez después</string>
+    <string name="settings_config_updater_error_cta_retry">Intentar otra vez</string>
+    <string name="settings_config_updater_error_button_cancel">@string/common_cancel</string>
+    <string name="settings_config_updater_cta_up_to_date">@string/common_okay</string>
+    <string name="settings_config_updater_installation_progress_initial">Preparación de la instalación</string>
+    <string name="settings_config_updater_installation_progress_download">Descargando la actualización</string>
+    <string name="settings_config_updater_installation_progress_verification">Verificando la actualización</string>
+    <string name="settings_config_updater_installation_progress_installation">Instalación de la actualización</string>
+    <string name="settings_config_updater_installation_progress_warning">¡No cierres la aplicación! Cerrarla ahora podría dañar tu configuración.</string>
+    <string name="settings_config_updater_error_no_internet_connection">@string/item_options_scrape_error_no_internet_connection</string>
+    <string name="settings_config_updater_error_checking_updates_failed">Error al buscar actualizaciones</string>
+    <string name="settings_config_updater_error_download_failed">Error al descargar la actualización</string>
+    <string name="settings_config_updater_error_incompatible_schema">La actualización no es compatible con la versión de tu aplicación</string>
+    <string name="settings_config_updater_error_incompatible_schema_subtitle">Consulte PlayStore si hay una nueva versión de la aplicación disponible.</string>
+    <string name="settings_config_updater_error_verification_failed">El archivo de actualización está dañado</string>
+    <string name="settings_config_updater_error_installation_failed">La instalación falló</string>
+    <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
+    <string name="settings_config_updater_error_subtitle_not_installed">No se han realizado cambios en la configuración instalada.</string>
+
+    <!-- Settings - Scrapers -->
+    <string name="settings_scrapers_title">Scrapers</string>
+    <string name="settings_scrapers_reorder_title">Reordenar Scrapers</string>
+    <string name="settings_scrapers_reorder_cta_done">@string/common_done</string>
+    <string name="settings_scrapers_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_scrapers_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_scrapers_label_disabled">Desactivado</string>
+    <string name="settings_scrapers_label_missing_api_key">Requiere clave API</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_title">Configuración de %1$s</string>
+    <string name="settings_scraper_options_setting_is_enabled_label">Activado</string>
+    <string name="settings_scraper_options_setting_api_key_label">Clave API personal</string>
+    <string name="settings_scraper_options_setting_api_key_value_not_set">No establecido</string>
+    <string name="settings_scraper_options_setting_website_label">Abrir %1$s en el navegador</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Proporción de carátula</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Cualquier</string>
+    <string name="settings_scraper_options_setting_cover_type_label">Tipo de carátula</string>
+    <string name="settings_scraper_options_setting_cover_type_option_any">Cualquier</string>
+    <string name="settings_scraper_options_setting_cover_type_option_static">Estático</string>
+    <string name="settings_scraper_options_setting_cover_type_option_animated">Animado</string>
+
+    <!-- Settings - Scraper API key -->
+    <string name="settings_scraper_api_key_title">Clave API de %1$s</string>
+    <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
+    <string name="settings_scraper_api_key_save_try">Guardar y probar</string>
+    <string name="settings_scraper_api_key_test_idle_label">Después de guardar, verá aquí si la clave es válida.</string>
+    <string name="settings_scraper_api_key_test_request_sent_label">Solicitud de prueba enviada. Esperando respuesta…</string>
+    <string name="settings_scraper_api_key_test_success_label">✅ ¡Solicitud de prueba exitosa! Su clave es válida y se guardó correctamente.</string>
+    <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Sin conexión a internet. Tu clave se guardó correctamente, pero no se pudo verificar.</string>
+    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ La solicitud de prueba falló por un motivo no relacionado. Su clave se guardó correctamente, pero no se pudo verificar.</string>
+    <string name="settings_scraper_api_key_test_failure_wrong_credentials_label">❌ La solicitud de prueba falló. La clave introducida parece ser inválida. Verifique que no falten caracteres. La clave introducida se ha guardado.</string>
 
     <!-- Settings - Custom emulator apps -->
     <string name="settings_custom_emulator_apps_title">Configuración de emuladores personalizados</string>
@@ -449,7 +580,7 @@
     <string name="settings_privacy_policy_section_processed_data_title">Datos personales procesados</string>
     <string name="settings_privacy_policy_section_processed_data_text">Papaya procesa información sobre las apps instaladas en tu dispositivo. Además, cuando le das explícitamente acceso a ciertas carpetas de tu dispositivo, también procesará metadatos de los archivos ubicados dentro de esa carpeta (nombre del archivo, nombre de la carpeta).</string>
     <string name="settings_privacy_policy_section_data_usage_title">Cómo se usan tus datos</string>
-    <string name="settings_privacy_policy_section_data_usage_text">Papaya usa la información sobre las apps instaladas en tu dispositivo únicamente para mostrar las listas de apps en la pantalla de inicio y para guiarte cuando configuras accesos directos a juegos dentro de estas apps (Preseleccionando apps instaladas). Estos datos no se comparten con terceros y solo se almacenan localmente en tu dispositivo.&lt;br&gt;&lt;br&gt;Los metadatos mencionados de archivos en ciertas carpetas a las que le das acceso explícito a Papaya, se usan para enriquecer los accesos directos a juegos en otras apps: Los nombres de archivo o nombres de carpeta pueden enviarse a &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt; y/o &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt; a cambio de más detalles sobre el acceso directo del juego. Estos detalles incluyen carátulas, fechas de lanzamiento, géneros, etc. Estos datos adicionales se usan nuevamente solo para mostrarlos en tu pantalla de inicio. Nota que estos metadatos de archivo pueden compartirse solo con uno o ambos de estos dos servicios mencionados arriba.</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya usa la información sobre las apps instaladas en tu dispositivo únicamente para mostrar las listas de apps en la pantalla de inicio y para guiarte cuando configuras accesos directos a juegos dentro de estas apps (Preseleccionando apps instaladas). Estos datos no se comparten con terceros y solo se almacenan localmente en tu dispositivo.&lt;br&gt;&lt;br&gt;Los metadatos mencionados de archivos en ciertas carpetas a las que le das acceso explícito a Papaya, se usan para enriquecer los accesos directos a juegos en otras apps: Los nombres de archivo o nombres de carpeta pueden enviarse a &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; y/o &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; a cambio de más detalles sobre el acceso directo del juego. Estos detalles incluyen carátulas, fechas de lanzamiento, géneros, etc. Estos datos adicionales se usan nuevamente solo para mostrarlos en tu pantalla de inicio. Nota que estos metadatos de archivo pueden compartirse solo con uno de estos cuatro servicios mencionados arriba.</string>
     <string name="settings_privacy_policy_section_managing_data_title">Administrando tus datos personales</string>
     <string name="settings_privacy_policy_section_managing_data_text">Papaya guarda tus datos personales (Apps instaladas, metadatos de archivo) en tu dispositivo. Puedes borrar todos tus datos personales a través del menú de ajustes de app de Android: Mantén presionado el ícono de la app Papaya, selecciona "Información de la app", haz clic en "almacenamiento y caché" y finalmente "borrar almacenamiento". Nota: Desinstalar la app puede que no necesariamente elimine tus datos personales si una opción de copia de seguridad está habilitada.</string>
     <string name="settings_privacy_policy_section_contact_title">Contacto</string>
@@ -459,15 +590,23 @@
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
     <string name="settings_about_section_attribution_title">Atribuciones</string>
     <string name="settings_about_section_attribution_subtitle_scrapers">Metadatos del juego</string>
-    <string name="settings_about_section_attribution_igdb">❤️ &lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriquece tu colección de juegos con carátulas hermosas y más detalles</string>
-    <string name="settings_about_section_attribution_tgdb">❤️ &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Enriquece tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
+    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Enriqueciendo tu colección de juegos con carátulas hermosas y más detalles</string>
     <string name="settings_about_section_attribution_subtitle_translations">Traducciones</string>
     <string name="settings_about_section_attribution_pt_br">🇧🇷 Portugués brasileño por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muito obrigado! 🙏</string>
     <string name="settings_about_section_attribution_es_419">🌎 Español latinoamericano y caribeño también por &lt;b&gt;Ariel&lt;/b&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Polaco por &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Italiano por &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sonidos e íconos</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: ¡Gracias por los increíbles íconos de la plataforma! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, PC Engine, Saturn, SMS y SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: ¡Gracias por el increíble ícono de plataforma para PICO-8! 🙏</string>
     <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Sonidos de navegación clicky clacky</string>
     <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Le da a tus juegos una sensación retro y a los diálogos un sonido de advertencia significativo</string>
     <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Por el ícono genial de Discord de abajo</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Configuración de la plataforma y el emulador</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: ¡Gracias por agregar el soporte de más tipos de archivos para varias plataformas! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS y 3DS.</string>
     <string name="settings_about_section_community_title">Comunidad</string>
     <string name="settings_about_section_community_text">Si quieres contribuir y ayudar a dar forma al futuro de Papaya, únete a la comunidad. ¡Por supuesto que también eres muy bienvenido si solo quieres ver las últimas novedades o encontraste algún bug!</string>
     <string name="settings_about_section_community_option_discord">Discord de Papaya</string>
@@ -514,6 +653,9 @@
     <string name="shared_ui_display_selection_this_display">Esta pantalla</string>
     <string name="shared_ui_display_selection_external_display">Externa</string>
     <string name="shared_ui_display_selection_launch_on">Iniciar en</string>
+    <string name="shared_ui_last_played_today">Hoy</string>
+    <string name="shared_ui_last_played_yesterday">Ayer</string>
+    <string name="shared_ui_last_played_days_ago">Hace %1$s días</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
