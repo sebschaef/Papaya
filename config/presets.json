@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 12,
+  "presetConfigurationVersion": 13,
   "platforms": [
     {
       "key": "and",
@@ -855,7 +855,10 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "scraperPlatformId": {
+        "tgdb": "24"
+      }
     },
     {
       "key": "pi8",
@@ -1743,6 +1746,22 @@
         "igdb": "6",
         "rawg": "4",
         "tgdb": "1"
+      }
+    },
+    {
+      "key": "xbox",
+      "shortName": "XBOX",
+      "name": "Microsoft Xbox",
+      "supportedFiles": [
+        {
+          "type": "iso"
+        },
+        {
+          "type": "xiso"
+        }
+      ],
+      "scraperPlatformId": {
+        "tgdb": "14"
       }
     }
   ],
@@ -4626,6 +4645,17 @@
       }
     },
     {
+      "packageName": "me.magnum.melondualds",
+      "name": "melonDualDS",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "uri",
+        "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      }
+    },
+    {
       "packageName": "com.github.stenzek.duckstation",
       "name": "DuckStation",
       "supportedPlatforms": [
@@ -4644,7 +4674,20 @@
       ],
       "launchConfiguration": {
         "fileParameterName": "shortcut_path",
+        "filePathType": "absolute",
         "explicitActivity": "com.winlator.XServerDisplayActivity"
+      }
+    },
+    {
+      "packageName": "com.winlator.cmod",
+      "name": "Winlator CMOD",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "shortcut_path",
+        "filePathType": "absolute",
+        "explicitActivity": "com.winlator.cmod.XServerDisplayActivity"
       }
     },
     {
@@ -4909,6 +4952,16 @@
       "launchConfiguration": {
         "explicitActivity": "kr.co.iefriends.pcsx2.activities.MainActivity"
       }
+    },
+    {
+      "packageName": "xbox.com.izzy2lost.x1box",
+      "name": "X1 Box",
+      "supportedPlatforms": [
+        "xbox"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "xbox.com.izzy2lost.x1box.LauncherActivity"
+      }
     }
   ],
   "streamingApps": [
@@ -4938,6 +4991,30 @@
     },
     {
       "packageName": "tv.parsec.client",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.amazon.spiderpork",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.boosteroid.streaming",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.blacknut.app",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.blade.shadowcloudgaming",
       "supportedPlatforms": [
         "win"
       ]
