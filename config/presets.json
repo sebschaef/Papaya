@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 13,
+  "presetConfigurationVersion": 14,
   "platforms": [
     {
       "key": "and",
@@ -1339,6 +1339,9 @@
         },
         {
           "type": "isz"
+        },
+        {
+          "type": "gz"
         }
       ],
       "scraperPlatformId": {
@@ -1769,6 +1772,30 @@
     {
       "packageName": "xyz.aethersx2.android",
       "name": "AetherSX2 / NetherSX2",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "action": "android.intent.action.MAIN",
+        "fileParameterName": "bootPath",
+        "explicitActivity": "xyz.aethersx2.android.EmulationActivity"
+      }
+    },
+    {
+      "packageName": "xyz.aethersx2.tturnip",
+      "name": "NetherSX2 (Turnip)",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "action": "android.intent.action.MAIN",
+        "fileParameterName": "bootPath",
+        "explicitActivity": "xyz.aethersx2.android.EmulationActivity"
+      }
+    },
+    {
+      "packageName": "xyz.aethersx2.cturnip",
+      "name": "NetherSX2 (Turnip Classic)",
       "supportedPlatforms": [
         "ps2"
       ],
@@ -2316,6 +2343,17 @@
     },
     {
       "packageName": "com.retroarch",
+      "core": "mednafen_saturn",
+      "name": "RetroArch - Beetle Saturn",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch",
       "core": "yabause_libretro_android.so",
       "name": "RetroArch - Yabause",
       "supportedPlatforms": [
@@ -2423,18 +2461,6 @@
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
       }
-    },
-    {
-      "packageName": "com.retroarch",
-      "core": "scummvm_libretro_android.so",
-      "name": "RetroArch - SCUMMVM (Deprecated)",
-      "supportedPlatforms": [
-        "svm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
-      },
-      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch",
@@ -3179,6 +3205,17 @@
     },
     {
       "packageName": "com.retroarch.aarch64",
+      "core": "mednafen_saturn",
+      "name": "RetroArch (64bit) - Beetle Saturn",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
       "core": "yabause_libretro_android.so",
       "name": "RetroArch (64bit) - Yabause",
       "supportedPlatforms": [
@@ -3286,18 +3323,6 @@
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
       }
-    },
-    {
-      "packageName": "com.retroarch.aarch64",
-      "core": "scummvm_libretro_android.so",
-      "name": "RetroArch (64bit) - SCUMMVM (Deprecated)",
-      "supportedPlatforms": [
-        "svm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
-      },
-      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch.aarch64",
@@ -4042,6 +4067,17 @@
     },
     {
       "packageName": "com.retroarch.ra32",
+      "core": "mednafen_saturn",
+      "name": "RetroArch (32bit) - Beetle Saturn",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
       "core": "yabause_libretro_android.so",
       "name": "RetroArch (32bit) - Yabause",
       "supportedPlatforms": [
@@ -4149,18 +4185,6 @@
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
       }
-    },
-    {
-      "packageName": "com.retroarch.ra32",
-      "core": "scummvm_libretro_android.so",
-      "name": "RetroArch (32bit) - SCUMMVM (Deprecated)",
-      "supportedPlatforms": [
-        "svm"
-      ],
-      "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
-      },
-      "flag": "deprecated"
     },
     {
       "packageName": "com.retroarch.ra32",
@@ -4493,6 +4517,39 @@
     },
     {
       "packageName": "switch.com.miHoYo.Yuanshen.eden",
+      "name": "Eden (Optimized) (Deprecated)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "flag": "deprecated"
+    },
+    {
+      "packageName": "switch.dev.legacy.eden_emulator",
+      "name": "Eden (Legacy) (Deprecated)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "flag": "deprecated"
+    },
+    {
+      "packageName": "switch.dev.eden.eden_nightly",
+      "name": "Eden (Nightly) (Deprecated)",
+      "supportedPlatforms": [
+        "ns"
+      ],
+      "launchConfiguration": {
+        "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "flag": "deprecated"
+    },
+    {
+      "packageName": "com.miHoYo.Yuanshen",
       "name": "Eden (Optimized)",
       "supportedPlatforms": [
         "ns"
@@ -4502,7 +4559,7 @@
       }
     },
     {
-      "packageName": "switch.dev.legacy.eden_emulator",
+      "packageName": "dev.legacy.eden_emulator",
       "name": "Eden (Legacy)",
       "supportedPlatforms": [
         "ns"
@@ -4512,7 +4569,7 @@
       }
     },
     {
-      "packageName": "switch.dev.eden.eden_nightly",
+      "packageName": "dev.eden.eden_nightly",
       "name": "Eden (Nightly)",
       "supportedPlatforms": [
         "ns"
@@ -4586,6 +4643,13 @@
     {
       "packageName": "io.github.lime3ds.android",
       "name": "Lime3DS / Azahar",
+      "supportedPlatforms": [
+        "3ds"
+      ]
+    },
+    {
+      "packageName": "org.azahar_emu.azahar",
+      "name": "Azahar (Vanilla)",
       "supportedPlatforms": [
         "3ds"
       ]
@@ -5003,6 +5067,12 @@
     },
     {
       "packageName": "com.boosteroid.streaming",
+      "supportedPlatforms": [
+        "win"
+      ]
+    },
+    {
+      "packageName": "com.boosteroidtv.streaming",
       "supportedPlatforms": [
         "win"
       ]
