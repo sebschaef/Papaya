@@ -65,6 +65,16 @@
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerisch</string>
     <string name="gallery_games_sorting_section_all_title">Alle</string>
 
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Sortieroptionen</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Sortieren</string>
+    <string name="xmb_games_error_no_games_available">Keine Spiele verfügbar</string>
+    <string name="xmb_settings_title">Einstellungen</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Papaya-Einstellungen</string>
+
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Nächster Schritt</string>
     <string name="platform_configuration_key_hints_previous_step_done">Vorheriger Schritt / Fertig</string>
@@ -113,6 +123,8 @@
     <string name="platform_configuration_folders_selection_title">Ordner</string>
     <string name="platform_configuration_folders_selection_description">Füge die Ordner hinzu, die deine Spiele-Dateien enthalten</string>
     <string name="platform_configuration_folders_selection_cta_add_folder">Ordner hinzufügen</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Siehst du \"Für diese Aktion ist keine App vorhanden\"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">Das bedeutet, dass auf deinem Gerät keine Ordner-Auswahl-App vorinstalliert ist.\nDu kannst jedoch ganz einfach eine Dateimanager-App installieren, die das Auswählen von Ordnern unterstützt. Zum Beispiel \"Meine Datei\" aus dem PlayStore.</string>
 
     <!-- Platform configuration - Game files selection step -->
     <string name="platform_configuration_game_files_selection_title">Spiele-Dateien</string>
@@ -366,11 +378,17 @@
     <string name="settings_appearance_general_setting_favourites_section_title">\"Favoriten\"-Gruppe anzeigen</string>
 
     <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_theme_title">Theme</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Theme-Konfiguration</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Typ</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Touch</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Controller</string>
     <string name="settings_appearance_layout_menu_gallery_general_title">Allgemein</string>
     <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Zeige Tabs nur bei Interaktion</string>
     <string name="settings_appearance_layout_menu_gallery_layout_title">Layout</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Karussell</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Raster</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Liste</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Karussell-Einstellungen</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Zeige Plattformliste nur bei Interaktion</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Ausrichtung</string>
@@ -383,6 +401,8 @@
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Oberhalb des Spielcovers</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Raster-Einstellungen</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Größe</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Klassische Kategorie-Icons verwenden</string>
 
     <!-- Settings - Appearance - Landscape layout-->
     <string name="settings_appearance_landscape_layout_menu_title">Erscheinungsbild im Querformat</string>
@@ -574,17 +594,16 @@
     <string name="settings_more_menu_option_licenses">Lizenzen</string>
     <string name="settings_more_menu_option_about">Über</string>
 
-    <!-- TODO actual translation -->
     <!-- Settings - Privacy Policy -->
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
-    <string name="settings_privacy_policy_section_processed_data_title">Processed personal data</string>
-    <string name="settings_privacy_policy_section_processed_data_text">Papaya processes information about the installed Apps on your device. Additionally, when you explicitly grant Papaya access to certain folders on your device, it will also process metadata of the files located inside this folder (file name, folder name).</string>
-    <string name="settings_privacy_policy_section_data_usage_title">How is your data used</string>
-    <string name="settings_privacy_policy_section_data_usage_text">Papaya uses the information about the installed Apps on your device solely for displaying the App lists on the Home screen and for guiding you when you set up shortcuts to games inside these Apps (Preselecting installed Apps). This data is not shared with any third party and is only stored locally on your device.&lt;br&gt;&lt;br&gt;The aforementioned metadata of files in certain folders you grant Papaya explicitly access to, is used to enrich the shortcuts to games in other Apps: The file names or folder names might be sent to &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; and/or &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; in exchange for more details about the game shortcut. Such details include cover images, release dates, genres etc. This additional data is again only used to display them on your Home screen. Please note that this file metadata might only be shared with one of these four services mentioned above.</string>
-    <string name="settings_privacy_policy_section_managing_data_title">Managing your personal data</string>
-    <string name="settings_privacy_policy_section_managing_data_text">Papaya stores your personal data (Installed Apps, file metadata) on your device. You can erase all of your personal data via Android\'s App settings menu: Long click Papaya\'s App icon, select "App Info", click "storage &amp; cache" and finally "clear storage". Note: Uninstalling the App might not necessarily remove your personal data if a backup option is enabled.</string>
-    <string name="settings_privacy_policy_section_contact_title">Contact</string>
-    <string name="settings_privacy_policy_section_contact_text">If you have more questions about your personal data and its usage, you can send me an Email: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Responsible person: Sebastian Schäf</string>
+    <string name="settings_privacy_policy_section_processed_data_title">Verarbeitete personenbezogene Daten</string>
+    <string name="settings_privacy_policy_section_processed_data_text">Papaya verarbeitet Informationen über die installierten Apps auf deinem Gerät. Darüber hinaus verarbeitet Papaya, wenn du Papaya ausdrücklich Zugriff auf bestimmte Ordner auf deinem Gerät gewährst, auch Metadaten der in diesen Ordnern enthaltenen Dateien (Dateiname, Ordnername).</string>
+    <string name="settings_privacy_policy_section_data_usage_title">Wie werden deine Daten verwendet</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya verwendet die Informationen über die installierten Apps auf deinem Gerät ausschließlich zur Anzeige der App-Listen auf dem Startbildschirm und um dich beim Einrichten von Verknüpfungen zu Spielen in diesen Apps zu unterstützen (Vorauswahl installierter Apps). Diese Daten werden nicht an Dritte weitergegeben und nur lokal auf deinem Gerät gespeichert.&lt;br&gt;&lt;br&gt;Die oben genannten Metadaten von Dateien in bestimmten Ordnern, auf die du Papaya ausdrücklich Zugriff gewährst, werden verwendet, um die Verknüpfungen zu Spielen in anderen Apps mit weiteren Informationen anzureichern: Die Datei- oder Ordnernamen können an &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; und/oder &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; gesendet werden, um mehr Details über die Spielverknüpfung zu erhalten. Solche Details umfassen Cover-Bilder, Erscheinungsdaten, Genres usw. Diese zusätzlichen Daten werden wiederum nur zur Anzeige auf deinem Startbildschirm verwendet. Bitte beachte, dass diese Datei-Metadaten möglicherweise nur an einen der vier oben genannten Dienste übermittelt werden.</string>
+    <string name="settings_privacy_policy_section_managing_data_title">Verwaltung deiner personenbezogenen Daten</string>
+    <string name="settings_privacy_policy_section_managing_data_text">Papaya speichert deine personenbezogenen Daten (installierte Apps, Datei-Metadaten) auf deinem Gerät. Du kannst alle deine personenbezogenen Daten über das Android-App-Einstellungsmenü löschen: Halte Papayas App-Icon gedrückt, wähle \"App-Info\", tippe auf \"Speicher &amp; Cache\" und abschließend auf \"Speicherinhalt löschen\". Hinweis: Das Deinstallieren der App entfernt deine personenbezogenen Daten möglicherweise nicht, wenn eine Backup-Option aktiviert ist.</string>
+    <string name="settings_privacy_policy_section_contact_title">Kontakt</string>
+    <string name="settings_privacy_policy_section_contact_text">Wenn du weitere Fragen zu deinen personenbezogenen Daten und deren Nutzung hast, kannst du mir eine E-Mail schicken: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Verantwortliche Person: Sebastian Schäf</string>
 
     <!-- Settings - About -->
     <string name="settings_about_title">@string/settings_more_menu_option_about</string>
@@ -656,6 +675,7 @@
     <string name="shared_ui_last_played_today">Heute</string>
     <string name="shared_ui_last_played_yesterday">Gestern</string>
     <string name="shared_ui_last_played_days_ago">Vor %1$s Tagen</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">Dein Gerät stellt keine App bereit um diese Aktion auszuführen</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
