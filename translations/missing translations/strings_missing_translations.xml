@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Strings present in the default (English) resource but missing in ALL translations:
+    de (German), es (Spanish), it (Italian), pl (Polish), pt (Portuguese)
+
+    Each string below needs to be translated and added to each values-XX/strings.xml file.
+-->
+<resources>
+
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Sorting options</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Sort</string>
+    <string name="xmb_games_error_no_games_available">No games available</string>
+    <string name="xmb_settings_title">Settings</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Papaya Settings</string>
+
+    <!-- Platform configuration - Folders selection step (tip box) -->
+    <string name="platform_configuration_folders_selection_tip_box_title">Seeing \"You don\'t have an app that can do this\"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">This means that your device has no folder picker app preinstalled.\nHowever, you can easily install a file manager app which supports the folder picking action. For example \"My file\" from the PlayStore.</string>
+
+    <!-- Settings - Appearance - Layout (Theme / Type) -->
+    <string name="settings_appearance_layout_menu_theme_title">Theme</string>
+    <string name="settings_appearance_layout_menu_theme_gallery">Gallery</string>
+    <string name="settings_appearance_layout_menu_theme_deckish">Deckish</string>
+    <string name="settings_appearance_layout_menu_theme_xmb">XMB</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Theme configuration</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Type</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Touch</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Controller</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">List</string>
+
+    <!-- Settings - Appearance - Layout (XMB) -->
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Use classic category icons</string>
+
+</resources>
