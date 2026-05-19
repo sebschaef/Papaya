@@ -379,9 +379,6 @@
 
     <!-- Settings - Appearance - Layout-->
     <string name="settings_appearance_layout_menu_theme_title">Tema</string>
-    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
-    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
-    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
     <string name="settings_appearance_layout_menu_theme_configuration_title">Configuração do tema</string>
     <string name="settings_appearance_layout_menu_gallery_type_title">Tipo</string>
     <string name="settings_appearance_layout_menu_gallery_type_touch">Toque</string>
