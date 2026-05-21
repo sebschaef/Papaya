@@ -67,6 +67,16 @@
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerico</string>
     <string name="gallery_games_sorting_section_all_title">Tutti</string>
 
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Opzioni di ordinamento</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Ordina</string>
+    <string name="xmb_games_error_no_games_available">Nessun gioco disponibile</string>
+    <string name="xmb_settings_title">Impostazioni</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Impostazioni Papaya</string>
+
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Prossimo passo</string>
     <string name="platform_configuration_key_hints_previous_step_done">Passo precedente / Fatto</string>
@@ -115,6 +125,8 @@
     <string name="platform_configuration_folders_selection_title">Cartelle</string>
     <string name="platform_configuration_folders_selection_description">Aggiungi la cartella che contiene i tuoi file di gioco</string>
     <string name="platform_configuration_folders_selection_cta_add_folder">Aggiungi cartella</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Stai vedendo \"Non hai un\'app che lo può fare\"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">Questo vuol dire che il tuo dispositivo non ha un app di selezione cartelle preinstallata.\nPerò, puoi installare facilmente un app di gestione file che lo supporti. Per esempio \"My file\" dal PlayStore.</string>
 
     <!-- Platform configuration - Game files selection step -->
     <string name="platform_configuration_game_files_selection_title">File di gioco</string>
@@ -368,11 +380,17 @@
     <string name="settings_appearance_general_setting_favourites_section_title">Mostra sezione \"Preferiti\"</string>
 
     <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_theme_title">Tema</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Configurazione tema</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Tipo</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Tocco</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Controller</string>
     <string name="settings_appearance_layout_menu_gallery_general_title">Generale</string>
     <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Mostra barra della scheda solo su interazione</string>
     <string name="settings_appearance_layout_menu_gallery_layout_title">Disposizione</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carosello</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Griglia</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Lista</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Preferenze carosello</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Mostra barra della piattaforma solo su interazione</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Allineamento</string>
@@ -385,6 +403,8 @@
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Sopra la copertina del gioco</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Preferenze griglia</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Grandezza</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Usa icone categoria classiche</string>
 
     <!-- Settings - Appearance - Landscape layout-->
     <string name="settings_appearance_landscape_layout_menu_title">Disposizione in modalità orizzontale</string>
@@ -656,6 +676,7 @@
     <string name="shared_ui_last_played_today">Oggi</string>
     <string name="shared_ui_last_played_yesterday">Ieri</string>
     <string name="shared_ui_last_played_days_ago">%1$s giorni fà</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">Il tuo dispositivo non ha un app per gestire questa azione</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>

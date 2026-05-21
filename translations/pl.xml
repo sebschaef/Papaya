@@ -70,6 +70,16 @@
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Liczbowy</string>
     <string name="gallery_games_sorting_section_all_title">Wszystko</string>
 
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Opcje sortowania</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Sortowanie</string>
+    <string name="xmb_games_error_no_games_available">Brak dostępnych gier</string>
+    <string name="xmb_settings_title">Ustawienia</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Ustawienia Papaya</string>
+
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Następny krok</string>
     <string name="platform_configuration_key_hints_previous_step_done">Poprzedni krok / Zakończ</string>
@@ -118,6 +128,8 @@
     <string name="platform_configuration_folders_selection_title">Foldery</string>
     <string name="platform_configuration_folders_selection_description">Dodaj foldery z plikami gier</string>
     <string name="platform_configuration_folders_selection_cta_add_folder">Dodaj folder</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Widzisz komunikat \"Nie masz aplikacji do wykonania tej akcji\"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">To oznacza, że na Twoim urządzeniu nie ma zainstalowanej aplikacji do wyboru folderów.\nMożesz jednak łatwo zainstalować menedżer plików, który obsługuje wybieranie folderów. Na przykład aplikację \"My file\" ze Sklepu Play.</string>
 
     <!-- Platform configuration - Game files selection step -->
     <string name="platform_configuration_game_files_selection_title">Pliki gier</string>
@@ -386,11 +398,17 @@
     <string name="settings_appearance_general_setting_favourites_section_title">Wyświetl sekcję „Ulubione”</string>
 
     <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_theme_title">Motyw</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Konfiguracja motywu</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Typ</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Dotyk</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Kontroler</string>
     <string name="settings_appearance_layout_menu_gallery_general_title">Ogólne</string>
     <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Pasek kart tylko po dotknięciu</string>
     <string name="settings_appearance_layout_menu_gallery_layout_title">Układ</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Karuzela</string>
     <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Siatka</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Lista</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Ustawienia karuzeli</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Pasek platform tylko po dotknięciu</string>
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Wyrównanie</string>
@@ -403,6 +421,8 @@
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Nad okładką</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Ustawienia siatki</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Rozmiar</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Używaj klasycznych ikon kategorii</string>
 
     <!-- Settings - Appearance - Landscape layout-->
     <string name="settings_appearance_landscape_layout_menu_title">Układ w trybie poziomym</string>
@@ -683,7 +703,8 @@
     <string name="shared_ui_last_played_today">Dzisiaj</string>
     <string name="shared_ui_last_played_yesterday">Wczoraj</string>
     <string name="shared_ui_last_played_days_ago">%1$s dni temu</string>
-
+    <string name="shared_ui_error_no_app_found_to_handle_action">Twoje urządzenie nie ma aplikacji do obsługi tej akcji</string>
+    
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
     <string name="background_work_notification_channel_name">Postęp pobierania danych</string>
