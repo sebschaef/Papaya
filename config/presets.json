@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 14,
+  "presetConfigurationVersion": 15,
   "platforms": [
     {
       "key": "and",
@@ -536,6 +536,9 @@
         },
         {
           "type": "zip"
+        },
+        {
+          "type": "7z"
         }
       ]
     },
@@ -1738,6 +1741,10 @@
           "idBy": "content"
         },
         {
+          "type": "steamappid",
+          "idBy": "content"
+        },
+        {
           "type": "txt",
           "ignoredNames": [
             "systeminfo"
@@ -1765,6 +1772,112 @@
       ],
       "scraperPlatformId": {
         "tgdb": "14"
+      }
+    },
+    {
+      "key": "x360",
+      "shortName": "X360",
+      "name": "Microsoft Xbox 360",
+      "supportedFiles": [
+        {
+          "type": "iso"
+        },
+        {
+          "type": "xbla"
+        },
+        {
+          "type": "xiso"
+        }
+      ],
+      "scraperPlatformId": {
+        "tgdb": "15"
+      }
+    },
+    {
+      "key": "bws",
+      "shortName": "WSW",
+      "name": "Bandai WonderSwan",
+      "supportedFiles": [
+        {
+          "type": "ws"
+        },
+        {
+          "type": "wsc"
+        },
+        {
+          "type": "pc2"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ],
+      "scraperPlatformId": {
+        "tgdb": "4925"
+      }
+    },
+    {
+      "key": "msx",
+      "shortName": "MSX",
+      "name": "MSX",
+      "supportedFiles": [
+        {
+          "type": "cas"
+        },
+        {
+          "type": "col"
+        },
+        {
+          "type": "dsk"
+        },
+        {
+          "type": "fdi"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "mx1"
+        },
+        {
+          "type": "mx2"
+        },
+        {
+          "type": "ri"
+        },
+        {
+          "type": "rom"
+        },
+        {
+          "type": "sc"
+        }
+      ],
+      "scraperPlatformId": {
+        "tgdb": "4929"
+      }
+    },
+    {
+      "key": "ngp",
+      "shortName": "NGP",
+      "name": "SNK Neo Geo Pocket",
+      "supportedFiles": [
+        {
+          "type": "zip"
+        },
+        {
+          "type": "ngp"
+        },
+        {
+          "type": "ngc"
+        },
+        {
+          "type": "7z"
+        }
+      ],
+      "scraperPlatformId": {
+        "tgdb": "4922"
       }
     }
   ],
@@ -4599,10 +4712,144 @@
     },
     {
       "packageName": "com.explusalpha.Snes9xPlus",
-      "name": "SNES9x Plus",
+      "name": "SNES9x EX+",
       "supportedPlatforms": [
         "snes"
-      ]
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.LynxEmu",
+      "name": "Lynx.emu",
+      "supportedPlatforms": [
+        "lynx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.SwanEmu",
+      "name": "Swan.emu",
+      "supportedPlatforms": [
+        "bws"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.GbaEmu",
+      "name": "GBA.emu",
+      "supportedPlatforms": [
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.MdEmu",
+      "name": "MD.emu",
+      "supportedPlatforms": [
+        "gen"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.MsxEmu",
+      "name": "MSX.emu",
+      "supportedPlatforms": [
+        "msx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.SaturnEmu",
+      "name": "Saturn.emu",
+      "supportedPlatforms": [
+        "sat"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.A2600Emu",
+      "name": "2600.emu",
+      "supportedPlatforms": [
+        "a26"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.NesEmu",
+      "name": "NES.emu",
+      "supportedPlatforms": [
+        "nes"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.C64Emu",
+      "name": "C64.emu",
+      "supportedPlatforms": [
+        "c64"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.GbcEmu",
+      "name": "GBC.emu",
+      "supportedPlatforms": [
+        "gb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.NgpEmu",
+      "name": "NGP.emu",
+      "supportedPlatforms": [
+        "ngp"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.PceEmu",
+      "name": "PCE.emu",
+      "supportedPlatforms": [
+        "pce"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
+    },
+    {
+      "packageName": "com.explusalpha.NeoEmu",
+      "name": "NEO.emu",
+      "supportedPlatforms": [
+        "neo",
+        "arc"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.imagine.BaseActivity"
+      }
     },
     {
       "packageName": "org.vita3k.emulator",
@@ -4744,7 +4991,31 @@
     },
     {
       "packageName": "com.winlator.cmod",
-      "name": "Winlator CMOD",
+      "name": "Winlator Cmod",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "shortcut_path",
+        "filePathType": "absolute",
+        "explicitActivity": "com.winlator.cmod.XServerDisplayActivity"
+      }
+    },
+    {
+      "packageName": "com.winlator.ludashi",
+      "name": "Winlator Ludashi",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "shortcut_path",
+        "filePathType": "absolute",
+        "explicitActivity": "com.winlator.cmod.XServerDisplayActivity"
+      }
+    },
+    {
+      "packageName": "com.winlator.vanilla",
+      "name": "Winlator Vanilla",
       "supportedPlatforms": [
         "win"
       ],
@@ -4938,6 +5209,86 @@
       }
     },
     {
+      "packageName": "banner.hub",
+      "name": "BannerHub - Steam game",
+      "core": "steam",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "banner.hub.LAUNCH_GAME",
+        "explicitActivity": "com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity",
+        "idParameterName": "steamAppId",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "autoStartGame",
+            "booleanValue": true
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "banner.hub.lite",
+      "name": "BannerHub Lite - Steam game",
+      "core": "steam",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "banner.hub.lite.LAUNCH_GAME",
+        "explicitActivity": "com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity",
+        "idParameterName": "steamAppId",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "autoStartGame",
+            "booleanValue": true
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "banner.hub",
+      "name": "BannerHub - Local game",
+      "core": "local",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "banner.hub.LAUNCH_GAME",
+        "explicitActivity": "com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity",
+        "idParameterName": "localGameId",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "autoStartGame",
+            "booleanValue": true
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "banner.hub.lite",
+      "name": "BannerHub Lite - Local game",
+      "core": "local",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "action": "banner.hub.lite.LAUNCH_GAME",
+        "explicitActivity": "com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity",
+        "idParameterName": "localGameId",
+        "launchById": true,
+        "additionalParameters": [
+          {
+            "key": "autoStartGame",
+            "booleanValue": true
+          }
+        ]
+      }
+    },
+    {
       "packageName": "com.flycast.emulator",
       "name": "Flycast",
       "supportedPlatforms": [
@@ -5026,6 +5377,47 @@
       "launchConfiguration": {
         "explicitActivity": "xbox.com.izzy2lost.x1box.LauncherActivity"
       }
+    },
+    {
+      "packageName": "aenu.ax360e",
+      "name": "aX360e",
+      "supportedPlatforms": [
+        "x360"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "aenu.ax360e.EmulatorActivity",
+        "action": "aenu.intent.action.AX360E",
+        "fileParameterName": "game_uri"
+      }
+    },
+    {
+      "packageName": "aenu.ax360e.free",
+      "name": "aX360e (Free)",
+      "supportedPlatforms": [
+        "x360"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "aenu.ax360e.EmulatorActivity",
+        "action": "aenu.intent.action.AX360E",
+        "fileParameterName": "game_uri"
+      }
+    },
+    {
+      "packageName": "emu.x360.mobile",
+      "name": "X360 Mobile",
+      "supportedPlatforms": [
+        "x360"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "emu.x360.mobile.X360MobileGameLaunchActivity"
+      }
+    },
+    {
+      "packageName": "com.fastemulator.gba",
+      "name": "My Boy!",
+      "supportedPlatforms": [
+        "gba"
+      ]
     }
   ],
   "streamingApps": [
