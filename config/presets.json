@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 15,
+  "presetConfigurationVersion": 16,
   "platforms": [
     {
       "key": "and",
@@ -5366,6 +5366,16 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "kr.co.iefriends.pcsx2.activities.MainActivity"
+      }
+    },
+    {
+      "packageName": "com.armsx2",
+      "name": "ARMSX2 (Refresh)",
+      "supportedPlatforms": [
+        "ps2"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.armsx2.Main"
       }
     },
     {
