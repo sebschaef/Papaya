@@ -89,8 +89,8 @@
     <string name="settings_esde_import_finished_unsuccessful_label">Failed to import %1$s platforms</string>
     <string name="settings_esde_import_finished_unsuccessful_failures_label">Reasons:</string>
     <string name="settings_esde_import_finished_failure_reason_no_matching_platform">No matching Papaya platform found.</string>
-    <string name="settings_esde_import_finished_failure_reason_empty_apps">Contains no relevant Apps. Please make sure that the gamelist.xml up to date with the actual *.app files and that the defined Apps are installed.</string>
-    <string name="settings_esde_import_finished_failure_reason_empty_games">Contains no relevant game files. Please make sure that the gamelist.xml up to date with the actual game files. Other reasons might be that Papaya does not support the file types of all defined game files or that all games are marked as hidden/broken in the gamelist.xml.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_apps">Contains no relevant Apps. Please make sure that the gamelist.xml is up to date with the actual *.app files and that the defined Apps are installed.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_games">Contains no relevant game files. Please make sure that the gamelist.xml is up to date with the actual game files. Other reasons might be that Papaya does not support the file types of all defined game files or that all games are marked as hidden/broken in the gamelist.xml.</string>
     <string name="settings_esde_import_finished_failure_reason_game_list_not_read">The gamelist.xml could not be read:\n%1$s</string>
     <string name="settings_esde_import_finished_failure_reason_game_list_not_read_reason_generic">Unknown error</string>
     <string name="settings_esde_import_finished_cta_okay">@string/common_okay</string>
