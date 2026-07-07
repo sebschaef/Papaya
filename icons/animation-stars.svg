@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="180"
+   viewBox="0 0 180 180"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="animation-stars.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="2.9659604"
+     inkscape:cx="85.638365"
+     inkscape:cy="33.041574"
+     inkscape:window-width="2560"
+     inkscape:window-height="1317"
+     inkscape:window-x="1440"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-dasharray:none"
+       id="rect1"
+       width="161.48366"
+       height="87.108665"
+       x="9.2581701"
+       y="46.445671"
+       ry="11.920368" />
+    <circle
+       style="fill:#000000;stroke-width:26.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1"
+       cx="28.37048"
+       cy="66.038834"
+       r="9.536294" />
+    <circle
+       style="fill:#000000;stroke-width:40.61;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-4"
+       cx="89.734398"
+       cy="98.132072"
+       r="14.781256" />
+    <circle
+       style="fill:#000000;stroke-width:32.4225;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-4-9"
+       cx="33.66861"
+       cy="107.17869"
+       r="11.801164" />
+    <circle
+       style="fill:#000000;stroke-width:19.9775;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-5"
+       cx="56.436752"
+       cy="92.556198"
+       r="7.2714243" />
+    <circle
+       style="fill:#000000;stroke-width:12.7725;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-5-6"
+       cx="90.648941"
+       cy="63.648941"
+       r="4.6489434" />
+    <circle
+       style="fill:#000000;stroke-width:19.9775;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-5-9"
+       cx="142.27142"
+       cy="111.27142"
+       r="7.2714243" />
+    <circle
+       style="fill:#000000;stroke-width:26.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-7"
+       cx="138.29132"
+       cy="71.457153"
+       r="9.536294" />
+    <circle
+       style="fill:#000000;stroke-width:19.9775;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-5-99"
+       cx="117.07283"
+       cy="85.920609"
+       r="7.2714243" />
+    <circle
+       style="fill:#000000;stroke-width:9.4975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+       id="path1-5-3"
+       cx="60.920612"
+       cy="68.404472"
+       r="3.4569066" />
+  </g>
+</svg>

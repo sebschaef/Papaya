@@ -1,6 +1,6 @@
 {
-  "presetSchemaVersion": 1,
-  "presetConfigurationVersion": 16,
+  "presetSchemaVersion": 2,
+  "presetConfigurationVersion": 17,
   "platforms": [
     {
       "key": "and",
@@ -11,6 +11,11 @@
         "igdb": "34",
         "rawg": "21",
         "tgdb": "4916"
+      },
+      "references": {
+        "esDe": {
+          "path": "androidgames"
+        }
       }
     },
     {
@@ -36,7 +41,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "3do"
+        }
+      }
     },
     {
       "key": "cda",
@@ -106,7 +116,12 @@
         {
           "type": "rp9"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "amiga"
+        }
+      }
     },
     {
       "key": "cd1",
@@ -176,7 +191,12 @@
         {
           "type": "rp9"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "amiga1200"
+        }
+      }
     },
     {
       "key": "cd6",
@@ -246,7 +266,12 @@
         {
           "type": "rp9"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "amiga600"
+        }
+      }
     },
     {
       "key": "cd32",
@@ -316,7 +341,12 @@
         {
           "type": "rp9"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "amigacd32"
+        }
+      }
     },
     {
       "key": "cpc",
@@ -353,7 +383,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "amstradcpc"
+        }
+      }
     },
     {
       "key": "arc",
@@ -381,7 +416,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "arcade"
+        }
+      }
     },
     {
       "key": "ard",
@@ -394,7 +434,12 @@
         {
           "type": "arduboy"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "arduboy"
+        }
+      }
     },
     {
       "key": "a26",
@@ -413,7 +458,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atari2600"
+        }
+      }
     },
     {
       "key": "a52",
@@ -459,7 +509,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atari5200"
+        }
+      }
     },
     {
       "key": "a78",
@@ -478,7 +533,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atari7800"
+        }
+      }
     },
     {
       "key": "jag",
@@ -518,7 +578,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atarijaguar"
+        }
+      }
     },
     {
       "key": "lynx",
@@ -540,7 +605,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atarilynx"
+        }
+      }
     },
     {
       "key": "ast",
@@ -568,7 +638,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "atarist"
+        }
+      }
     },
     {
       "key": "c64",
@@ -689,7 +764,12 @@
         {
           "type": "rom"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "c64"
+        }
+      }
     },
     {
       "key": "cps",
@@ -702,7 +782,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "cps"
+        }
+      }
     },
     {
       "key": "dos",
@@ -768,6 +853,11 @@
         "igdb": "6",
         "rawg": "4",
         "tgdb": "1"
+      },
+      "references": {
+        "esDe": {
+          "path": "dos"
+        }
       }
     },
     {
@@ -814,7 +904,12 @@
         {
           "type": "dci"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "dreamcast"
+        }
+      }
     },
     {
       "key": "nes",
@@ -842,7 +937,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "nes"
+        }
+      }
     },
     {
       "key": "neo",
@@ -861,6 +961,11 @@
       ],
       "scraperPlatformId": {
         "tgdb": "24"
+      },
+      "references": {
+        "esDe": {
+          "path": "neogeo"
+        }
       }
     },
     {
@@ -883,7 +988,12 @@
             "bezel"
           ]
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "pico8"
+        }
+      }
     },
     {
       "key": "pce",
@@ -923,7 +1033,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "pcengine"
+        }
+      }
     },
     {
       "key": "sgg",
@@ -957,7 +1072,12 @@
         {
           "type": "7z"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "gamegear"
+        }
+      }
     },
     {
       "key": "sms",
@@ -1021,7 +1141,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "mastersystem"
+        }
+      }
     },
     {
       "key": "gen",
@@ -1073,7 +1198,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "megadrive"
+        }
+      }
     },
     {
       "key": "sat",
@@ -1104,7 +1234,12 @@
         {
           "type": "zip"
         }
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "path": "saturn"
+        }
+      }
     },
     {
       "key": "gb",
@@ -1146,6 +1281,11 @@
         "igdb": "33",
         "rawg": "26",
         "tgdb": "4"
+      },
+      "references": {
+        "esDe": {
+          "path": "gb"
+        }
       }
     },
     {
@@ -1191,6 +1331,11 @@
         "igdb": "24",
         "rawg": "24",
         "tgdb": "5"
+      },
+      "references": {
+        "esDe": {
+          "path": "gba"
+        }
       }
     },
     {
@@ -1215,6 +1360,11 @@
         "igdb": "20",
         "rawg": "9",
         "tgdb": "8"
+      },
+      "references": {
+        "esDe": {
+          "path": "nds"
+        }
       }
     },
     {
@@ -1266,6 +1416,11 @@
         "igdb": "37",
         "rawg": "8",
         "tgdb": "4912"
+      },
+      "references": {
+        "esDe": {
+          "path": "n3ds"
+        }
       }
     },
     {
@@ -1309,6 +1464,11 @@
         "igdb": "7",
         "rawg": "27",
         "tgdb": "10"
+      },
+      "references": {
+        "esDe": {
+          "path": "psx"
+        }
       }
     },
     {
@@ -1351,6 +1511,11 @@
         "igdb": "8",
         "rawg": "15",
         "tgdb": "11"
+      },
+      "references": {
+        "esDe": {
+          "path": "ps2"
+        }
       }
     },
     {
@@ -1382,6 +1547,11 @@
         "igdb": "9",
         "rawg": "16",
         "tgdb": "12"
+      },
+      "references": {
+        "esDe": {
+          "path": "ps3"
+        }
       }
     },
     {
@@ -1422,6 +1592,11 @@
         "igdb": "38",
         "rawg": "17",
         "tgdb": "13"
+      },
+      "references": {
+        "esDe": {
+          "path": "psp"
+        }
       }
     },
     {
@@ -1458,6 +1633,11 @@
         "igdb": "46",
         "rawg": "19",
         "tgdb": "39"
+      },
+      "references": {
+        "esDe": {
+          "path": "psvita"
+        }
       }
     },
     {
@@ -1497,6 +1677,11 @@
         "igdb": "4",
         "rawg": "83",
         "tgdb": "3"
+      },
+      "references": {
+        "esDe": {
+          "path": "n64"
+        }
       }
     },
     {
@@ -1536,6 +1721,11 @@
         "igdb": "21",
         "rawg": "105",
         "tgdb": "2"
+      },
+      "references": {
+        "esDe": {
+          "path": "gc"
+        }
       }
     },
     {
@@ -1572,6 +1762,11 @@
         "igdb": "5",
         "rawg": "11",
         "tgdb": "9"
+      },
+      "references": {
+        "esDe": {
+          "path": "wii"
+        }
       }
     },
     {
@@ -1605,6 +1800,11 @@
         "igdb": "41",
         "rawg": "10",
         "tgdb": "38"
+      },
+      "references": {
+        "esDe": {
+          "path": "wiiu"
+        }
       }
     },
     {
@@ -1632,6 +1832,11 @@
         "igdb": "130",
         "rawg": "7",
         "tgdb": "4971"
+      },
+      "references": {
+        "esDe": {
+          "path": "switch"
+        }
       }
     },
     {
@@ -1689,6 +1894,11 @@
         "igdb": "19",
         "rawg": "79",
         "tgdb": "6"
+      },
+      "references": {
+        "esDe": {
+          "path": "snes"
+        }
       }
     },
     {
@@ -1710,6 +1920,11 @@
         "igdb": "6",
         "rawg": "4",
         "tgdb": "1"
+      },
+      "references": {
+        "esDe": {
+          "path": "scummvm"
+        }
       }
     },
     {
@@ -1756,6 +1971,11 @@
         "igdb": "6",
         "rawg": "4",
         "tgdb": "1"
+      },
+      "references": {
+        "esDe": {
+          "path": "windows"
+        }
       }
     },
     {
@@ -1772,6 +1992,11 @@
       ],
       "scraperPlatformId": {
         "tgdb": "14"
+      },
+      "references": {
+        "esDe": {
+          "path": "xbox"
+        }
       }
     },
     {
@@ -1791,6 +2016,11 @@
       ],
       "scraperPlatformId": {
         "tgdb": "15"
+      },
+      "references": {
+        "esDe": {
+          "path": "xbox360"
+        }
       }
     },
     {
@@ -1816,6 +2046,11 @@
       ],
       "scraperPlatformId": {
         "tgdb": "4925"
+      },
+      "references": {
+        "esDe": {
+          "path": "wonderswan"
+        }
       }
     },
     {
@@ -1856,6 +2091,11 @@
       ],
       "scraperPlatformId": {
         "tgdb": "4929"
+      },
+      "references": {
+        "esDe": {
+          "path": "msx"
+        }
       }
     },
     {
@@ -1878,6 +2118,11 @@
       ],
       "scraperPlatformId": {
         "tgdb": "4922"
+      },
+      "references": {
+        "esDe": {
+          "path": "ngp"
+        }
       }
     }
   ],
@@ -1892,6 +2137,11 @@
         "action": "android.intent.action.MAIN",
         "fileParameterName": "bootPath",
         "explicitActivity": "xyz.aethersx2.android.EmulationActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "AetherSX2 (Standalone)"
+        }
       }
     },
     {
@@ -1904,6 +2154,11 @@
         "action": "android.intent.action.MAIN",
         "fileParameterName": "bootPath",
         "explicitActivity": "xyz.aethersx2.android.EmulationActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "AetherSX2 (Standalone)"
+        }
       }
     },
     {
@@ -1916,6 +2171,11 @@
         "action": "android.intent.action.MAIN",
         "fileParameterName": "bootPath",
         "explicitActivity": "xyz.aethersx2.android.EmulationActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "AetherSX2 (Standalone)"
+        }
       }
     },
     {
@@ -1948,6 +2208,11 @@
         "action": "android.intent.action.MAIN",
         "explicitActivity": "org.scummvm.scummvm.SplashActivity",
         "launchById": true
+      },
+      "references": {
+        "esDe": {
+          "label": "ScummVM (Standalone)"
+        }
       }
     },
     {
@@ -1958,6 +2223,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "org.ppsspp.ppsspp.PpssppActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "PPSSPP (Standalone)"
+        }
       }
     },
     {
@@ -1968,6 +2238,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "org.ppsspp.ppsspp.PpssppActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "PPSSPP (Standalone)"
+        }
       }
     },
     {
@@ -1979,6 +2254,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Opera"
+        }
       }
     },
     {
@@ -1993,6 +2273,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PUAE"
+        }
       }
     },
     {
@@ -2007,6 +2292,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PUAE 2021"
+        }
       }
     },
     {
@@ -2018,6 +2308,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Caprice32"
+        }
       }
     },
     {
@@ -2029,6 +2324,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "CrocoDS"
+        }
       }
     },
     {
@@ -2041,6 +2341,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME - Current"
+        }
       }
     },
     {
@@ -2053,6 +2358,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2010"
+        }
       }
     },
     {
@@ -2065,6 +2375,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2003-Plus"
+        }
       }
     },
     {
@@ -2077,6 +2392,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2003"
+        }
       }
     },
     {
@@ -2089,6 +2409,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2000"
+        }
       }
     },
     {
@@ -2102,6 +2427,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FinalBurn Neo"
+        }
       }
     },
     {
@@ -2114,6 +2444,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FB Alpha 2012"
+        }
       }
     },
     {
@@ -2125,6 +2460,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DICE"
+        }
       }
     },
     {
@@ -2136,6 +2476,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Ardens"
+        }
       }
     },
     {
@@ -2147,6 +2492,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella"
+        }
       }
     },
     {
@@ -2158,6 +2508,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella 2014"
+        }
       }
     },
     {
@@ -2169,6 +2524,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella 2023"
+        }
       }
     },
     {
@@ -2180,6 +2540,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "a5200"
+        }
       }
     },
     {
@@ -2191,6 +2556,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "ProSystem"
+        }
       }
     },
     {
@@ -2202,6 +2572,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Virtual Jaguar"
+        }
       }
     },
     {
@@ -2213,6 +2588,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Handy"
+        }
       }
     },
     {
@@ -2224,6 +2604,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle Lynx"
+        }
       }
     },
     {
@@ -2235,6 +2620,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Holani"
+        }
       }
     },
     {
@@ -2246,6 +2636,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Hatari"
+        }
       }
     },
     {
@@ -2257,6 +2652,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64sc Accurate"
+        }
       }
     },
     {
@@ -2268,6 +2668,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64 Fast"
+        }
       }
     },
     {
@@ -2279,6 +2684,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64 SuperCPU"
+        }
       }
     },
     {
@@ -2290,6 +2700,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x128"
+        }
       }
     },
     {
@@ -2301,6 +2716,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-Core"
+        }
       }
     },
     {
@@ -2312,6 +2732,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-Pure"
+        }
       }
     },
     {
@@ -2323,6 +2748,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-SVN"
+        }
       }
     },
     {
@@ -2334,6 +2764,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Flycast"
+        }
       }
     },
     {
@@ -2345,6 +2780,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Mesen"
+        }
       }
     },
     {
@@ -2356,6 +2796,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FCEUmm"
+        }
       }
     },
     {
@@ -2367,6 +2812,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Nestopia UE"
+        }
       }
     },
     {
@@ -2378,6 +2828,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "QuickNES"
+        }
       }
     },
     {
@@ -2390,6 +2845,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SMS Plus GX"
+        }
       }
     },
     {
@@ -2403,6 +2863,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Genesis Plus GX Wide"
+        }
       }
     },
     {
@@ -2416,6 +2881,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Genesis Plus GX"
+        }
       }
     },
     {
@@ -2429,6 +2899,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PicoDrive"
+        }
       }
     },
     {
@@ -2441,6 +2916,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gearsystem"
+        }
       }
     },
     {
@@ -2452,6 +2932,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "YabaSanshiro"
+        }
       }
     },
     {
@@ -2463,6 +2948,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle Saturn"
+        }
       }
     },
     {
@@ -2474,6 +2964,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Yabause"
+        }
       }
     },
     {
@@ -2485,6 +2980,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PPSSPP"
+        }
       }
     },
     {
@@ -2496,6 +2996,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS"
+        }
       }
     },
     {
@@ -2507,6 +3012,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS DS"
+        }
       }
     },
     {
@@ -2518,6 +3028,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DeSmuME 2015"
+        }
       }
     },
     {
@@ -2529,6 +3044,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DeSmuME"
+        }
       }
     },
     {
@@ -2540,6 +3060,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "NooDS"
+        }
       }
     },
     {
@@ -2573,6 +3098,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Citra"
+        }
       }
     },
     {
@@ -2584,6 +3114,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "gpSP"
+        }
       }
     },
     {
@@ -2595,6 +3130,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VBA Next"
+        }
       }
     },
     {
@@ -2606,6 +3146,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DoubleCherryGB"
+        }
       }
     },
     {
@@ -2617,6 +3162,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gambatte"
+        }
       }
     },
     {
@@ -2628,6 +3178,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gearboy"
+        }
       }
     },
     {
@@ -2639,6 +3194,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SameBoy"
+        }
       }
     },
     {
@@ -2650,6 +3210,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "TGB Dual"
+        }
       }
     },
     {
@@ -2662,6 +3227,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "mGBA"
+        }
       }
     },
     {
@@ -2674,6 +3244,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VBA-M"
+        }
       }
     },
     {
@@ -2698,6 +3273,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Dolphin"
+        }
       }
     },
     {
@@ -2720,6 +3300,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SwanStation"
+        }
       }
     },
     {
@@ -2731,6 +3316,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PCSX ReARMed"
+        }
       }
     },
     {
@@ -2742,6 +3332,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "ScummVM"
+        }
       }
     },
     {
@@ -2753,6 +3348,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Snes9x - Current"
+        }
       }
     },
     {
@@ -2764,6 +3364,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "bsnes"
+        }
       }
     },
     {
@@ -2786,6 +3391,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Mupen64Plus-Next"
+        }
       }
     },
     {
@@ -2797,6 +3407,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Geolith"
+        }
       }
     },
     {
@@ -2808,6 +3423,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Retro8"
+        }
       }
     },
     {
@@ -2819,6 +3439,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle PCE FAST"
+        }
       }
     },
     {
@@ -2830,6 +3455,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle PCE"
+        }
       }
     },
     {
@@ -2841,6 +3471,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Opera"
+        }
       }
     },
     {
@@ -2855,6 +3490,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PUAE"
+        }
       }
     },
     {
@@ -2869,6 +3509,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PUAE 2021"
+        }
       }
     },
     {
@@ -2880,6 +3525,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Caprice32"
+        }
       }
     },
     {
@@ -2891,6 +3541,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "CrocoDS"
+        }
       }
     },
     {
@@ -2903,6 +3558,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME - Current"
+        }
       }
     },
     {
@@ -2915,6 +3575,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2010"
+        }
       }
     },
     {
@@ -2927,6 +3592,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2003-Plus"
+        }
       }
     },
     {
@@ -2939,6 +3609,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2003"
+        }
       }
     },
     {
@@ -2951,6 +3626,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2000"
+        }
       }
     },
     {
@@ -2964,6 +3644,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FinalBurn Neo"
+        }
       }
     },
     {
@@ -2976,6 +3661,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FB Alpha 2012"
+        }
       }
     },
     {
@@ -2987,6 +3677,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DICE"
+        }
       }
     },
     {
@@ -2998,6 +3693,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Ardens"
+        }
       }
     },
     {
@@ -3009,6 +3709,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella"
+        }
       }
     },
     {
@@ -3020,6 +3725,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella 2014"
+        }
       }
     },
     {
@@ -3031,6 +3741,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella 2023"
+        }
       }
     },
     {
@@ -3042,6 +3757,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "a5200"
+        }
       }
     },
     {
@@ -3053,6 +3773,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "ProSystem"
+        }
       }
     },
     {
@@ -3064,6 +3789,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Virtual Jaguar"
+        }
       }
     },
     {
@@ -3075,6 +3805,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Handy"
+        }
       }
     },
     {
@@ -3086,6 +3821,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle Lynx"
+        }
       }
     },
     {
@@ -3097,6 +3837,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Holani"
+        }
       }
     },
     {
@@ -3108,6 +3853,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Hatari"
+        }
       }
     },
     {
@@ -3119,6 +3869,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64sc Accurate"
+        }
       }
     },
     {
@@ -3130,6 +3885,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64 Fast"
+        }
       }
     },
     {
@@ -3141,6 +3901,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64 SuperCPU"
+        }
       }
     },
     {
@@ -3152,6 +3917,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x128"
+        }
       }
     },
     {
@@ -3163,6 +3933,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-Core"
+        }
       }
     },
     {
@@ -3174,6 +3949,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-Pure"
+        }
       }
     },
     {
@@ -3185,6 +3965,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-SVN"
+        }
       }
     },
     {
@@ -3196,6 +3981,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Flycast"
+        }
       }
     },
     {
@@ -3207,6 +3997,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Mesen"
+        }
       }
     },
     {
@@ -3218,6 +4013,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FCEUmm"
+        }
       }
     },
     {
@@ -3229,6 +4029,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Nestopia UE"
+        }
       }
     },
     {
@@ -3240,6 +4045,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "QuickNES"
+        }
       }
     },
     {
@@ -3252,6 +4062,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SMS Plus GX"
+        }
       }
     },
     {
@@ -3265,6 +4080,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Genesis Plus GX Wide"
+        }
       }
     },
     {
@@ -3278,6 +4098,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Genesis Plus GX"
+        }
       }
     },
     {
@@ -3291,6 +4116,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PicoDrive"
+        }
       }
     },
     {
@@ -3303,6 +4133,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gearsystem"
+        }
       }
     },
     {
@@ -3314,6 +4149,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "YabaSanshiro"
+        }
       }
     },
     {
@@ -3325,6 +4165,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle Saturn"
+        }
       }
     },
     {
@@ -3336,6 +4181,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Yabause"
+        }
       }
     },
     {
@@ -3347,6 +4197,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PPSSPP"
+        }
       }
     },
     {
@@ -3358,6 +4213,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS"
+        }
       }
     },
     {
@@ -3369,6 +4229,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS DS"
+        }
       }
     },
     {
@@ -3380,6 +4245,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DeSmuME 2015"
+        }
       }
     },
     {
@@ -3391,6 +4261,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DeSmuME"
+        }
       }
     },
     {
@@ -3402,6 +4277,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "NooDS"
+        }
       }
     },
     {
@@ -3435,6 +4315,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Citra"
+        }
       }
     },
     {
@@ -3446,6 +4331,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "gpSP"
+        }
       }
     },
     {
@@ -3457,6 +4347,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VBA Next"
+        }
       }
     },
     {
@@ -3468,6 +4363,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DoubleCherryGB"
+        }
       }
     },
     {
@@ -3479,6 +4379,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gambatte"
+        }
       }
     },
     {
@@ -3490,6 +4395,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gearboy"
+        }
       }
     },
     {
@@ -3501,6 +4411,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SameBoy"
+        }
       }
     },
     {
@@ -3512,6 +4427,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "TGB Dual"
+        }
       }
     },
     {
@@ -3524,6 +4444,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "mGBA"
+        }
       }
     },
     {
@@ -3536,6 +4461,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VBA-M"
+        }
       }
     },
     {
@@ -3560,6 +4490,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Dolphin"
+        }
       }
     },
     {
@@ -3582,6 +4517,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SwanStation"
+        }
       }
     },
     {
@@ -3593,6 +4533,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PCSX ReARMed"
+        }
       }
     },
     {
@@ -3604,6 +4549,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "ScummVM"
+        }
       }
     },
     {
@@ -3615,6 +4565,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Snes9x - Current"
+        }
       }
     },
     {
@@ -3626,6 +4581,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "bsnes"
+        }
       }
     },
     {
@@ -3648,6 +4608,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Mupen64Plus-Next"
+        }
       }
     },
     {
@@ -3659,6 +4624,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Geolith"
+        }
       }
     },
     {
@@ -3670,6 +4640,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Retro8"
+        }
       }
     },
     {
@@ -3681,6 +4656,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle PCE FAST"
+        }
       }
     },
     {
@@ -3692,6 +4672,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle PCE"
+        }
       }
     },
     {
@@ -3703,6 +4688,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Opera"
+        }
       }
     },
     {
@@ -3717,6 +4707,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PUAE"
+        }
       }
     },
     {
@@ -3731,6 +4726,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PUAE 2021"
+        }
       }
     },
     {
@@ -3742,6 +4742,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Caprice32"
+        }
       }
     },
     {
@@ -3753,6 +4758,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "CrocoDS"
+        }
       }
     },
     {
@@ -3765,6 +4775,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME - Current"
+        }
       }
     },
     {
@@ -3777,6 +4792,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2010"
+        }
       }
     },
     {
@@ -3789,6 +4809,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2003-Plus"
+        }
       }
     },
     {
@@ -3801,6 +4826,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2003"
+        }
       }
     },
     {
@@ -3813,6 +4843,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME 2000"
+        }
       }
     },
     {
@@ -3826,6 +4861,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FinalBurn Neo"
+        }
       }
     },
     {
@@ -3838,6 +4878,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FB Alpha 2012"
+        }
       }
     },
     {
@@ -3849,6 +4894,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DICE"
+        }
       }
     },
     {
@@ -3860,6 +4910,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Ardens"
+        }
       }
     },
     {
@@ -3871,6 +4926,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella"
+        }
       }
     },
     {
@@ -3882,6 +4942,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella 2014"
+        }
       }
     },
     {
@@ -3893,6 +4958,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Stella 2023"
+        }
       }
     },
     {
@@ -3904,6 +4974,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "a5200"
+        }
       }
     },
     {
@@ -3915,6 +4990,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "ProSystem"
+        }
       }
     },
     {
@@ -3926,6 +5006,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Virtual Jaguar"
+        }
       }
     },
     {
@@ -3937,6 +5022,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Handy"
+        }
       }
     },
     {
@@ -3948,6 +5038,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle Lynx"
+        }
       }
     },
     {
@@ -3959,6 +5054,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Holani"
+        }
       }
     },
     {
@@ -3970,6 +5070,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Hatari"
+        }
       }
     },
     {
@@ -3981,6 +5086,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64sc Accurate"
+        }
       }
     },
     {
@@ -3992,6 +5102,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64 Fast"
+        }
       }
     },
     {
@@ -4003,6 +5118,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x64 SuperCPU"
+        }
       }
     },
     {
@@ -4014,6 +5134,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VICE x128"
+        }
       }
     },
     {
@@ -4025,6 +5150,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-Core"
+        }
       }
     },
     {
@@ -4036,6 +5166,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-Pure"
+        }
       }
     },
     {
@@ -4047,6 +5182,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DOSBox-SVN"
+        }
       }
     },
     {
@@ -4058,6 +5198,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Flycast"
+        }
       }
     },
     {
@@ -4069,6 +5214,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Mesen"
+        }
       }
     },
     {
@@ -4080,6 +5230,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "FCEUmm"
+        }
       }
     },
     {
@@ -4091,6 +5246,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Nestopia UE"
+        }
       }
     },
     {
@@ -4102,6 +5262,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "QuickNES"
+        }
       }
     },
     {
@@ -4114,6 +5279,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SMS Plus GX"
+        }
       }
     },
     {
@@ -4127,6 +5297,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Genesis Plus GX Wide"
+        }
       }
     },
     {
@@ -4140,6 +5315,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Genesis Plus GX"
+        }
       }
     },
     {
@@ -4153,6 +5333,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PicoDrive"
+        }
       }
     },
     {
@@ -4165,6 +5350,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gearsystem"
+        }
       }
     },
     {
@@ -4176,6 +5366,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "YabaSanshiro"
+        }
       }
     },
     {
@@ -4187,6 +5382,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle Saturn"
+        }
       }
     },
     {
@@ -4198,6 +5398,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Yabause"
+        }
       }
     },
     {
@@ -4209,6 +5414,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PPSSPP"
+        }
       }
     },
     {
@@ -4220,6 +5430,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS"
+        }
       }
     },
     {
@@ -4231,6 +5446,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS DS"
+        }
       }
     },
     {
@@ -4242,6 +5462,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DeSmuME 2015"
+        }
       }
     },
     {
@@ -4253,6 +5478,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DeSmuME"
+        }
       }
     },
     {
@@ -4264,6 +5494,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "NooDS"
+        }
       }
     },
     {
@@ -4297,6 +5532,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Citra"
+        }
       }
     },
     {
@@ -4308,6 +5548,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "gpSP"
+        }
       }
     },
     {
@@ -4319,6 +5564,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VBA Next"
+        }
       }
     },
     {
@@ -4330,6 +5580,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "DoubleCherryGB"
+        }
       }
     },
     {
@@ -4341,6 +5596,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gambatte"
+        }
       }
     },
     {
@@ -4352,6 +5612,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Gearboy"
+        }
       }
     },
     {
@@ -4363,6 +5628,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SameBoy"
+        }
       }
     },
     {
@@ -4374,6 +5644,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "TGB Dual"
+        }
       }
     },
     {
@@ -4386,6 +5661,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "mGBA"
+        }
       }
     },
     {
@@ -4398,6 +5678,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "VBA-M"
+        }
       }
     },
     {
@@ -4422,6 +5707,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Dolphin"
+        }
       }
     },
     {
@@ -4444,6 +5734,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "SwanStation"
+        }
       }
     },
     {
@@ -4455,6 +5750,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "PCSX ReARMed"
+        }
       }
     },
     {
@@ -4466,6 +5766,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "ScummVM"
+        }
       }
     },
     {
@@ -4477,6 +5782,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Snes9x - Current"
+        }
       }
     },
     {
@@ -4488,6 +5798,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "bsnes"
+        }
       }
     },
     {
@@ -4510,6 +5825,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Mupen64Plus-Next"
+        }
       }
     },
     {
@@ -4521,6 +5841,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Geolith"
+        }
       }
     },
     {
@@ -4532,6 +5857,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Retro8"
+        }
       }
     },
     {
@@ -4543,6 +5873,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle PCE FAST"
+        }
       }
     },
     {
@@ -4554,6 +5889,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle PCE"
+        }
       }
     },
     {
@@ -4561,7 +5901,12 @@
       "name": "M64Plus FZ Pro",
       "supportedPlatforms": [
         "n64"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "M64Plus FZ (Standalone)"
+        }
+      }
     },
     {
       "packageName": "org.dolphinemu.dolphinemu",
@@ -4573,6 +5918,11 @@
       "launchConfiguration": {
         "fileParameterName": "AutoStartFile",
         "explicitActivity": "org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Dolphin (Standalone)"
+        }
       }
     },
     {
@@ -4585,6 +5935,11 @@
       "launchConfiguration": {
         "fileParameterName": "AutoStartFile",
         "explicitActivity": "org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Dolphin MMJR2 (Standalone)"
+        }
       }
     },
     {
@@ -4596,6 +5951,11 @@
       "launchConfiguration": {
         "fileParameterName": "GamePath",
         "explicitActivity": "org.citra.emu.ui.main.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Citra (Standalone)"
+        }
       }
     },
     {
@@ -4606,6 +5966,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.dsemu.drastic.DraSticActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "DraStic (Standalone)"
+        }
       }
     },
     {
@@ -4626,6 +5991,11 @@
       ],
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "references": {
+        "esDe": {
+          "label": "Eden (Standalone)"
+        }
       }
     },
     {
@@ -4637,7 +6007,12 @@
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
       },
-      "flag": "deprecated"
+      "flag": "deprecated",
+      "references": {
+        "esDe": {
+          "label": "Eden (Standalone)"
+        }
+      }
     },
     {
       "packageName": "switch.dev.legacy.eden_emulator",
@@ -4648,7 +6023,12 @@
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
       },
-      "flag": "deprecated"
+      "flag": "deprecated",
+      "references": {
+        "esDe": {
+          "label": "Eden (Standalone)"
+        }
+      }
     },
     {
       "packageName": "switch.dev.eden.eden_nightly",
@@ -4659,7 +6039,12 @@
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
       },
-      "flag": "deprecated"
+      "flag": "deprecated",
+      "references": {
+        "esDe": {
+          "label": "Eden Nightly (Standalone)"
+        }
+      }
     },
     {
       "packageName": "com.miHoYo.Yuanshen",
@@ -4669,6 +6054,11 @@
       ],
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "references": {
+        "esDe": {
+          "label": "Eden (Standalone)"
+        }
       }
     },
     {
@@ -4679,6 +6069,11 @@
       ],
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "references": {
+        "esDe": {
+          "label": "Eden (Standalone)"
+        }
       }
     },
     {
@@ -4689,6 +6084,11 @@
       ],
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
+      },
+      "references": {
+        "esDe": {
+          "label": "Eden Nightly (Standalone)"
+        }
       }
     },
     {
@@ -4708,6 +6108,11 @@
         "explicitActivity": "aenu.aps3e.EmulatorActivity",
         "action": "aenu.intent.action.APS3E",
         "fileParameterName": "iso_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "aPS3e (Standalone)"
+        }
       }
     },
     {
@@ -4718,6 +6123,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Snes9x EX+ (Standalone)"
+        }
       }
     },
     {
@@ -4728,6 +6138,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Lynx.emu (Standalone)"
+        }
       }
     },
     {
@@ -4738,6 +6153,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Swan.emu (Standalone)"
+        }
       }
     },
     {
@@ -4748,6 +6168,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "GBA.emu (Standalone)"
+        }
       }
     },
     {
@@ -4758,6 +6183,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "MD.emu (Standalone)"
+        }
       }
     },
     {
@@ -4768,6 +6198,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "MSX.emu (Standalone)"
+        }
       }
     },
     {
@@ -4778,6 +6213,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Saturn.emu (Standalone)"
+        }
       }
     },
     {
@@ -4788,6 +6228,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "2600.emu (Standalone)"
+        }
       }
     },
     {
@@ -4798,6 +6243,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "NES.emu (Standalone)"
+        }
       }
     },
     {
@@ -4808,6 +6258,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "C64.emu (Standalone)"
+        }
       }
     },
     {
@@ -4818,6 +6273,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "GBC.emu (Standalone)"
+        }
       }
     },
     {
@@ -4828,6 +6288,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "NGP.emu (Standalone)"
+        }
       }
     },
     {
@@ -4838,6 +6303,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "PCE.emu (Standalone)"
+        }
       }
     },
     {
@@ -4849,6 +6319,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "NEO.emu (Standalone)"
+        }
       }
     },
     {
@@ -4867,6 +6342,11 @@
             "stringValue": "-r,%1$id"
           }
         ]
+      },
+      "references": {
+        "esDe": {
+          "label": "Vita3K (Standalone)"
+        }
       }
     },
     {
@@ -4885,6 +6365,11 @@
             "stringValue": "-r,%1$id"
           }
         ]
+      },
+      "references": {
+        "esDe": {
+          "label": "Vita3K (Standalone)"
+        }
       }
     },
     {
@@ -4892,28 +6377,48 @@
       "name": "Lime3DS / Azahar",
       "supportedPlatforms": [
         "3ds"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "Lime3DS (Standalone)"
+        }
+      }
     },
     {
       "packageName": "org.azahar_emu.azahar",
       "name": "Azahar (Vanilla)",
       "supportedPlatforms": [
         "3ds"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "Azahar (Standalone)"
+        }
+      }
     },
     {
       "packageName": "io.github.azaharplus.android",
       "name": "+AzaharPlus+",
       "supportedPlatforms": [
         "3ds"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "AzaharPlus (Standalone)"
+        }
+      }
     },
     {
       "packageName": "io.github.mandarine3ds.mandarine",
       "name": "Mandarine",
       "supportedPlatforms": [
         "3ds"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "Mandarine (Standalone)"
+        }
+      }
     },
     {
       "packageName": "com.panda3ds.pandroid",
@@ -4924,6 +6429,11 @@
       "launchConfiguration": {
         "fileParameterName": "path",
         "explicitActivity": "com.panda3ds.pandroid.app.GameActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Panda3DS (Standalone)"
+        }
       }
     },
     {
@@ -4931,7 +6441,12 @@
       "name": "Cemu",
       "supportedPlatforms": [
         "wiiu"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "Cemu (Standalone)"
+        }
+      }
     },
     {
       "packageName": "me.magnum.melonds",
@@ -4942,6 +6457,11 @@
       "launchConfiguration": {
         "fileParameterName": "uri",
         "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS (Standalone)"
+        }
       }
     },
     {
@@ -4953,6 +6473,11 @@
       "launchConfiguration": {
         "fileParameterName": "uri",
         "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "melonDS (Standalone)"
+        }
       }
     },
     {
@@ -4975,6 +6500,11 @@
       "launchConfiguration": {
         "fileParameterName": "bootPath",
         "explicitActivity": "com.github.stenzek.duckstation.EmulationActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "DuckStation (Standalone)"
+        }
       }
     },
     {
@@ -4999,6 +6529,11 @@
         "fileParameterName": "shortcut_path",
         "filePathType": "absolute",
         "explicitActivity": "com.winlator.cmod.XServerDisplayActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Winlator Cmod (Standalone)"
+        }
       }
     },
     {
@@ -5034,6 +6569,11 @@
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboygba.MainActivity",
         "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "Pizza Boy GBA (Standalone)"
+        }
       }
     },
     {
@@ -5045,6 +6585,11 @@
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboygbapro.MainActivity",
         "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "Pizza Boy GBA (Standalone)"
+        }
       }
     },
     {
@@ -5056,6 +6601,11 @@
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboypro.MainActivity",
         "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "Pizza Boy GBC (Standalone)"
+        }
       }
     },
     {
@@ -5067,6 +6617,11 @@
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboy.MainActivity",
         "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "Pizza Boy GBC (Standalone)"
+        }
       }
     },
     {
@@ -5078,6 +6633,11 @@
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboyscpro.MainActivity",
         "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "Pizza Boy SC (Standalone)"
+        }
       }
     },
     {
@@ -5089,6 +6649,11 @@
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboyscbasic.MainActivity",
         "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "Pizza Boy SC (Standalone)"
+        }
       }
     },
     {
@@ -5296,6 +6861,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.flycast.emulator.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Flycast (Standalone)"
+        }
       }
     },
     {
@@ -5306,6 +6876,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "io.recompiled.redream.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Redream (Standalone)"
+        }
       }
     },
     {
@@ -5316,6 +6891,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.godot.game.GodotAppLauncher"
+      },
+      "references": {
+        "esDe": {
+          "label": "PICO-8 (Standalone)"
+        }
       }
     },
     {
@@ -5336,6 +6916,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME4droid Current (Standalone)"
+        }
       }
     },
     {
@@ -5346,6 +6931,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.seleuco.mame4droid.MAME4droid"
+      },
+      "references": {
+        "esDe": {
+          "label": "MAME4droid (Standalone)"
+        }
       }
     },
     {
@@ -5356,6 +6946,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "kr.co.iefriends.pcsx2.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX2 (Standalone)"
+        }
       }
     },
     {
@@ -5366,6 +6961,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "kr.co.iefriends.pcsx2.activities.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX2 (Standalone)"
+        }
       }
     },
     {
@@ -5386,6 +6986,11 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "xbox.com.izzy2lost.x1box.LauncherActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "X1 BOX (Standalone)"
+        }
       }
     },
     {
@@ -5398,6 +7003,11 @@
         "explicitActivity": "aenu.ax360e.EmulatorActivity",
         "action": "aenu.intent.action.AX360E",
         "fileParameterName": "game_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "aX360e (Standalone)"
+        }
       }
     },
     {
@@ -5410,6 +7020,11 @@
         "explicitActivity": "aenu.ax360e.EmulatorActivity",
         "action": "aenu.intent.action.AX360E",
         "fileParameterName": "game_uri"
+      },
+      "references": {
+        "esDe": {
+          "label": "aX360e (Standalone)"
+        }
       }
     },
     {
@@ -5427,7 +7042,12 @@
       "name": "My Boy!",
       "supportedPlatforms": [
         "gba"
-      ]
+      ],
+      "references": {
+        "esDe": {
+          "label": "My Boy! (Standalone)"
+        }
+      }
     }
   ],
   "streamingApps": [
