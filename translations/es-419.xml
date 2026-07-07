@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Te damos la bienvenida a Papaya</string>
+    <string name="onboarding_welcome_subtitle">Todos tus juegos en un solo lugar</string>
+    <string name="onboarding_welcome_cta">Comenzar</string>
+    <string name="onboarding_dark_mode_title">Elige el ambiente</string>
+    <string name="onboarding_dark_mode_subtitle">Puedes cambiar esto más tarde en la Configuración</string>
+    <string name="onboarding_theme_title">Elige tu estilo</string>
+    <string name="onboarding_theme_subtitle">@string/onboarding_dark_mode_subtitle</string>
+    <string name="onboarding_theme_option_gallery_description">Control + Táctil</string>
+    <string name="onboarding_theme_option_deckish_description">Estilo TV</string>
+    <string name="onboarding_theme_option_xmb_description">Estilo PSP</string>
+    <string name="onboarding_collection_setup_title">Comienza tu colección de juegos</string>
+    <string name="onboarding_collection_setup_subtitle">Siempre puedes agregar nuevos juegos y plataformas más tarde.</string>
+    <string name="onboarding_collection_setup_option_quick_start">Inicio rápido</string>
+    <string name="onboarding_collection_setup_option_quick_start_description">Detecta automáticamente tus juegos de Android y agrega tus juegos retro cuando quieras.</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de">Importar desde ES-DE</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de_description">Esto también se puede hacer más tarde en la Configuración.</string>
+    <string name="onboarding_finish_cta">Finalizar</string>
+
     <!-- Common -->
     <string name="common_select">Seleccionar</string>
     <string name="common_navigate">Navegar</string>
@@ -127,10 +146,23 @@
     <string name="platform_configuration_folders_selection_tip_box_title">¿Ves \"No tienes una app para hacer esto\"?</string>
     <string name="platform_configuration_folders_selection_tip_box_description">Esto significa que tu dispositivo no tiene una app de selección de carpetas preinstalada.\nSin embargo, puedes instalar fácilmente un gestor de archivos que admita la selección de carpetas. Por ejemplo, \"Mis archivos\" desde la PlayStore.</string>
 
+    <!-- Platform configuration - GameList preference step -->
+    <string name="platform_configuration_game_list_preference_title">Preferencia de GameList</string>
+    <string name="platform_configuration_game_list_preference_description">Configura cómo se maneja el archivo gamelist.xml</string>
+    <string name="platform_configuration_game_list_preference_option_read_and_write">Leer y escribir</string>
+    <string name="platform_configuration_game_list_preference_option_read_only">Solo lectura</string>
+    <string name="platform_configuration_game_list_preference_option_read_only_description">Extrae nombres de juegos, carátulas, etc. del gamelist.xml. La lista no será modificada.</string>
+    <string name="platform_configuration_game_list_preference_option_ignore">Ignorar</string>
+    <string name="platform_configuration_game_list_preference_option_ignore_description">Extrae los nombres de los juegos directamente de los archivos. El gamelist.xml detectado se ignora.</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_title">Se encontró un gamelist.xml inválido</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_text">Las carpetas seleccionadas contienen al menos un archivo gamelist.xml que no se pudo leer debido a los errores de abajo.\nPuedes ignorar los gamelists inválidos y continuar con el importador de juegos predeterminado de Papaya.\n\nErrores:%1$s</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_error_generic">Error desconocido</string>
+
     <!-- Platform configuration - Game files selection step -->
     <string name="platform_configuration_game_files_selection_title">Archivos de juegos</string>
     <string name="platform_configuration_game_files_selection_description">Selecciona tus juegos</string>
     <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Archivo de juego</string>
+    <string name="platform_configuration_game_files_selection_icon_game_list_content_description">Importado desde la lista de juegos</string>
     <string name="platform_configuration_game_files_selection_error_no_files_title">No hay juegos en estas carpetas</string>
     <string name="platform_configuration_game_files_selection_error_no_files_description">Selecciona una carpeta que tenga archivos de estos tipos: %1$s.</string>
     <string name="platform_configuration_game_files_selection_error_access_denied_title">Sin acceso a estas carpetas</string>
@@ -247,6 +279,8 @@
     <!-- Item options - Edit -->
     <string name="item_options_edit_section_cover_image">Carátula</string>
     <string name="item_options_edit_section_cover_name">Nombre</string>
+    <string name="item_options_edit_section_cover_sortname">Nombre para ordenar</string>
+    <string name="item_options_edit_section_placeholder_sortname">No establecido</string>
     <string name="item_options_edit_section_cover_release_date">Fecha de lanzamiento</string>
     <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Editar</string>
     <string name="item_options_edit_exit_warning_dialog_title">¿Salir del editor de info del juego?</string>
@@ -274,10 +308,18 @@
     <!-- Settings - Platforms -->
     <string name="settings_platforms_title">Plataformas</string>
     <string name="settings_platforms_cta_add">Agregar plataforma</string>
+    <string name="settings_platforms_all_platforms">Todas las plataformas</string>
     <string name="settings_platforms_reorder_title">Reordenar plataformas</string>
     <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
     <string name="settings_platforms_content_description_move_up">Mover arriba</string>
     <string name="settings_platforms_content_description_move_down">Mover abajo</string>
+
+    <!-- Settings - All Platforms options -->
+    <string name="settings_all_platform_options_menu_option_remove">Eliminar todas</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_title">¿Eliminar todas las plataformas?</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_text">Todas las configuraciones serán eliminadas. Tus archivos de juegos y apps permanecerán intactos.</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_confirm">Eliminar todas las plataformas</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform options -->
     <string name="settings_platform_options_menu_option_detect_new_games">Detectar juegos nuevos y cambios</string>
@@ -322,6 +364,9 @@
     <string name="settings_platform_edit_loading_prepare_reading_files">Preparando para leer los archivos</string>
     <string name="settings_platform_edit_loading_reading_files">Leyendo archivos</string>
     <string name="settings_platform_edit_loading_reading_more_files">Leyendo más archivos</string>
+    <string name="settings_platform_edit_loading_prepare_parsing_gamelists">Preparando la lectura de los archivos gamelist.xml</string>
+    <string name="settings_platform_edit_loading_parsing_gamelists">Leyendo los archivos gamelist.xml</string>
+    <string name="settings_platform_edit_loading_combining_gamelists_with_files">Combinando gamelists con los archivos</string>
     <string name="settings_platform_edit_loading_setting_up_menu">Armando la estructura del menú</string>
     <string name="settings_platform_edit_loading_error_access_denied_title">Sin acceso a las carpetas de esta plataforma</string>
     <string name="settings_platform_edit_loading_error_access_denied_description">El sistema negó el acceso a las siguientes carpetas. Asegúrate de que tu tarjeta SD esté insertada o vuelve atrás e intenta entrar al editor de nuevo:\n\n%1$s</string>
@@ -407,6 +452,9 @@
     <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Encima de la carátula</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Preferencias de la cuadrícula</string>
     <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Tamaño</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_display_game_title">Mostrar títulos de los juegos debajo de la carátula</string>
+    <string name="settings_appearance_layout_menu_deckish_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_deckish_row_height">Altura de fila</string>
     <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
     <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Usar íconos clásicos de categoría</string>
 
@@ -422,6 +470,10 @@
     <string name="settings_appearance_background_system_option_system">Fondo del sistema</string>
     <string name="settings_appearance_background_image_title">Imagen</string>
     <string name="settings_appearance_background_color_title">Color</string>
+    <string name="settings_appearance_background_animation_title">Animación</string>
+    <string name="settings_appearance_background_animation_stars">Estrellas</string>
+    <string name="settings_appearance_background_animation_waves">Olas</string>
+    <string name="settings_appearance_background_animation_sparkles">Destellos</string>
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Configuración avanzada</string>
@@ -429,6 +481,7 @@
     <string name="settings_advanced_menu_option_scrapers">Configuración del Scraper</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Plataformas personalizadas</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Emuladores personalizados</string>
+    <string name="settings_advanced_menu_option_import_export">Importar/Exportar</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
@@ -592,6 +645,34 @@
     <string name="settings_custom_platform_creator_error_dialog_text">Esta plataforma personalizada ya está en uso, así que no puedes eliminar tipos de archivo agregados antes.\nSolo puedes agregar nuevos tipos de archivo o eliminar las plataformas que usan esta configuración: %1$s</string>
     <string name="settings_custom_platform_creator_error_dialog_confirm">@string/common_okay</string>
 
+    <!-- Settings - Import/Export -->
+    <string name="settings_import_export_title">Importar/Exportar</string>
+    <string name="settings_import_export_menu_option_import_from_esde">Importar desde la configuración de ES-DE</string>
+
+    <!-- Settings - Import from ES-DE -->
+    <string name="settings_esde_import_title">Importar desde la configuración de ES-DE</string>
+    <string name="settings_esde_import_esde_folder_label">Carpeta de ES-DE</string>
+    <string name="settings_esde_import_roms_folder_label">Carpeta de ROMs</string>
+    <string name="settings_esde_import_folder_not_selected">Ninguna</string>
+    <string name="settings_esde_import_message_error_invalid_esde_folder">La carpeta de ES-DE seleccionada parece ser inválida. Asegúrate de seleccionar la carpeta que contiene subcarpetas como gamelists, downloaded_media, settings, etc.</string>
+    <string name="settings_esde_import_message_error_no_gamelists">La carpeta de ES-DE seleccionada no contiene ningún gamelist. Debe existir al menos un sistema en la configuración de ES-DE para iniciar la importación.</string>
+    <string name="settings_esde_import_message_info_verifying_folders">Verificando las carpetas de ES-DE y de ROMs…</string>
+    <string name="settings_esde_import_message_info_found_gamelists">Se encontraron %1$s plataformas</string>
+    <string name="settings_esde_import_cta_import">Importar</string>
+    <string name="settings_esde_import_info_import">Papaya referencia directamente los gamelists y las carátulas en la carpeta de ES-DE y no los copia. La opción \"Detectar juegos nuevos y cambios\" también detectará los cambios hechos en la configuración de ES-DE y actualizará la plataforma en Papaya según corresponda. Modificar la plataforma en Papaya solo tendrá efecto en Papaya, tu configuración de ES-DE no será modificada.</string>
+    <string name="settings_esde_import_importing_label">Importando</string>
+    <string name="settings_esde_import_importing_description">%1$d plataformas</string>
+    <string name="settings_esde_import_finished_success_label">Se importaron %1$s plataformas con éxito</string>
+    <string name="settings_esde_import_finished_success_failures_label">No importadas:</string>
+    <string name="settings_esde_import_finished_unsuccessful_label">Fallo al importar %1$s plataformas</string>
+    <string name="settings_esde_import_finished_unsuccessful_failures_label">Razones:</string>
+    <string name="settings_esde_import_finished_failure_reason_no_matching_platform">No se encontró una plataforma de Papaya correspondiente.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_apps">No contiene apps relevantes. Asegúrate de que el gamelist.xml esté actualizado con los archivos *.app reales y de que las apps definidas estén instaladas.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_games">No contiene archivos de juegos relevantes. Asegúrate de que el gamelist.xml esté actualizado con los archivos de juegos reales. Otras razones pueden ser que Papaya no soporte los tipos de archivo de todos los juegos definidos o que todos los juegos estén marcados como ocultos/dañados en el gamelist.xml.</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read">No se pudo leer el gamelist.xml:\n%1$s</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read_reason_generic">Error desconocido</string>
+    <string name="settings_esde_import_finished_cta_okay">@string/common_okay</string>
+
     <!-- Settings - More -->
     <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
     <string name="settings_more_menu_option_roadmap">Hoja de ruta</string>
@@ -666,10 +747,18 @@
     <string name="snackbar_platform_scraper_running">Ejecutándose en segundo plano: Descargando info de tus juegos de \"%1$s\".</string>
     <string name="snackbar_platform_scraper_succeeded">Descarga de info de tus juegos de \"%1$s\" completada.</string>
     <string name="snackbar_platform_scraper_failure">Fallo al descargar info de tus juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_scraper_all_platforms_enqueued">En cola: Descargando info de tus juegos.</string>
+    <string name="snackbar_platform_scraper_all_platforms_running">Ejecutándose en segundo plano: Descargando info de tus juegos.</string>
+    <string name="snackbar_platform_scraper_all_platforms_succeeded">Descarga de info de tus juegos completada.</string>
+    <string name="snackbar_platform_scraper_all_platforms_failure">Fallo al descargar info de tus juegos.</string>
     <string name="snackbar_platform_detect_new_games_enqueued">En cola: Detectando nuevos juegos de \"%1$s\".</string>
     <string name="snackbar_platform_detect_new_games_running">Ejecutándose en segundo plano: Detectando nuevos juegos de \"%1$s\".</string>
     <string name="snackbar_platform_detect_new_games_succeeded">Detección de nuevos juegos de \"%1$s\" completada.</string>
     <string name="snackbar_platform_detect_new_games_failure">Fallo al detectar nuevos juegos de \"%1$s\".</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">En cola: Detectando nuevos juegos.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_running">Ejecutándose en segundo plano: Detectando nuevos juegos.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Detección de nuevos juegos completada.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_failure">Fallo al detectar nuevos juegos.</string>
     <string name="snackbar_platform_scrape_streaming_game_enqueued">En cola: Descargando info del juego de streaming anclado.</string>
     <string name="snackbar_platform_scrape_streaming_game_running">Ejecutándose en segundo plano: Descargando info del juego de streaming anclado.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Descarga de info del juego de streaming anclado completada.</string>
@@ -690,6 +779,7 @@
     <string name="background_work_platform_scraper_generic_title">Descargando info de tus %1$d juegos de \"%2$s\"</string>
     <string name="background_work_platform_scraper_progress_title">Descargando info de juegos (%1$d/%2$d): %3$s</string>
     <string name="background_work_detect_new_games_generic_title">Buscando nuevos archivos de juegos</string>
+    <string name="background_work_detect_new_games_generic_platform_title">Buscando nuevos archivos de juegos de \"%1$s\"</string>
     <string name="background_work_detect_new_games_scraper_progress_title">@string/background_work_platform_scraper_progress_title</string>
     <string name="background_work_streaming_game_scraper_title">Descargando carátula e info del juego</string>
 
