@@ -26,7 +26,7 @@
     <string name="onboarding_collection_setup_title">Starte deine Spielesammlung</string>
     <string name="onboarding_collection_setup_subtitle">Du kannst jederzeit später neue Spiele und Plattformen hinzufügen.</string>
     <string name="onboarding_collection_setup_option_quick_start">Schnellstart</string>
-    <string name="onboarding_collection_setup_option_quick_start_description">Lasse deine Android-Spiele automatisch erkennen und füge deine Retro-Spiele bei später hinzu.</string>
+    <string name="onboarding_collection_setup_option_quick_start_description">Lass deine Android-Spiele automatisch erkennen und füge deine Retro-Spiele später hinzu.</string>
     <string name="onboarding_collection_setup_option_import_from_es_de">Von ES-DE importieren</string>
     <string name="onboarding_collection_setup_option_import_from_es_de_description">Das kannst du auch später in den Einstellungen erledigen.</string>
     <string name="onboarding_finish_cta">Fertig</string>
@@ -651,7 +651,7 @@
     <string name="settings_esde_import_title">Aus einer ES-DE-Konfiguration importieren</string>
     <string name="settings_esde_import_esde_folder_label">ES-DE-Ordner</string>
     <string name="settings_esde_import_roms_folder_label">Roms-Ordner</string>
-    <string name="settings_esde_import_folder_not_selected">Keiner</string>
+    <string name="settings_esde_import_folder_not_selected">Nicht ausgewählt</string>
     <string name="settings_esde_import_message_error_invalid_esde_folder">Der ausgewählte ES-DE-Ordner scheint ungültig zu sein. Stelle sicher, dass du den Ordner auswählst, der Unterordner wie gamelists, downloaded_media, settings etc. enthält.</string>
     <string name="settings_esde_import_message_error_no_gamelists">Der ausgewählte ES-DE-Ordner enthält keine gamelists. Es muss mindestens ein System in der ES-DE-Konfiguration vorhanden sein, um den Import zu starten.</string>
     <string name="settings_esde_import_message_info_verifying_folders">Überprüfe die ES-DE- und Roms-Ordner…</string>
