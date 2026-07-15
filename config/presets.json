@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 2,
-  "presetConfigurationVersion": 17,
+  "presetConfigurationVersion": 18,
   "platforms": [
     {
       "key": "and",
@@ -42,6 +42,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "50",
+        "tgdb": "25"
+      },
       "references": {
         "esDe": {
           "path": "3do"
@@ -117,6 +121,10 @@
           "type": "rp9"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "16",
+        "tgdb": "4911"
+      },
       "references": {
         "esDe": {
           "path": "amiga"
@@ -192,6 +200,10 @@
           "type": "rp9"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "16",
+        "tgdb": "4911"
+      },
       "references": {
         "esDe": {
           "path": "amiga1200"
@@ -267,6 +279,10 @@
           "type": "rp9"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "16",
+        "tgdb": "4911"
+      },
       "references": {
         "esDe": {
           "path": "amiga600"
@@ -342,6 +358,10 @@
           "type": "rp9"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "114",
+        "tgdb": "4947"
+      },
       "references": {
         "esDe": {
           "path": "amigacd32"
@@ -384,6 +404,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "25",
+        "tgdb": "4914"
+      },
       "references": {
         "esDe": {
           "path": "amstradcpc"
@@ -417,6 +441,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "52",
+        "tgdb": "23"
+      },
       "references": {
         "esDe": {
           "path": "arcade"
@@ -459,6 +487,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "59",
+        "tgdb": "22"
+      },
       "references": {
         "esDe": {
           "path": "atari2600"
@@ -510,6 +542,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "66",
+        "tgdb": "26"
+      },
       "references": {
         "esDe": {
           "path": "atari5200"
@@ -534,6 +570,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "60",
+        "tgdb": "27"
+      },
       "references": {
         "esDe": {
           "path": "atari7800"
@@ -579,6 +619,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "62",
+        "tgdb": "28"
+      },
       "references": {
         "esDe": {
           "path": "atarijaguar"
@@ -606,6 +650,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "61",
+        "tgdb": "4924"
+      },
       "references": {
         "esDe": {
           "path": "atarilynx"
@@ -639,6 +687,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "63",
+        "tgdb": "4937"
+      },
       "references": {
         "esDe": {
           "path": "atarist"
@@ -765,6 +817,10 @@
           "type": "rom"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "15",
+        "tgdb": "40"
+      },
       "references": {
         "esDe": {
           "path": "c64"
@@ -783,6 +839,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "52",
+        "tgdb": "23"
+      },
       "references": {
         "esDe": {
           "path": "cps"
@@ -905,6 +965,10 @@
           "type": "dci"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "23",
+        "tgdb": "16"
+      },
       "references": {
         "esDe": {
           "path": "dreamcast"
@@ -938,6 +1002,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "18",
+        "tgdb": "7"
+      },
       "references": {
         "esDe": {
           "path": "nes"
@@ -960,6 +1028,7 @@
         }
       ],
       "scraperPlatformId": {
+        "igdb": "79",
         "tgdb": "24"
       },
       "references": {
@@ -1034,6 +1103,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "86",
+        "tgdb": "34"
+      },
       "references": {
         "esDe": {
           "path": "pcengine"
@@ -1073,6 +1146,10 @@
           "type": "7z"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "35",
+        "tgdb": "20"
+      },
       "references": {
         "esDe": {
           "path": "gamegear"
@@ -1142,6 +1219,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "64",
+        "tgdb": "35"
+      },
       "references": {
         "esDe": {
           "path": "mastersystem"
@@ -1199,6 +1280,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "29",
+        "tgdb": "36"
+      },
       "references": {
         "esDe": {
           "path": "megadrive"
@@ -1235,6 +1320,10 @@
           "type": "zip"
         }
       ],
+      "scraperPlatformId": {
+        "igdb": "32",
+        "tgdb": "17"
+      },
       "references": {
         "esDe": {
           "path": "saturn"
@@ -1991,6 +2080,7 @@
         }
       ],
       "scraperPlatformId": {
+        "igdb": "11",
         "tgdb": "14"
       },
       "references": {
@@ -2015,6 +2105,7 @@
         }
       ],
       "scraperPlatformId": {
+        "igdb": "12",
         "tgdb": "15"
       },
       "references": {
@@ -2045,6 +2136,7 @@
         }
       ],
       "scraperPlatformId": {
+        "igdb": "57",
         "tgdb": "4925"
       },
       "references": {
@@ -2090,6 +2182,7 @@
         }
       ],
       "scraperPlatformId": {
+        "igdb": "27",
         "tgdb": "4929"
       },
       "references": {
@@ -2117,11 +2210,27 @@
         }
       ],
       "scraperPlatformId": {
+        "igdb": "119",
         "tgdb": "4922"
       },
       "references": {
         "esDe": {
           "path": "ngp"
+        }
+      }
+    },
+    {
+      "key": "fla",
+      "shortName": "FLA",
+      "name": "Adobe Flash",
+      "supportedFiles": [
+        {
+          "type": "swiffid"
+        }
+      ],
+      "references": {
+        "esDe": {
+          "path": "flash"
         }
       }
     }
@@ -2437,6 +2546,24 @@
     {
       "packageName": "com.retroarch",
       "core": "fbalpha2012_libretro_android.so",
+      "name": "RetroArch - FB Alpha 2012 (Deprecated)",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "flag": "deprecated",
+      "references": {
+        "esDe": {
+          "label": "FB Alpha 2012"
+        }
+      }
+    },
+    {
+      "packageName": "com.retroarch",
+      "core": "fbalpha2012",
       "name": "RetroArch - FB Alpha 2012",
       "supportedPlatforms": [
         "arc",
@@ -3654,6 +3781,24 @@
     {
       "packageName": "com.retroarch.aarch64",
       "core": "fbalpha2012_libretro_android.so",
+      "name": "RetroArch (64bit) - FB Alpha 2012 (Deprecated)",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "flag": "deprecated",
+      "references": {
+        "esDe": {
+          "label": "FB Alpha 2012"
+        }
+      }
+    },
+    {
+      "packageName": "com.retroarch.aarch64",
+      "core": "fbalpha2012",
       "name": "RetroArch (64bit) - FB Alpha 2012",
       "supportedPlatforms": [
         "arc",
@@ -4871,6 +5016,24 @@
     {
       "packageName": "com.retroarch.ra32",
       "core": "fbalpha2012_libretro_android.so",
+      "name": "RetroArch (32bit) - FB Alpha 2012 (Deprecated)",
+      "supportedPlatforms": [
+        "arc",
+        "cps"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "flag": "deprecated",
+      "references": {
+        "esDe": {
+          "label": "FB Alpha 2012"
+        }
+      }
+    },
+    {
+      "packageName": "com.retroarch.ra32",
+      "core": "fbalpha2012",
       "name": "RetroArch (32bit) - FB Alpha 2012",
       "supportedPlatforms": [
         "arc",
@@ -5909,6 +6072,18 @@
       }
     },
     {
+      "packageName": "org.mupen64plusae.v3.fzurita",
+      "name": "M64Plus FZ",
+      "supportedPlatforms": [
+        "n64"
+      ],
+      "references": {
+        "esDe": {
+          "label": "M64Plus FZ (Standalone)"
+        }
+      }
+    },
+    {
       "packageName": "org.dolphinemu.dolphinemu",
       "name": "Dolphin",
       "supportedPlatforms": [
@@ -6538,6 +6713,19 @@
     },
     {
       "packageName": "com.winlator.ludashi",
+      "name": "Winlator Ludashi (Deprecated)",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "fileParameterName": "shortcut_path",
+        "filePathType": "absolute",
+        "explicitActivity": "com.winlator.cmod.XServerDisplayActivity"
+      },
+      "flag": "deprecated"
+    },
+    {
+      "packageName": "com.ludashi.benchmark",
       "name": "Winlator Ludashi",
       "supportedPlatforms": [
         "win"
@@ -7047,6 +7235,16 @@
         "esDe": {
           "label": "My Boy! (Standalone)"
         }
+      }
+    },
+    {
+      "packageName": "io.navivani.swiff",
+      "name": "Swiff",
+      "supportedPlatforms": [
+        "fla"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "io.navivani.swiff.MainActivity"
       }
     }
   ],
