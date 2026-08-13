@@ -1,6 +1,6 @@
 {
-  "presetSchemaVersion": 2,
-  "presetConfigurationVersion": 19,
+  "presetSchemaVersion": 3,
+  "presetConfigurationVersion": 20,
   "platforms": [
     {
       "key": "and",
@@ -2226,6 +2226,12 @@
       "supportedFiles": [
         {
           "type": "swiffid"
+        },
+        {
+          "type": "ruf"
+        },
+        {
+          "type": "swf"
         }
       ],
       "references": {
@@ -2321,7 +2327,13 @@
       "references": {
         "esDe": {
           "label": "ScummVM (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=org.scummvm.scummvm"
+          }
+        ]
       }
     },
     {
@@ -2336,7 +2348,13 @@
       "references": {
         "esDe": {
           "label": "PPSSPP (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=org.ppsspp.ppssppgold"
+          }
+        ]
       }
     },
     {
@@ -2351,7 +2369,13 @@
       "references": {
         "esDe": {
           "label": "PPSSPP (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=org.ppsspp.ppsspp"
+          }
+        ]
       }
     },
     {
@@ -2367,7 +2391,13 @@
       "references": {
         "esDe": {
           "label": "Opera"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2386,7 +2416,13 @@
       "references": {
         "esDe": {
           "label": "PUAE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2405,7 +2441,13 @@
       "references": {
         "esDe": {
           "label": "PUAE 2021"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2421,7 +2463,13 @@
       "references": {
         "esDe": {
           "label": "Caprice32"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2437,7 +2485,13 @@
       "references": {
         "esDe": {
           "label": "CrocoDS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2455,7 +2509,13 @@
       "references": {
         "esDe": {
           "label": "MAME - Current"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2472,7 +2532,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2010"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2489,7 +2555,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2003-Plus"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2506,7 +2578,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2003"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2523,7 +2601,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2000"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2541,7 +2625,13 @@
       "references": {
         "esDe": {
           "label": "FinalBurn Neo"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2559,7 +2649,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2571,12 +2667,19 @@
         "cps"
       ],
       "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
       },
       "references": {
         "esDe": {
           "label": "FB Alpha 2012"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2592,7 +2695,13 @@
       "references": {
         "esDe": {
           "label": "DICE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2608,7 +2717,13 @@
       "references": {
         "esDe": {
           "label": "HBMAME"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2624,7 +2739,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012 CPS-1"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2640,7 +2761,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012 CPS-2"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2656,7 +2783,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012 CPS-3"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2672,7 +2805,13 @@
       "references": {
         "esDe": {
           "label": "Ardens"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2688,7 +2827,13 @@
       "references": {
         "esDe": {
           "label": "Arduous"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2704,7 +2849,13 @@
       "references": {
         "esDe": {
           "label": "Stella"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2720,7 +2871,13 @@
       "references": {
         "esDe": {
           "label": "Stella 2014"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2736,7 +2893,13 @@
       "references": {
         "esDe": {
           "label": "Stella 2023"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2752,7 +2915,13 @@
       "references": {
         "esDe": {
           "label": "Tia"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2768,7 +2937,13 @@
       "references": {
         "esDe": {
           "label": "a5200"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2784,7 +2959,13 @@
       "references": {
         "esDe": {
           "label": "Atari800"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2800,7 +2981,13 @@
       "references": {
         "esDe": {
           "label": "ProSystem"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2816,7 +3003,13 @@
       "references": {
         "esDe": {
           "label": "Virtual Jaguar"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2832,7 +3025,13 @@
       "references": {
         "esDe": {
           "label": "Handy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2848,7 +3047,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Lynx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2864,7 +3069,13 @@
       "references": {
         "esDe": {
           "label": "Holani"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2880,7 +3091,13 @@
       "references": {
         "esDe": {
           "label": "Gearlynx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2896,7 +3113,13 @@
       "references": {
         "esDe": {
           "label": "Hatari"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2912,7 +3135,13 @@
       "references": {
         "esDe": {
           "label": "VICE x64sc Accurate"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2928,7 +3157,13 @@
       "references": {
         "esDe": {
           "label": "VICE x64 Fast"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2944,7 +3179,13 @@
       "references": {
         "esDe": {
           "label": "VICE x64 SuperCPU"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2960,7 +3201,13 @@
       "references": {
         "esDe": {
           "label": "VICE x128"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2976,7 +3223,13 @@
       "references": {
         "esDe": {
           "label": "DOSBox-Core"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -2992,7 +3245,13 @@
       "references": {
         "esDe": {
           "label": "DOSBox-Pure"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3008,7 +3267,13 @@
       "references": {
         "esDe": {
           "label": "DOSBox-SVN"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3024,7 +3289,13 @@
       "references": {
         "esDe": {
           "label": "VirtualXT"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3041,7 +3312,13 @@
       "references": {
         "esDe": {
           "label": "Flycast"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3057,7 +3334,13 @@
       "references": {
         "esDe": {
           "label": "Mesen"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3073,7 +3356,13 @@
       "references": {
         "esDe": {
           "label": "FCEUmm"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3089,7 +3378,13 @@
       "references": {
         "esDe": {
           "label": "Nestopia UE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3105,7 +3400,13 @@
       "references": {
         "esDe": {
           "label": "QuickNES"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3122,7 +3423,13 @@
       "references": {
         "esDe": {
           "label": "SMS Plus GX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3140,7 +3447,13 @@
       "references": {
         "esDe": {
           "label": "Genesis Plus GX Wide"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3158,7 +3471,13 @@
       "references": {
         "esDe": {
           "label": "Genesis Plus GX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3176,7 +3495,13 @@
       "references": {
         "esDe": {
           "label": "PicoDrive"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3193,7 +3518,13 @@
       "references": {
         "esDe": {
           "label": "Gearsystem"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3209,7 +3540,13 @@
       "references": {
         "esDe": {
           "label": "ClownMDEmu"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3225,7 +3562,13 @@
       "references": {
         "esDe": {
           "label": "YabaSanshiro"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3241,7 +3584,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Saturn"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3257,7 +3606,13 @@
       "references": {
         "esDe": {
           "label": "Yabause"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3273,7 +3628,13 @@
       "references": {
         "esDe": {
           "label": "PPSSPP"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3289,7 +3650,13 @@
       "references": {
         "esDe": {
           "label": "melonDS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3305,7 +3672,13 @@
       "references": {
         "esDe": {
           "label": "melonDS DS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3321,7 +3694,13 @@
       "references": {
         "esDe": {
           "label": "DeSmuME 2015"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3337,7 +3716,13 @@
       "references": {
         "esDe": {
           "label": "DeSmuME"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3354,7 +3739,13 @@
       "references": {
         "esDe": {
           "label": "NooDS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3366,6 +3757,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3377,6 +3776,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3392,7 +3799,13 @@
       "references": {
         "esDe": {
           "label": "Citra"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3408,7 +3821,13 @@
       "references": {
         "esDe": {
           "label": "Azahar"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3424,7 +3843,13 @@
       "references": {
         "esDe": {
           "label": "gpSP"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3440,7 +3865,13 @@
       "references": {
         "esDe": {
           "label": "VBA Next"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3456,7 +3887,13 @@
       "references": {
         "esDe": {
           "label": "DoubleCherryGB"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3472,7 +3909,13 @@
       "references": {
         "esDe": {
           "label": "Gambatte"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3488,7 +3931,13 @@
       "references": {
         "esDe": {
           "label": "Gearboy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3504,7 +3953,13 @@
       "references": {
         "esDe": {
           "label": "SameBoy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3520,7 +3975,13 @@
       "references": {
         "esDe": {
           "label": "TGB Dual"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3537,7 +3998,13 @@
       "references": {
         "esDe": {
           "label": "mGBA"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3554,7 +4021,13 @@
       "references": {
         "esDe": {
           "label": "VBA-M"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3570,7 +4043,13 @@
       "references": {
         "esDe": {
           "label": "IroGB"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3587,7 +4066,13 @@
       "references": {
         "esDe": {
           "label": "Mesen-S"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3605,7 +4090,13 @@
       "references": {
         "esDe": {
           "label": "SkyEmu"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3618,6 +4109,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3634,7 +4133,13 @@
       "references": {
         "esDe": {
           "label": "Dolphin"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3646,6 +4151,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3661,7 +4174,13 @@
       "references": {
         "esDe": {
           "label": "SwanStation"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3677,7 +4196,13 @@
       "references": {
         "esDe": {
           "label": "PCSX ReARMed"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3693,7 +4218,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PSX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3709,7 +4240,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PSX HW"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3725,7 +4262,13 @@
       "references": {
         "esDe": {
           "label": "ScummVM"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3741,7 +4284,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x - Current"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3758,7 +4307,13 @@
       "references": {
         "esDe": {
           "label": "bsnes"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3774,7 +4329,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x 2010"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3790,7 +4351,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x 2005 Plus"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3806,7 +4373,13 @@
       "references": {
         "esDe": {
           "label": "bsnes-hd"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3822,7 +4395,13 @@
       "references": {
         "esDe": {
           "label": "bsnes-jg"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3838,7 +4417,13 @@
       "references": {
         "esDe": {
           "label": "bsnes-mercury Accuracy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3854,7 +4439,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Supafaust"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3866,6 +4457,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3881,7 +4480,13 @@
       "references": {
         "esDe": {
           "label": "Mupen64Plus-Next"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3897,7 +4502,13 @@
       "references": {
         "esDe": {
           "label": "ParaLLEl N64"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3914,7 +4525,13 @@
       "references": {
         "esDe": {
           "label": "Geolith"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3930,7 +4547,13 @@
       "references": {
         "esDe": {
           "label": "Retro8"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3946,7 +4569,13 @@
       "references": {
         "esDe": {
           "label": "Fake-08"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3962,7 +4591,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PCE FAST"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3978,7 +4613,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PCE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -3994,7 +4635,13 @@
       "references": {
         "esDe": {
           "label": "Beetle SuperGrafx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4010,7 +4657,13 @@
       "references": {
         "esDe": {
           "label": "Geargrafx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4026,7 +4679,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Cygne"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4042,7 +4701,13 @@
       "references": {
         "esDe": {
           "label": "blueMSX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4058,7 +4723,13 @@
       "references": {
         "esDe": {
           "label": "fMSX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4074,7 +4745,13 @@
       "references": {
         "esDe": {
           "label": "Beetle NeoPop"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4090,7 +4767,13 @@
       "references": {
         "esDe": {
           "label": "RACE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
       }
     },
     {
@@ -4106,7 +4789,13 @@
       "references": {
         "esDe": {
           "label": "Opera"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4125,7 +4814,13 @@
       "references": {
         "esDe": {
           "label": "PUAE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4144,7 +4839,13 @@
       "references": {
         "esDe": {
           "label": "PUAE 2021"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4160,7 +4861,13 @@
       "references": {
         "esDe": {
           "label": "Caprice32"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4176,7 +4883,13 @@
       "references": {
         "esDe": {
           "label": "CrocoDS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4194,7 +4907,13 @@
       "references": {
         "esDe": {
           "label": "MAME - Current"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4211,7 +4930,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2010"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4228,7 +4953,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2003-Plus"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4245,7 +4976,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2003"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4262,7 +4999,13 @@
       "references": {
         "esDe": {
           "label": "MAME 2000"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4280,7 +5023,13 @@
       "references": {
         "esDe": {
           "label": "FinalBurn Neo"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4298,7 +5047,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4310,12 +5065,19 @@
         "cps"
       ],
       "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
       },
       "references": {
         "esDe": {
           "label": "FB Alpha 2012"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4331,7 +5093,13 @@
       "references": {
         "esDe": {
           "label": "DICE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4347,7 +5115,13 @@
       "references": {
         "esDe": {
           "label": "HBMAME"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4363,7 +5137,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012 CPS-1"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4379,7 +5159,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012 CPS-2"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4395,7 +5181,13 @@
       "references": {
         "esDe": {
           "label": "FB Alpha 2012 CPS-3"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4411,7 +5203,13 @@
       "references": {
         "esDe": {
           "label": "Ardens"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4427,7 +5225,13 @@
       "references": {
         "esDe": {
           "label": "Arduous"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4443,7 +5247,13 @@
       "references": {
         "esDe": {
           "label": "Stella"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4459,7 +5269,13 @@
       "references": {
         "esDe": {
           "label": "Stella 2014"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4475,7 +5291,13 @@
       "references": {
         "esDe": {
           "label": "Stella 2023"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4491,7 +5313,13 @@
       "references": {
         "esDe": {
           "label": "Tia"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4507,7 +5335,13 @@
       "references": {
         "esDe": {
           "label": "a5200"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4523,7 +5357,13 @@
       "references": {
         "esDe": {
           "label": "Atari800"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4539,7 +5379,13 @@
       "references": {
         "esDe": {
           "label": "ProSystem"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4555,7 +5401,13 @@
       "references": {
         "esDe": {
           "label": "Virtual Jaguar"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4571,7 +5423,13 @@
       "references": {
         "esDe": {
           "label": "Handy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4587,7 +5445,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Lynx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4603,7 +5467,13 @@
       "references": {
         "esDe": {
           "label": "Holani"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4619,7 +5489,13 @@
       "references": {
         "esDe": {
           "label": "Gearlynx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4635,7 +5511,13 @@
       "references": {
         "esDe": {
           "label": "Hatari"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4651,7 +5533,13 @@
       "references": {
         "esDe": {
           "label": "VICE x64sc Accurate"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4667,7 +5555,13 @@
       "references": {
         "esDe": {
           "label": "VICE x64 Fast"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4683,7 +5577,13 @@
       "references": {
         "esDe": {
           "label": "VICE x64 SuperCPU"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4699,7 +5599,13 @@
       "references": {
         "esDe": {
           "label": "VICE x128"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4715,7 +5621,13 @@
       "references": {
         "esDe": {
           "label": "DOSBox-Core"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4731,7 +5643,13 @@
       "references": {
         "esDe": {
           "label": "DOSBox-Pure"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4747,7 +5665,13 @@
       "references": {
         "esDe": {
           "label": "DOSBox-SVN"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4763,7 +5687,13 @@
       "references": {
         "esDe": {
           "label": "VirtualXT"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4780,7 +5710,13 @@
       "references": {
         "esDe": {
           "label": "Flycast"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4796,7 +5732,13 @@
       "references": {
         "esDe": {
           "label": "Mesen"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4812,7 +5754,13 @@
       "references": {
         "esDe": {
           "label": "FCEUmm"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4828,7 +5776,13 @@
       "references": {
         "esDe": {
           "label": "Nestopia UE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4844,7 +5798,13 @@
       "references": {
         "esDe": {
           "label": "QuickNES"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4861,7 +5821,13 @@
       "references": {
         "esDe": {
           "label": "SMS Plus GX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4879,7 +5845,13 @@
       "references": {
         "esDe": {
           "label": "Genesis Plus GX Wide"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4897,7 +5869,13 @@
       "references": {
         "esDe": {
           "label": "Genesis Plus GX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4915,7 +5893,13 @@
       "references": {
         "esDe": {
           "label": "PicoDrive"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4932,7 +5916,13 @@
       "references": {
         "esDe": {
           "label": "Gearsystem"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4948,7 +5938,13 @@
       "references": {
         "esDe": {
           "label": "ClownMDEmu"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4964,7 +5960,13 @@
       "references": {
         "esDe": {
           "label": "YabaSanshiro"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4980,7 +5982,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Saturn"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -4996,7 +6004,13 @@
       "references": {
         "esDe": {
           "label": "Yabause"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5012,7 +6026,13 @@
       "references": {
         "esDe": {
           "label": "PPSSPP"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5028,7 +6048,13 @@
       "references": {
         "esDe": {
           "label": "melonDS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5044,7 +6070,13 @@
       "references": {
         "esDe": {
           "label": "melonDS DS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5060,7 +6092,13 @@
       "references": {
         "esDe": {
           "label": "DeSmuME 2015"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5076,7 +6114,13 @@
       "references": {
         "esDe": {
           "label": "DeSmuME"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5093,7 +6137,13 @@
       "references": {
         "esDe": {
           "label": "NooDS"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5105,6 +6155,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5116,6 +6174,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5131,7 +6197,13 @@
       "references": {
         "esDe": {
           "label": "Citra"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5147,7 +6219,13 @@
       "references": {
         "esDe": {
           "label": "Azahar"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5163,7 +6241,13 @@
       "references": {
         "esDe": {
           "label": "gpSP"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5179,7 +6263,13 @@
       "references": {
         "esDe": {
           "label": "VBA Next"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5195,7 +6285,13 @@
       "references": {
         "esDe": {
           "label": "DoubleCherryGB"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5211,7 +6307,13 @@
       "references": {
         "esDe": {
           "label": "Gambatte"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5227,7 +6329,13 @@
       "references": {
         "esDe": {
           "label": "Gearboy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5243,7 +6351,13 @@
       "references": {
         "esDe": {
           "label": "SameBoy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5259,7 +6373,13 @@
       "references": {
         "esDe": {
           "label": "TGB Dual"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5276,7 +6396,13 @@
       "references": {
         "esDe": {
           "label": "mGBA"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5293,7 +6419,13 @@
       "references": {
         "esDe": {
           "label": "VBA-M"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5309,7 +6441,13 @@
       "references": {
         "esDe": {
           "label": "IroGB"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5326,7 +6464,13 @@
       "references": {
         "esDe": {
           "label": "Mesen-S"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5344,7 +6488,13 @@
       "references": {
         "esDe": {
           "label": "SkyEmu"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5357,6 +6507,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5373,7 +6531,13 @@
       "references": {
         "esDe": {
           "label": "Dolphin"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5385,6 +6549,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5400,7 +6572,13 @@
       "references": {
         "esDe": {
           "label": "SwanStation"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5416,7 +6594,13 @@
       "references": {
         "esDe": {
           "label": "PCSX ReARMed"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5432,7 +6616,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PSX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5448,7 +6638,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PSX HW"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5464,7 +6660,13 @@
       "references": {
         "esDe": {
           "label": "ScummVM"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5480,7 +6682,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x - Current"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5497,7 +6705,13 @@
       "references": {
         "esDe": {
           "label": "bsnes"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5513,7 +6727,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x 2010"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5529,7 +6749,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x 2005 Plus"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5545,7 +6771,13 @@
       "references": {
         "esDe": {
           "label": "bsnes-hd"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5561,7 +6793,13 @@
       "references": {
         "esDe": {
           "label": "bsnes-jg"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5577,7 +6815,13 @@
       "references": {
         "esDe": {
           "label": "bsnes-mercury Accuracy"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5593,7 +6837,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Supafaust"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5605,6 +6855,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5620,7 +6878,13 @@
       "references": {
         "esDe": {
           "label": "Mupen64Plus-Next"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5636,7 +6900,13 @@
       "references": {
         "esDe": {
           "label": "ParaLLEl N64"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5653,7 +6923,13 @@
       "references": {
         "esDe": {
           "label": "Geolith"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5669,7 +6945,13 @@
       "references": {
         "esDe": {
           "label": "Retro8"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5685,7 +6967,13 @@
       "references": {
         "esDe": {
           "label": "Fake-08"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5701,7 +6989,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PCE FAST"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5717,7 +7011,13 @@
       "references": {
         "esDe": {
           "label": "Beetle PCE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5733,7 +7033,13 @@
       "references": {
         "esDe": {
           "label": "Beetle SuperGrafx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5749,7 +7055,13 @@
       "references": {
         "esDe": {
           "label": "Geargrafx"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5765,7 +7077,13 @@
       "references": {
         "esDe": {
           "label": "Beetle Cygne"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5781,7 +7099,13 @@
       "references": {
         "esDe": {
           "label": "blueMSX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5797,7 +7121,13 @@
       "references": {
         "esDe": {
           "label": "fMSX"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5813,7 +7143,13 @@
       "references": {
         "esDe": {
           "label": "Beetle NeoPop"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -5829,7 +7165,13 @@
       "references": {
         "esDe": {
           "label": "RACE"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
       }
     },
     {
@@ -6049,7 +7391,8 @@
         "cps"
       ],
       "launchConfiguration": {
-        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "filePathType": "absolute"
       },
       "references": {
         "esDe": {
@@ -7580,7 +8923,13 @@
       "references": {
         "esDe": {
           "label": "M64Plus FZ (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita.pro"
+          }
+        ]
       }
     },
     {
@@ -7592,7 +8941,13 @@
       "references": {
         "esDe": {
           "label": "M64Plus FZ (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita"
+          }
+        ]
       }
     },
     {
@@ -7609,7 +8964,13 @@
       "references": {
         "esDe": {
           "label": "Dolphin (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu"
+          }
+        ]
       }
     },
     {
@@ -7694,12 +9055,7 @@
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
       },
-      "flag": "deprecated",
-      "references": {
-        "esDe": {
-          "label": "Eden (Standalone)"
-        }
-      }
+      "flag": "deprecated"
     },
     {
       "packageName": "switch.dev.legacy.eden_emulator",
@@ -7710,12 +9066,7 @@
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
       },
-      "flag": "deprecated",
-      "references": {
-        "esDe": {
-          "label": "Eden (Standalone)"
-        }
-      }
+      "flag": "deprecated"
     },
     {
       "packageName": "switch.dev.eden.eden_nightly",
@@ -7726,12 +9077,7 @@
       "launchConfiguration": {
         "action": "android.nfc.action.TECH_DISCOVERED"
       },
-      "flag": "deprecated",
-      "references": {
-        "esDe": {
-          "label": "Eden Nightly (Standalone)"
-        }
-      }
+      "flag": "deprecated"
     },
     {
       "packageName": "com.miHoYo.Yuanshen",
@@ -7816,7 +9162,13 @@
       "references": {
         "esDe": {
           "label": "aPS3e (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=aenu.aps3e"
+          }
+        ]
       }
     },
     {
@@ -7831,7 +9183,13 @@
       "references": {
         "esDe": {
           "label": "Snes9x EX+ (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus"
+          }
+        ]
       }
     },
     {
@@ -7846,7 +9204,13 @@
       "references": {
         "esDe": {
           "label": "Lynx.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.LynxEmu"
+          }
+        ]
       }
     },
     {
@@ -7861,7 +9225,13 @@
       "references": {
         "esDe": {
           "label": "Swan.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.SwanEmu"
+          }
+        ]
       }
     },
     {
@@ -7876,7 +9246,13 @@
       "references": {
         "esDe": {
           "label": "GBA.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.GbaEmu"
+          }
+        ]
       }
     },
     {
@@ -7892,7 +9268,13 @@
       "references": {
         "esDe": {
           "label": "MD.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.MdEmu"
+          }
+        ]
       }
     },
     {
@@ -7907,7 +9289,13 @@
       "references": {
         "esDe": {
           "label": "MSX.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.MsxEmu"
+          }
+        ]
       }
     },
     {
@@ -7922,7 +9310,13 @@
       "references": {
         "esDe": {
           "label": "Saturn.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.SaturnEmu"
+          }
+        ]
       }
     },
     {
@@ -7937,7 +9331,13 @@
       "references": {
         "esDe": {
           "label": "2600.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.A2600Emu"
+          }
+        ]
       }
     },
     {
@@ -7952,7 +9352,13 @@
       "references": {
         "esDe": {
           "label": "NES.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.NesEmu"
+          }
+        ]
       }
     },
     {
@@ -7967,7 +9373,13 @@
       "references": {
         "esDe": {
           "label": "C64.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.C64Emu"
+          }
+        ]
       }
     },
     {
@@ -7982,7 +9394,13 @@
       "references": {
         "esDe": {
           "label": "GBC.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.GbcEmu"
+          }
+        ]
       }
     },
     {
@@ -7997,7 +9415,13 @@
       "references": {
         "esDe": {
           "label": "NGP.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.NgpEmu"
+          }
+        ]
       }
     },
     {
@@ -8012,7 +9436,13 @@
       "references": {
         "esDe": {
           "label": "PCE.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.PceEmu"
+          }
+        ]
       }
     },
     {
@@ -8028,7 +9458,13 @@
       "references": {
         "esDe": {
           "label": "NEO.emu (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.explusalpha.NeoEmu"
+          }
+        ]
       }
     },
     {
@@ -8096,14 +9532,20 @@
     },
     {
       "packageName": "io.github.lime3ds.android",
-      "name": "Lime3DS / Azahar",
+      "name": "Azahar",
       "supportedPlatforms": [
         "3ds"
       ],
       "references": {
         "esDe": {
           "label": "Lime3DS (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=io.github.lime3ds.android"
+          }
+        ]
       }
     },
     {
@@ -8183,7 +9625,13 @@
       "references": {
         "esDe": {
           "label": "melonDS (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=me.magnum.melonds"
+          }
+        ]
       }
     },
     {
@@ -8204,13 +9652,18 @@
     },
     {
       "packageName": "me.magnum.melondualds",
-      "name": "melonDualDS",
+      "name": "WatermelonDS",
       "supportedPlatforms": [
         "nds"
       ],
       "launchConfiguration": {
         "fileParameterName": "uri",
         "explicitActivity": "me.magnum.melonds.ui.emulator.EmulatorActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "WatermelonDS (Standalone)"
+        }
       }
     },
     {
@@ -8226,7 +9679,13 @@
       "references": {
         "esDe": {
           "label": "DuckStation (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation"
+          }
+        ]
       }
     },
     {
@@ -8308,7 +9767,13 @@
       "references": {
         "esDe": {
           "label": "Pizza Boy GBA (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygba"
+          }
+        ]
       }
     },
     {
@@ -8324,7 +9789,13 @@
       "references": {
         "esDe": {
           "label": "Pizza Boy GBA (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboygbapro"
+          }
+        ]
       }
     },
     {
@@ -8340,7 +9811,13 @@
       "references": {
         "esDe": {
           "label": "Pizza Boy GBC (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboypro"
+          }
+        ]
       }
     },
     {
@@ -8356,7 +9833,13 @@
       "references": {
         "esDe": {
           "label": "Pizza Boy GBC (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboy"
+          }
+        ]
       }
     },
     {
@@ -8374,7 +9857,13 @@
       "references": {
         "esDe": {
           "label": "Pizza Boy SC (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboyscpro"
+          }
+        ]
       }
     },
     {
@@ -8392,7 +9881,13 @@
       "references": {
         "esDe": {
           "label": "Pizza Boy SC (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboyscbasic"
+          }
+        ]
       }
     },
     {
@@ -8408,7 +9903,13 @@
       "references": {
         "esDe": {
           "label": "MasterGear (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.fms.mg"
+          }
+        ]
       }
     },
     {
@@ -8423,6 +9924,14 @@
         "idParameterName": "app_id",
         "fileParameterType": "int",
         "launchById": true
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=app.gamenative"
+          }
+        ]
       }
     },
     {
@@ -8442,6 +9951,14 @@
           {
             "key": "game_source",
             "stringValue": "GOG"
+          }
+        ]
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=app.gamenative"
           }
         ]
       }
@@ -8465,6 +9982,14 @@
             "stringValue": "EPIC"
           }
         ]
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=app.gamenative"
+          }
+        ]
       }
     },
     {
@@ -8484,6 +10009,14 @@
           {
             "key": "game_source",
             "stringValue": "CUSTOM_GAME"
+          }
+        ]
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=app.gamenative"
           }
         ]
       }
@@ -8621,7 +10154,13 @@
       "references": {
         "esDe": {
           "label": "Flycast (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.flycast.emulator"
+          }
+        ]
       }
     },
     {
@@ -8636,7 +10175,13 @@
       "references": {
         "esDe": {
           "label": "Redream (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=io.recompiled.redream"
+          }
+        ]
       }
     },
     {
@@ -8662,6 +10207,14 @@
       ],
       "launchConfiguration": {
         "explicitActivity": "com.sa_moo_rai.picpic.MainActivity"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.sa_moo_rai.picpic"
+          }
+        ]
       }
     },
     {
@@ -8681,7 +10234,13 @@
       "references": {
         "esDe": {
           "label": "MAME4droid Current (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.seleuco.mame4d2024"
+          }
+        ]
       }
     },
     {
@@ -8698,7 +10257,13 @@
       "references": {
         "esDe": {
           "label": "MAME4droid (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.seleuco.mame4droid"
+          }
+        ]
       }
     },
     {
@@ -8713,7 +10278,13 @@
       "references": {
         "esDe": {
           "label": "ARMSX2 (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=come.nanodata.armsx2"
+          }
+        ]
       }
     },
     {
@@ -8755,22 +10326,50 @@
       "references": {
         "esDe": {
           "label": "EmuCoreX (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.sbro.emucorex"
+          }
+        ]
       }
     },
     {
       "packageName": "xbox.com.izzy2lost.x1box",
-      "name": "X1 Box",
+      "name": "X1 Box (Deprecated)",
       "supportedPlatforms": [
         "xbox"
       ],
       "launchConfiguration": {
         "explicitActivity": "xbox.com.izzy2lost.x1box.LauncherActivity"
       },
+      "flag": "deprecated",
       "references": {
         "esDe": {
           "label": "X1 BOX (Standalone)"
         }
+      }
+    },
+    {
+      "packageName": "com.izzy2lost.x1box",
+      "name": "X1 Box",
+      "supportedPlatforms": [
+        "xbox"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.izzy2lost.x1box.LauncherActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "X1 BOX (Standalone)"
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.izzy2lost.x1box"
+          }
+        ]
       }
     },
     {
@@ -8802,7 +10401,13 @@
       "references": {
         "esDe": {
           "label": "aX360e (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=aenu.ax360e"
+          }
+        ]
       }
     },
     {
@@ -8819,7 +10424,13 @@
       "references": {
         "esDe": {
           "label": "aX360e (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=aenu.ax360e.free"
+          }
+        ]
       }
     },
     {
@@ -8856,7 +10467,13 @@
       "references": {
         "esDe": {
           "label": "My Boy! (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.fastemulator.gba"
+          }
+        ]
       }
     },
     {
@@ -8871,7 +10488,13 @@
       "references": {
         "esDe": {
           "label": "My OldBoy! (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.fastemulator.gbc"
+          }
+        ]
       }
     },
     {
@@ -8887,7 +10510,13 @@
       "references": {
         "esDe": {
           "label": "Linkboy (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.pixelrespawn.linkboy"
+          }
+        ]
       }
     },
     {
@@ -8944,7 +10573,13 @@
       "references": {
         "esDe": {
           "label": "SWF Player (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.issess.flashplayerpro"
+          }
+        ]
       }
     },
     {
@@ -8959,7 +10594,13 @@
       "references": {
         "esDe": {
           "label": "SWF Player (Standalone)"
-        }
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.issess.flashplayer"
+          }
+        ]
       }
     }
   ],

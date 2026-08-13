@@ -138,6 +138,10 @@
     <string name="platform_configuration_emulator_apps_selection_tip_box_description">Malheureusement, cela signifie que l\'émulateur n\'est pas pris en charge par défaut.\nTu peux cependant ajouter la configuration toi-même dans [Paramètres] > [Avancé] > [Émulateurs personnalisés] > [Créer].</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Installé</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Non installé</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Télécharger sur le PlayStore</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">L\'application d\'émulateur n\'est pas installée</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Télécharge et installe d\'abord l\'application d\'émulateur pour pouvoir la sélectionner ici.</string>
 
     <!-- Platform configuration - Folders selection step -->
     <string name="platform_configuration_folders_selection_title">Dossiers</string>
@@ -476,11 +480,16 @@
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Configuration avancée</string>
+    <string name="settings_advanced_menu_option_behavior">Comportement</string>
     <string name="settings_advanced_menu_option_config_updater">Mise à jour des configurations de plateformes &amp; émulateurs</string>
     <string name="settings_advanced_menu_option_scrapers">Paramètres des scrapers</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Configurations de plateformes personnalisées</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Applications d\'émulateurs personnalisées</string>
     <string name="settings_advanced_menu_option_import_export">Import/Export</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Utiliser les anciens chemins RetroArch</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
