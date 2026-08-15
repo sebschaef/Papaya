@@ -1,5 +1,16 @@
 <resources>
 
+    <!-- Common -->
+    <string name="common_select">Selecionar</string>
+    <string name="common_navigate">Navegar</string>
+    <string name="common_back">Voltar</string>
+    <string name="common_exit">Sair</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_custom">Personalizado</string>
+    <string name="common_save">Salvar</string>
+    <string name="common_saving">Salvando</string>
+    <string name="common_okay">Ok</string>
+    <string name="common_done">Concluído</string>
 
     <!-- Onboarding -->
     <string name="onboarding_welcome_title">Boas-vindas ao Papaya</string>
@@ -19,17 +30,6 @@
     <string name="onboarding_collection_setup_option_import_from_es_de">Importar do ES-DE</string>
     <string name="onboarding_collection_setup_option_import_from_es_de_description">Isso também pode ser feito depois nas Configurações.</string>
     <string name="onboarding_finish_cta">Concluir</string>
-    <!-- Common -->
-    <string name="common_select">Selecionar</string>
-    <string name="common_navigate">Navegar</string>
-    <string name="common_back">Voltar</string>
-    <string name="common_exit">Sair</string>
-    <string name="common_cancel">Cancelar</string>
-    <string name="common_custom">Personalizado</string>
-    <string name="common_save">Salvar</string>
-    <string name="common_saving">Salvando</string>
-    <string name="common_okay">Ok</string>
-    <string name="common_done">Concluído</string>
 
     <!-- Gallery - Top bar -->
     <string name="gallery_top_bar_buy_license">Comprar licença</string>
@@ -137,6 +137,10 @@
     <string name="platform_configuration_emulator_apps_selection_tip_box_description">Infelizmente isso significa que o emulador não é suportado nativamente.\nNo entanto, você pode adicionar a configuração manualmente em [Configurações] > [Avançado] > [Apps de emuladores personalizados] > [Criar].</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Instalado</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Não instalado</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Baixar na PlayStore</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">O App do emulador não está instalado</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Baixe e instale o App do emulador primeiro para poder selecioná-lo aqui.</string>
 
     <!-- Platform configuration - Folders selection step -->
     <string name="platform_configuration_folders_selection_title">Pastas</string>
@@ -475,11 +479,16 @@
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Configuração avançada</string>
+    <string name="settings_advanced_menu_option_behavior">Comportamento</string>
     <string name="settings_advanced_menu_option_config_updater">Atualização das configurações da plataforma e do emulador</string>
     <string name="settings_advanced_menu_option_scrapers">Configurações do Scraper</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Configurações de plataforma personalizadas</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Apps de emuladores personalizados</string>
     <string name="settings_advanced_menu_option_import_export">Importar/Exportar</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Usar caminhos antigos do RetroArch</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
@@ -657,9 +666,9 @@
     <string name="settings_esde_import_message_info_verifying_folders">Verificando as pastas do ES-DE e de ROMs…</string>
     <string name="settings_esde_import_message_info_found_gamelists">%1$s plataformas encontradas</string>
     <string name="settings_esde_import_cta_import">Importar</string>
-    <string name="settings_esde_import_info_import">O Papaya referencia diretamente os gamelists e as capas na pasta do ES-DE, sem copiá-los. A opção \"Detectar novos jogos e alterações\" também detectará mudanças feitas na configuração do ES-DE e atualizará a plataforma no Papaya de acordo. Modificar a plataforma no Papaya terá efeito apenas no Papaya, sua configuração do ES-DE não será modificada.</string>
+    <string name="settings_esde_import_info_import">Papaya referencia diretamente os gamelists e as capas na pasta do ES-DE, sem copiá-los. A opção \"Detectar novos jogos e alterações\" também detectará mudanças feitas na configuração do ES-DE e atualizará a plataforma no Papaya de acordo. Modificar a plataforma no Papaya terá efeito apenas no Papaya, sua configuração do ES-DE não será modificada.</string>
     <string name="settings_esde_import_importing_label">Importando</string>
-    <string name="settings_esde_import_importing_description">%1$d plataformas</string>
+    <string name="settings_esde_import_importing_description">%1$s plataformas</string>
     <string name="settings_esde_import_finished_success_label">%1$s plataformas importadas com sucesso</string>
     <string name="settings_esde_import_finished_success_failures_label">Não importadas:</string>
     <string name="settings_esde_import_finished_unsuccessful_label">Falha ao importar %1$s plataformas</string>

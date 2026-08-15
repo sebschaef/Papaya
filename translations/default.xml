@@ -7,6 +7,18 @@
     <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
     <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
 
+    <!-- Common -->
+    <string name="common_select">Select</string>
+    <string name="common_navigate">Navigate</string>
+    <string name="common_back">Back</string>
+    <string name="common_exit">Exit</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_custom">CUSTOM</string>
+    <string name="common_save">Save</string>
+    <string name="common_saving">Saving</string>
+    <string name="common_okay">Okay</string>
+    <string name="common_done">Done</string>
+
     <!-- Onboarding -->
     <string name="onboarding_welcome_title">Welcome to Papaya</string>
     <string name="onboarding_welcome_subtitle">All your games in one place</string>
@@ -25,18 +37,6 @@
     <string name="onboarding_collection_setup_option_import_from_es_de">Import from ES-DE</string>
     <string name="onboarding_collection_setup_option_import_from_es_de_description">This can also be done later in the Settings.</string>
     <string name="onboarding_finish_cta">Finish</string>
-
-    <!-- Common -->
-    <string name="common_select">Select</string>
-    <string name="common_navigate">Navigate</string>
-    <string name="common_back">Back</string>
-    <string name="common_exit">Exit</string>
-    <string name="common_cancel">Cancel</string>
-    <string name="common_custom">CUSTOM</string>
-    <string name="common_save">Save</string>
-    <string name="common_saving">Saving</string>
-    <string name="common_okay">Okay</string>
-    <string name="common_done">Done</string>
 
     <!-- Gallery - Top bar -->
     <string name="gallery_top_bar_buy_license">Buy license</string>
@@ -145,6 +145,10 @@
     <string name="platform_configuration_emulator_apps_selection_tip_box_description">Unfortunately this means that the emulator is not supported out of the box.\nHowever, you can add the configuration yourself in [Settings] > [Advanced] > [Custom emulator apps] > [Create].</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Installed</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Not installed</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Get it on Google Play</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">Emulator app is not installed</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Please download and install the emulator app first to be able to select it here.</string>
 
     <!-- Platform configuration - Folders selection step -->
     <string name="platform_configuration_folders_selection_title">Folders</string>
@@ -498,11 +502,16 @@
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Advanced configuration</string>
+    <string name="settings_advanced_menu_option_behavior">Behavior</string>
     <string name="settings_advanced_menu_option_config_updater">Platform &amp; Emulator configurations Update</string>
     <string name="settings_advanced_menu_option_scrapers">Scraper settings</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Custom platform configurations</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Custom emulator Apps</string>
     <string name="settings_advanced_menu_option_import_export">Import/Export</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Use legacy RetroArch paths</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
@@ -702,8 +711,8 @@
     <string name="settings_esde_import_finished_unsuccessful_label">Failed to import %1$s platforms</string>
     <string name="settings_esde_import_finished_unsuccessful_failures_label">Reasons:</string>
     <string name="settings_esde_import_finished_failure_reason_no_matching_platform">No matching Papaya platform found.</string>
-    <string name="settings_esde_import_finished_failure_reason_empty_apps">Contains no relevant Apps. Please make sure that the gamelist.xml up to date with the actual *.app files and that the defined Apps are installed.</string>
-    <string name="settings_esde_import_finished_failure_reason_empty_games">Contains no relevant game files. Please make sure that the gamelist.xml up to date with the actual game files. Other reasons might be that Papaya does not support the file types of all defined game files or that all games are marked as hidden/broken in the gamelist.xml.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_apps">Contains no relevant Apps. Please make sure that the gamelist.xml is up to date with the actual *.app files and that the defined Apps are installed.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_games">Contains no relevant game files. Please make sure that the gamelist.xml is up to date with the actual game files. Other reasons might be that Papaya does not support the file types of all defined game files or that all games are marked as hidden/broken in the gamelist.xml.</string>
     <string name="settings_esde_import_finished_failure_reason_game_list_not_read">The gamelist.xml could not be read:\n%1$s</string>
     <string name="settings_esde_import_finished_failure_reason_game_list_not_read_reason_generic">Unknown error</string>
     <string name="settings_esde_import_finished_cta_okay">@string/common_okay</string>

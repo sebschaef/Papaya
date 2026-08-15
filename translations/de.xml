@@ -137,6 +137,10 @@
     <string name="platform_configuration_emulator_apps_selection_tip_box_description">Leider bedeutet das, dass der Emulator nicht standardmäßig unterstützt wird.\nDu kannst jedoch die Konfiguration dafür selbst erstellen. Gehe dazu ins Menü [Einstellungen] > [Erweitert] > [Benutzerdefinierte Emulatoren] > [Neu].</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Installiert</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Nicht installiert</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Im PlayStore herunterladen</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">Emulator-App ist nicht installiert</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Bitte lade die Emulator-App zuerst herunter und installiere sie, um sie hier auswählen zu können.</string>
 
     <!-- Platform configuration - Folders selection step -->
     <string name="platform_configuration_folders_selection_title">Ordner</string>
@@ -475,11 +479,16 @@
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Erweiterte Einstellungen</string>
+    <string name="settings_advanced_menu_option_behavior">Verhalten</string>
     <string name="settings_advanced_menu_option_config_updater">Plattform- &amp; Emulator-Konfiguration Update</string>
     <string name="settings_advanced_menu_option_scrapers">Scraper-Konfiguration</string>
     <string name="settings_advanced_menu_option_custom_platform_config">Benutzerdefinierte Plattformkonfigurationen</string>
     <string name="settings_advanced_menu_option_custom_emulator_apps">Benutzerdefinierte Emulatoren</string>
     <string name="settings_advanced_menu_option_import_export">Import/Export</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Alte RetroArch-Pfade verwenden</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
