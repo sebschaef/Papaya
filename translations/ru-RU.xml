@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Meta -->
+    <string name="app_name" translatable="false">Papaya</string>
+    <string name="title_activity_emulator_configuration" translatable="false">EmulatorConfigurationActivity</string>
+    <string name="title_activity_settings_main_menu" translatable="false">SettingsMainMenuActivity</string>
+    <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
+    <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
+
+    <!-- Common -->
+    <string name="common_select">Выбрать</string>
+    <string name="common_navigate">Навигация</string>
+    <string name="common_back">Назад</string>
+    <string name="common_exit">Выход</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_custom">ПОЛЬЗОВАТЕЛЬСКИЙ</string>
+    <string name="common_save">Сохранить</string>
+    <string name="common_saving">Сохранение</string>
+    <string name="common_okay">ОК</string>
+    <string name="common_done">Готово</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Добро пожаловать в Papaya</string>
+    <string name="onboarding_welcome_subtitle">Все ваши игры в одном месте</string>
+    <string name="onboarding_welcome_cta">Начать</string>
+    <string name="onboarding_dark_mode_title">Настройте атмосферу</string>
+    <string name="onboarding_dark_mode_subtitle">Вы всегда можете изменить это позже в Настройках</string>
+    <string name="onboarding_theme_title">Выберите внешний вид</string>
+    <string name="onboarding_theme_subtitle">@string/onboarding_dark_mode_subtitle</string>
+    <string name="onboarding_theme_option_gallery_description">Геймпад + Сенсор</string>
+    <string name="onboarding_theme_option_deckish_description">В стиле TV</string>
+    <string name="onboarding_theme_option_xmb_description">Ощущение PSP</string>
+    <string name="onboarding_collection_setup_title">Начните свою коллекцию игр</string>
+    <string name="onboarding_collection_setup_subtitle">Вы всегда можете добавить новые игры и платформы позже.</string>
+    <string name="onboarding_collection_setup_option_quick_start">Быстрый старт</string>
+    <string name="onboarding_collection_setup_option_quick_start_description">Автоматически обнаружит ваши Android-игры и добавит ваши Retro-игры по запросу.</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de">Импорт из ES-DE</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de_description">Это также можно сделать позже в Настройках.</string>
+    <string name="onboarding_finish_cta">Готово</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_buy_license">Купить лицензию</string>
+    <string name="gallery_top_bar_settings">Настройки</string>
+    <string name="gallery_top_bar_category_games">Игры</string>
+    <string name="gallery_top_bar_category_apps">Приложения</string>
+    <string name="gallery_top_bar_category_streaming">Стриминг</string>
+    <string name="gallery_top_bar_category_emulators">Эмуляторы</string>
+
+    <!-- Gallery - Key hints -->
+    <string name="gallery_key_hints_buy_license">Лицензия</string>
+    <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
+    <string name="gallery_key_hints_tab">Вкладка</string>
+    <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Сортировать</string>
+    <string name="gallery_key_hints_options">Опции</string>
+    <string name="gallery_key_hints_back">@string/common_back</string>
+    <string name="gallery_key_hints_launch">Запустить</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_welcome_dialog_title">Добро пожаловать!</string>
+    <string name="gallery_games_welcome_dialog_text">Я нашел %1\$s и добавил их в вашу коллекцию.\nХотите загрузить их обложки сейчас?\n</string>
+    <string name="gallery_games_welcome_dialog_confirm">Да, загрузить обложки</string>
+    <string name="gallery_games_welcome_dialog_dismiss">Нет, может быть позже</string>
+    <plurals name="gallery_games_welcome_dialog_text_game_quantity">
+        <item quantity="one">одну Android-игру</item>
+        <item quantity="two">две Android-игры</item>
+        <item quantity="other">%d Android-игр</item>
+    </plurals>
+    <string name="gallery_games_welcome_embedded_title">@string/gallery_games_welcome_dialog_title</string>
+    <string name="gallery_games_welcome_embedded_text">Начните с добавления ваших игр:</string>
+    <string name="gallery_games_welcome_embedded_cta">Добавить первую платформу</string>
+    <string name="gallery_games_cover_loading_label">Загрузка</string>
+    <string name="gallery_games_error_game_launch_failed_title">Не удалось запустить игру</string>
+    <string name="gallery_games_error_game_launch_failed_app_not_found">Не удалось запустить \"%1\$s\". Пожалуйста, убедитесь, что приложение установлено и включено.</string>
+    <string name="gallery_games_error_game_launch_failed_generic">Не удалось запустить \"%1\$s\" по неизвестной причине:\n%2\$s</string>
+    <string name="gallery_games_error_app_launch_failed_title">Не удалось запустить приложение</string>
+    <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
+    <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+    <string name="gallery_games_sorting_option_by_platform">По платформе</string>
+    <string name="gallery_games_sorting_option_by_release_year">По дате релиза</string>
+    <string name="gallery_games_sorting_option_by_first_letter">По имени</string>
+    <string name="gallery_games_sorting_option_by_genre">По жанру</string>
+    <string name="gallery_games_sorting_option_all">Все</string>
+    <string name="gallery_games_sorting_section_recents_title">Недавние</string>
+    <string name="gallery_games_sorting_section_favourites_title">Избранное</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Нет даты</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Числа</string>
+    <string name="gallery_games_sorting_section_all_title">Все</string>
+
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Опции сортировки</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Сортировать</string>
+    <string name="xmb_games_error_no_games_available">Нет доступных игр</string>
+    <string name="xmb_settings_title">Настройки</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Настройки Papaya</string>
+
+    <!-- Platform configuration - Key hints -->
+    <string name="platform_configuration_key_hints_next_step">Следующий шаг</string>
+    <string name="platform_configuration_key_hints_previous_step_done">Предыдущий шаг / Готово</string>
+    <string name="platform_configuration_key_hints_previous_step_next_step">Предыдущий / Следующий шаг</string>
+    <string name="platform_configuration_key_hints_navigate">@string/common_navigate</string>
+    <string name="platform_configuration_key_hints_exit">@string/common_exit</string>
+    <string name="platform_configuration_key_hints_cancel">@string/common_cancel</string>
+    <string name="platform_configuration_key_hints_select_unselect">Выбрать / Отменить выбор</string>
+    <string name="platform_configuration_key_hints_select">@string/common_select</string>
+    <string name="platform_configuration_key_hints_add_remove_folder">Добавить / Удалить папку</string>
+    <string name="platform_configuration_key_hints_open_emulator_selection">Открыть выбор эмулятора</string>
+
+    <!-- Platform configuration - General -->
+    <string name="platform_configuration_general_loading_read_game_files_title">Поиск файлов игр</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_reading_files">Чтение файла %1\$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_sub_description_reading_files">Найдено: %1\$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_preparing_file_tree">Подготовка отображения дерева файлов</string>
+    <string name="platform_configuration_general_saving">@string/common_saving</string>
+    <string name="platform_configuration_general_exit_warning_dialog_title">Выйти из конфигуратора платформы?</string>
+    <string name="platform_configuration_general_exit_warning_dialog_text">Все сделанные конфигурации будут потеряны.\nЕсли вы хотите вернуться на один шаг назад, используйте кнопку &lt;.</string>
+    <string name="platform_configuration_general_exit_warning_dialog_confirm">Выйти и отменить конфигурацию</string>
+    <string name="platform_configuration_general_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="platform_configuration_general_content_description_previous_step">Предыдущий шаг</string>
+    <string name="platform_configuration_general_button_done">@string/common_done</string>
+    <string name="platform_configuration_general_button_next_step">Далее</string>
+    <string name="platform_configuration_general_content_description_next_step">Следующий шаг</string>
+
+    <!-- Platform configuration - Platform selection step -->
+    <string name="platform_configuration_platform_selection_title">Платформа</string>
+    <string name="platform_configuration_platform_selection_description">Выберите платформу</string>
+    <string name="platform_configuration_platform_selection_label_custom_platform">@string/common_custom</string>
+
+    <!-- Platform configuration - Android games selection step -->
+    <string name="platform_configuration_android_games_selection_title">Игровые приложения</string>
+    <string name="platform_configuration_android_games_selection_description">Выберите ваши игровые приложения</string>
+
+    <!-- Platform configuration - Emulator apps selection step -->
+    <string name="platform_configuration_emulator_apps_selection_title">Приложения эмуляторов</string>
+    <string name="platform_configuration_emulator_apps_selection_description">Выберите приложения эмуляторов</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Не можете найти ваше приложение эмулятора в списке?</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_description">К сожалению, это означает, что эмулятор не поддерживается из коробки.\nОднако вы можете добавить конфигурацию самостоятельно в [Настройки] > [Расширенные] > [Настраиваемые приложения эмуляторов] > [Создать].</string>
+    <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Установлено</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Не установлено</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Получить в Google Play</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">Приложение эмулятора не установлено</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Пожалуйста, загрузите и установите приложение эмулятора, чтобы выбрать его здесь.</string>
+
+    <!-- Platform configuration - Folders selection step -->
+    <string name="platform_configuration_folders_selection_title">Папки</string>
+    <string name="platform_configuration_folders_selection_description">Добавьте папки, содержащие ваши файлы игр</string>
+    <string name="platform_configuration_folders_selection_cta_add_folder">Добавить папку</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Видите сообщение "Нет приложения, которое может выполнить это действие"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">Это означает, что на вашем устройстве нет предварительно установленного приложения для выбора папок.\nОднако вы можете легко установить приложение для управления файлами, которое поддерживает действие выбора папок. Например, "My Files" из Google Play.</string>
+
+    <!-- Platform configuration - GameList preference step -->
+    <string name="platform_configuration_game_list_preference_title">Настройки списка игр</string>
+    <string name="platform_configuration_game_list_preference_description">Настройте, как обрабатывается файл gamelist.xml</string>
+    <string name="platform_configuration_game_list_preference_option_read_and_write">Чтение и запись</string>
+    <string name="platform_configuration_game_list_preference_option_read_only">Только чтение</string>
+    <string name="platform_configuration_game_list_preference_option_read_only_description">Извлекайте названия игр, обложки и т. д. из файла gamelist.xml. Список не будет изменён.</string>
+    <string name="platform_configuration_game_list_preference_option_ignore">Игнорировать</string>
+    <string name="platform_configuration_game_list_preference_option_ignore_description">Извлекайте названия игр непосредственно из файлов. Обнаруженный файл gamelist.xml игнорируется.</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_title">Найден недействительный файл gamelist.xml</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_text">Выбранные папки содержат хотя бы один файл gamelist.xml, который не может быть прочитан из-за следующих ошибок:\nВы можете игнорировать недействительные файлы gamelist.xml и продолжить с импортером игр Papaya по умолчанию.\n\nОшибки:%1\$s</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_error_generic">Неизвестная ошибка</string>
+
+    <!-- Platform configuration - Game files selection step -->
+    <string name="platform_configuration_game_files_selection_title">Файлы игр</string>
+    <string name="platform_configuration_game_files_selection_description">Выберите ваши файлы игр</string>
+    <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Файл игры</string>
+    <string name="platform_configuration_game_files_selection_icon_game_list_content_description">Импортировано из списка игр</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_title">Нет файлов игр в этих папках</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_description">Пожалуйста, выберите папку, содержащую файлы следующих типов: %1\$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">Нет доступа к этим папкам</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">Система запретила доступ к следующим папкам. Пожалуйста, убедитесь, что ваша SD-карта вставлена, или вернитесь на один шаг назад и попробуйте снова добавить папки:\n\n%1\$s</string>
+
+    <!-- Platform configuration - Game emulator matching step -->
+    <string name="platform_configuration_game_emulator_matching_title">Комбинации игры + эмулятора</string>
+    <string name="platform_configuration_game_emulator_matching_description">Укажите эмуляторы для запуска ваших игр</string>
+
+    <!-- Platform configuration - Enable notifications -->
+    <string name="platform_configuration_enable_notifications_title">Включить уведомления?</string>
+    <string name="platform_configuration_enable_notifications_description">Смотрите прогресс в уведомлении, когда я собираю обложки для ваших игр:</string>
+    <string name="platform_configuration_enable_notifications_option_yes">Да, я хочу видеть прогресс сбора</string>
+    <string name="platform_configuration_enable_notifications_option_no">Нет, может быть позже</string>
+
+    <!-- Platform configuration - summary -->
+    <plurals name="platform_configuration_summary_game_apps">
+        <item quantity="one">Одна игра</item>
+        <item quantity="other">%d игр</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_emulator_apps">
+        <item quantity="one">Один эмулятор</item>
+        <item quantity="other">%d эмуляторов</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_folders">
+        <item quantity="one">Одна папка</item>
+        <item quantity="other">%d папок</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_game_files">
+        <item quantity="one">Одна игра</item>
+        <item quantity="other">%d игр</item>
+    </plurals>
+    <string name="platform_configuration_summary_amount_games_in_folders">%1\$s в %2\$s</string>
+    <plurals name="platform_configuration_summary_amount_of_games_in_folders_folders">
+        <item quantity="one">одной папке</item>
+        <item quantity="other">%d папках</item>
+    </plurals>
+    <string name="platform_configuration_summary_steps_left">Шаг %1\$d из %2\$d</string>
+
+    <!-- Item options - General -->
+    <string name="item_options_loading_title">Загрузка опций элемента</string>
+    <string name="item_options_saving_title">@string/common_saving</string>
+
+    <!-- Item options - Key hints -->
+    <string name="item_options_key_hints_navigate">@string/common_navigate</string>
+    <string name="item_options_key_hints_back">@string/common_back</string>
+    <string name="item_options_key_hints_select">@string/common_select</string>
+
+    <!-- Item options - App -->
+    <string name="item_options_app_menu_option_launch">Запустить приложение</string>
+    <string name="item_options_app_menu_option_settings">Открыть настройки приложения</string>
+    <string name="item_options_app_menu_option_uninstall">Удалить приложение</string>
+    <string name="item_options_app_menu_option_launch_display">Запустить дисплей</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Стандартный</string>
+    <string name="item_options_app_menu_error_launch_shortcut_title">Не удалось запустить ярлык</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
+    <string name="item_options_app_menu_error_launch_app_settings_title">Не удалось запустить настройки приложения</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_app_not_found">Не удалось открыть настройки приложения. Пожалуйста, убедитесь, что приложение "Настройки" включено.</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_generic">Не удалось открыть настройки приложения по неизвестной причине:\n%1\$s</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_section_launch">Запустить</string>
+    <string name="item_options_game_file_menu_option_launch_game">Запустить игру</string>
+    <string name="item_options_game_file_menu_option_launch_emulator">Запустить эмулятор</string>
+    <string name="item_options_game_file_menu_section_edit">Редактировать</string>
+    <string name="item_options_game_file_menu_option_scrape">Собрать данные игры</string>
+    <string name="item_options_game_file_menu_option_edit">Редактировать данные игры</string>
+    <string name="item_options_game_file_menu_section_other">Другое</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Добавить в избранное</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Удалить из избранного</string>
+    <string name="item_options_game_file_menu_option_hide">Скрыть игру</string>
+    <string name="item_options_game_file_menu_option_change_emulator">Изменить эмулятор</string>
+    <string name="item_options_game_file_menu_option_open_scraper_website">Посмотреть на %1\$s</string>
+    <string name="item_options_game_file_warning_dialog_hide_title">Скрыть \"%1\$s\"?</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Игра больше не будет отображаться в вашей коллекции. Вы всегда можете вернуть её в [Настройки] > [Конфигурация платформы] > [Платформа] > [Редактировать], выбрав игру снова.</string>
+    <string name="item_options_game_file_warning_dialog_hide_confirm">Скрыть игру</string>
+    <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Game app -->
+    <string name="item_options_game_app_menu_section_launch">@string/item_options_game_file_menu_section_launch</string>
+    <string name="item_options_game_app_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
+    <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Не игра</string>
+    <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
+    <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">Переместить \"%1\$s\" в меню приложений?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Вы всегда можете вернуть это в [Настройки] > [Конфигурация платформы] > [Платформа] > [Редактировать], снова отметив приложение как игру.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Переместить приложение</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Streaming game -->
+    <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_streaming_game_menu_option_launch_streaming_app">Запустить приложение для стриминга игр</string>
+    <string name="item_options_streaming_game_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_streaming_game_menu_option_unpin">Открепить игру</string>
+    <string name="item_options_streaming_game_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_title">Открепить \"%1\$s\"?</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_text">Ярлык игры больше не будет отображаться в вашей коллекции. Вы всегда можете вернуть его, создав ярлык в приложении для стриминга игр.</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_confirm">Открепить игру</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Scrape -->
+    <string name="item_options_scrape_no_results">Нет результатов</string>
+    <string name="item_options_scrape_fetching_results_for">Результаты для \"%1\$s\"…</string>
+    <string name="item_options_scrape_error_no_internet_connection">Нет подключения к интернету</string>
+    <string name="item_options_scrape_error_unknown">Неизвестная ошибка</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Обложка</string>
+    <string name="item_options_edit_section_cover_name">Название</string>
+    <string name="item_options_edit_section_cover_sortname">Имя для сортировки</string>
+    <string name="item_options_edit_section_placeholder_sortname">Не установлено</string>
+    <string name="item_options_edit_section_cover_release_date">Дата релиза</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Редактировать</string>
+    <string name="item_options_edit_exit_warning_dialog_title">Выйти из редактора данных игры?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">Все сделанные изменения будут потеряны.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Выйти и отменить изменения</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Key hints -->
+    <string name="settings_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_key_hints_back">@string/common_back</string>
+    <string name="settings_key_hints_select">@string/common_select</string>
+    <string name="settings_key_hints_move">Переместить</string>
+    <string name="settings_key_hints_done">@string/common_done</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_title">Настройки</string>
+    <string name="settings_main_menu_menu_option_android">Настройки устройства</string>
+    <string name="settings_main_menu_menu_option_platform">Конфигурация платформы</string>
+    <string name="settings_main_menu_menu_option_appearance">Внешний вид и поведение</string>
+    <string name="settings_main_menu_menu_option_advanced">Расширенная конфигурация</string>
+    <string name="settings_main_menu_menu_option_more">Дополнительно</string>
+    <string name="settings_main_menu_menu_option_buy_license">Купить безлимитную лицензию</string>
+
+    <!-- Settings - Platforms -->
+    <string name="settings_platforms_title">Платформы</string>
+    <string name="settings_platforms_cta_add">Добавить платформу</string>
+    <string name="settings_platforms_all_platforms">Все платформы</string>
+    <string name="settings_platforms_reorder_title">Изменить порядок платформ</string>
+    <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
+    <string name="settings_platforms_platform_label_esde" translatable="false">ES-DE</string>
+    <string name="settings_platforms_content_description_platform_label_gamelist" translatable="false">Gamelist</string>
+    <string name="settings_platforms_content_description_move_up">Переместить вверх</string>
+    <string name="settings_platforms_content_description_move_down">Переместить вниз</string>
+
+    <!-- Settings - All Platforms options -->
+    <string name="settings_all_platform_options_menu_option_remove">Удалить все</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_title">Удалить все платформы?</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_text">Все конфигурации будут удалены. Ваши файлы игр и приложения останутся нетронутыми.</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_confirm">Удалить все платформы</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_detect_new_games">Обнаружить новые игры и изменения</string>
+    <string name="settings_platform_options_menu_option_scrape_missing">Собрать отсутствующие обложки и данные игр</string>
+    <string name="settings_platform_options_menu_option_scrape_all">Собрать все обложки и данные игр</string>
+    <string name="settings_platform_options_menu_option_appearance">Внешний вид</string>
+    <string name="settings_platform_options_menu_option_edit">Редактировать</string>
+    <string name="settings_platform_options_menu_option_remove">Удалить</string>
+    <string name="settings_platform_options_warning_dialog_remove_title">Удалить платформу \"%1\$s\"?</string>
+    <string name="settings_platform_options_warning_dialog_remove_text">Конфигурация будет удалена. Ваши файлы игр и приложения останутся нетронутыми.</string>
+    <string name="settings_platform_options_warning_dialog_remove_confirm">Удалить платформу</string>
+    <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Внешний вид платформы</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Изображение платформы</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Монохромное</string>
+    <string name="settings_platform_edit_appearance_section_name">Название</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Краткое название</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Удалить</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">Выйти из редактора внешнего вида платформы?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Все сделанные изменения будут потеряны.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Выйти и отменить изменения</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">Удалить изображение платформы?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">Платформа будет использовать значок или название по умолчанию.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Удалить изображение</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit - Key hints -->
+    <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_platform_edit_key_hints_back">@string/common_back</string>
+    <string name="settings_platform_edit_key_hints_select">@string/common_select</string>
+    <string name="settings_platform_edit_key_hints_back_to_overview">Вернуться к обзору</string>
+    <string name="settings_platform_edit_key_hints_select_unselect">Выбрать / Отменить выбор</string>
+    <string name="settings_platform_edit_key_hints_add_remove_folder">Добавить / Удалить папку</string>
+    <string name="settings_platform_edit_key_hints_open_emulator_selection">Открыть выбор эмулятора</string>
+    <string name="settings_platform_edit_key_hints_cancel">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit -->
+    <string name="settings_platform_edit_loading_config">Загрузка конфигурации</string>
+    <string name="settings_platform_edit_loading_prepare_reading_files">Подготовка к чтению файлов игр</string>
+    <string name="settings_platform_edit_loading_reading_files">Чтение файлов игр</string>
+    <string name="settings_platform_edit_loading_reading_more_files">Чтение дополнительных файлов игр</string>
+    <string name="settings_platform_edit_loading_prepare_parsing_gamelists">Подготовка к чтению файлов gamelist.xml</string>
+    <string name="settings_platform_edit_loading_parsing_gamelists">Чтение файлов gamelist.xml</string>
+    <string name="settings_platform_edit_loading_combining_gamelists_with_files">Объединение gamelist.xml с файлами</string>
+    <string name="settings_platform_edit_loading_setting_up_menu">Настройка структуры меню</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">Нет доступа к папкам этой платформы</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">Система запретила доступ к следующим папкам. Пожалуйста, убедитесь, что ваша SD-карта вставлена, или вернитесь назад и попробуйте снова войти в редактор:\n\n%1\$s</string>
+    <string name="settings_platform_edit_title_saving">@string/common_saving</string>
+    <string name="settings_platform_edit_warning_dialog_exit_title">Выйти из редактора платформы?</string>
+    <string name="settings_platform_edit_warning_dialog_exit_text">Все сделанные изменения будут потеряны.</string>
+    <string name="settings_platform_edit_warning_dialog_exit_confirm">Выйти и отменить изменения</string>
+    <string name="settings_platform_edit_warning_dialog_exit_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_cta_save">@string/common_save</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_apps">Выберите хотя бы одно игровое приложение, чтобы сохранить изменённую конфигурацию</string>
+    <string name="settings_platform_edit_cta_save_information_no_emulator_apps">Выберите хотя бы одно приложение эмулятора, чтобы сохранить изменённую конфигурацию</string>
+    <string name="settings_platform_edit_cta_save_information_no_folder">Добавьте хотя бы одну папку, чтобы сохранить изменённую конфигурацию</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_files">Выберите хотя бы один файл игры, чтобы сохранить изменённую конфигурацию</string>
+
+    <!-- Settings - Appearance -->
+    <string name="settings_appearance_menu_title">@string/settings_main_menu_menu_option_appearance</string>
+    <string name="settings_appearance_menu_menu_option_general">Общие</string>
+    <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
+    <string name="settings_appearance_general_behaviour_title">Поведение</string>
+    <string name="settings_appearance_general_appearance_title">Внешний вид</string>
+    <string name="settings_appearance_general_setting_audio_feedback_title">Звуки</string>
+    <string name="settings_appearance_general_setting_haptic_feedback_title">Вибрация</string>
+    <string name="settings_appearance_general_setting_dark_mode_title">Тёмный режим</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_system">Следовать системе</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_dark">Тёмный</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_light">Светлый</string>
+    <string name="settings_appearance_general_setting_theme_color_title">Цвет темы</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Автоматический</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Синий</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Красный</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Зелёный</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Жёлтый</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Фиолетовый</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Оранжевый</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Сине-зелёный</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Розовый</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Индиго</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Цвет текста на обоях</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Автоматический</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Чёрный</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Белый</string>
+    <string name="settings_appearance_general_setting_adaptive_app_icons_title">Форма значков приложений</string>
+    <string name="settings_appearance_general_setting_background_style_title">Фон</string>
+    <string name="settings_appearance_general_setting_default_launcher_title">Сделать Papaya запускаемым по умолчанию</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Дисплей запуска по умолчанию</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Тот же дисплей (по умолчанию)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Другой дисплей</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Всегда спрашивать</string>
+    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Подсказки для кнопок</string>
+    <string name="settings_appearance_general_setting_key_hints_option_disabled">Отключено</string>
+    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
+    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
+    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Соотношение сторон обложки приложения</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Соотношение сторон обложки игры</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Адаптивное</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Показывать системную панель навигации</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Показывать раздел "Недавние"</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Показывать раздел "Избранное"</string>
+
+    <!-- Settings - Appearance - Layout -->
+    <string name="settings_appearance_layout_menu_theme_title">Тема</string>
+    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
+    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
+    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Конфигурация темы</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Тип</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Сенсорный</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Геймпад</string>
+    <string name="settings_appearance_layout_menu_gallery_general_title">Общие</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Показывать панель вкладок только при взаимодействии</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Макет</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Карусель</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Сетка</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Список</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Настройки карусели</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Показывать панель платформы только при взаимодействии</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Выравнивание</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Верх</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Центр</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Низ</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Размер</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Позиция названия игры</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Под обложкой игры</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Над обложкой игры</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Настройки сетки</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Размер</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_display_game_title">Показывать названия игр под обложкой</string>
+    <string name="settings_appearance_layout_menu_deckish_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_deckish_row_height">Высота строки</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Использовать классические значки категорий</string>
+
+    <!-- Settings - Appearance - Landscape layout -->
+    <string name="settings_appearance_landscape_layout_menu_title">Макет в альбомной ориентации</string>
+
+    <!-- Settings - Appearance - Portrait layout -->
+    <string name="settings_appearance_portrait_layout_menu_title">Макет в портретной ориентации</string>
+
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Фон</string>
+    <string name="settings_appearance_background_system_title">Система</string>
+    <string name="settings_appearance_background_system_option_system">Системный фон</string>
+    <string name="settings_appearance_background_image_title">Изображение</string>
+    <string name="settings_appearance_background_color_title">Цвет</string>
+    <string name="settings_appearance_background_animation_title">Анимация</string>
+    <string name="settings_appearance_background_animation_stars">Звёзды</string>
+    <string name="settings_appearance_background_animation_waves">Волны</string>
+    <string name="settings_appearance_background_animation_sparkles">Искры</string>
+
+    <!-- Settings - Advanced -->
+    <string name="settings_advanced_title">Расширенная конфигурация</string>
+    <string name="settings_advanced_menu_option_behavior">Поведение</string>
+    <string name="settings_advanced_menu_option_config_updater">Обновление конфигурации платформы и эмулятора</string>
+    <string name="settings_advanced_menu_option_scrapers">Настройки скрапера</string>
+    <string name="settings_advanced_menu_option_custom_platform_config">Настраиваемые конфигурации платформы</string>
+    <string name="settings_advanced_menu_option_custom_emulator_apps">Настраиваемые приложения эмуляторов</string>
+    <string name="settings_advanced_menu_option_import_export">Импорт/Экспорт</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Использовать устаревшие пути RetroArch</string>
+
+    <!-- Settings - Config Updater -->
+    <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
+    <string name="settings_config_updater_label_checking_for_update">Проверка обновлений</string>
+    <string name="settings_config_updater_label_up_to_date">Ваша конфигурация актуальна</string>
+    <string name="settings_config_updater_label_up_to_date_update_successful">Обновление успешно установлено</string>
+    <string name="settings_config_updater_label_up_to_date_installed_version">Версия %d</string>
+    <string name="settings_config_updater_cta_update">Обновить сейчас</string>
+    <string name="settings_config_updater_update_title">Доступно обновление</string>
+    <string name="settings_config_updater_update_subtitle">@string/settings_config_updater_label_up_to_date_installed_version</string>
+    <string name="settings_config_updater_update_description">Это обновление включает:</string>
+    <string name="settings_config_updater_update_hint">Установка обычно занимает всего несколько секунд</string>
+    <string name="settings_config_updater_button_cancel_update">Может быть позже</string>
+    <string name="settings_config_updater_error_cta_retry">Попробовать снова</string>
+    <string name="settings_config_updater_error_button_cancel">@string/common_cancel</string>
+    <string name="settings_config_updater_cta_up_to_date">@string/common_okay</string>
+    <string name="settings_config_updater_installation_progress_initial">Подготовка к установке</string>
+    <string name="settings_config_updater_installation_progress_download">Загрузка обновления</string>
+    <string name="settings_config_updater_installation_progress_verification">Проверка обновления</string>
+    <string name="settings_config_updater_installation_progress_installation">Установка обновления</string>
+    <string name="settings_config_updater_installation_progress_warning">Не закрывайте приложение! Закрытие приложения сейчас может повредить вашу конфигурацию.</string>
+    <string name="settings_config_updater_error_no_internet_connection">@string/item_options_scrape_error_no_internet_connection</string>
+    <string name="settings_config_updater_error_checking_updates_failed">Проверка обновлений не удалась</string>
+    <string name="settings_config_updater_error_download_failed">Загрузка обновления не удалась</string>
+    <string name="settings_config_updater_error_incompatible_schema">Обновление несовместимо с вашей версией приложения</string>
+    <string name="settings_config_updater_error_incompatible_schema_subtitle">Проверьте в Google Play, доступна ли новая версия приложения.</string>
+    <string name="settings_config_updater_error_verification_failed">Файл обновления повреждён</string>
+    <string name="settings_config_updater_error_installation_failed">Установка не удалась</string>
+    <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
+    <string name="settings_config_updater_error_subtitle_not_installed">В вашу конфигурацию не были внесены изменения.</string>
+
+    <!-- Settings - Scrapers -->
+    <string name="settings_scrapers_title">Скраперы</string>
+    <string name="settings_scrapers_reorder_title">Изменить порядок скраперов</string>
+    <string name="settings_scrapers_reorder_cta_done">@string/common_done</string>
+    <string name="settings_scrapers_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_scrapers_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_scrapers_label_disabled">Отключено</string>
+    <string name="settings_scrapers_label_missing_api_key">Требуется API-ключ</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_title">Настройки %1$s</string>
+    <string name="settings_scraper_options_setting_is_enabled_label">Включено</string>
+    <string name="settings_scraper_options_setting_api_key_label">Личный API-ключ</string>
+    <string name="settings_scraper_options_setting_api_key_value_not_set">Не установлено</string>
+    <string name="settings_scraper_options_setting_website_label">Открыть %1$s в браузере</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Соотношение сторон обложки</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Любое</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_2_3" translatable="false">2:3</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_92_43" translatable="false">92:43</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_22_31" translatable="false">22:31</string>
+    <string name="settings_scraper_options_setting_cover_type_label">Тип обложки</string>
+    <string name="settings_scraper_options_setting_cover_type_option_any">Любой</string>
+    <string name="settings_scraper_options_setting_cover_type_option_static">Статичный</string>
+    <string name="settings_scraper_options_setting_cover_type_option_animated">Анимированный</string>
+
+    <!-- Settings - Scraper API key -->
+    <string name="settings_scraper_api_key_title">API-ключ %1$s</string>
+    <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
+    <string name="settings_scraper_api_key_save_try">Сохранить и проверить</string>
+    <string name="settings_scraper_api_key_test_idle_label">После сохранения здесь отобразится, действителен ли ключ.</string>
+    <string name="settings_scraper_api_key_test_request_sent_label">Тестовый запрос отправлен. Ожидание ответа…</string>
+    <string name="settings_scraper_api_key_test_success_label">✅ Тестовый запрос успешен! Ключ действителен и успешно сохранён.</string>
+    <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Нет подключения к интернету. Ключ успешно сохранён, но не может быть проверен.</string>
+    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ Тестовый запрос не удался по не связанной с ключом причине. Ключ успешно сохранён, но не может быть проверен.</string>
+    <string name="settings_scraper_api_key_test_failure_wrong_credentials_label">❌ Тестовый запрос не удался. Введённый ключ кажется недействительным. Пожалуйста, проверьте, что все символы введены правильно. Ключ сохранён в любом случае.</string>
+
+    <!-- Settings - Custom emulator apps -->
+    <string name="settings_custom_emulator_apps_title">Настраиваемые конфигурации эмуляторов</string>
+    <string name="settings_custom_emulator_apps_cta_add">Добавить конфигурацию эмулятора</string>
+
+    <!-- Settings - Custom emulator app options -->
+    <string name="settings_custom_emulator_app_options_menu_option_edit">Редактировать</string>
+    <string name="settings_custom_emulator_app_options_menu_option_remove">Удалить</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_title">Удалить \"%1$s\"?</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_text">Настраиваемая конфигурация эмулятора будет удалена и его невозможно восстановить.</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_confirm">Удалить конфигурацию эмулятора</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_title">Удаление невозможно!</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_text">Настраиваемая конфигурация эмулятора всё ещё используется. Пожалуйста, выберите другой эмулятор для этих игр:\n%1$s</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom emulator app creator -->
+    <string name="settings_custom_emulator_app_title">Новая настраиваемая конфигурация эмулятора</string>
+    <string name="settings_custom_emulator_app_section_metadata_title">Метаданные</string>
+    <string name="settings_custom_emulator_app_section_metadata_label_name">Название</string>
+    <string name="settings_custom_emulator_app_section_metadata_hint_name">Например, 'Retroarch - PPSSPP'</string>
+    <string name="settings_custom_emulator_app_section_platform_title">Платформа</string>
+    <string name="settings_custom_emulator_app_section_platform_label_config">Конфигурация</string>
+    <string name="settings_custom_emulator_app_section_platform_hint_config">Содержит информацию о поддерживаемых типах файлов. Вы можете создать свою собственную настраиваемую конфигурацию платформы в [Настройки] > [Расширенные] > [Настраиваемые конфигурации платформы] > [Создать].</string>
+    <string name="settings_custom_emulator_app_section_emulator_title">Эмулятор</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_app">Приложение</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_core" translatable="false">Core</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch требует путь к ядру эмулятора: например, '/data/data/com.retroarch/cores/ppsspp_libretro_android.so'.</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_activity" translatable="false">Activity</string>
+    <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Не указано</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Большинству приложений не требуется явное указание "Activity", поэтому вы можете оставить его как [Не указано]. Однако в некоторых случаях приложения требуют явного указания "Activity": ищите подходящие названия, такие как 'EmulationActivity'.</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_title">Тип параметра</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_file">Файл игры</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_id">ID игры</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Обычно эмуляторы хотят указать напрямую на 'Файл игры'. Однако для некоторых платформ нет единственного файла, на который можно указать. В таких случаях эмуляторы ссылаются на игру через 'ID игры' (например, Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_title">Обработка ID игры</string>
+    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Выбранная конфигурация платформы не включает спецификацию типа файла ID. Вы можете создать свою собственную настраиваемую конфигурацию платформы и добавить тип файла со спецификацией, как получить ID игры. Перейдите в [Настройки] > [Расширенные] > [Настраиваемые конфигурации платформы] > [Создать], чтобы создать её.\nВы всё ещё можете продолжить настройку этой конфигурации и сохранить её. Вы даже можете попробовать запустить игру, но, скорее всего, это не удастся, так как нет информации о том, где взять ID игры.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Стандартное действие для открытия документа — 'android.intent.action.VIEW', которое используется большинством эмуляторных приложений. В редких случаях используется пользовательское действие: например, для эмуляторов на основе Yuzu это 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">Параметр ID</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Передавать ID через параметр DATA</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">Стандартный способ передачи ID другому приложению — через параметр DATA. Однако некоторые эмуляторы могут требовать передачи файла через пользовательский параметр.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Пользовательское имя параметра ID</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_inline_hint_custom" translatable="false">game_id</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_string" translatable="false">Строка</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_int" translatable="false">Целое число</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Обычно ID передаётся как текстовый тип ('Строка'). Если ID — это число, возможно, что оно передаётся как явный числовой тип ('Целое число').</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_title">Обработка файла игры</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_intent_action" translatable="false">Intent action</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Стандартное действие для открытия файла — 'android.intent.action.VIEW', которое используется большинством эмуляторных приложений. В редких случаях используется пользовательское действие: например, для эмуляторов на основе Yuzu это 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_file_parameter">Параметр файла</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_file_parameter_data_parameter">Передавать файл через параметр DATA</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_file_parameter">Стандартный способ передачи файла другому приложению — через параметр DATA. Однако некоторые эмуляторы могут требовать передачи файла через пользовательский параметр.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_custom">Пользовательский параметр файла</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_inline_hint_custom" translatable="false">bootPath</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_content_uri" translatable="false">Content URI</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_absolute_url">Абсолютный URL</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Современные приложения обычно ссылаются на файл через 'Content URI'. Более старые приложения могут использовать 'Абсолютный URL': подсказкой может быть то, что они используют разрешение 'READ_EXTERNAL_STORAGE'.</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_button_add">Добавить параметр</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_key">Ключ</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_string">Текстовое значение</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_int">Числовое значение</string>
+    <string name="settings_custom_emulator_app_cta_save">@string/common_save</string>
+    <string name="settings_custom_emulator_app_box_try_it_title">Попробуйте!</string>
+    <string name="settings_custom_emulator_app_box_try_it_button_select_test_file">Выбрать тестовый файл</string>
+    <string name="settings_custom_emulator_app_box_try_it_cta_launch">Запустить</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_success">✅ Приложение успешно запущено!</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_empty">После нажатия на 'Запустить' здесь отобразится результат.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Однако я не могу получить ID игры из типа файла '%1$s', определённого в выбранной конфигурации платформы. Пожалуйста, определите в конфигурации платформы, как я могу прочитать ID в заданном типе файла.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип '%1$s' указывает, что ID игры считывается из имени папки. Однако похоже, что тестовый файл не находится внутри папки.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип '%1$s' указывает, что ID игры считывается из содержимого файла. Однако похоже, что тестовый файл не содержит ID в читаемом формате: ID должен быть единственным содержимым файла.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип '%1$s' указывает, что ID игры считывается из содержимого файла. Однако я не смог получить доступ к содержимому файла.</string>
+
+    <!-- Settings - Custom platforms -->
+    <string name="settings_custom_platforms_title">Настраиваемые конфигурации платформы</string>
+    <string name="settings_custom_platforms_cta_add">Добавить конфигурацию платформы</string>
+
+    <!-- Settings - Custom platform options -->
+    <string name="settings_custom_platform_options_menu_option_edit">Редактировать</string>
+    <string name="settings_custom_platform_options_menu_option_remove">Удалить</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_title">Удалить \"%1$s\"?</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_text">Настраиваемая конфигурация платформы будет удалена и не может быть восстановлена.</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_confirm">Удалить конфигурацию платформы</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_title">Удаление невозможно!</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text">Настраиваемая конфигурация платформы всё ещё используется. Пожалуйста, удалите использования сначала:\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_emulator_apps">Конфигурации эмуляторных приложений: %1$s\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_platforms">Конфигурации платформ: %1$s</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom platform creator -->
+    <string name="settings_custom_platform_creator_title">Новая настраиваемая конфигурация платформы</string>
+    <string name="settings_custom_platform_creator_section_platform_abbreviation_title">Аббревиатура платформы</string>
+    <string name="settings_custom_platform_creator_section_platform_abbreviation_inline_hint" translatable="false">PSP</string>
+    <string name="settings_custom_platform_creator_section_platform_name_title">Название платформы</string>
+    <string name="settings_custom_platform_creator_section_platform_name_inline_hint" translatable="false">PlayStation Portable</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_title">Типы файлов игр</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_button_add">Добавить тип файла</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_inline_hint" translatable="false">iso</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">Файл игры</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">Файл ID игры</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Где определяется ID?</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_content">Внутри файла</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_folder">Имя родительской папки</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_cancel">@string/common_cancel</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_add">Добавить</string>
+    <string name="settings_custom_platform_creator_cta_save">@string/common_save</string>
+    <string name="settings_custom_platform_creator_error_dialog_title">Удаление невозможно!</string>
+    <string name="settings_custom_platform_creator_error_dialog_text">Эта настраиваемая конфигурация платформы уже используется, поэтому вы не можете удалить ранее добавленные типы файлов.\nВы можете либо добавлять только новые типы файлов, либо удалить платформы, которые используют эту конфигурацию: %1$s</string>
+    <string name="settings_custom_platform_creator_error_dialog_confirm">@string/common_okay</string>
+
+    <!-- Settings - Import/Export -->
+    <string name="settings_import_export_title">Импорт/Экспорт</string>
+    <string name="settings_import_export_menu_option_import_from_esde">Импорт из конфигурации ES-DE</string>
+
+    <!-- Settings - Import from ES-DE -->
+    <string name="settings_esde_import_title">Импорт из конфигурации ES-DE</string>
+    <string name="settings_esde_import_esde_folder_label">Папка ES-DE</string>
+    <string name="settings_esde_import_roms_folder_label">Папка с ROM</string>
+    <string name="settings_esde_import_folder_not_selected">Не выбрано</string>
+    <string name="settings_esde_import_message_error_invalid_esde_folder">Выбранная папка ES-DE кажется недействительной. Убедитесь, что вы выбрали папку, которая содержит подпапки, такие как gamelists, downloaded_media, settings и т. д.</string>
+    <string name="settings_esde_import_message_error_no_gamelists">Выбранная папка ES-DE не содержит ни одного файла gamelist. Для начала импорта должна существовать хотя бы одна система в конфигурации ES-DE.</string>
+    <string name="settings_esde_import_message_info_verifying_folders">Проверка папок ES-DE и ROM...</string>
+    <string name="settings_esde_import_message_info_found_gamelists">Найдено %1$s платформ</string>
+    <string name="settings_esde_import_cta_import">Импортировать</string>
+    <string name="settings_esde_import_info_import">Papaya напрямую ссылается на файлы gamelist и обложек в папке ES-DE и не копирует их. Опция "Обнаружить новые игры и изменения" также будет обнаруживать изменения, внесённые в конфигурацию ES-DE, и соответствующим образом обновлять платформу в Papaya. Изменение платформы в Papaya будет действовать только в Papaya, ваша конфигурация ES-DE не будет изменена.</string>
+    <string name="settings_esde_import_importing_label">Импортируется</string>
+    <string name="settings_esde_import_importing_description">%1$d платформ</string>
+    <string name="settings_esde_import_finished_success_label">Успешно импортировано %1$s платформ</string>
+    <string name="settings_esde_import_finished_success_failures_label">Не импортировано:</string>
+    <string name="settings_esde_import_finished_unsuccessful_label">Не удалось импортировать %1$s платформ</string>
+    <string name="settings_esde_import_finished_unsuccessful_failures_label">Причины:</string>
+    <string name="settings_esde_import_finished_failure_reason_no_matching_platform">Не найдена соответствующая платформа Papaya.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_apps">Не содержит актуальных приложений. Пожалуйста, убедитесь, что файл gamelist.xml актуален с фактическими файлами *.app и что определённые приложения установлены.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_games">Не содержит актуальных файлов игр. Пожалуйста, убедитесь, что файл gamelist.xml актуален с фактическими файлами игр. Другие причины могут заключаться в том, что Papaya не поддерживает типы файлов всех определённых игр, или все игры помечены как скрытые/сломанные в файле gamelist.xml.</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read">Не удалось прочитать файл gamelist.xml:\n%1$s</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read_reason_generic">Неизвестная ошибка</string>
+    <string name="settings_esde_import_finished_cta_okay">@string/common_okay</string>
+
+    <!-- Settings - More -->
+    <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_roadmap">Дорожная карта</string>
+    <string name="settings_more_menu_option_privacy_policy">Политика конфиденциальности</string>
+    <string name="settings_more_menu_option_licenses">Лицензии</string>
+    <string name="settings_more_menu_option_about">О программе</string>
+
+    <!-- Settings - Privacy Policy -->
+    <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
+    <string name="settings_privacy_policy_section_processed_data_title">Обрабатываемые персональные данные</string>
+    <string name="settings_privacy_policy_section_processed_data_text">Papaya обрабатывает информацию об установленных приложениях на вашем устройстве. Кроме того, когда вы явно предоставляете Papaya доступ к определённым папкам на вашем устройстве, она также обрабатывает метаданные файлов, расположенных в этих папках (имя файла, имя папки).</string>
+    <string name="settings_privacy_policy_section_data_usage_title">Как используются ваши данные</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya использует информацию об установленных приложениях на вашем устройстве исключительно для отображения списков приложений на главном экране и для руководства, когда вы настраиваете ярлыки для игр внутри этих приложений (предварительный выбор установленных приложений). Эти данные не передаются третьим лицам и хранятся только локально на вашем устройстве.&lt;br&gt;&lt;br&gt;Упомянутые выше метаданные файлов в определённых папках, к которым вы явно предоставляете Papaya доступ, используются для обогащения ярлыков игр в других приложениях: имена файлов или папок могут быть отправлены на &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; и/или &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; в обмен на дополнительную информацию о ярлыке игры. Такая информация включает обложки, даты релиза, жанры и т. д. Эти дополнительные данные снова используются только для их отображения на вашем главном экране. Обратите внимание, что эти метаданные файлов могут быть переданы только одной из этих четырёх упомянутых выше служб.</string>
+    <string name="settings_privacy_policy_section_managing_data_title">Управление вашими персональными данными</string>
+    <string name="settings_privacy_policy_section_managing_data_text">Papaya хранит ваши персональные данные (установленные приложения, метаданные файлов) на вашем устройстве. Вы можете удалить все свои персональные данные через меню настроек Android: долгое нажатие на значок приложения Papaya, выбор "Информация о приложении", нажатие "Хранилище и кэш" и наконец "Очистить хранилище". Примечание: удаление приложения может не удалить ваши персональные данные, если включена опция резервного копирования.</string>
+    <string name="settings_privacy_policy_section_contact_title">Контактная информация</string>
+    <string name="settings_privacy_policy_section_contact_text">Если у вас есть дополнительные вопросы о ваших персональных данных и их использовании, вы можете отправить мне электронное письмо: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Ответственное лицо: Sebastian Schäf</string>
+
+    <!-- Settings - About -->
+    <string name="settings_about_title">@string/settings_more_menu_option_about</string>
+    <string name="settings_about_section_attribution_title">Благодарности</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Данные игр</string>
+    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Обогащает вашу коллекцию игр красивыми обложками и дополнительной информацией</string>
+    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Обогащает вашу коллекцию игр красивыми обложками и дополнительной информацией</string>
+    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Обогащает вашу коллекцию игр красивыми обложками и дополнительной информацией</string>
+    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Обогащает вашу коллекцию игр красивыми обложками и дополнительной информацией</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Переводы</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Бразильский португальский от &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Латиноамериканский и карибский испанский также от &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Польский от &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Итальянский от &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
+    <string name="settings_about_section_attribution_fi">🇫🇮 Финский от &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
+    <string name="settings_about_section_attribution_ru">🇷🇺 Русский от &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Звуки и значки</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Спасибо за потрясающие значки платформ! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS и SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Спасибо за потрясающий значок платформы PICO-8! 🙏</string>
+    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Щелкающие звуки навигации</string>
+    <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Придаёт запуску игр ретро-ощущение, а диалогам — осмысленный предупреждающий звук</string>
+    <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: За аккуратный значок Discord ниже</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Конфигурация платформы и эмулятора</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Спасибо за добавление поддержки дополнительных типов файлов для различных платформ! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS и 3DS.</string>
+    <string name="settings_about_section_community_title">Сообщество</string>
+    <string name="settings_about_section_community_text">Если вы хотите внести вклад и помочь сформировать будущее Papaya, пожалуйста, присоединяйтесь к сообществу. Конечно, вы также очень welcome, если хотите просто увидеть последние новости или нашли какие-либо ошибки!</string>
+    <string name="settings_about_section_community_option_discord">Discord Papaya</string>
+    <string name="settings_about_section_community_option_github">GitHub Papaya</string>
+    <string name="settings_about_section_community_option_email">Электронная почта</string>
+    <string name="settings_about_section_built_by_title">Создатель</string>
+    <string name="settings_about_section_built_by_text">Sebastian Schäf в Берлине</string>
+    <string name="settings_about_section_built_by_thank_you">Спасибо, что используете Papaya! 🧡</string>
+
+    <!-- Buy license -->
+    <string name="buy_license_trial_title">Пробный период</string>
+    <string name="buy_license_trial_progress_days_left">дней осталось</string>
+    <string name="buy_license_trial_progress_trial_ended">Пробный период\nзавершён</string>
+    <string name="buy_license_purchase_payment_pending">Ожидание оплаты</string>
+    <string name="buy_license_purchase_payment_successful">Спасибо за поддержку! ❤️ Наслаждайтесь Papaya!</string>
+    <string name="buy_license_benefit_title">Безлимитная лицензия:</string>
+    <string name="buy_license_benefit_no_limit">Удалить ограничение пробного периода %1$d дней ✅</string>
+    <string name="buy_license_benefit_no_ads">Гарантия отсутствия рекламы ✅</string>
+    <string name="buy_license_benefit_unlimited_devices">Неограниченное количество устройств ✅</string>
+    <string name="buy_license_benefit_support_development">Поддержка разработки ✅</string>
+    <string name="buy_license_cta_buy_license">Купить безлимитную лицензию</string>
+    <string name="buy_license_cancel_back">Может быть позже</string>
+    <string name="buy_license_cancel_quit">Закрыть Papaya</string>
+    <string name="buy_license_go_back">Вернуться назад</string>
+    <string name="buy_license_error_generic_title">Не удалось открыть кассу</string>
+    <string name="buy_license_error_generic_message">Пожалуйста, убедитесь, что ваше интернет-соединение работает и Google Play Services включены.</string>
+
+    <!-- Shared UI -->
+    <string name="shared_ui_loading_screen_label_default">Загрузка</string>
+    <string name="shared_ui_toggleablebox_contentdescription_checked">Выбрано</string>
+    <string name="shared_ui_toggleablebox_contentdescription_unchecked">Не выбрано</string>
+    <string name="snackbar_platform_scraper_enqueued">В очереди: Сбор данных ваших игр "%1$s".</string>
+    <string name="snackbar_platform_scraper_running">Выполняется в фоновом режиме: Сбор данных ваших игр "%1$s".</string>
+    <string name="snackbar_platform_scraper_succeeded">Завершено: Сбор данных ваших игр "%1$s".</string>
+    <string name="snackbar_platform_scraper_failure">Сбор данных ваших игр "%1$s" не удался.</string>
+    <string name="snackbar_platform_scraper_all_platforms_enqueued">В очереди: Сбор данных ваших игр.</string>
+    <string name="snackbar_platform_scraper_all_platforms_running">Выполняется в фоновом режиме: Сбор данных ваших игр.</string>
+    <string name="snackbar_platform_scraper_all_platforms_succeeded">Завершено: Сбор данных ваших игр.</string>
+    <string name="snackbar_platform_scraper_all_platforms_failure">Сбор данных ваших игр не удался.</string>
+    <string name="snackbar_platform_detect_new_games_enqueued">В очереди: Поиск новых игр "%1$s".</string>
+    <string name="snackbar_platform_detect_new_games_running">Выполняется в фоновом режиме: Поиск новых игр "%1$s".</string>
+    <string name="snackbar_platform_detect_new_games_succeeded">Завершено: Поиск новых игр "%1$s".</string>
+    <string name="snackbar_platform_detect_new_games_failure">Поиск новых игр "%1$s" не удался.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">В очереди: Поиск новых игр.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_running">Выполняется в фоновом режиме: Поиск новых игр.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Завершено: Поиск новых игр.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_failure">Поиск новых игр не удался.</string>
+    <string name="snackbar_platform_scrape_streaming_game_enqueued">В очереди: Сбор данных для закреплённой стриминговой игры.</string>
+    <string name="snackbar_platform_scrape_streaming_game_running">Выполняется в фоновом режиме: Сбор данных для закреплённой стриминговой игры.</string>
+    <string name="snackbar_platform_scrape_streaming_game_succeeded">Завершено: Сбор данных для закреплённой стриминговой игры.</string>
+    <string name="snackbar_platform_scrape_streaming_game_failure">Сбор данных для закреплённой стриминговой игры не удался.</string>
+    <string name="shared_ui_display_selection_this_display">Этот дисплей</string>
+    <string name="shared_ui_display_selection_external_display">Внешний дисплей</string>
+    <string name="shared_ui_display_selection_launch_on">Запустить на</string>
+    <string name="shared_ui_last_played_today">Сегодня</string>
+    <string name="shared_ui_last_played_yesterday">Вчера</string>
+    <string name="shared_ui_last_played_days_ago">%1$s дней назад</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">На вашем устройстве нет приложения, которое может выполнить это действие</string>
+
+    <!-- Background work -->
+    <string name="background_work_action_cancel">@string/common_cancel</string>
+    <string name="background_work_notification_channel_name">Прогресс сбора данных в фоновом режиме</string>
+    <string name="background_work_notification_channel_description">Подробная информация о прогрессе сбора данных. Например: Сколько игр осталось.</string>
+    <string name="background_work_platform_scraper_base_title">Сбор данных ваших игр</string>
+    <string name="background_work_platform_scraper_generic_title">Сбор данных ваших %1$d игр "%2$s"</string>
+    <string name="background_work_platform_scraper_progress_title">Сбор данных игр (%1$d/%2$d): %3$s</string>
+    <string name="background_work_detect_new_games_generic_title">Поиск новых файлов игр</string>
+    <string name="background_work_detect_new_games_generic_platform_title">Поиск новых файлов игр "%1$s"</string>
+    <string name="background_work_detect_new_games_scraper_progress_title">@string/background_work_platform_scraper_progress_title</string>
+    <string name="background_work_streaming_game_scraper_title">Сбор обложки и данных игры</string>
+</resources>

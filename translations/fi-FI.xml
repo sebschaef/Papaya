@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Meta -->
+    <string name="app_name" translatable="false">Papaya</string>
+    <string name="title_activity_emulator_configuration" translatable="false">EmulatorConfigurationActivity</string>
+    <string name="title_activity_settings_main_menu" translatable="false">SettingsMainMenuActivity</string>
+    <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
+    <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
+
+    <!-- Common -->
+    <string name="common_select">Valitse</string>
+    <string name="common_navigate">Navigointi</string>
+    <string name="common_back">Takaisin</string>
+    <string name="common_exit">Poistu</string>
+    <string name="common_cancel">Peruuta</string>
+    <string name="common_custom">MUKAUTETTU</string>
+    <string name="common_save">Tallenna</string>
+    <string name="common_saving">Tallennetaan</string>
+    <string name="common_okay">OK</string>
+    <string name="common_done">Valmis</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Tervetuloa Papayaan</string>
+    <string name="onboarding_welcome_subtitle">Kaikki pelisi yhdessä paikassa</string>
+    <string name="onboarding_welcome_cta">Aloita</string>
+    <string name="onboarding_dark_mode_title">Aseta tunnelma</string>
+    <string name="onboarding_dark_mode_subtitle">Voit muuttaa tätä myöhemmin Asetuksista</string>
+    <string name="onboarding_theme_title">Valitse ulkoasu</string>
+    <string name="onboarding_theme_subtitle">@string/onboarding_dark_mode_subtitle</string>
+    <string name="onboarding_theme_option_gallery_description">Ohjain + Kosketus</string>
+    <string name="onboarding_theme_option_deckish_description">TV-tyylinen</string>
+    <string name="onboarding_theme_option_xmb_description">PSP-tuntuma</string>
+    <string name="onboarding_collection_setup_title">Aloita pelikokoelmasi</string>
+    <string name="onboarding_collection_setup_subtitle">Voit lisätä uusia pelejä ja alustoja myöhemmin.</string>
+    <string name="onboarding_collection_setup_option_quick_start">Pikakäynnistys</string>
+    <string name="onboarding_collection_setup_option_quick_start_description">Automaattisesti havaitsee Android-pelisi ja lisää Retro-pelisi tarpeen mukaan.</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de">Tuo ES-DE:stä</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de_description">Tämä voidaan tehdä myöhemmin Asetuksista.</string>
+    <string name="onboarding_finish_cta">Valmis</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_buy_license">Osta lisenssi</string>
+    <string name="gallery_top_bar_settings">Asetukset</string>
+    <string name="gallery_top_bar_category_games">Pelit</string>
+    <string name="gallery_top_bar_category_apps">Sovellukset</string>
+    <string name="gallery_top_bar_category_streaming">Suoratoisto</string>
+    <string name="gallery_top_bar_category_emulators">Emulaattorit</string>
+
+    <!-- Gallery - Key hints -->
+    <string name="gallery_key_hints_buy_license">Lisenssi</string>
+    <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
+    <string name="gallery_key_hints_tab">Välilehti</string>
+    <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Järjestä</string>
+    <string name="gallery_key_hints_options">Asetukset</string>
+    <string name="gallery_key_hints_back">@string/common_back</string>
+    <string name="gallery_key_hints_launch">Käynnistä</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_welcome_dialog_title">Tervetuloa!</string>
+    <string name="gallery_games_welcome_dialog_text">Löysin %1$s ja lisäsin ne kokoelmaasi.\nHaluatko ladata niiden kansikuvat nyt?\n</string>
+    <string name="gallery_games_welcome_dialog_confirm">Kyllä, hae kansikuvat</string>
+    <string name="gallery_games_welcome_dialog_dismiss">Ei, ehkä myöhemmin</string>
+    <plurals name="gallery_games_welcome_dialog_text_game_quantity">
+        <item quantity="one">yhden Android-pelin</item>
+        <item quantity="two">kaksi Android-peliä</item>
+        <item quantity="other">%d Android-peliä</item>
+    </plurals>
+    <string name="gallery_games_welcome_embedded_title">@string/gallery_games_welcome_dialog_title</string>
+    <string name="gallery_games_welcome_embedded_text">Aloita lisäämällä pelisi:</string>
+    <string name="gallery_games_welcome_embedded_cta">Lisää ensimmäinen alustasi</string>
+    <string name="gallery_games_cover_loading_label">Ladataan</string>
+    <string name="gallery_games_error_game_launch_failed_title">Peliä ei voitu käynnistää</string>
+    <string name="gallery_games_error_game_launch_failed_app_not_found">Sovelluksen \"%1$s\" käynnistäminen epäonnistui. Varmista, että sovellus on asennettu ja käytössä.</string>
+    <string name="gallery_games_error_game_launch_failed_generic">Sovelluksen \"%1$s\" käynnistäminen epäonnistui tuntemattomasta syystä:\n%2$s</string>
+    <string name="gallery_games_error_app_launch_failed_title">Sovellusta ei voitu käynnistää</string>
+    <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
+    <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+    <string name="gallery_games_sorting_option_by_platform">Alustan mukaan</string>
+    <string name="gallery_games_sorting_option_by_release_year">Julkaisupäivän mukaan</string>
+    <string name="gallery_games_sorting_option_by_first_letter">Nimen mukaan</string>
+    <string name="gallery_games_sorting_option_by_genre">Genren mukaan</string>
+    <string name="gallery_games_sorting_option_all">Kaikki</string>
+    <string name="gallery_games_sorting_section_recents_title">Viimeisimmät</string>
+    <string name="gallery_games_sorting_section_favourites_title">Suosikit</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Ei päivämäärää</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerot</string>
+    <string name="gallery_games_sorting_section_all_title">Kaikki</string>
+
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Järjestysasetukset</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Järjestä</string>
+    <string name="xmb_games_error_no_games_available">Ei pelejä saatavilla</string>
+    <string name="xmb_settings_title">Asetukset</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Papaya-asetukset</string>
+
+    <!-- Platform configuration - Key hints -->
+    <string name="platform_configuration_key_hints_next_step">Seuraava vaihe</string>
+    <string name="platform_configuration_key_hints_previous_step_done">Edellinen vaihe / Valmis</string>
+    <string name="platform_configuration_key_hints_previous_step_next_step">Edellinen / Seuraava vaihe</string>
+    <string name="platform_configuration_key_hints_navigate">@string/common_navigate</string>
+    <string name="platform_configuration_key_hints_exit">@string/common_exit</string>
+    <string name="platform_configuration_key_hints_cancel">@string/common_cancel</string>
+    <string name="platform_configuration_key_hints_select_unselect">Valitse / Poista valinta</string>
+    <string name="platform_configuration_key_hints_select">@string/common_select</string>
+    <string name="platform_configuration_key_hints_add_remove_folder">Lisää / Poista kansio</string>
+    <string name="platform_configuration_key_hints_open_emulator_selection">Avaa emulaattorin valinta</string>
+
+    <!-- Platform configuration - General -->
+    <string name="platform_configuration_general_loading_read_game_files_title">Etsitään pelitiedostoja</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_reading_files">Luetaan tiedostoa %1$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_sub_description_reading_files">Löydetty: %1$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_preparing_file_tree">Valmistellaan tiedostorakennetta</string>
+    <string name="platform_configuration_general_saving">@string/common_saving</string>
+    <string name="platform_configuration_general_exit_warning_dialog_title">Poistutaanko alustan konfiguroinnista?</string>
+    <string name="platform_configuration_general_exit_warning_dialog_text">Kaikki tehdyt konfiguraatiot menetetään.\nJos halusit vain mennä yhden askeleen taaksepäin, käytä &lt;-painiketta.</string>
+    <string name="platform_configuration_general_exit_warning_dialog_confirm">Poistu ja hylkää konfiguraatio</string>
+    <string name="platform_configuration_general_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="platform_configuration_general_content_description_previous_step">Edellinen vaihe</string>
+    <string name="platform_configuration_general_button_done">@string/common_done</string>
+    <string name="platform_configuration_general_button_next_step">Seuraava</string>
+    <string name="platform_configuration_general_content_description_next_step">Seuraava vaihe</string>
+
+    <!-- Platform configuration - Platform selection step -->
+    <string name="platform_configuration_platform_selection_title">Alusta</string>
+    <string name="platform_configuration_platform_selection_description">Valitse alusta</string>
+    <string name="platform_configuration_platform_selection_label_custom_platform">@string/common_custom</string>
+
+    <!-- Platform configuration - Android games selection step -->
+    <string name="platform_configuration_android_games_selection_title">Pelisovellukset</string>
+    <string name="platform_configuration_android_games_selection_description">Valitse pelisovelluksesi</string>
+
+    <!-- Platform configuration - Emulator apps selection step -->
+    <string name="platform_configuration_emulator_apps_selection_title">Emulaattorisovellukset</string>
+    <string name="platform_configuration_emulator_apps_selection_description">Valitse emulaattorisovellukset</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Etkö löydä emulaattorisovellustasi listalta?</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Valitettavasti tämä tarkoittaa, että emulaattoria ei tueta valmiiksi.\nVoit kuitenkin lisätä konfiguraation itse [Asetukset] > [Edistynyt] > [Mukautetut emulaattorisovellukset] > [Luo].</string>
+    <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Asennettu</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Ei asennettu</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Hae Google Play -kaupasta</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">Emulaattorisovellus ei ole asennettu</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Lataa ja asenna emulaattorisovellus ensin, jotta voit valita sen täältä.</string>
+
+    <!-- Platform configuration - Folders selection step -->
+    <string name="platform_configuration_folders_selection_title">Kansiot</string>
+    <string name="platform_configuration_folders_selection_description">Lisää kansiot, jotka sisältävät pelitiedostosi</string>
+    <string name="platform_configuration_folders_selection_cta_add_folder">Lisää kansio</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Näetkö viestin "Ei sovellusta, joka voi suorittaa tätä toimintoa"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">Tämä tarkoittaa, että laitteessasi ei ole esiasennettua kansioiden valintaa tukevaa tiedostohallintasovellusta.\nVoit kuitenkin helposti asentaa tiedostohallintasovelluksen, joka tukee kansioiden valintaa. Esimerkiksi "My Files" Google Play -kaupasta.</string>
+
+    <!-- Platform configuration - GameList preference step -->
+    <string name="platform_configuration_game_list_preference_title">Pelilistan asetukset</string>
+    <string name="platform_configuration_game_list_preference_description">Määritä, miten gamelist.xml-tiedostoa käsitellään</string>
+    <string name="platform_configuration_game_list_preference_option_read_and_write">Lue ja kirjoita</string>
+    <string name="platform_configuration_game_list_preference_option_read_only">Vain luku</string>
+    <string name="platform_configuration_game_list_preference_option_read_only_description">Ota pelien nimet, kansikuvat jne. gamelist.xml-tiedostosta. Listaa ei muokata.</string>
+    <string name="platform_configuration_game_list_preference_option_ignore">Ohita</string>
+    <string name="platform_configuration_game_list_preference_option_ignore_description">Ota pelien nimet suoraan tiedostoista. Havaittu gamelist.xml ohitetaan.</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_title">Virheellinen gamelist.xml löydetty</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_text">Valitut kansiot sisältävät vähintään yhden gamelist.xml-tiedoston, jota ei voitu lukea seuraavien virheiden vuoksi:\nVoit ohittaa virheelliset gamelist.xml-tiedostot ja jatkaa Papayan oletuspelien tuojan kanssa.\n\nVirheet:%1$s</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_error_generic">Tuntematon virhe</string>
+
+    <!-- Platform configuration - Game files selection step -->
+    <string name="platform_configuration_game_files_selection_title">Pelitiedostot</string>
+    <string name="platform_configuration_game_files_selection_description">Valitse pelitiedostosi</string>
+    <string name="platform_configuration_game_files_selection_icon_game_file_content_description">Pelitiedosto</string>
+    <string name="platform_configuration_game_files_selection_icon_game_list_content_description">Tuotu pelilistalta</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_title">Ei pelitiedostoja näissä kansioissa</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_description">Valitse kansio, joka sisältää seuraavan tyyppisiä tiedostoja: %1$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">Ei pääsyä näihin kansioihin</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">Järjestelmä eväsi pääsyn seuraaviin kansioihin. Varmista, että SD-korttisi on asennettu tai mene yhden askeleen taaksepäin ja yritä lisätä kansiot uudelleen:\n\n%1$s</string>
+
+    <!-- Platform configuration - Game emulator matching step -->
+    <string name="platform_configuration_game_emulator_matching_title">Peli + Emulaattori -yhdistelmät</string>
+    <string name="platform_configuration_game_emulator_matching_description">Määritä emulaattorit peliesi käynnistämiseen</string>
+
+    <!-- Platform configuration - Enable notifications -->
+    <string name="platform_configuration_enable_notifications_title">Ota ilmoitukset käyttöön?</string>
+    <string name="platform_configuration_enable_notifications_description">Näe edistyminen ilmoituksessa, kun haen peliesi kansikuvia:</string>
+    <string name="platform_configuration_enable_notifications_option_yes">Kyllä, haluan nähdä haun edistymisen</string>
+    <string name="platform_configuration_enable_notifications_option_no">Ei, ehkä myöhemmin</string>
+
+    <!-- Platform configuration - summary -->
+    <plurals name="platform_configuration_summary_game_apps">
+        <item quantity="one">Yksi peli</item>
+        <item quantity="other">%d peliä</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_emulator_apps">
+        <item quantity="one">Yksi emulaattori</item>
+        <item quantity="other">%d emulaattoria</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_folders">
+        <item quantity="one">Yksi kansio</item>
+        <item quantity="other">%d kansiota</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_game_files">
+        <item quantity="one">Yksi peli</item>
+        <item quantity="other">%d peliä</item>
+    </plurals>
+    <string name="platform_configuration_summary_amount_games_in_folders">%1$s kansiossa %2$s</string>
+    <plurals name="platform_configuration_summary_amount_of_games_in_folders_folders">
+        <item quantity="one">yhdessä kansiossa</item>
+        <item quantity="other">%d kansiossa</item>
+    </plurals>
+    <string name="platform_configuration_summary_steps_left">Vaihe %1$d / %2$d</string>
+
+    <!-- Item options - General -->
+    <string name="item_options_loading_title">Ladataan kohteen asetuksia</string>
+    <string name="item_options_saving_title">@string/common_saving</string>
+
+    <!-- Item options - Key hints -->
+    <string name="item_options_key_hints_navigate">@string/common_navigate</string>
+    <string name="item_options_key_hints_back">@string/common_back</string>
+    <string name="item_options_key_hints_select">@string/common_select</string>
+
+    <!-- Item options - App -->
+    <string name="item_options_app_menu_option_launch">Käynnistä sovellus</string>
+    <string name="item_options_app_menu_option_settings">Avaa sovelluksen asetukset</string>
+    <string name="item_options_app_menu_option_uninstall">Poista sovellus</string>
+    <string name="item_options_app_menu_option_launch_display">Käynnistä näyttö</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Oletus</string>
+    <string name="item_options_app_menu_error_launch_shortcut_title">Pikakuvaketta ei voitu käynnistää</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
+    <string name="item_options_app_menu_error_launch_app_settings_title">Asetuksia ei voitu käynnistää</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_app_not_found">Sovelluksen asetusten avaaminen epäonnistui. Varmista, että Asetukset-sovellus on käytössä.</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_generic">Sovelluksen asetusten avaaminen epäonnistui tuntemattomasta syystä:\n%1$s</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_section_launch">Käynnistä</string>
+    <string name="item_options_game_file_menu_option_launch_game">Käynnistä peli</string>
+    <string name="item_options_game_file_menu_option_launch_emulator">Käynnistä emulaattori</string>
+    <string name="item_options_game_file_menu_section_edit">Muokkaa</string>
+    <string name="item_options_game_file_menu_option_scrape">Hae pelin tiedot</string>
+    <string name="item_options_game_file_menu_option_edit">Muokkaa pelin tietoja</string>
+    <string name="item_options_game_file_menu_section_other">Muu</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Lisää suosikkeihin</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Poista suosikeista</string>
+    <string name="item_options_game_file_menu_option_hide">Piilota peli</string>
+    <string name="item_options_game_file_menu_option_change_emulator">Vaihda emulaattoria</string>
+    <string name="item_options_game_file_menu_option_open_scraper_website">Näytä sivulla %1$s</string>
+    <string name="item_options_game_file_warning_dialog_hide_title">Piilottaa \"%1$s\"?</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Peliä ei enää näytetä kokoelmassasi. Voit palauttaa sen milloin tahansa [Asetukset] > [Alustan konfigurointi] > [Alusta] > [Muokkaa] valitsemalla pelin uudelleen.</string>
+    <string name="item_options_game_file_warning_dialog_hide_confirm">Piilota peli</string>
+    <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Game app -->
+    <string name="item_options_game_app_menu_section_launch">@string/item_options_game_file_menu_section_launch</string>
+    <string name="item_options_game_app_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
+    <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Ei peli</string>
+    <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
+    <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">Siirretäänkö \"%1$s\" sovellusvalikkoon?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Voit palauttaa sen milloin tahansa [Asetukset] > [Alustan konfigurointi] > [Alusta] > [Muokkaa] merkitsemällä sovelluksen uudelleen peliksi.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Siirrä sovellus</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Streaming game -->
+    <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_streaming_game_menu_option_launch_streaming_app">Käynnistä suoratoistosovellus</string>
+    <string name="item_options_streaming_game_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_streaming_game_menu_option_unpin">Poista kiinnitys</string>
+    <string name="item_options_streaming_game_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_title">Poistetaanko \"%1$s\" kiinnityksestä?</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_text">Pelin pikakuvaketta ei enää näytetä kokoelmassasi. Voit palauttaa sen milloin tahansa luomalla pikakuvakkeen suoratoistosovelluksen sisällä.</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_confirm">Poista kiinnitys</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Scrape -->
+    <string name="item_options_scrape_no_results">Ei tuloksia</string>
+    <string name="item_options_scrape_fetching_results_for">Tuloksia haulle \"%1$s\"…</string>
+    <string name="item_options_scrape_error_no_internet_connection">Ei internet-yhteyttä</string>
+    <string name="item_options_scrape_error_unknown">Tuntematon virhe</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Kansikuva</string>
+    <string name="item_options_edit_section_cover_name">Nimi</string>
+    <string name="item_options_edit_section_cover_sortname">Järjestysnimi</string>
+    <string name="item_options_edit_section_placeholder_sortname">Ei asetettu</string>
+    <string name="item_options_edit_section_cover_release_date">Julkaisupäivä</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Muokkaa</string>
+    <string name="item_options_edit_exit_warning_dialog_title">Poistutaanko pelin tietojen muokkauksesta?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">Kaikki tehdyt muutokset menetetään.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Poistu ja hylkää muutokset</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Key hints -->
+    <string name="settings_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_key_hints_back">@string/common_back</string>
+    <string name="settings_key_hints_select">@string/common_select</string>
+    <string name="settings_key_hints_move">Siirrä</string>
+    <string name="settings_key_hints_done">@string/common_done</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_title">Asetukset</string>
+    <string name="settings_main_menu_menu_option_android">Laitteen asetukset</string>
+    <string name="settings_main_menu_menu_option_platform">Alustan konfigurointi</string>
+    <string name="settings_main_menu_menu_option_appearance">Ulkoasu ja käyttäytyminen</string>
+    <string name="settings_main_menu_menu_option_advanced">Edistynyt konfigurointi</string>
+    <string name="settings_main_menu_menu_option_more">Lisää</string>
+    <string name="settings_main_menu_menu_option_buy_license">Osta rajoittamaton lisenssi</string>
+
+    <!-- Settings - Platforms -->
+    <string name="settings_platforms_title">Alustat</string>
+    <string name="settings_platforms_cta_add">Lisää alusta</string>
+    <string name="settings_platforms_all_platforms">Kaikki alustat</string>
+    <string name="settings_platforms_reorder_title">Järjestä alustat uudelleen</string>
+    <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
+    <string name="settings_platforms_platform_label_esde" translatable="false">ES-DE</string>
+    <string name="settings_platforms_content_description_platform_label_gamelist" translatable="false">Gamelist</string>
+    <string name="settings_platforms_content_description_move_up">Siirrä ylös</string>
+    <string name="settings_platforms_content_description_move_down">Siirrä alas</string>
+
+    <!-- Settings - All Platforms options -->
+    <string name="settings_all_platform_options_menu_option_remove">Poista kaikki</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_title">Poistetaanko kaikki alustat?</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_text">Kaikki konfiguraatiot poistetaan. Pelitiedostosi ja sovelluksesi säilyvät.</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_confirm">Poista kaikki alustat</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_detect_new_games">Havaitse uudet pelit ja muutokset</string>
+    <string name="settings_platform_options_menu_option_scrape_missing">Hae puuttuvat kansikuvat ja pelin tiedot</string>
+    <string name="settings_platform_options_menu_option_scrape_all">Hae kaikki kansikuvat ja pelin tiedot</string>
+    <string name="settings_platform_options_menu_option_appearance">Ulkoasu</string>
+    <string name="settings_platform_options_menu_option_edit">Muokkaa</string>
+    <string name="settings_platform_options_menu_option_remove">Poista</string>
+    <string name="settings_platform_options_warning_dialog_remove_title">Poistetaanko alusta \"%1$s\"?</string>
+    <string name="settings_platform_options_warning_dialog_remove_text">Konfiguraatio poistetaan. Pelitiedostosi ja sovelluksesi säilyvät.</string>
+    <string name="settings_platform_options_warning_dialog_remove_confirm">Poista alusta</string>
+    <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Alustan ulkoasu</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Alustan kuva</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Yksivärinen</string>
+    <string name="settings_platform_edit_appearance_section_name">Nimi</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Lyhyt nimi</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Poista</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">Poistutaanko alustan ulkoasun muokkauksesta?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Kaikki tehdyt muutokset menetetään.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Poistu ja hylkää muutokset</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">Poistetaanko alustan kuva?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">Alusta käyttää oletuskuvaa tai nimeä sen sijaan.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Poista kuva</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit - Key hints -->
+    <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_platform_edit_key_hints_back">@string/common_back</string>
+    <string name="settings_platform_edit_key_hints_select">@string/common_select</string>
+    <string name="settings_platform_edit_key_hints_back_to_overview">Palaa yleiskatsaukseen</string>
+    <string name="settings_platform_edit_key_hints_select_unselect">Valitse / Poista valinta</string>
+    <string name="settings_platform_edit_key_hints_add_remove_folder">Lisää / Poista kansio</string>
+    <string name="settings_platform_edit_key_hints_open_emulator_selection">Avaa emulaattorin valinta</string>
+    <string name="settings_platform_edit_key_hints_cancel">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit -->
+    <string name="settings_platform_edit_loading_config">Ladataan konfiguraatiota</string>
+    <string name="settings_platform_edit_loading_prepare_reading_files">Valmistellaan pelitiedostojen lukemista</string>
+    <string name="settings_platform_edit_loading_reading_files">Luetaan pelitiedostoja</string>
+    <string name="settings_platform_edit_loading_reading_more_files">Luetaan lisää pelitiedostoja</string>
+    <string name="settings_platform_edit_loading_prepare_parsing_gamelists">Valmistellaan gamelist.xml-tiedostojen lukemista</string>
+    <string name="settings_platform_edit_loading_parsing_gamelists">Luetaan gamelist.xml-tiedostoja</string>
+    <string name="settings_platform_edit_loading_combining_gamelists_with_files">Yhdistetään gamelist.xml-tiedostoja tiedostoihin</string>
+    <string name="settings_platform_edit_loading_setting_up_menu">Määritetään valikkorakennetta</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">Ei pääsyä tämän alustan kansioihin</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">Järjestelmä eväsi pääsyn seuraaviin kansioihin. Varmista, että SD-korttisi on asennettu tai mene takaisin ja yritä avata editori uudelleen:\n\n%1$s</string>
+    <string name="settings_platform_edit_title_saving">@string/common_saving</string>
+    <string name="settings_platform_edit_warning_dialog_exit_title">Poistutaanko alustan muokkauksesta?</string>
+    <string name="settings_platform_edit_warning_dialog_exit_text">Kaikki tehdyt muutokset menetetään.</string>
+    <string name="settings_platform_edit_warning_dialog_exit_confirm">Poistu ja hylkää muutokset</string>
+    <string name="settings_platform_edit_warning_dialog_exit_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_cta_save">@string/common_save</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_apps">Valitse vähintään yksi pelisovellus tallentaaksesi muokatun konfiguraation</string>
+    <string name="settings_platform_edit_cta_save_information_no_emulator_apps">Valitse vähintään yksi emulaattorisovellus tallentaaksesi muokatun konfiguraation</string>
+    <string name="settings_platform_edit_cta_save_information_no_folder">Lisää vähintään yksi kansio tallentaaksesi muokatun konfiguraation</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_files">Valitse vähintään yksi pelitiedosto tallentaaksesi muokatun konfiguraation</string>
+
+    <!-- Settings - Appearance -->
+    <string name="settings_appearance_menu_title">@string/settings_main_menu_menu_option_appearance</string>
+    <string name="settings_appearance_menu_menu_option_general">Yleiset</string>
+    <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
+    <string name="settings_appearance_general_behaviour_title">Käyttäytyminen</string>
+    <string name="settings_appearance_general_appearance_title">Ulkoasu</string>
+    <string name="settings_appearance_general_setting_audio_feedback_title">Äänet</string>
+    <string name="settings_appearance_general_setting_haptic_feedback_title">Tärinä</string>
+    <string name="settings_appearance_general_setting_dark_mode_title">Tumma tila</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_system">Seuraa järjestelmää</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_dark">Tumma</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_light">Vaalea</string>
+    <string name="settings_appearance_general_setting_theme_color_title">Teeman väri</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Automaattinen</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Sininen</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Punainen</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Vihreä</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Keltainen</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Purppura</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Oranssi</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Siniharmaa</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Pinkki</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Indigo</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Tekstin väri taustakuvassa</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Automaattinen</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Musta</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Valkoinen</string>
+    <string name="settings_appearance_general_setting_adaptive_app_icons_title">Sovelluskuvakkeiden muoto</string>
+    <string name="settings_appearance_general_setting_background_style_title">Tausta</string>
+    <string name="settings_appearance_general_setting_default_launcher_title">Aseta Papaya oletuskäynnistimeksi</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Oletuskäynnistysnäyttö</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Sama näyttö (oletus)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Toinen näyttö</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Kysy aina</string>
+    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Painikevihjeet</string>
+    <string name="settings_appearance_general_setting_key_hints_option_disabled">Poistettu käytöstä</string>
+    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
+    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
+    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Sovelluksen kansikuvan kuvasuhde</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Pelin kansikuvan kuvasuhde</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptiivinen</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Näytä järjestelmän navigaatiopalkki</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Näytä "Viimeisimmät"-osio</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Näytä "Suosikit"-osio</string>
+
+    <!-- Settings - Appearance - Layout -->
+    <string name="settings_appearance_layout_menu_theme_title">Teema</string>
+    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
+    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
+    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Teeman konfigurointi</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Tyyppi</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Kosketus</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Ohjain</string>
+    <string name="settings_appearance_layout_menu_gallery_general_title">Yleiset</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Näytä välilehtipalkki vain vuorovaikutuksen yhteydessä</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Asettelu</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Karuselli</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Ruudukko</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Luettelo</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Karusellin asetukset</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Näytä alustapalkki vain vuorovaikutuksen yhteydessä</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Kohdistus</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Ylös</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Keskelle</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Alas</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Koko</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Pelin nimen sijainti</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Kansikuvan alapuolella</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Kansikuvan yläpuolella</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Ruudukon asetukset</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Koko</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_display_game_title">Näytä pelin nimet kansikuvan alapuolella</string>
+    <string name="settings_appearance_layout_menu_deckish_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_deckish_row_height">Rivin korkeus</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Käytä klassisia luokkakuva-ikoneja</string>
+
+    <!-- Settings - Appearance - Landscape layout -->
+    <string name="settings_appearance_landscape_layout_menu_title">Asettelu vaaka-asennossa</string>
+
+    <!-- Settings - Appearance - Portrait layout -->
+    <string name="settings_appearance_portrait_layout_menu_title">Asettelu pysty-asennossa</string>
+
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Tausta</string>
+    <string name="settings_appearance_background_system_title">Järjestelmä</string>
+    <string name="settings_appearance_background_system_option_system">Järjestelmän tausta</string>
+    <string name="settings_appearance_background_image_title">Kuva</string>
+    <string name="settings_appearance_background_color_title">Väri</string>
+    <string name="settings_appearance_background_animation_title">Animaatio</string>
+    <string name="settings_appearance_background_animation_stars">Tähdet</string>
+    <string name="settings_appearance_background_animation_waves">Aallot</string>
+    <string name="settings_appearance_background_animation_sparkles">Kipinät</string>
+
+    <!-- Settings - Advanced -->
+    <string name="settings_advanced_title">Edistynyt konfigurointi</string>
+    <string name="settings_advanced_menu_option_behavior">Käyttäytyminen</string>
+    <string name="settings_advanced_menu_option_config_updater">Alustan ja emulaattorin konfiguraatiopäivitys</string>
+    <string name="settings_advanced_menu_option_scrapers">Tietojenhaun asetukset</string>
+    <string name="settings_advanced_menu_option_custom_platform_config">Mukautetut alustakonfiguraatiot</string>
+    <string name="settings_advanced_menu_option_custom_emulator_apps">Mukautetut emulaattorisovellukset</string>
+    <string name="settings_advanced_menu_option_import_export">Tuonti/Vienti</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Käytä vanhoja RetroArch-polkuja</string>
+
+    <!-- Settings - Config Updater -->
+    <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
+    <string name="settings_config_updater_label_checking_for_update">Tarkistetaan päivityksiä</string>
+    <string name="settings_config_updater_label_up_to_date">Konfiguraatiosi on ajantasalla</string>
+    <string name="settings_config_updater_label_up_to_date_update_successful">Päivitys asennettu onnistuneesti</string>
+    <string name="settings_config_updater_label_up_to_date_installed_version">Versio %d</string>
+    <string name="settings_config_updater_cta_update">Päivitä nyt</string>
+    <string name="settings_config_updater_update_title">Päivitys saatavilla</string>
+    <string name="settings_config_updater_update_subtitle">@string/settings_config_updater_label_up_to_date_installed_version</string>
+    <string name="settings_config_updater_update_description">Tämä päivitys sisältää:</string>
+    <string name="settings_config_updater_update_hint">Asennus kestää yleensä vain muutaman sekunnin</string>
+    <string name="settings_config_updater_button_cancel_update">Ehkä myöhemmin</string>
+    <string name="settings_config_updater_error_cta_retry">Yritä uudelleen</string>
+    <string name="settings_config_updater_error_button_cancel">@string/common_cancel</string>
+    <string name="settings_config_updater_cta_up_to_date">@string/common_okay</string>
+    <string name="settings_config_updater_installation_progress_initial">Valmistellaan asennusta</string>
+    <string name="settings_config_updater_installation_progress_download">Ladataan päivitystä</string>
+    <string name="settings_config_updater_installation_progress_verification">Tarkistetaan päivitystä</string>
+    <string name="settings_config_updater_installation_progress_installation">Asennetaan päivitystä</string>
+    <string name="settings_config_updater_installation_progress_warning">Älä sulje sovellusta! Sovelluksen sulkeminen nyt voi vahingoittaa konfiguraatiotasi.</string>
+    <string name="settings_config_updater_error_no_internet_connection">@string/item_options_scrape_error_no_internet_connection</string>
+    <string name="settings_config_updater_error_checking_updates_failed">Päivitysten tarkistaminen epäonnistui</string>
+    <string name="settings_config_updater_error_download_failed">Päivityksen lataaminen epäonnistui</string>
+    <string name="settings_config_updater_error_incompatible_schema">Päivitys ei ole yhteensopiva sovelluksesi version kanssa</string>
+    <string name="settings_config_updater_error_incompatible_schema_subtitle">Tarkista Google Play -kaupasta, onko uusi sovellusversio saatavilla.</string>
+    <string name="settings_config_updater_error_verification_failed">Päivitystiedosto on vioittunut</string>
+    <string name="settings_config_updater_error_installation_failed">Asennus epäonnistui</string>
+    <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
+    <string name="settings_config_updater_error_subtitle_not_installed">Konfiguraatioosi ei ole tehty muutoksia.</string>
+
+    <!-- Settings - Scrapers -->
+    <string name="settings_scrapers_title">Tietojenhaun työkalut</string>
+    <string name="settings_scrapers_reorder_title">Järjestä tietojenhaun työkalut uudelleen</string>
+    <string name="settings_scrapers_reorder_cta_done">@string/common_done</string>
+    <string name="settings_scrapers_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_scrapers_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_scrapers_label_disabled">Poistettu käytöstä</string>
+    <string name="settings_scrapers_label_missing_api_key">Vaatii API-avainta</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_title">%1$s -asetukset</string>
+    <string name="settings_scraper_options_setting_is_enabled_label">Käytössä</string>
+    <string name="settings_scraper_options_setting_api_key_label">Henkilökohtainen API-avain</string>
+    <string name="settings_scraper_options_setting_api_key_value_not_set">Ei asetettu</string>
+    <string name="settings_scraper_options_setting_website_label">Avaa %1$s selaimessa</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Kansikuvan kuvasuhde</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Mikä tahansa</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_2_3" translatable="false">2:3</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_92_43" translatable="false">92:43</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_22_31" translatable="false">22:31</string>
+    <string name="settings_scraper_options_setting_cover_type_label">Kansikuvan tyyppi</string>
+    <string name="settings_scraper_options_setting_cover_type_option_any">Mikä tahansa</string>
+    <string name="settings_scraper_options_setting_cover_type_option_static">Staattinen</string>
+    <string name="settings_scraper_options_setting_cover_type_option_animated">Animoitu</string>
+
+    <!-- Settings - Scraper API key -->
+    <string name="settings_scraper_api_key_title">%1$s API-avain</string>
+    <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
+    <string name="settings_scraper_api_key_save_try">Tallenna ja testaa</string>
+    <string name="settings_scraper_api_key_test_idle_label">Tallennuksen jälkeen näet täällä, onko avain validi.</string>
+    <string name="settings_scraper_api_key_test_request_sent_label">Testipyyntö lähetetty. Odotetaan vastaus...</string>
+    <string name="settings_scraper_api_key_test_success_label">✅ Testipyyntö onnistui! Avain on validi ja tallennettu onnistuneesti.</string>
+    <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Ei internet-yhtyttä. Avain on tallennettu onnistuneesti, mutta sitä ei voitu varmistaa.</string>
+    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ Testipyyntö epäonnistui syystä, joka ei liity avaimeen. Avain on tallennettu onnistuneesti, mutta sitä ei voitu varmistaa.</string>
+    <string name="settings_scraper_api_key_test_failure_wrong_credentials_label">❌ Testipyyntö epäonnistui. Syötetty avain näyttää olevan virheellinen. Varmista, että kaikki merkit on syötetty oikein. Avain on tallennettu silti.</string>
+
+    <!-- Settings - Custom emulator apps -->
+    <string name="settings_custom_emulator_apps_title">Mukautetut emulaattorikonfiguraatiot</string>
+    <string name="settings_custom_emulator_apps_cta_add">Lisää emulaattorikonfiguraatio</string>
+
+    <!-- Settings - Custom emulator app options -->
+    <string name="settings_custom_emulator_app_options_menu_option_edit">Muokkaa</string>
+    <string name="settings_custom_emulator_app_options_menu_option_remove">Poista</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_title">Poistetaanko \"%1$s\"?</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_text">Mukautettu emulaattorisovelluksen konfiguraatio poistetaan ja sen palauttaminen tulee mahdottomaksi.</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_confirm">Poista emulaattorikonfiguraatio</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_title">Poistaminen ei ole mahdollista!</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_text">Mukautettua emulaattorisovelluksen konfiguraatiota käytetään yhä. Valitse toinen emulaattori näille peleille:\n%1$s</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom emulator app creator -->
+    <string name="settings_custom_emulator_app_title">Uusi mukautettu emulaattorisovelluksen konfiguraatio</string>
+    <string name="settings_custom_emulator_app_section_metadata_title">Metatiedot</string>
+    <string name="settings_custom_emulator_app_section_metadata_label_name">Nimi</string>
+    <string name="settings_custom_emulator_app_section_metadata_hint_name">Esimerkiksi 'Retroarch - PPSSPP'</string>
+    <string name="settings_custom_emulator_app_section_platform_title">Alusta</string>
+    <string name="settings_custom_emulator_app_section_platform_label_config">Konfiguraatio</string>
+    <string name="settings_custom_emulator_app_section_platform_hint_config">Sisältää tietoja tuetuista tiedostotyypeistä. Voit luoda oman mukautetun alustakonfiguraation [Asetukset] > [Edistynyt] > [Mukautetut alustakonfiguraatiot] > [Luo].</string>
+    <string name="settings_custom_emulator_app_section_emulator_title">Emulaattori</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_app">Sovellus</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_core" translatable="false">Core</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch vaatii polun emulaattoriytimeen: Esimerkiksi '/data/data/com.retroarch/cores/ppsspp_libretro_android.so'.</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_activity" translatable="false">Activity</string>
+    <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Määrittämätön</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Useimmat sovellukset eivät vaadi selkeää "Activity":tia, joten voit yleensä jättää sen [Määrittämätön]-asetukseen. Joissakin tapauksissa sovellukset kuitenkin vaativat selkeän "Activity"-nimen: Etsi sopivia nimiä kuten 'EmulationActivity'.</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_title">Parametrin tyyppi</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_file">Pelitiedosto</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_id">Pelin ID</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Yleensä emulaattorit haluavat osoittaa suoraan 'Pelitiedostoon'. Joillekin alustoille ei kuitenkaan ole vain yhtä tiedostoa, johon voidaan osoittaa. Tällaisissa tapauksissa emulaattorit viittaavat peliin 'Pelin ID':n kautta (esim. Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_title">Pelin ID:n käsittely</string>
+    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Valittu alustakonfiguraatio ei sisällä ID-tiedostotyyppimäärittelyä. Voit luoda oman mukautetun alustakonfiguraation ja lisätä tiedostotyypin, jossa määritetään, miten pelin ID saadaan. Mene [Asetukset] > [Edistynyt] > [Mukautetut alustakonfiguraatiot] > [Luo] luodaksesi sen.\nVoit silti jatkaa tämän konfiguraation määrittämistä ja tallentaa sitä. Voit jopa yrittää käynnistää pelin, mutta se todennäköisesti epäonnistuu, koska ei ole tietoa pelin ID:stä.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Tiedoston avaamiseen tarkoitetun intent-toiminnon oletusarvo on 'android.intent.action.VIEW', jota useimmat emulaattorisovellukset käyttävät. Harvinaisissa tapauksissa käytetään mukautettua toimintoa: Esimerkiksi Yuzu-pohjaisille emulaattoreille se on 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">ID-parametri</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Lähetä ID DATA-parametrin kautta</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">ID:n lähettämisen standarditapa toiselle sovellukselle on DATA-parametrin kautta. Joillakin emulaattoreilla voi kuitenkin olla vaatimus lähettää tiedosto mukautetun parametrin kautta.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Mukautettu ID-parametrin nimi</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_inline_hint_custom" translatable="false">game_id</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_string" translatable="false">Merkkijono</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_int" translatable="false">Kokonaisluku</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Yleensä ID lähetetään tekstityypinä ('Merkkijono'). Jos ID on numero, on mahdollista, että se lähetetään selkeänä numerotyyppinä ('Kokonaisluku').</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_title">Pelitiedoston käsittely</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_intent_action" translatable="false">Intent action</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Tiedoston avaamiseen tarkoitetun intent-toiminnon oletusarvo on 'android.intent.action.VIEW', jota useimmat emulaattorisovellukset käyttävät. Harvinaisissa tapauksissa käytetään mukautettua toimintoa: Esimerkiksi Yuzu-pohjaisille emulaattoreille se on 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_file_parameter">Tiedostoparametri</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_file_parameter_data_parameter">Lähetä tiedosto DATA-parametrin kautta</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_file_parameter">Tiedoston lähettämisen standarditapa toiselle sovellukselle on DATA-parametrin kautta. Joillakin emulaattoreilla voi kuitenkin olla vaatimus lähettää tiedosto mukautetun parametrin kautta.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_custom">Mukautettu tiedostoparametri</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_inline_hint_custom" translatable="false">bootPath</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_content_uri" translatable="false">Content URI</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_absolute_url">Absoluuttinen URL</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Modernit sovellukset viittaavat yleensä tiedostoon 'content URI':n kautta. Vanhemmat sovellukset saattavat käyttää 'absoluuttista URL:ää': Vihje voi olla, että ne käyttävät 'READ_EXTERNAL_STORAGE'-lupaa.</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_button_add">Lisää parametri</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_key">Avain</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_string">Tekstiarvo</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_int">Numerarvo</string>
+    <string name="settings_custom_emulator_app_cta_save">@string/common_save</string>
+    <string name="settings_custom_emulator_app_box_try_it_title">Kokeile!</string>
+    <string name="settings_custom_emulator_app_box_try_it_button_select_test_file">Valitse testitiedosto</string>
+    <string name="settings_custom_emulator_app_box_try_it_cta_launch">Käynnistä</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_success">✅ Sovellus käynnistettiin onnistuneesti!</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_empty">Klikkaamalla 'Käynnistä' näet tuloksen täällä.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Kuitenkin ei kyetä hakea pelin ID:tä tiedostotyypistä '%1$s', joka on määritetty valitussa alustakonfiguraatiossa. Määritä alustakonfiguraatiossa, miten ID luetaan annetusta tiedostotyypistä.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi '%1$s' määrittää, että pelin ID luetaan kansion nimestä. Kuitenkin näyttää siltä, että testitiedosto ei sijaitse kansiossa.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi '%1$s' määrittää, että pelin ID luetaan tiedoston sisällöstä. Kuitenkin näyttää siltä, että testitiedosto ei sisällä ID:tä luettavassa muodossa: ID:n tulisi olla tiedoston ainoa sisältö.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi '%1$s' määrittää, että pelin ID luetaan tiedoston sisällöstä. Kuitenkin ei kyetty pääsemään käsiksi tiedoston sisältöön.</string>
+
+    <!-- Settings - Custom platforms -->
+    <string name="settings_custom_platforms_title">Mukautetut alustakonfiguraatiot</string>
+    <string name="settings_custom_platforms_cta_add">Lisää alustakonfiguraatio</string>
+
+    <!-- Settings - Custom platform options -->
+    <string name="settings_custom_platform_options_menu_option_edit">Muokkaa</string>
+    <string name="settings_custom_platform_options_menu_option_remove">Poista</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_title">Poistetaanko \"%1$s\"?</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_text">Mukautettu alustakonfiguraatio poistetaan ja sitä ei voida palauttaa.</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_confirm">Poista alustakonfiguraatio</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_title">Poistaminen ei ole mahdollista!</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text">Mukautettua alustakonfiguraatiota käytetään yhä. Poista käytöt ensin:\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_emulator_apps">Emulaattorisovelluksen konfiguraatiot: %1$s\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_platforms">Alustakonfiguraatiot: %1$s</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom platform creator -->
+    <string name="settings_custom_platform_creator_title">Uusi mukautettu alustakonfiguraatio</string>
+    <string name="settings_custom_platform_creator_section_platform_abbreviation_title">Alustan lyhenne</string>
+    <string name="settings_custom_platform_creator_section_platform_abbreviation_inline_hint" translatable="false">PSP</string>
+    <string name="settings_custom_platform_creator_section_platform_name_title">Alustan nimi</string>
+    <string name="settings_custom_platform_creator_section_platform_name_inline_hint" translatable="false">PlayStation Portable</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_title">Pelitiedostotyypit</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_button_add">Lisää tiedostotyyppi</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_inline_hint" translatable="false">iso</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">Pelitiedosto</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">Pelin ID-tiedosto</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Mistä ID määritetään?</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_content">Tiedoston sisällä</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_folder">Yläkansion nimi</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_cancel">@string/common_cancel</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_add">Lisää</string>
+    <string name="settings_custom_platform_creator_cta_save">@string/common_save</string>
+    <string name="settings_custom_platform_creator_error_dialog_title">Poistaminen ei ole mahdollista!</string>
+    <string name="settings_custom_platform_creator_error_dialog_text">Tätä mukautettua alustakonfiguraatiota käytetään jo, joten et voi poistaa aiemmin lisättyjä tiedostotyyppejä.\nVoit joko lisätä vain uusia tiedostotyyppejä tai poistaa alustat, jotka käyttävät tätä konfiguraatiota: %1$s</string>
+    <string name="settings_custom_platform_creator_error_dialog_confirm">@string/common_okay</string>
+
+    <!-- Settings - Import/Export -->
+    <string name="settings_import_export_title">Tuonti/Vienti</string>
+    <string name="settings_import_export_menu_option_import_from_esde">Tuo ES-DE-konfiguraatiosta</string>
+
+    <!-- Settings - Import from ES-DE -->
+    <string name="settings_esde_import_title">Tuo ES-DE-konfiguraatiosta</string>
+    <string name="settings_esde_import_esde_folder_label">ES-DE-kansio</string>
+    <string name="settings_esde_import_roms_folder_label">Rom-kansio</string>
+    <string name="settings_esde_import_folder_not_selected">Ei valintaa</string>
+    <string name="settings_esde_import_message_error_invalid_esde_folder">Valittu ES-DE-kansio näyttää olevan virheellinen. Varmista, että valitset kansion, joka sisältää alikansioita kuten gamelists, downloaded_media, settings jne.</string>
+    <string name="settings_esde_import_message_error_no_gamelists">Valittu ES-DE-kansio ei sisällä yhtään gamelist-tiedostoa. Vähintään yhden järjestelmän on olemassa ES-DE-konfiguraatiossa, jotta tuonti voidaan aloittaa.</string>
+    <string name="settings_esde_import_message_info_verifying_folders">Tarkistetaan ES-DE- ja Rom-kansioita...</string>
+    <string name="settings_esde_import_message_info_found_gamelists">Löydetty %1$s alustaa</string>
+    <string name="settings_esde_import_cta_import">Tuo</string>
+    <string name="settings_esde_import_info_import">Papaya viittaa suoraan gamelist- ja kansikuvatiedostoihin ES-DE-kansiossa ja ei kopioi niitä. "Havaitse uudet pelit ja muutokset"-toiminto havaitsee myös ES-DE-konfiguraatioon tehdyt muutokset ja päivittää Papayan alustan sen mukaan. Papayassa tehty alustan muokkaaminen vaikuttaa vain Papayaan, ES-DE-konfiguraatiotasi ei muokata.</string>
+    <string name="settings_esde_import_importing_label">Tuodaan</string>
+    <string name="settings_esde_import_importing_description">%1$d alustaa</string>
+    <string name="settings_esde_import_finished_success_label">Onnistuneesti tuotu %1$s alustaa</string>
+    <string name="settings_esde_import_finished_success_failures_label">Ei tuotu:</string>
+    <string name="settings_esde_import_finished_unsuccessful_label">Epäonnistuttiin tuomaan %1$s alustaa</string>
+    <string name="settings_esde_import_finished_unsuccessful_failures_label">Syy:</string>
+    <string name="settings_esde_import_finished_failure_reason_no_matching_platform">Ei vastaavaa Papaya-alustaa löydetty.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_apps">Ei asiaankuuluvia sovelluksia. Varmista, että gamelist.xml on ajantasalla todellisten *.app-tiedostojen kanssa ja että määritellyt sovellukset ovat asennettu.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_games">Ei asiaankuuluvia pelitiedostoja. Varmista, että gamelist.xml on ajantasalla todellisten pelitiedostojen kanssa. Muita syitä voivat olla, että Papaya ei tue kaikkien määriteltyjen pelitiedostojen tiedostotyyppejä tai että kaikki pelit on merkitty piilotetuiksi/rikkoutuneiksi gamelist.xml:ssä.</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read">Gamelist.xml-tiedostoa ei voitu lukea:\n%1$s</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read_reason_generic">Tuntematon virhe</string>
+    <string name="settings_esde_import_finished_cta_okay">@string/common_okay</string>
+
+    <!-- Settings - More -->
+    <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_roadmap">Tiekartta</string>
+    <string name="settings_more_menu_option_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="settings_more_menu_option_licenses">Lisenssit</string>
+    <string name="settings_more_menu_option_about">Tietoja</string>
+
+    <!-- Settings - Privacy Policy -->
+    <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
+    <string name="settings_privacy_policy_section_processed_data_title">Käsitellyt henkilötiedot</string>
+    <string name="settings_privacy_policy_section_processed_data_text">Papaya käsittelee tietoja laitteellasi asennetuista sovelluksista. Lisäksi, kun myönnät Papayalle pääsyn tiettyihin kansioihin laitteellasi, se käsittelee myös näiden kansioiden tiedostojen metatietoja (tiedoston nimi, kansion nimi).</string>
+    <string name="settings_privacy_policy_section_data_usage_title">Miten tietojasi käytetään</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya käyttää tietoja laitteellasi asennetuista sovelluksista ainoastaan sovellusten listan näyttämiseen kotinäytöllä ja ohjaamiseksi, kun määrität pikanäppäimiä pelejä näihin sovelluksiin (esivalitut asennetut sovellukset). Näitä tietoja ei jaeta kolmansille osapuolille, ja ne tallennetaan ainoastaan paikallisesti laitteellesi.&lt;br&gt;&lt;br&gt;Edellä mainitut tiedostojen metatiedot tietyistä kansioista, joihin myönnät Papayalle pääsyn, käytetään pelien pikanäppäimien rikastamiseen muissa sovelluksissa: Tiedoston tai kansion nimet voidaan lähettää &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; ja/tai &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; vaihdossa lisätietoja pelin pikanäppäimestä. Tällaiset tiedot sisältävät kansikuvia, julkaisupäiviä, genrejä jne. Nämä lisätiedot käytetään taas ainoastaan niiden näyttämiseen kotinäytölläsi. Huomaa, että nämä tiedoston metatiedot voidaan jakaa ainoastaan edellä mainittujen neljän palvelun kanssa.</string>
+    <string name="settings_privacy_policy_section_managing_data_title">Henkilötietojesi hallinta</string>
+    <string name="settings_privacy_policy_section_managing_data_text">Papaya tallentaa henkilötietosi (asennetut sovellukset, tiedostojen metatiedot) laitteellesi. Voit poistaa kaikki henkilötietosi Androidin sovelluksen asetusten kautta: Pidä Papayan sovelluksen kuvaketta painettuna, valitse "Sovellustiedot", napsauta "varasto &amp; välimuisti" ja lopuksi "tyhjennä varasto". Huomautus: Sovelluksen poistaminen ei välttämättä poista henkilötietojasi, jos varmuuskopiointi on käytössä.</string>
+    <string name="settings_privacy_policy_section_contact_title">Yhteystiedot</string>
+    <string name="settings_privacy_policy_section_contact_text">Jos sinulla on lisää kysymyksiä henkilötiedoistasi ja niiden käytöstä, voit lähettää minulle sähköpostia: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Vastuuhenkilö: Sebastian Schäf</string>
+
+    <!-- Settings - About -->
+    <string name="settings_about_title">@string/settings_more_menu_option_about</string>
+    <string name="settings_about_section_attribution_title">Kiitokset</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Pelitiedot</string>
+    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Rikastaa pelikokoelmaasi kauniilla kansikuvilla ja lisätiedoilla</string>
+    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Rikastaa pelikokoelmaasi kauniilla kansikuvilla ja lisätiedoilla</string>
+    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Rikastaa pelikokoelmaasi kauniilla kansikuvilla ja lisätiedoilla</string>
+    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Rikastaa pelikokoelmaasi kauniilla kansikuvilla ja lisätiedoilla</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Käännökset</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Brasilian portugali: &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Latinalaisen Amerikan ja Karibian espanja: myös &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Puola: &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Italia: &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
+  <string name="settings_about_section_attribution_fi">🇫🇮 Suomi: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
+  <string name="settings_about_section_attribution_ru">🇷🇺 Venäjä: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Äänet ja kuvakkeet</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Kiitos upeista alustakuvakkeista! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS ja SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Kiitos upeasta PICO-8-alustakuvakkeesta! 🙏</string>
+    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Naksahtelevat navigaatioäänet</string>
+    <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Antaa pelien käynnistykselle retro-tuntuman ja dialogeille merkityksellisen varoitusäänen</string>
+    <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Siististä Discord-kuvakkeesta alla</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Alustan ja emulaattorin konfigurointi</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Kiitos lisätuesta useammille tiedostotyypeille eri alustoille! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS ja 3DS.</string>
+    <string name="settings_about_section_community_title">Yhteisö</string>
+    <string name="settings_about_section_community_text">Jos haluat osallistua ja auttaa muovaamaan Papayan tulevaisuutta, liity yhteisöön. Tervetuloa myös, jos haluat myös nähdä uutiset tai löysit bugin!</string>
+    <string name="settings_about_section_community_option_discord">Papayan Discord</string>
+    <string name="settings_about_section_community_option_github">Papayan GitHub</string>
+    <string name="settings_about_section_community_option_email">Sähköposti</string>
+    <string name="settings_about_section_built_by_title">Keittäjä</string>
+    <string name="settings_about_section_built_by_text">Sebastian Schäf Berliinissä</string>
+    <string name="settings_about_section_built_by_thank_you">Kiitos, että käytät Papayaa! 🧡</string>
+
+    <!-- Buy license -->
+    <string name="buy_license_trial_title">Kokeilujakso</string>
+    <string name="buy_license_trial_progress_days_left">päivää jäljellä</string>
+    <string name="buy_license_trial_progress_trial_ended">Kokeilujakso\npäätynyt</string>
+    <string name="buy_license_purchase_payment_pending">Maksun käsittely</string>
+    <string name="buy_license_purchase_payment_successful">Kiitos tuestasi! ❤️ Nauti Papayasta!</string>
+    <string name="buy_license_benefit_title">Rajoittamaton lisenssi:</string>
+    <string name="buy_license_benefit_no_limit">Poista %1$d päivän kokeilurajoitus ✅</string>
+    <string name="buy_license_benefit_no_ads">Ei mainoksia ✅</string>
+    <string name="buy_license_benefit_unlimited_devices">Rajoittamaton määrä laitteita ✅</string>
+    <string name="buy_license_benefit_support_development">Tue kehitystä ✅</string>
+    <string name="buy_license_cta_buy_license">Osta rajoittamaton lisenssi</string>
+    <string name="buy_license_cancel_back">Ehkä myöhemmin</string>
+    <string name="buy_license_cancel_quit">Sulje Papaya</string>
+    <string name="buy_license_go_back">Mene takaisin</string>
+    <string name="buy_license_error_generic_title">Kassan avaaminen epäonnistui</string>
+    <string name="buy_license_error_generic_message">Varmista, että internet-yhteys toimii ja Google Play -palvelut ovat käytössä.</string>
+
+    <!-- Shared UI -->
+    <string name="shared_ui_loading_screen_label_default">Ladataan</string>
+    <string name="shared_ui_toggleablebox_contentdescription_checked">Valittu</string>
+    <string name="shared_ui_toggleablebox_contentdescription_unchecked">Ei valittu</string>
+    <string name="snackbar_platform_scraper_enqueued">Jonossa: Haetaan \"%1$s\"-peliesi tietoja.</string>
+    <string name="snackbar_platform_scraper_running">Käynnissä taustalla: Haetaan \"%1$s\"-peliesi tietoja.</string>
+    <string name="snackbar_platform_scraper_succeeded">Valmis: \"%1$s\"-peliesi tietojen haku.</string>
+    <string name="snackbar_platform_scraper_failure">\"%1$s\"-peliesi tietojen haku epäonnistui.</string>
+    <string name="snackbar_platform_scraper_all_platforms_enqueued">Jonossa: Haetaan peliesi tietoja.</string>
+    <string name="snackbar_platform_scraper_all_platforms_running">Käynnissä taustalla: Haetaan peliesi tietoja.</string>
+    <string name="snackbar_platform_scraper_all_platforms_succeeded">Valmis: Peliesi tietojen haku.</string>
+    <string name="snackbar_platform_scraper_all_platforms_failure">Peliesi tietojen haku epäonnistui.</string>
+    <string name="snackbar_platform_detect_new_games_enqueued">Jonossa: Etsitään uusia \"%1$s\"-pelejä.</string>
+    <string name="snackbar_platform_detect_new_games_running">Käynnissä taustalla: Etsitään uusia \"%1$s\"-pelejä.</string>
+    <string name="snackbar_platform_detect_new_games_succeeded">Valmis: Uusien \"%1$s\"-pelien etsiminen.</string>
+    <string name="snackbar_platform_detect_new_games_failure">Uusien \"%1$s\"-pelien etsiminen epäonnistui.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">Jonossa: Etsitään uusia pelejä.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_running">Käynnissä taustalla: Etsitään uusia pelejä.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Valmis: Uusien pelien etsiminen.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_failure">Uusien pelien etsiminen epäonnistui.</string>
+    <string name="snackbar_platform_scrape_streaming_game_enqueued">Jonossa: Haetaan kiinnitetyn suoratoistopelin tietoja.</string>
+    <string name="snackbar_platform_scrape_streaming_game_running">Käynnissä taustalla: Haetaan kiinnitetyn suoratoistopelin tietoja.</string>
+    <string name="snackbar_platform_scrape_streaming_game_succeeded">Valmis: Kiinnitetyn suoratoistopelin tietojen haku.</string>
+    <string name="snackbar_platform_scrape_streaming_game_failure">Kiinnitetyn suoratoistopelin tietojen haku epäonnistui.</string>
+    <string name="shared_ui_display_selection_this_display">Tämä näyttö</string>
+    <string name="shared_ui_display_selection_external_display">Ulkoinen näyttö</string>
+    <string name="shared_ui_display_selection_launch_on">Käynnistä näytöllä</string>
+    <string name="shared_ui_last_played_today">Tänään</string>
+    <string name="shared_ui_last_played_yesterday">Eilen</string>
+    <string name="shared_ui_last_played_days_ago">%1$s päivää sitten</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">Laitteessasi ei ole sovellusta, joka voi suorittaa tätä toimintoa</string>
+
+    <!-- Background work -->
+    <string name="background_work_action_cancel">@string/common_cancel</string>
+    <string name="background_work_notification_channel_name">Tietojen haun edistyminen taustalla</string>
+    <string name="background_work_notification_channel_description">Yksityiskohtaiset tiedot tietojen haun edistymisestä. Esimerkiksi: Kuinka monta peliä on jäljellä.</string>
+    <string name="background_work_platform_scraper_base_title">Haetaan peliesi tietoja</string>
+    <string name="background_work_platform_scraper_generic_title">Haetaan %1$d \"%2$s\"-peliesi tietoja</string>
+    <string name="background_work_platform_scraper_progress_title">Haetaan pelitietoja (%1$d/%2$d): %3$s</string>
+    <string name="background_work_detect_new_games_generic_title">Etsitään uusia pelitiedostoja</string>
+    <string name="background_work_detect_new_games_generic_platform_title">Etsitään uusia \"%1$s\"-pelitiedostoja</string>
+    <string name="background_work_detect_new_games_scraper_progress_title">@string/background_work_platform_scraper_progress_title</string>
+    <string name="background_work_streaming_game_scraper_title">Haetaan pelin kansikuvaa ja pelin tietoja</string>
+</resources>
