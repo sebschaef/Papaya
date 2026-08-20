@@ -13,7 +13,7 @@
     <string name="common_back">Назад</string>
     <string name="common_exit">Выход</string>
     <string name="common_cancel">Отмена</string>
-    <string name="common_custom">НАСТРОЙКА</string>
+    <string name="common_custom">ПОЛЬЗОВАТЕЛЬСКИЙ</string>
     <string name="common_save">Сохранить</string>
     <string name="common_saving">Сохранение</string>
     <string name="common_okay">ОК</string>
