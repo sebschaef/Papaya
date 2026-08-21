@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Meta -->
-    <string name="app_name" translatable="false">Papaya</string>
-    <string name="title_activity_emulator_configuration" translatable="false">EmulatorConfigurationActivity</string>
-    <string name="title_activity_settings_main_menu" translatable="false">SettingsMainMenuActivity</string>
-    <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
-    <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
 
     <!-- Common -->
     <string name="common_select">Выбрать</string>
@@ -316,8 +310,6 @@
     <string name="settings_platforms_all_platforms">Все платформы</string>
     <string name="settings_platforms_reorder_title">Изменить порядок платформ</string>
     <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
-    <string name="settings_platforms_platform_label_esde" translatable="false">ES-DE</string>
-    <string name="settings_platforms_content_description_platform_label_gamelist" translatable="false">Gamelist</string>
     <string name="settings_platforms_content_description_move_up">Переместить вверх</string>
     <string name="settings_platforms_content_description_move_down">Переместить вниз</string>
 
@@ -426,30 +418,17 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Тот же дисплей (по умолчанию)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Другой дисплей</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Всегда спрашивать</string>
-    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
     <string name="settings_appearance_general_setting_key_hints_title">Подсказки для кнопок</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Отключено</string>
-    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
-    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
-    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Соотношение сторон обложки приложения</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Соотношение сторон обложки игры</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Адаптивное</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Показывать системную панель навигации</string>
     <string name="settings_appearance_general_setting_recents_section_title">Показывать раздел "Недавние"</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Показывать раздел "Избранное"</string>
 
     <!-- Settings - Appearance - Layout -->
     <string name="settings_appearance_layout_menu_theme_title">Тема</string>
-    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
-    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
-    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
     <string name="settings_appearance_layout_menu_theme_configuration_title">Конфигурация темы</string>
     <string name="settings_appearance_layout_menu_gallery_type_title">Тип</string>
     <string name="settings_appearance_layout_menu_gallery_type_touch">Сенсорный</string>
@@ -555,10 +534,6 @@
     <string name="settings_scraper_options_setting_website_label">Открыть %1$s в браузере</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Соотношение сторон обложки</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Любое</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_2_3" translatable="false">2:3</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_92_43" translatable="false">92:43</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_22_31" translatable="false">22:31</string>
     <string name="settings_scraper_options_setting_cover_type_label">Тип обложки</string>
     <string name="settings_scraper_options_setting_cover_type_option_any">Любой</string>
     <string name="settings_scraper_options_setting_cover_type_option_static">Статичный</string>
@@ -594,43 +569,35 @@
     <string name="settings_custom_emulator_app_title">Новая настраиваемая конфигурация эмулятора</string>
     <string name="settings_custom_emulator_app_section_metadata_title">Метаданные</string>
     <string name="settings_custom_emulator_app_section_metadata_label_name">Название</string>
-    <string name="settings_custom_emulator_app_section_metadata_hint_name">Например, 'Retroarch - PPSSPP'</string>
+    <string name="settings_custom_emulator_app_section_metadata_hint_name">Например, \'Retroarch - PPSSPP\'</string>
     <string name="settings_custom_emulator_app_section_platform_title">Платформа</string>
     <string name="settings_custom_emulator_app_section_platform_label_config">Конфигурация</string>
     <string name="settings_custom_emulator_app_section_platform_hint_config">Содержит информацию о поддерживаемых типах файлов. Вы можете создать свою собственную настраиваемую конфигурацию платформы в [Настройки] > [Расширенные] > [Настраиваемые конфигурации платформы] > [Создать].</string>
     <string name="settings_custom_emulator_app_section_emulator_title">Эмулятор</string>
     <string name="settings_custom_emulator_app_section_emulator_label_app">Приложение</string>
-    <string name="settings_custom_emulator_app_section_emulator_label_core" translatable="false">Core</string>
-    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch требует путь к ядру эмулятора: например, '/data/data/com.retroarch/cores/ppsspp_libretro_android.so'.</string>
-    <string name="settings_custom_emulator_app_section_emulator_label_activity" translatable="false">Activity</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch требует путь к ядру эмулятора: например, \'/data/data/com.retroarch/cores/ppsspp_libretro_android.so\'.</string>
     <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Не указано</string>
-    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Большинству приложений не требуется явное указание "Activity", поэтому вы можете оставить его как [Не указано]. Однако в некоторых случаях приложения требуют явного указания "Activity": ищите подходящие названия, такие как 'EmulationActivity'.</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Большинству приложений не требуется явное указание "Activity", поэтому вы можете оставить его как [Не указано]. Однако в некоторых случаях приложения требуют явного указания "Activity": ищите подходящие названия, такие как \'EmulationActivity\'.</string>
     <string name="settings_custom_emulator_app_section_parameter_type_title">Тип параметра</string>
     <string name="settings_custom_emulator_app_section_parameter_type_option_file">Файл игры</string>
     <string name="settings_custom_emulator_app_section_parameter_type_option_id">ID игры</string>
-    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Обычно эмуляторы хотят указать напрямую на 'Файл игры'. Однако для некоторых платформ нет единственного файла, на который можно указать. В таких случаях эмуляторы ссылаются на игру через 'ID игры' (например, Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Обычно эмуляторы хотят указать напрямую на \'Файл игры\'. Однако для некоторых платформ нет единственного файла, на который можно указать. В таких случаях эмуляторы ссылаются на игру через \'ID игры\' (например, Vita3K, ScummVM).</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_title">Обработка ID игры</string>
     <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Выбранная конфигурация платформы не включает спецификацию типа файла ID. Вы можете создать свою собственную настраиваемую конфигурацию платформы и добавить тип файла со спецификацией, как получить ID игры. Перейдите в [Настройки] > [Расширенные] > [Настраиваемые конфигурации платформы] > [Создать], чтобы создать её.\nВы всё ещё можете продолжить настройку этой конфигурации и сохранить её. Вы даже можете попробовать запустить игру, но, скорее всего, это не удастся, так как нет информации о том, где взять ID игры.</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Стандартное действие для открытия документа — 'android.intent.action.VIEW', которое используется большинством эмуляторных приложений. В редких случаях используется пользовательское действие: например, для эмуляторов на основе Yuzu это 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Стандартное действие для открытия документа — \'android.intent.action.VIEW\', которое используется большинством эмуляторных приложений. В редких случаях используется пользовательское действие: например, для эмуляторов на основе Yuzu это \'android.nfc.action.TECH_DISCOVERED\'.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">Параметр ID</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Передавать ID через параметр DATA</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">Стандартный способ передачи ID другому приложению — через параметр DATA. Однако некоторые эмуляторы могут требовать передачи файла через пользовательский параметр.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Пользовательское имя параметра ID</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_inline_hint_custom" translatable="false">game_id</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_string" translatable="false">Строка</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_int" translatable="false">Целое число</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Обычно ID передаётся как текстовый тип ('Строка'). Если ID — это число, возможно, что оно передаётся как явный числовой тип ('Целое число').</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Обычно ID передаётся как текстовый тип (\'Строка\'). Если ID — это число, возможно, что оно передаётся как явный числовой тип (\'Целое число\').</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_title">Обработка файла игры</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_label_intent_action" translatable="false">Intent action</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Стандартное действие для открытия файла — 'android.intent.action.VIEW', которое используется большинством эмуляторных приложений. В редких случаях используется пользовательское действие: например, для эмуляторов на основе Yuzu это 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Стандартное действие для открытия файла — \'android.intent.action.VIEW\', которое используется большинством эмуляторных приложений. В редких случаях используется пользовательское действие: например, для эмуляторов на основе Yuzu это \'android.nfc.action.TECH_DISCOVERED\'.</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_label_file_parameter">Параметр файла</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_option_file_parameter_data_parameter">Передавать файл через параметр DATA</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_hint_file_parameter">Стандартный способ передачи файла другому приложению — через параметр DATA. Однако некоторые эмуляторы могут требовать передачи файла через пользовательский параметр.</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_label_custom">Пользовательский параметр файла</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_inline_hint_custom" translatable="false">bootPath</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_content_uri" translatable="false">Content URI</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_absolute_url">Абсолютный URL</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Современные приложения обычно ссылаются на файл через 'Content URI'. Более старые приложения могут использовать 'Абсолютный URL': подсказкой может быть то, что они используют разрешение 'READ_EXTERNAL_STORAGE'.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Современные приложения обычно ссылаются на файл через \'Content URI\'. Более старые приложения могут использовать \'Абсолютный URL\': подсказкой может быть то, что они используют разрешение \'READ_EXTERNAL_STORAGE\'.</string>
     <string name="settings_custom_emulator_app_section_addtional_parameters_button_add">Добавить параметр</string>
     <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_key">Ключ</string>
     <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_string">Текстовое значение</string>
@@ -640,11 +607,11 @@
     <string name="settings_custom_emulator_app_box_try_it_button_select_test_file">Выбрать тестовый файл</string>
     <string name="settings_custom_emulator_app_box_try_it_cta_launch">Запустить</string>
     <string name="settings_custom_emulator_app_box_try_it_result_success">✅ Приложение успешно запущено!</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_empty">После нажатия на 'Запустить' здесь отобразится результат.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Однако я не могу получить ID игры из типа файла '%1$s', определённого в выбранной конфигурации платформы. Пожалуйста, определите в конфигурации платформы, как я могу прочитать ID в заданном типе файла.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип '%1$s' указывает, что ID игры считывается из имени папки. Однако похоже, что тестовый файл не находится внутри папки.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип '%1$s' указывает, что ID игры считывается из содержимого файла. Однако похоже, что тестовый файл не содержит ID в читаемом формате: ID должен быть единственным содержимым файла.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип '%1$s' указывает, что ID игры считывается из содержимого файла. Однако я не смог получить доступ к содержимому файла.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_empty">После нажатия на \'Запустить\' здесь отобразится результат.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Однако я не могу получить ID игры из типа файла \'%1$s\', определённого в выбранной конфигурации платформы. Пожалуйста, определите в конфигурации платформы, как я могу прочитать ID в заданном типе файла.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип \'%1$s\' указывает, что ID игры считывается из имени папки. Однако похоже, что тестовый файл не находится внутри папки.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип \'%1$s\' указывает, что ID игры считывается из содержимого файла. Однако похоже, что тестовый файл не содержит ID в читаемом формате: ID должен быть единственным содержимым файла.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ ID игры не найден! Конфигурация указывает, что эмулятор запускается с помощью ID игры. Тип \'%1$s\' указывает, что ID игры считывается из содержимого файла. Однако я не смог получить доступ к содержимому файла.</string>
 
     <!-- Settings - Custom platforms -->
     <string name="settings_custom_platforms_title">Настраиваемые конфигурации платформы</string>
@@ -666,12 +633,9 @@
     <!-- Settings - Custom platform creator -->
     <string name="settings_custom_platform_creator_title">Новая настраиваемая конфигурация платформы</string>
     <string name="settings_custom_platform_creator_section_platform_abbreviation_title">Аббревиатура платформы</string>
-    <string name="settings_custom_platform_creator_section_platform_abbreviation_inline_hint" translatable="false">PSP</string>
     <string name="settings_custom_platform_creator_section_platform_name_title">Название платформы</string>
-    <string name="settings_custom_platform_creator_section_platform_name_inline_hint" translatable="false">PlayStation Portable</string>
     <string name="settings_custom_platform_creator_section_game_file_types_title">Типы файлов игр</string>
     <string name="settings_custom_platform_creator_section_game_file_types_button_add">Добавить тип файла</string>
-    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_inline_hint" translatable="false">iso</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">Файл игры</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">Файл ID игры</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Где определяется ID?</string>
@@ -695,7 +659,7 @@
     <string name="settings_esde_import_folder_not_selected">Не выбрано</string>
     <string name="settings_esde_import_message_error_invalid_esde_folder">Выбранная папка ES-DE кажется недействительной. Убедитесь, что вы выбрали папку, которая содержит подпапки, такие как gamelists, downloaded_media, settings и т. д.</string>
     <string name="settings_esde_import_message_error_no_gamelists">Выбранная папка ES-DE не содержит ни одного файла gamelist. Для начала импорта должна существовать хотя бы одна система в конфигурации ES-DE.</string>
-    <string name="settings_esde_import_message_info_verifying_folders">Проверка папок ES-DE и ROM...</string>
+    <string name="settings_esde_import_message_info_verifying_folders">Проверка папок ES-DE и ROM…</string>
     <string name="settings_esde_import_message_info_found_gamelists">Найдено %1$s платформ</string>
     <string name="settings_esde_import_cta_import">Импортировать</string>
     <string name="settings_esde_import_info_import">Papaya напрямую ссылается на файлы gamelist и обложек в папке ES-DE и не копирует их. Опция "Обнаружить новые игры и изменения" также будет обнаруживать изменения, внесённые в конфигурацию ES-DE, и соответствующим образом обновлять платформу в Papaya. Изменение платформы в Papaya будет действовать только в Papaya, ваша конфигурация ES-DE не будет изменена.</string>

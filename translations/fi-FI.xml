@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Meta -->
-    <string name="app_name" translatable="false">Papaya</string>
-    <string name="title_activity_emulator_configuration" translatable="false">EmulatorConfigurationActivity</string>
-    <string name="title_activity_settings_main_menu" translatable="false">SettingsMainMenuActivity</string>
-    <string name="title_activity_itemoptions" translatable="false">ItemOptionsActivity</string>
-    <string name="title_activity_buylicense" translatable="false">BuyLicenseActivity</string>
 
     <!-- Common -->
     <string name="common_select">Valitse</string>
@@ -316,8 +310,6 @@
     <string name="settings_platforms_all_platforms">Kaikki alustat</string>
     <string name="settings_platforms_reorder_title">Järjestä alustat uudelleen</string>
     <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
-    <string name="settings_platforms_platform_label_esde" translatable="false">ES-DE</string>
-    <string name="settings_platforms_content_description_platform_label_gamelist" translatable="false">Gamelist</string>
     <string name="settings_platforms_content_description_move_up">Siirrä ylös</string>
     <string name="settings_platforms_content_description_move_down">Siirrä alas</string>
 
@@ -426,30 +418,17 @@
     <string name="settings_appearance_general_setting_launch_display_option_default">Sama näyttö (oletus)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Toinen näyttö</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Kysy aina</string>
-    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
     <string name="settings_appearance_general_setting_key_hints_title">Painikevihjeet</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Poistettu käytöstä</string>
-    <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
-    <string name="settings_appearance_general_setting_key_hints_option_nintendo" translatable="false">Nintendo</string>
-    <string name="settings_appearance_general_setting_key_hints_option_playstation" translatable="false">PlayStation</string>
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Sovelluksen kansikuvan kuvasuhde</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4" translatable="false">3:4</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3" translatable="false">4:3</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Pelin kansikuvan kuvasuhde</string>
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptiivinen</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_3_4" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_3_4</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_1_1" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_1_1</string>
-    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Näytä järjestelmän navigaatiopalkki</string>
     <string name="settings_appearance_general_setting_recents_section_title">Näytä "Viimeisimmät"-osio</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Näytä "Suosikit"-osio</string>
 
     <!-- Settings - Appearance - Layout -->
     <string name="settings_appearance_layout_menu_theme_title">Teema</string>
-    <string name="settings_appearance_layout_menu_theme_gallery" translatable="false">Gallery</string>
-    <string name="settings_appearance_layout_menu_theme_deckish" translatable="false">Deckish</string>
-    <string name="settings_appearance_layout_menu_theme_xmb" translatable="false">XMB</string>
     <string name="settings_appearance_layout_menu_theme_configuration_title">Teeman konfigurointi</string>
     <string name="settings_appearance_layout_menu_gallery_type_title">Tyyppi</string>
     <string name="settings_appearance_layout_menu_gallery_type_touch">Kosketus</string>
@@ -555,10 +534,6 @@
     <string name="settings_scraper_options_setting_website_label">Avaa %1$s selaimessa</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Kansikuvan kuvasuhde</string>
     <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Mikä tahansa</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_1_1" translatable="false">1:1</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_2_3" translatable="false">2:3</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_92_43" translatable="false">92:43</string>
-    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_22_31" translatable="false">22:31</string>
     <string name="settings_scraper_options_setting_cover_type_label">Kansikuvan tyyppi</string>
     <string name="settings_scraper_options_setting_cover_type_option_any">Mikä tahansa</string>
     <string name="settings_scraper_options_setting_cover_type_option_static">Staattinen</string>
@@ -569,7 +544,7 @@
     <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
     <string name="settings_scraper_api_key_save_try">Tallenna ja testaa</string>
     <string name="settings_scraper_api_key_test_idle_label">Tallennuksen jälkeen näet täällä, onko avain validi.</string>
-    <string name="settings_scraper_api_key_test_request_sent_label">Testipyyntö lähetetty. Odotetaan vastaus...</string>
+    <string name="settings_scraper_api_key_test_request_sent_label">Testipyyntö lähetetty. Odotetaan vastaus…</string>
     <string name="settings_scraper_api_key_test_success_label">✅ Testipyyntö onnistui! Avain on validi ja tallennettu onnistuneesti.</string>
     <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Ei internet-yhtyttä. Avain on tallennettu onnistuneesti, mutta sitä ei voitu varmistaa.</string>
     <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ Testipyyntö epäonnistui syystä, joka ei liity avaimeen. Avain on tallennettu onnistuneesti, mutta sitä ei voitu varmistaa.</string>
@@ -594,43 +569,35 @@
     <string name="settings_custom_emulator_app_title">Uusi mukautettu emulaattorisovelluksen konfiguraatio</string>
     <string name="settings_custom_emulator_app_section_metadata_title">Metatiedot</string>
     <string name="settings_custom_emulator_app_section_metadata_label_name">Nimi</string>
-    <string name="settings_custom_emulator_app_section_metadata_hint_name">Esimerkiksi 'Retroarch - PPSSPP'</string>
+    <string name="settings_custom_emulator_app_section_metadata_hint_name">Esimerkiksi \'Retroarch - PPSSPP\'</string>
     <string name="settings_custom_emulator_app_section_platform_title">Alusta</string>
     <string name="settings_custom_emulator_app_section_platform_label_config">Konfiguraatio</string>
     <string name="settings_custom_emulator_app_section_platform_hint_config">Sisältää tietoja tuetuista tiedostotyypeistä. Voit luoda oman mukautetun alustakonfiguraation [Asetukset] > [Edistynyt] > [Mukautetut alustakonfiguraatiot] > [Luo].</string>
     <string name="settings_custom_emulator_app_section_emulator_title">Emulaattori</string>
     <string name="settings_custom_emulator_app_section_emulator_label_app">Sovellus</string>
-    <string name="settings_custom_emulator_app_section_emulator_label_core" translatable="false">Core</string>
-    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch vaatii polun emulaattoriytimeen: Esimerkiksi '/data/data/com.retroarch/cores/ppsspp_libretro_android.so'.</string>
-    <string name="settings_custom_emulator_app_section_emulator_label_activity" translatable="false">Activity</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch vaatii polun emulaattoriytimeen: Esimerkiksi \'/data/data/com.retroarch/cores/ppsspp_libretro_android.so\'.</string>
     <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Määrittämätön</string>
-    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Useimmat sovellukset eivät vaadi selkeää "Activity":tia, joten voit yleensä jättää sen [Määrittämätön]-asetukseen. Joissakin tapauksissa sovellukset kuitenkin vaativat selkeän "Activity"-nimen: Etsi sopivia nimiä kuten 'EmulationActivity'.</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Useimmat sovellukset eivät vaadi selkeää "Activity":tia, joten voit yleensä jättää sen [Määrittämätön]-asetukseen. Joissakin tapauksissa sovellukset kuitenkin vaativat selkeän "Activity"-nimen: Etsi sopivia nimiä kuten \'EmulationActivity\'.</string>
     <string name="settings_custom_emulator_app_section_parameter_type_title">Parametrin tyyppi</string>
     <string name="settings_custom_emulator_app_section_parameter_type_option_file">Pelitiedosto</string>
     <string name="settings_custom_emulator_app_section_parameter_type_option_id">Pelin ID</string>
-    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Yleensä emulaattorit haluavat osoittaa suoraan 'Pelitiedostoon'. Joillekin alustoille ei kuitenkaan ole vain yhtä tiedostoa, johon voidaan osoittaa. Tällaisissa tapauksissa emulaattorit viittaavat peliin 'Pelin ID':n kautta (esim. Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Yleensä emulaattorit haluavat osoittaa suoraan \'Pelitiedostoon\'. Joillekin alustoille ei kuitenkaan ole vain yhtä tiedostoa, johon voidaan osoittaa. Tällaisissa tapauksissa emulaattorit viittaavat peliin \'Pelin ID\':n kautta (esim. Vita3K, ScummVM).</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_title">Pelin ID:n käsittely</string>
     <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Valittu alustakonfiguraatio ei sisällä ID-tiedostotyyppimäärittelyä. Voit luoda oman mukautetun alustakonfiguraation ja lisätä tiedostotyypin, jossa määritetään, miten pelin ID saadaan. Mene [Asetukset] > [Edistynyt] > [Mukautetut alustakonfiguraatiot] > [Luo] luodaksesi sen.\nVoit silti jatkaa tämän konfiguraation määrittämistä ja tallentaa sitä. Voit jopa yrittää käynnistää pelin, mutta se todennäköisesti epäonnistuu, koska ei ole tietoa pelin ID:stä.</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Tiedoston avaamiseen tarkoitetun intent-toiminnon oletusarvo on 'android.intent.action.VIEW', jota useimmat emulaattorisovellukset käyttävät. Harvinaisissa tapauksissa käytetään mukautettua toimintoa: Esimerkiksi Yuzu-pohjaisille emulaattoreille se on 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Tiedoston avaamiseen tarkoitetun intent-toiminnon oletusarvo on \'android.intent.action.VIEW\', jota useimmat emulaattorisovellukset käyttävät. Harvinaisissa tapauksissa käytetään mukautettua toimintoa: Esimerkiksi Yuzu-pohjaisille emulaattoreille se on \'android.nfc.action.TECH_DISCOVERED\'.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">ID-parametri</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Lähetä ID DATA-parametrin kautta</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">ID:n lähettämisen standarditapa toiselle sovellukselle on DATA-parametrin kautta. Joillakin emulaattoreilla voi kuitenkin olla vaatimus lähettää tiedosto mukautetun parametrin kautta.</string>
     <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Mukautettu ID-parametrin nimi</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_inline_hint_custom" translatable="false">game_id</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_string" translatable="false">Merkkijono</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_option_type_int" translatable="false">Kokonaisluku</string>
-    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Yleensä ID lähetetään tekstityypinä ('Merkkijono'). Jos ID on numero, on mahdollista, että se lähetetään selkeänä numerotyyppinä ('Kokonaisluku').</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Yleensä ID lähetetään tekstityypinä (\'Merkkijono\'). Jos ID on numero, on mahdollista, että se lähetetään selkeänä numerotyyppinä (\'Kokonaisluku\').</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_title">Pelitiedoston käsittely</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_label_intent_action" translatable="false">Intent action</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Tiedoston avaamiseen tarkoitetun intent-toiminnon oletusarvo on 'android.intent.action.VIEW', jota useimmat emulaattorisovellukset käyttävät. Harvinaisissa tapauksissa käytetään mukautettua toimintoa: Esimerkiksi Yuzu-pohjaisille emulaattoreille se on 'android.nfc.action.TECH_DISCOVERED'.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Tiedoston avaamiseen tarkoitetun intent-toiminnon oletusarvo on \'android.intent.action.VIEW\', jota useimmat emulaattorisovellukset käyttävät. Harvinaisissa tapauksissa käytetään mukautettua toimintoa: Esimerkiksi Yuzu-pohjaisille emulaattoreille se on \'android.nfc.action.TECH_DISCOVERED\'.</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_label_file_parameter">Tiedostoparametri</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_option_file_parameter_data_parameter">Lähetä tiedosto DATA-parametrin kautta</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_hint_file_parameter">Tiedoston lähettämisen standarditapa toiselle sovellukselle on DATA-parametrin kautta. Joillakin emulaattoreilla voi kuitenkin olla vaatimus lähettää tiedosto mukautetun parametrin kautta.</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_label_custom">Mukautettu tiedostoparametri</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_inline_hint_custom" translatable="false">bootPath</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_content_uri" translatable="false">Content URI</string>
     <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_absolute_url">Absoluuttinen URL</string>
-    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Modernit sovellukset viittaavat yleensä tiedostoon 'content URI':n kautta. Vanhemmat sovellukset saattavat käyttää 'absoluuttista URL:ää': Vihje voi olla, että ne käyttävät 'READ_EXTERNAL_STORAGE'-lupaa.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Modernit sovellukset viittaavat yleensä tiedostoon \'content URI\':n kautta. Vanhemmat sovellukset saattavat käyttää \'absoluuttista URL:ää\': Vihje voi olla, että ne käyttävät \'READ_EXTERNAL_STORAGE\'-lupaa.</string>
     <string name="settings_custom_emulator_app_section_addtional_parameters_button_add">Lisää parametri</string>
     <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_key">Avain</string>
     <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_string">Tekstiarvo</string>
@@ -640,11 +607,11 @@
     <string name="settings_custom_emulator_app_box_try_it_button_select_test_file">Valitse testitiedosto</string>
     <string name="settings_custom_emulator_app_box_try_it_cta_launch">Käynnistä</string>
     <string name="settings_custom_emulator_app_box_try_it_result_success">✅ Sovellus käynnistettiin onnistuneesti!</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_empty">Klikkaamalla 'Käynnistä' näet tuloksen täällä.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Kuitenkin ei kyetä hakea pelin ID:tä tiedostotyypistä '%1$s', joka on määritetty valitussa alustakonfiguraatiossa. Määritä alustakonfiguraatiossa, miten ID luetaan annetusta tiedostotyypistä.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi '%1$s' määrittää, että pelin ID luetaan kansion nimestä. Kuitenkin näyttää siltä, että testitiedosto ei sijaitse kansiossa.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi '%1$s' määrittää, että pelin ID luetaan tiedoston sisällöstä. Kuitenkin näyttää siltä, että testitiedosto ei sisällä ID:tä luettavassa muodossa: ID:n tulisi olla tiedoston ainoa sisältö.</string>
-    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi '%1$s' määrittää, että pelin ID luetaan tiedoston sisällöstä. Kuitenkin ei kyetty pääsemään käsiksi tiedoston sisältöön.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_empty">Klikkaamalla \'Käynnistä\' näet tuloksen täällä.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Kuitenkin ei kyetä hakea pelin ID:tä tiedostotyypistä \'%1$s\', joka on määritetty valitussa alustakonfiguraatiossa. Määritä alustakonfiguraatiossa, miten ID luetaan annetusta tiedostotyypistä.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi \'%1$s\' määrittää, että pelin ID luetaan kansion nimestä. Kuitenkin näyttää siltä, että testitiedosto ei sijaitse kansiossa.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi \'%1$s\' määrittää, että pelin ID luetaan tiedoston sisällöstä. Kuitenkin näyttää siltä, että testitiedosto ei sisällä ID:tä luettavassa muodossa: ID:n tulisi olla tiedoston ainoa sisältö.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ Pelin ID:tä ei löydetty! Konfiguraatio määrittää, että emulaattori käynnistetään pelin ID:llä. Tyyppi \'%1$s\' määrittää, että pelin ID luetaan tiedoston sisällöstä. Kuitenkin ei kyetty pääsemään käsiksi tiedoston sisältöön.</string>
 
     <!-- Settings - Custom platforms -->
     <string name="settings_custom_platforms_title">Mukautetut alustakonfiguraatiot</string>
@@ -666,12 +633,9 @@
     <!-- Settings - Custom platform creator -->
     <string name="settings_custom_platform_creator_title">Uusi mukautettu alustakonfiguraatio</string>
     <string name="settings_custom_platform_creator_section_platform_abbreviation_title">Alustan lyhenne</string>
-    <string name="settings_custom_platform_creator_section_platform_abbreviation_inline_hint" translatable="false">PSP</string>
     <string name="settings_custom_platform_creator_section_platform_name_title">Alustan nimi</string>
-    <string name="settings_custom_platform_creator_section_platform_name_inline_hint" translatable="false">PlayStation Portable</string>
     <string name="settings_custom_platform_creator_section_game_file_types_title">Pelitiedostotyypit</string>
     <string name="settings_custom_platform_creator_section_game_file_types_button_add">Lisää tiedostotyyppi</string>
-    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_inline_hint" translatable="false">iso</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">Pelitiedosto</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">Pelin ID-tiedosto</string>
     <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Mistä ID määritetään?</string>
@@ -695,7 +659,7 @@
     <string name="settings_esde_import_folder_not_selected">Ei valintaa</string>
     <string name="settings_esde_import_message_error_invalid_esde_folder">Valittu ES-DE-kansio näyttää olevan virheellinen. Varmista, että valitset kansion, joka sisältää alikansioita kuten gamelists, downloaded_media, settings jne.</string>
     <string name="settings_esde_import_message_error_no_gamelists">Valittu ES-DE-kansio ei sisällä yhtään gamelist-tiedostoa. Vähintään yhden järjestelmän on olemassa ES-DE-konfiguraatiossa, jotta tuonti voidaan aloittaa.</string>
-    <string name="settings_esde_import_message_info_verifying_folders">Tarkistetaan ES-DE- ja Rom-kansioita...</string>
+    <string name="settings_esde_import_message_info_verifying_folders">Tarkistetaan ES-DE- ja Rom-kansioita…</string>
     <string name="settings_esde_import_message_info_found_gamelists">Löydetty %1$s alustaa</string>
     <string name="settings_esde_import_cta_import">Tuo</string>
     <string name="settings_esde_import_info_import">Papaya viittaa suoraan gamelist- ja kansikuvatiedostoihin ES-DE-kansiossa ja ei kopioi niitä. "Havaitse uudet pelit ja muutokset"-toiminto havaitsee myös ES-DE-konfiguraatioon tehdyt muutokset ja päivittää Papayan alustan sen mukaan. Papayassa tehty alustan muokkaaminen vaikuttaa vain Papayaan, ES-DE-konfiguraatiotasi ei muokata.</string>
@@ -743,8 +707,8 @@
     <string name="settings_about_section_attribution_es_419">🌎 Latinalaisen Amerikan ja Karibian espanja: myös &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_pl">🇵🇱 Puola: &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_it">🇮🇹 Italia: &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
-  <string name="settings_about_section_attribution_fi">🇫🇮 Suomi: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
-  <string name="settings_about_section_attribution_ru">🇷🇺 Venäjä: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_fi">🇫🇮 Suomi: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
+    <string name="settings_about_section_attribution_ru">🇷🇺 Venäjä: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Äänet ja kuvakkeet</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Kiitos upeista alustakuvakkeista! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS ja SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Kiitos upeasta PICO-8-alustakuvakkeesta! 🙏</string>

@@ -1,6 +1,6 @@
 {
-  "presetSchemaVersion": 3,
-  "presetConfigurationVersion": 20,
+  "presetSchemaVersion": 4,
+  "presetConfigurationVersion": 21,
   "platforms": [
     {
       "key": "and",
@@ -9161,7 +9161,7 @@
       },
       "references": {
         "esDe": {
-          "label": "aPS3e (Standalone)"
+          "label": "aPS3e ISO (Standalone)"
         },
         "sources": [
           {
@@ -9169,6 +9169,22 @@
             "url": "https://play.google.com/store/apps/details?id=aenu.aps3e"
           }
         ]
+      }
+    },
+    {
+      "packageName": "com.armsx3",
+      "name": "ARMSX3",
+      "supportedPlatforms": [
+        "ps3"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.armsx2.Main",
+        "filePathType": "absolute"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX3 (Standalone)"
+        }
       }
     },
     {
@@ -9686,6 +9702,21 @@
             "url": "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation"
           }
         ]
+      }
+    },
+    {
+      "packageName": "com.nanodata.armsx",
+      "name": "ARMSX1",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.armsx2.Main"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX1 (Standalone)"
+        }
       }
     },
     {
