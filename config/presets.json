@@ -1,6 +1,6 @@
 {
-  "presetSchemaVersion": 3,
-  "presetConfigurationVersion": 20,
+  "presetSchemaVersion": 4,
+  "presetConfigurationVersion": 21,
   "platforms": [
     {
       "key": "and",
@@ -1374,6 +1374,52 @@
       "references": {
         "esDe": {
           "path": "gb"
+        }
+      }
+    },
+    {
+      "key": "gbc",
+      "shortName": "GBC",
+      "name": "Nintendo Game Boy Color",
+      "supportedFiles": [
+        {
+          "type": "bs"
+        },
+        {
+          "type": "cgb"
+        },
+        {
+          "type": "dmg"
+        },
+        {
+          "type": "gb"
+        },
+        {
+          "type": "gbc"
+        },
+        {
+          "type": "sgb"
+        },
+        {
+          "type": "sfc"
+        },
+        {
+          "type": "smc"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "22",
+        "tgdb": "41"
+      },
+      "references": {
+        "esDe": {
+          "path": "gbc"
         }
       }
     },
@@ -3879,7 +3925,8 @@
       "core": "DoubleCherryGB_libretro_android.so",
       "name": "RetroArch - DoubleCherryGB",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3901,7 +3948,8 @@
       "core": "gambatte_libretro_android.so",
       "name": "RetroArch - Gambatte",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3923,7 +3971,8 @@
       "core": "gearboy_libretro_android.so",
       "name": "RetroArch - GearBoy",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3945,7 +3994,8 @@
       "core": "sameboy_libretro_android.so",
       "name": "RetroArch - SameBoy",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3967,7 +4017,8 @@
       "core": "tgbdual_libretro_android.so",
       "name": "RetroArch - TGB Dual",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3990,6 +4041,7 @@
       "name": "RetroArch - mGBA",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -4013,6 +4065,7 @@
       "name": "RetroArch - VBA-M",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -4035,7 +4088,8 @@
       "core": "irogb_libretro_android.so",
       "name": "RetroArch - IroGB",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -4058,6 +4112,7 @@
       "name": "RetroArch - Mesen-S",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "snes"
       ],
       "launchConfiguration": {
@@ -4081,6 +4136,7 @@
       "name": "RetroArch - SkyEmu",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba",
         "nds"
       ],
@@ -4299,7 +4355,8 @@
       "name": "RetroArch - bsnes",
       "supportedPlatforms": [
         "snes",
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6277,7 +6334,8 @@
       "core": "DoubleCherryGB_libretro_android.so",
       "name": "RetroArch (64bit) - DoubleCherryGB",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6299,7 +6357,8 @@
       "core": "gambatte_libretro_android.so",
       "name": "RetroArch (64bit) - Gambatte",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6321,7 +6380,8 @@
       "core": "gearboy_libretro_android.so",
       "name": "RetroArch (64bit) - GearBoy",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6343,7 +6403,8 @@
       "core": "sameboy_libretro_android.so",
       "name": "RetroArch (64bit) - SameBoy",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6365,7 +6426,8 @@
       "core": "tgbdual_libretro_android.so",
       "name": "RetroArch (64bit) - TGB Dual",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6388,6 +6450,7 @@
       "name": "RetroArch (64bit) - mGBA",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -6411,6 +6474,7 @@
       "name": "RetroArch (64bit) - VBA-M",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -6433,7 +6497,8 @@
       "core": "irogb_libretro_android.so",
       "name": "RetroArch (64bit) - IroGB",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6456,6 +6521,7 @@
       "name": "RetroArch (64bit) - Mesen-S",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "snes"
       ],
       "launchConfiguration": {
@@ -6479,6 +6545,7 @@
       "name": "RetroArch (64bit) - SkyEmu",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba",
         "nds"
       ],
@@ -6697,7 +6764,8 @@
       "name": "RetroArch (64bit) - bsnes",
       "supportedPlatforms": [
         "snes",
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8269,7 +8337,8 @@
       "core": "DoubleCherryGB_libretro_android.so",
       "name": "RetroArch (32bit) - DoubleCherryGB",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8285,7 +8354,8 @@
       "core": "gambatte_libretro_android.so",
       "name": "RetroArch (32bit) - Gambatte",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8301,7 +8371,8 @@
       "core": "gearboy_libretro_android.so",
       "name": "RetroArch (32bit) - GearBoy",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8317,7 +8388,8 @@
       "core": "sameboy_libretro_android.so",
       "name": "RetroArch (32bit) - SameBoy",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8333,7 +8405,8 @@
       "core": "tgbdual_libretro_android.so",
       "name": "RetroArch (32bit) - TGB Dual",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8350,6 +8423,7 @@
       "name": "RetroArch (32bit) - mGBA",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -8367,6 +8441,7 @@
       "name": "RetroArch (32bit) - VBA-M",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -8383,7 +8458,8 @@
       "core": "irogb_libretro_android.so",
       "name": "RetroArch (32bit) - IroGB",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8400,6 +8476,7 @@
       "name": "RetroArch (32bit) - Mesen-S",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "snes"
       ],
       "launchConfiguration": {
@@ -8417,6 +8494,7 @@
       "name": "RetroArch (32bit) - SkyEmu",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba",
         "nds"
       ],
@@ -8571,7 +8649,8 @@
       "name": "RetroArch (32bit) - bsnes",
       "supportedPlatforms": [
         "snes",
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -9161,7 +9240,7 @@
       },
       "references": {
         "esDe": {
-          "label": "aPS3e (Standalone)"
+          "label": "aPS3e ISO (Standalone)"
         },
         "sources": [
           {
@@ -9169,6 +9248,22 @@
             "url": "https://play.google.com/store/apps/details?id=aenu.aps3e"
           }
         ]
+      }
+    },
+    {
+      "packageName": "com.armsx3",
+      "name": "ARMSX3",
+      "supportedPlatforms": [
+        "ps3"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.armsx2.Main",
+        "filePathType": "absolute"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX3 (Standalone)"
+        }
       }
     },
     {
@@ -9386,7 +9481,8 @@
       "packageName": "com.explusalpha.GbcEmu",
       "name": "GBC.emu",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
@@ -9689,6 +9785,21 @@
       }
     },
     {
+      "packageName": "com.nanodata.armsx",
+      "name": "ARMSX1",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.armsx2.Main"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX1 (Standalone)"
+        }
+      }
+    },
+    {
       "packageName": "com.winlator",
       "name": "Winlator",
       "supportedPlatforms": [
@@ -9802,7 +9913,8 @@
       "packageName": "it.dbtecno.pizzaboypro",
       "name": "Pizza Boy C Pro",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboypro.MainActivity",
@@ -9824,7 +9936,8 @@
       "packageName": "it.dbtecno.pizzaboy",
       "name": "Pizza Boy C Basic",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboy.MainActivity",
@@ -10480,7 +10593,8 @@
       "packageName": "com.fastemulator.gbc",
       "name": "My OldBoy!",
       "supportedPlatforms": [
-        "gb"
+        "gb",
+        "gbc"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.fastemulator.gbc.EmulatorActivity"
@@ -10502,6 +10616,7 @@
       "name": "Linkboy",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba"
       ],
       "launchConfiguration": {
@@ -10524,6 +10639,7 @@
       "name": "SkyEmu",
       "supportedPlatforms": [
         "gb",
+        "gbc",
         "gba",
         "nds"
       ],

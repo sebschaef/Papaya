@@ -711,6 +711,8 @@
     <string name="settings_about_section_attribution_es_419">🌎 Lateinamerikanisches und karibisches Spanisch ebenfalls von &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
     <string name="settings_about_section_attribution_pl">🇵🇱 Polnisch von &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
     <string name="settings_about_section_attribution_it">🇮🇹 Italienisch von &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
+    <string name="settings_about_section_attribution_fi">🇫🇮 Finnisch von &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
+    <string name="settings_about_section_attribution_ru">🇷🇺 Russisch von &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Töne &amp; Icons</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Vielen Dank für die schönen Plattform-Icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS und SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Vielen Dank für das schöne PICO-8-Icon! 🙏</string>
