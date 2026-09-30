@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24px"
+   viewBox="0 -960 960 960"
+   width="24px"
+   fill="#e3e3e3"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="search_add.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="6.1282588"
+     inkscape:cx="-68.779733"
+     inkscape:cy="-9.7907093"
+     inkscape:window-width="2560"
+     inkscape:window-height="1317"
+     inkscape:window-x="1440"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 724.41026,-120 495.02565,-349.38461 q -27.3077,21.84615 -62.8077,34.58974 -35.5,12.74359 -75.55128,12.74359 -99.21795,0 -167.94232,-68.72437 Q 120,-439.5 120,-538.71795 q 0,-99.21794 68.72435,-167.94231 68.72437,-68.72435 167.94232,-68.72435 99.21794,0 167.94231,68.72435 68.72435,68.72437 68.72435,167.94231 0,40.05128 -12.74359,75.55128 -12.74359,35.5 -34.58974,62.80769 l 229.38461,229.38463 z M 356.66667,-374.8718 q 68.26922,0 116.05768,-47.78846 47.78847,-47.78846 47.78847,-116.05769 0,-68.26923 -47.78847,-116.0577 -47.78846,-47.78846 -116.05768,-47.78846 -68.26923,0 -116.05769,47.78846 -47.78846,47.78847 -47.78846,116.0577 0,68.26923 47.78846,116.05769 47.78846,47.78846 116.05769,47.78846 z"
+     id="path1"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.910256" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:913.773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+     id="rect1"
+     width="204.23076"
+     height="71.43045"
+     x="644.4325"
+     y="-762.77429"
+     ry="0" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:913.773;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.5"
+     id="rect1-7"
+     width="204.23076"
+     height="71.43045"
+     x="-829.42596"
+     y="-782.51459"
+     ry="0"
+     transform="rotate(90)" />
+</svg>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================== Changed ============================== -->
+
+    <!-- Platform configuration -->
+    <string name="settings_main_menu_menu_option_platform">Platforms</string>
+
+    <!-- ================================ New ================================ -->
+
+    <!-- Common -->
+    <string name="common_select_unselect">Select / Unselect</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_category_search">Search</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_sorting_option_by_collection">By collection</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Search games, apps or the web</string>
+    <string name="gallery_search_section_other">Other</string>
+    <string name="gallery_search_section_recently_searched_games">Recently searched games</string>
+    <string name="gallery_search_section_recently_searched_apps">Recently searched apps</string>
+    <string name="gallery_search_section_recently_searched_other">Recent web searches</string>
+    <string name="gallery_search_web_search_content_description">Web search</string>
+    <string name="gallery_search_open_browser_content_description">Open browser</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_search_option_new_search_title">New search</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_option_collections">Collections</string>
+    <string name="item_options_game_file_collections_dialog_empty">No collections created yet</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_menu_option_collections">Collections</string>
+
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Collections</string>
+    <string name="settings_collections_cta_add">Create collection</string>
+    <string name="settings_collections_reorder_title">Reorder collections</string>
+    <string name="settings_collections_tip_box_title">Group your games your way</string>
+    <string name="settings_collections_tip_box_description">Create custom collections and place any of your games in them. E.g. A collection containing all GTA games across various platforms or a collection of your favourite childhood games.\nYou can then access your collections on the main screen by using the [Sort] function with \"By collection\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Collection appearance</string>
+    <string name="settings_collection_options_menu_option_games">Games</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">Remove collection \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">The collection will be deleted. Your game files and apps remain untouched.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Remove collection</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Collection appearance</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Name your collection</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Collection image (Optional)</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Exit the collection appearance editor?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Remove the collection image?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">The collection will use the default icon or name instead.</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Next step</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Games in the collection</string>
+    <string name="settings_collection_game_selection_config_title">Select the games for the collection</string>
+    <string name="settings_collection_game_selection_search_placeholder">Search games</string>
+    <string name="settings_collection_game_selection_key_hints_done">Done</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">One game selected</item>
+        <item quantity="other">%d games selected</item>
+    </plurals>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Automatically detect new games</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_setting_search_preferences_title">Search preferences</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Display game backgrounds</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_setting_search_engine_title">Search engine</string>
+    <string name="settings_search_setting_clear_search_history_title">Clear search history</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Cleared search history</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Fetch artworks as game backgrounds</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Fetch fanart as game backgrounds</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Fetch screenshots as game background if no artworks exist</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Fetch heroes as game backgrounds</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_intro_title">What’s new?</string>
+    <string name="settings_release_notes_intro_text">All changes of the stable Papaya versions at a glance.</string>
+    <string name="settings_release_notes_version_label">Version</string>
+    <string name="settings_release_notes_badge_latest">Latest</string>
+    <string name="settings_release_notes_badge_installed">Installed</string>
+    <string name="settings_release_notes_section_new_features">New features</string>
+    <string name="settings_release_notes_section_fixes">Fixes and improvements</string>
+    <string name="settings_release_notes_section_notes">Notes</string>
+    <string name="settings_release_notes_footer_discord">The release notes of alpha and beta versions can be found in the Papaya Discord.</string>
+    <string name="settings_release_notes_key_hints_jump_version">Jump to version</string>
+
+</resources>
