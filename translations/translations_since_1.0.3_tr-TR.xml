@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================== Changed ============================== -->
+
+    <!-- Platform configuration -->
+    <string name="settings_main_menu_menu_option_platform">Platformlar</string>
+
+    <!-- ================================ New ================================ -->
+
+    <!-- Common -->
+    <string name="common_select_unselect">Seç / Seçimi kaldır</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_category_search">Ara</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_sorting_option_by_collection">Koleksiyonlara göre</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Oyun, uygulama veya web\'de ara</string>
+    <string name="gallery_search_section_other">Diğer</string>
+    <string name="gallery_search_section_recently_searched_games">Son aranan oyunlar</string>
+    <string name="gallery_search_section_recently_searched_apps">Son aranan uygulamalar</string>
+    <string name="gallery_search_section_recently_searched_other">Son web aramaları</string>
+    <string name="gallery_search_web_search_content_description">Web araması</string>
+    <string name="gallery_search_open_browser_content_description">Tarayıcıyı aç</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_search_option_new_search_title">Yeni arama</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_option_collections">Koleksiyonlar</string>
+    <string name="item_options_game_file_collections_dialog_empty">Henüz bir koleksiyon yok</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_menu_option_collections">Koleksiyonlar</string>
+
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Koleksiyonlar</string>
+    <string name="settings_collections_cta_add">Koleksiyon oluştur</string>
+    <string name="settings_collections_reorder_title">Koleksiyonları düzenle</string>
+    <string name="settings_collections_tip_box_title">Oyunlarını dilediğin gibi grupla</string>
+    <string name="settings_collections_tip_box_description">Koleksiyon oluşturup seçtiğin oyunları ekle. Mesela farklı platformlardaki tüm GTA oyunları veya çocukluğundaki en sevdiğin oyunlar.\nKoleksiyonlarına ana ekrandaki [Sırala] işlevi üzerinden "Koleksiyonlara göre" seçeneğiyle erişebilirsin.</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Koleksiyon görünümü</string>
+    <string name="settings_collection_options_menu_option_games">Oyunlar</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">\"%1$s\" koleksiyonunu sil?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">Koleksiyon silinecek, oyun dosyaların ve uygulamaların silinmeyecek.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Koleksiyonu kaldır</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Koleksiyon görünümü</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Koleksiyonu adlandır</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Koleksiyon görseli (isteğe bağlı)</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Koleksiyon görünüm düzenleyicisinden çık?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Koleksiyon görselini kaldır?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">Koleksiyon bunun yerine varsayılan isim veya görseli kullanacak.</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Sıradaki adım</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Koleksiyondaki oyunlar</string>
+    <string name="settings_collection_game_selection_config_title">Koleksiyon için oyunları seç</string>
+    <string name="settings_collection_game_selection_search_placeholder">Oyunları ara</string>
+    <string name="settings_collection_game_selection_key_hints_done">Bitti</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">Bir oyun seçildi</item>
+        <item quantity="other">%d oyun seçildi</item>
+    </plurals>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Yeni oyunları otomatik algıla</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_setting_search_preferences_title">Arama tercihleri</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Oyun arkaplanlarını göster</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_setting_search_engine_title">Arama motoru</string>
+    <string name="settings_search_setting_clear_search_history_title">Arama geçmişini temizle</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Arama geçmişi temizlendi</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Görselleri oyun arkaplanı olarak al</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Hayran çalışmalarını oyun arkaplanı olarak al</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Görsel yoksa ekran görüntülerini oyun arkaplanı olarak al</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Geniş ekran görsellerini oyun arka planı olarak al</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_intro_title">Neler yeni?</string>
+    <string name="settings_release_notes_intro_text">Papaya\'nın kararlı sürümlerindeki tüm değişiklikler bir arada.</string>
+    <string name="settings_release_notes_version_label">Sürüm</string>
+    <string name="settings_release_notes_badge_latest">Güncel sürüm</string>
+    <string name="settings_release_notes_badge_installed">Yüklü</string>
+    <string name="settings_release_notes_section_new_features">Yeni özellikler</string>
+    <string name="settings_release_notes_section_fixes">Hata düzeltmeleri ve iyileştirmeler</string>
+    <string name="settings_release_notes_section_notes">Notlar</string>
+    <string name="settings_release_notes_footer_discord">Alpha ve Beta sürüm notları Papaya Discord kanalında bulunabilir.</string>
+    <string name="settings_release_notes_key_hints_jump_version">Sürüme atla</string>
+
+</resources>
