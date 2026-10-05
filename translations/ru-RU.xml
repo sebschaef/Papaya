@@ -718,7 +718,7 @@
     <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Конфигурация платформы и эмулятора</string>
     <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Спасибо за добавление поддержки дополнительных типов файлов для различных платформ! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS и 3DS.</string>
     <string name="settings_about_section_community_title">Сообщество</string>
-    <string name="settings_about_section_community_text">Если вы хотите внести вклад и помочь сформировать будущее Papaya, пожалуйста, присоединяйтесь к сообществу. Конечно, вы также очень welcome, если хотите просто увидеть последние новости или нашли какие-либо ошибки!</string>
+    <string name="settings_about_section_community_text">Если вы хотите внести вклад и помочь сформировать будущее Papaya, пожалуйста, присоединяйтесь к сообществу. Также мы будем рады видеть вас в нашем сообществе, если вы хотите просто следить за новостями и помогать нам находить ошибки!</string>
     <string name="settings_about_section_community_option_discord">Discord Papaya</string>
     <string name="settings_about_section_community_option_github">GitHub Papaya</string>
     <string name="settings_about_section_community_option_email">Электронная почта</string>

@@ -130,8 +130,8 @@
     <!-- Platform configuration - Emulator apps selection step -->
     <string name="platform_configuration_emulator_apps_selection_title">Emulaattorisovellukset</string>
     <string name="platform_configuration_emulator_apps_selection_description">Valitse emulaattorisovellukset</string>
-    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Etkö löydä emulaattorisovellustasi listalta?</string>
-    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Valitettavasti tämä tarkoittaa, että emulaattoria ei tueta valmiiksi.\nVoit kuitenkin lisätä konfiguraation itse [Asetukset] > [Edistynyt] > [Mukautetut emulaattorisovellukset] > [Luo].</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Eikö ole emulaattorisovellustasi listalla?</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Valitettavasti kyseistä emulaattoria ei tueta valmiiksi.\nVoit kuitenkin lisätä konfiguraation itse [Asetukset] > [Edistynyt] > [Mukautetut emulaattorisovellukset] > [Luo].</string>
     <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Asennettu</string>
     <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Ei asennettu</string>
@@ -685,7 +685,7 @@
 
     <!-- Settings - Privacy Policy -->
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
-    <string name="settings_privacy_policy_section_processed_data_title">Käsitellyt henkilötiedot</string>
+    <string name="settings_privacy_policy_section_processed_data_title">Henkilötietojen käsittely</string>
     <string name="settings_privacy_policy_section_processed_data_text">Papaya käsittelee tietoja laitteellasi asennetuista sovelluksista. Lisäksi, kun myönnät Papayalle pääsyn tiettyihin kansioihin laitteellasi, se käsittelee myös näiden kansioiden tiedostojen metatietoja (tiedoston nimi, kansion nimi).</string>
     <string name="settings_privacy_policy_section_data_usage_title">Miten tietojasi käytetään</string>
     <string name="settings_privacy_policy_section_data_usage_text">Papaya käyttää tietoja laitteellasi asennetuista sovelluksista ainoastaan sovellusten listan näyttämiseen kotinäytöllä ja ohjaamiseksi, kun määrität pikanäppäimiä pelejä näihin sovelluksiin (esivalitut asennetut sovellukset). Näitä tietoja ei jaeta kolmansille osapuolille, ja ne tallennetaan ainoastaan paikallisesti laitteellesi.&lt;br&gt;&lt;br&gt;Edellä mainitut tiedostojen metatiedot tietyistä kansioista, joihin myönnät Papayalle pääsyn, käytetään pelien pikanäppäimien rikastamiseen muissa sovelluksissa: Tiedoston tai kansion nimet voidaan lähettää &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; ja/tai &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; vaihdossa lisätietoja pelin pikanäppäimestä. Tällaiset tiedot sisältävät kansikuvia, julkaisupäiviä, genrejä jne. Nämä lisätiedot käytetään taas ainoastaan niiden näyttämiseen kotinäytölläsi. Huomaa, että nämä tiedoston metatiedot voidaan jakaa ainoastaan edellä mainittujen neljän palvelun kanssa.</string>
@@ -718,7 +718,7 @@
     <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Alustan ja emulaattorin konfigurointi</string>
     <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Kiitos lisätuesta useammille tiedostotyypeille eri alustoille! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS ja 3DS.</string>
     <string name="settings_about_section_community_title">Yhteisö</string>
-    <string name="settings_about_section_community_text">Jos haluat osallistua ja auttaa muovaamaan Papayan tulevaisuutta, liity yhteisöön. Tervetuloa myös, jos haluat myös nähdä uutiset tai löysit bugin!</string>
+    <string name="settings_about_section_community_text">Jos haluat osallistua ja auttamaan kehittämään Papayaa, liity meidän yhteisöön ja olet myös muuutoinkin tervetullut, jos haluat vain nähdä uutiset tai ilmoittaa bugin!</string>
     <string name="settings_about_section_community_option_discord">Papayan Discord</string>
     <string name="settings_about_section_community_option_github">Papayan GitHub</string>
     <string name="settings_about_section_community_option_email">Sähköposti</string>

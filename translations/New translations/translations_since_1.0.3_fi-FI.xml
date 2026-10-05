@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================== Changed ============================== -->
+
+    <!-- Platform configuration -->
+    <string name="settings_main_menu_menu_option_platform">Alustat</string>
+
+    <!-- ================================ New ================================ -->
+
+    <!-- Common -->
+    <string name="common_select_unselect">Valitse / Poista valinta</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_category_search">Haku</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_sorting_option_by_collection">Kokoelman mukaan</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Hae verkosta, pelejä, tai sovelluksia</string>
+    <string name="gallery_search_section_other">Muut</string>
+    <string name="gallery_search_section_recently_searched_games">Viimeksi haetut pelit</string>
+    <string name="gallery_search_section_recently_searched_apps">Viimeksi haetut sovellukset</string>
+    <string name="gallery_search_section_recently_searched_other">Viimeisimmät verkkohaut</string>
+    <string name="gallery_search_web_search_content_description">Verkkohaku</string>
+    <string name="gallery_search_open_browser_content_description">Avaa selain</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_search_option_new_search_title">Uusi haku</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_option_collections">Kokoelmat</string>
+    <string name="item_options_game_file_collections_dialog_empty">Kokoelmia ei ole vielä luotu</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_menu_option_collections">Kokoelmat</string>
+
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Kokoelmat</string>
+    <string name="settings_collections_cta_add">Luo kokoelma</string>
+    <string name="settings_collections_reorder_title">Järjestä kokoelmat</string>
+    <string name="settings_collections_tip_box_title">Organisoi pelejäsi omalla tavallasi</string>
+    <string name="settings_collections_tip_box_description">Luo omia kokoelmia ja lisää niihin mitä tahansa pelejäsi. Esim. kokoelma kaikista GTA-peleistä eri alustoilla tai kokoelma lapsuutesi suosikkipeleistä.\nVoit sitten avata kokoelmasi päänäkymässä käyttämällä [Järjestä]-toimintoa valinnalla \"Kokoelman mukaan\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Kokoelman ulkoasu</string>
+    <string name="settings_collection_options_menu_option_games">Pelit</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">Poistetaanko kokoelma \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">Kokoelma poistetaan. Pelitiedostosi ja sovelluksesi säilyvät.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Poista kokoelma</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Kokoelman ulkoasu</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Nimeä kokoelmasi</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Kokoelman kuva (valinnainen)</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Poistutaanko kokoelman ulkoasun muokkauksesta?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Poistetaanko kokoelman kuva?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">Kokoelma käyttää sen sijaan oletuskuvaketta tai -nimeä.</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Seuraava vaihe</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Kokoelman pelit</string>
+    <string name="settings_collection_game_selection_config_title">Valitse kokoelman pelit</string>
+    <string name="settings_collection_game_selection_search_placeholder">Hae pelejä</string>
+    <string name="settings_collection_game_selection_key_hints_done">Valmis</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">Yksi peli valittu</item>
+        <item quantity="other">%d peliä valittu</item>
+    </plurals>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Tunnista uudet pelit automaattisesti</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_setting_search_preferences_title">Hakuasetukset</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Näytä pelien taustakuvat</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_setting_search_engine_title">Hakukone</string>
+    <string name="settings_search_setting_clear_search_history_title">Tyhjennä hakuhistoria</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Hakuhistoria tyhjennetty</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Hae taidekuvat pelien taustakuviksi</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Hae fanien tekemät kuvat pelien taustakuviksi</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Hae kuvakaappaukset pelin taustakuvaksi, jos kuvia ei löydy</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Hae hero-kuvat pelien taustakuviksi</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_intro_title">Mitä uutta?</string>
+    <string name="settings_release_notes_intro_text">Kaikki Papayan vakaiden versioiden muutokset yhdellä silmäyksellä.</string>
+    <string name="settings_release_notes_version_label">Versio</string>
+    <string name="settings_release_notes_badge_latest">Uusin</string>
+    <string name="settings_release_notes_badge_installed">Asennettu</string>
+    <string name="settings_release_notes_section_new_features">Uudet ominaisuudet</string>
+    <string name="settings_release_notes_section_fixes">Korjaukset ja parannukset</string>
+    <string name="settings_release_notes_section_notes">Huomiot</string>
+    <string name="settings_release_notes_footer_discord">Alfa- ja beetaversioiden julkaisutiedot löytyvät Papayan Discordista.</string>
+    <string name="settings_release_notes_key_hints_jump_version">Siirry versioon</string>
+
+</resources>
