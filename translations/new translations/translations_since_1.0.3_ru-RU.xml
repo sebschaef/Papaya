@@ -18,7 +18,7 @@
     <string name="gallery_games_sorting_option_by_collection">По коллекции</string>
 
     <!-- Gallery - Search -->
-    <string name="gallery_search_search_bar_placeholder">Поиск игр, приложений или в интернете</string>
+    <string name="gallery_search_search_bar_placeholder">Поиск в интернете, приложений или игры</string>
     <string name="gallery_search_section_other">Другое</string>
     <string name="gallery_search_section_recently_searched_games">Недавно найденные игры</string>
     <string name="gallery_search_section_recently_searched_apps">Недавно найденные приложения</string>
