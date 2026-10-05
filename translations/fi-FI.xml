@@ -3,6 +3,7 @@
 
     <!-- Common -->
     <string name="common_select">Valitse</string>
+    <string name="common_select_unselect">Valitse / Poista valinta</string>
     <string name="common_navigate">Navigointi</string>
     <string name="common_back">Takaisin</string>
     <string name="common_exit">Poistu</string>
@@ -39,6 +40,7 @@
     <string name="gallery_top_bar_category_apps">Sovellukset</string>
     <string name="gallery_top_bar_category_streaming">Suoratoisto</string>
     <string name="gallery_top_bar_category_emulators">Emulaattorit</string>
+    <string name="gallery_top_bar_category_search">Haku</string>
 
     <!-- Gallery - Key hints -->
     <string name="gallery_key_hints_buy_license">Lisenssi</string>
@@ -74,12 +76,22 @@
     <string name="gallery_games_sorting_option_by_release_year">Julkaisupäivän mukaan</string>
     <string name="gallery_games_sorting_option_by_first_letter">Nimen mukaan</string>
     <string name="gallery_games_sorting_option_by_genre">Genren mukaan</string>
+    <string name="gallery_games_sorting_option_by_collection">Kokoelman mukaan</string>
     <string name="gallery_games_sorting_option_all">Kaikki</string>
     <string name="gallery_games_sorting_section_recents_title">Viimeisimmät</string>
     <string name="gallery_games_sorting_section_favourites_title">Suosikit</string>
     <string name="gallery_games_sorting_section_release_year_missing_title">Ei päivämäärää</string>
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerot</string>
     <string name="gallery_games_sorting_section_all_title">Kaikki</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Hae verkosta, pelejä, tai sovelluksia</string>
+    <string name="gallery_search_section_other">Muut</string>
+    <string name="gallery_search_section_recently_searched_games">Viimeksi haetut pelit</string>
+    <string name="gallery_search_section_recently_searched_apps">Viimeksi haetut sovellukset</string>
+    <string name="gallery_search_section_recently_searched_other">Viimeisimmät verkkohaut</string>
+    <string name="gallery_search_web_search_content_description">Verkkohaku</string>
+    <string name="gallery_search_open_browser_content_description">Avaa selain</string>
 
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Järjestysasetukset</string>
@@ -90,6 +102,7 @@
     <string name="xmb_settings_title">Asetukset</string>
     <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
     <string name="xmb_settings_option_settings_title">Papaya-asetukset</string>
+    <string name="xmb_search_option_new_search_title">Uusi haku</string>
 
     <!-- Platform configuration - Key hints -->
     <string name="platform_configuration_key_hints_next_step">Seuraava vaihe</string>
@@ -236,7 +249,9 @@
     <string name="item_options_game_file_menu_option_favourite_remove">Poista suosikeista</string>
     <string name="item_options_game_file_menu_option_hide">Piilota peli</string>
     <string name="item_options_game_file_menu_option_change_emulator">Vaihda emulaattoria</string>
+    <string name="item_options_game_file_menu_option_collections">Kokoelmat</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Näytä sivulla %1$s</string>
+    <string name="item_options_game_file_collections_dialog_empty">Kokoelmia ei ole vielä luotu</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Piilottaa \"%1$s\"?</string>
     <string name="item_options_game_file_warning_dialog_hide_text">Peliä ei enää näytetä kokoelmassasi. Voit palauttaa sen milloin tahansa [Asetukset] > [Alustan konfigurointi] > [Alusta] > [Muokkaa] valitsemalla pelin uudelleen.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Piilota peli</string>
@@ -278,6 +293,7 @@
 
     <!-- Item options - Edit -->
     <string name="item_options_edit_section_cover_image">Kansikuva</string>
+    <string name="item_options_edit_section_background_image">Taustakuva</string>
     <string name="item_options_edit_section_cover_name">Nimi</string>
     <string name="item_options_edit_section_cover_sortname">Järjestysnimi</string>
     <string name="item_options_edit_section_placeholder_sortname">Ei asetettu</string>
@@ -298,7 +314,8 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Asetukset</string>
     <string name="settings_main_menu_menu_option_android">Laitteen asetukset</string>
-    <string name="settings_main_menu_menu_option_platform">Alustan konfigurointi</string>
+    <string name="settings_main_menu_menu_option_platform">Alustat</string>
+    <string name="settings_main_menu_menu_option_collections">Kokoelmat</string>
     <string name="settings_main_menu_menu_option_appearance">Ulkoasu ja käyttäytyminen</string>
     <string name="settings_main_menu_menu_option_advanced">Edistynyt konfigurointi</string>
     <string name="settings_main_menu_menu_option_more">Lisää</string>
@@ -313,6 +330,39 @@
     <string name="settings_platforms_content_description_move_up">Siirrä ylös</string>
     <string name="settings_platforms_content_description_move_down">Siirrä alas</string>
 
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Kokoelmat</string>
+    <string name="settings_collections_cta_add">Luo kokoelma</string>
+    <string name="settings_collections_reorder_title">Järjestä kokoelmat</string>
+    <string name="settings_collections_tip_box_title">Organisoi pelejäsi omalla tavallasi</string>
+    <string name="settings_collections_tip_box_description">Luo omia kokoelmia ja lisää niihin mitä tahansa pelejäsi. Esim. kokoelma kaikista GTA-peleistä eri alustoilla tai kokoelma lapsuutesi suosikkipeleistä.\nVoit sitten avata kokoelmasi päänäkymässä käyttämällä [Järjestä]-toimintoa valinnalla \"Kokoelman mukaan\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Kokoelman ulkoasu</string>
+    <string name="settings_collection_options_menu_option_games">Pelit</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">Poistetaanko kokoelma \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">Kokoelma poistetaan. Pelitiedostosi ja sovelluksesi säilyvät.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Poista kokoelma</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Kokoelman ulkoasu</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Nimeä kokoelmasi</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Kokoelman kuva (valinnainen)</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Poistutaanko kokoelman ulkoasun muokkauksesta?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Poistetaanko kokoelman kuva?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">Kokoelma käyttää sen sijaan oletuskuvaketta tai -nimeä.</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Seuraava vaihe</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Kokoelman pelit</string>
+    <string name="settings_collection_game_selection_config_title">Valitse kokoelman pelit</string>
+    <string name="settings_collection_game_selection_search_placeholder">Hae pelejä</string>
+    <string name="settings_collection_game_selection_key_hints_done">Valmis</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">Yksi peli valittu</item>
+        <item quantity="other">%d peliä valittu</item>
+    </plurals>
+
     <!-- Settings - All Platforms options -->
     <string name="settings_all_platform_options_menu_option_remove">Poista kaikki</string>
     <string name="settings_all_platform_options_warning_dialog_remove_title">Poistetaanko kaikki alustat?</string>
@@ -321,6 +371,7 @@
     <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Tunnista uudet pelit automaattisesti</string>
     <string name="settings_platform_options_menu_option_detect_new_games">Havaitse uudet pelit ja muutokset</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Hae puuttuvat kansikuvat ja pelin tiedot</string>
     <string name="settings_platform_options_menu_option_scrape_all">Hae kaikki kansikuvat ja pelin tiedot</string>
@@ -414,10 +465,12 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Sovelluskuvakkeiden muoto</string>
     <string name="settings_appearance_general_setting_background_style_title">Tausta</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Aseta Papaya oletuskäynnistimeksi</string>
+    <string name="settings_appearance_general_setting_search_preferences_title">Hakuasetukset</string>
     <string name="settings_appearance_general_setting_launch_display_title">Oletuskäynnistysnäyttö</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Sama näyttö (oletus)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Toinen näyttö</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Kysy aina</string>
+    <string name="settings_appearance_general_setting_blur_title">Sumennus ja lasiefektit</string>
     <string name="settings_appearance_general_setting_key_hints_title">Painikevihjeet</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Poistettu käytöstä</string>
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Sovelluksen kansikuvan kuvasuhde</string>
@@ -425,6 +478,7 @@
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptiivinen</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Näytä järjestelmän navigaatiopalkki</string>
     <string name="settings_appearance_general_setting_recents_section_title">Näytä "Viimeisimmät"-osio</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Näytä pelien taustakuvat</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Näytä "Suosikit"-osio</string>
 
     <!-- Settings - Appearance - Layout -->
@@ -473,6 +527,11 @@
     <string name="settings_appearance_background_animation_stars">Tähdet</string>
     <string name="settings_appearance_background_animation_waves">Aallot</string>
     <string name="settings_appearance_background_animation_sparkles">Kipinät</string>
+    <string name="settings_appearance_background_image_key_hint_delete">Poista</string>
+    <string name="settings_appearance_background_delete_image_dialog_title">Poistetaanko tämä kuva?</string>
+    <string name="settings_appearance_background_delete_image_dialog_text">Kuva poistetaan vain Papayasta. Laitteesi alkuperäinen kuva säilyy ennallaan.</string>
+    <string name="settings_appearance_background_delete_image_dialog_confirm">Poista kuva</string>
+    <string name="settings_appearance_background_delete_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Edistynyt konfigurointi</string>
@@ -486,6 +545,11 @@
     <!-- Settings - Behavior -->
     <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
     <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Käytä vanhoja RetroArch-polkuja</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_setting_search_engine_title">Hakukone</string>
+    <string name="settings_search_setting_clear_search_history_title">Tyhjennä hakuhistoria</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Hakuhistoria tyhjennetty</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
@@ -529,6 +593,10 @@
     <!-- Settings - Scraper options -->
     <string name="settings_scraper_options_title">%1$s -asetukset</string>
     <string name="settings_scraper_options_setting_is_enabled_label">Käytössä</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Hae taidekuvat pelien taustakuviksi</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Hae fanien tekemät kuvat pelien taustakuviksi</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Hae kuvakaappaukset pelin taustakuvaksi, jos kuvia ei löydy</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Hae hero-kuvat pelien taustakuviksi</string>
     <string name="settings_scraper_options_setting_api_key_label">Henkilökohtainen API-avain</string>
     <string name="settings_scraper_options_setting_api_key_value_not_set">Ei asetettu</string>
     <string name="settings_scraper_options_setting_website_label">Avaa %1$s selaimessa</string>
@@ -678,10 +746,23 @@
 
     <!-- Settings - More -->
     <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_release_notes">Julkaisutiedot</string>
     <string name="settings_more_menu_option_roadmap">Tiekartta</string>
     <string name="settings_more_menu_option_privacy_policy">Tietosuojakäytäntö</string>
     <string name="settings_more_menu_option_licenses">Lisenssit</string>
     <string name="settings_more_menu_option_about">Tietoja</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_intro_title">Mitä uutta?</string>
+    <string name="settings_release_notes_intro_text">Kaikki Papayan vakaiden versioiden muutokset yhdellä silmäyksellä.</string>
+    <string name="settings_release_notes_version_label">Versio</string>
+    <string name="settings_release_notes_badge_latest">Uusin</string>
+    <string name="settings_release_notes_badge_installed">Asennettu</string>
+    <string name="settings_release_notes_section_new_features">Uudet ominaisuudet</string>
+    <string name="settings_release_notes_section_fixes">Korjaukset ja parannukset</string>
+    <string name="settings_release_notes_section_notes">Huomiot</string>
+    <string name="settings_release_notes_footer_discord">Alfa- ja beetaversioiden julkaisutiedot löytyvät Papayan Discordista.</string>
+    <string name="settings_release_notes_key_hints_jump_version">Siirry versioon</string>
 
     <!-- Settings - Privacy Policy -->
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
@@ -709,6 +790,7 @@
     <string name="settings_about_section_attribution_it">🇮🇹 Italia: &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_fi">🇫🇮 Suomi: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
     <string name="settings_about_section_attribution_ru">🇷🇺 Venäjä: &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_tr">🇹🇷 Turkki: &lt;a href="https://github.com/lunishworks"&gt;Lunar&lt;/a&gt;. Çok teşekkürler! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Äänet ja kuvakkeet</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Kiitos upeista alustakuvakkeista! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS ja SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Kiitos upeasta PICO-8-alustakuvakkeesta! 🙏</string>
