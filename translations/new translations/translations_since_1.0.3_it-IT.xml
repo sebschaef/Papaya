@@ -44,20 +44,20 @@
     <string name="settings_collections_tip_box_description">Crea collezioni personalizzate e aggiungici i giochi che vuoi. Ad es. una collezione con tutti i giochi di GTA su varie piattaforme o una collezione dei tuoi giochi preferiti dell\'infanzia.\nPotrai poi accedere alle tue collezioni dalla schermata principale usando la funzione [Ordina] con \"Per collezione\".</string>
 
     <!-- Settings - Collection options -->
-    <string name="settings_collection_options_menu_option_appearance">Apparenza della collezione</string>
+    <string name="settings_collection_options_menu_option_appearance">Aspetto della collezione</string>
     <string name="settings_collection_options_menu_option_games">Giochi</string>
     <string name="settings_collection_options_warning_dialog_remove_title">Rimuovere la collezione \"%1$s\"?</string>
     <string name="settings_collection_options_warning_dialog_remove_text">La collezione verrà eliminata. I tuoi file di gioco e le app rimarranno intatti.</string>
     <string name="settings_collection_options_warning_dialog_remove_confirm">Rimuovi collezione</string>
 
     <!-- Settings - Collection appearance -->
-    <string name="settings_collection_edit_appearance_section_title">Apparenza della collezione</string>
+    <string name="settings_collection_edit_appearance_section_title">Aspetto della collezione</string>
     <string name="settings_collection_edit_appearance_section_config_title">Dai un nome alla tua collezione</string>
     <string name="settings_collection_edit_appearance_section_collection_image">Immagine della collezione (opzionale)</string>
-    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Uscire dall\'editor d\'apparenza della collezione?</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Uscire dall\'editor d\'aspetto della collezione?</string>
     <string name="settings_collection_edit_appearance_remove_image_dialog_title">Rimuovere l\'immagine della collezione?</string>
     <string name="settings_collection_edit_appearance_remove_image_dialog_text">La collezione userà invece l\'icona o il nome predefinito.</string>
-    <string name="settings_collection_edit_appearance_key_hints_next_step">Prossimo passo</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Passo successivo</string>
 
     <!-- Settings - Collection game selection -->
     <string name="settings_collection_game_selection_title">Giochi nella collezione</string>
