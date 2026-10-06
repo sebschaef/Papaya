@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 4,
-  "presetConfigurationVersion": 21,
+  "presetConfigurationVersion": 22,
   "platforms": [
     {
       "key": "and",
@@ -2069,6 +2069,9 @@
       "supportedFiles": [
         {
           "type": "desktop"
+        },
+        {
+          "type": "droiddeck"
         },
         {
           "type": "steam",
@@ -9785,6 +9788,30 @@
       }
     },
     {
+      "packageName": "com.epsxe.ePSXe",
+      "name": "ePSXe",
+      "supportedPlatforms": [
+        "psx"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.epsxe.ePSXe.ePSXe",
+        "action": "android.intent.action.MAIN",
+        "fileParameterName": "com.epsxe.ePSXe.isoName",
+        "filePathType": "absolute"
+      },
+      "references": {
+        "esDe": {
+          "label": "ePSXe (Standalone)"
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.epsxe.ePSXe"
+          }
+        ]
+      }
+    },
+    {
       "packageName": "com.nanodata.armsx",
       "name": "ARMSX1",
       "supportedPlatforms": [
@@ -10252,6 +10279,16 @@
             "booleanValue": true
           }
         ]
+      }
+    },
+    {
+      "packageName": "com.droiddeck.launcher",
+      "name": "DroidDeck",
+      "supportedPlatforms": [
+        "win"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.droiddeck.launcher.MainActivity"
       }
     },
     {
