@@ -258,7 +258,7 @@
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver em %1$s</string>
     <string name="item_options_game_file_collections_dialog_empty">Nenhuma coleção criada ainda</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Ocultar \"%1$s\"?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">O jogo não será mais exibido em sua coleção. Você pode reverter isso a qualquer momento em [Configurações] > [Configuração de plataforma] > [Plataforma] > [Editar] selecionando o jogo novamente.</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">O jogo não será mais exibido em sua coleção. Você pode reverter isso a qualquer momento em [Configurações] > [Plataformas] > [Plataforma] > [Editar] selecionando o jogo novamente.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Ocultar jogo</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -276,7 +276,7 @@
     <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">Mover "%1$s" para a gaveta de Apps?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">Você pode reverter isso a qualquer momento em [Configurações] > [Configuração da plataforma] > [Plataforma] > [Editar], marcando o aplicativo como um jogo novamente.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Você pode reverter isso a qualquer momento em [Configurações] > [Plataformas] > [Plataforma] > [Editar], marcando o aplicativo como um jogo novamente.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">Mover App</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 

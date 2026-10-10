@@ -260,7 +260,7 @@
     <string name="item_options_game_file_menu_option_open_scraper_website">Guarda su %1$s</string>
     <string name="item_options_game_file_collections_dialog_empty">Nessuna collezione creata</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Nascondi \”%1$s\"?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">Il gioco non verrà più visualizzato nella tua collezione. Puoi revertire ciò quando vuoi in [Impostazioni] > [Configurazione piattaforma] > [Piattaforma] > [Modifica] selezionando di nuovo il gioco.</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Il gioco non verrà più visualizzato nella tua collezione. Puoi revertire ciò quando vuoi in [Impostazioni] > [Piattaforme] > [Piattaforma] > [Modifica] selezionando di nuovo il gioco.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Nascondi gioco</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -278,7 +278,7 @@
     <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">Muovere \”%1$s\" al cassetto App?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">Puoi revertire ciò quando vuoi in [Impostazioni] > [Configurazione della piattaforma] > [Piattaforma] > [Modifica] segnando di nuovo l\'app come un gioco.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Puoi revertire ciò quando vuoi in [Impostazioni] > [Piattaforme] > [Piattaforma] > [Modifica] segnando di nuovo l\'app come un gioco.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">Muovi app</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -790,6 +790,7 @@
     <string name="settings_release_notes_section_fixes">Correzioni e miglioramenti</string>
     <string name="settings_release_notes_section_notes">Note</string>
     <string name="settings_release_notes_footer_discord">Le note di rilascio delle versioni alpha e beta si trovano nel Discord di Papaya.</string>
+    <string name="settings_release_notes_key_hints_scroll">Scorri</string>
     <string name="settings_release_notes_key_hints_jump_version">Vai alla versione</string>
 
     <!-- Settings - Privacy Policy -->

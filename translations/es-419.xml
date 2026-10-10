@@ -259,7 +259,7 @@
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver en %1$s</string>
     <string name="item_options_game_file_collections_dialog_empty">Aún no has creado colecciones</string>
     <string name="item_options_game_file_warning_dialog_hide_title">¿Ocultar \"%1$s\"?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">El juego no se mostrará más en tu colección. Puedes revertir esto cuando quieras en [Ajustes] > [Configuración de plataforma] > [Plataforma] > [Editar] seleccionando el juego de nuevo.</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">El juego no se mostrará más en tu colección. Puedes revertir esto cuando quieras en [Ajustes] > [Plataformas] > [Plataforma] > [Editar] seleccionando el juego de nuevo.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Ocultar juego</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -277,7 +277,7 @@
     <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">¿Mueve \”%1$s\" al cajón de Apps?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">Puedes revertir esto en cualquier momento en [Configuración] > [Configuración de la plataforma] > [Plataforma] > [Editar] marcando la App como un juego nuevamente.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Puedes revertir esto en cualquier momento en [Ajustes] > [Plataformas] > [Plataforma] > [Editar] marcando la App como un juego nuevamente.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">Mover App</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 

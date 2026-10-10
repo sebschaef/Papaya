@@ -257,7 +257,7 @@
     <string name="item_options_game_file_menu_option_open_scraper_website">Voir sur %1$s</string>
     <string name="item_options_game_file_collections_dialog_empty">Aucune collection créée pour le moment</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Masquer \"%1$s\" ?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">Le jeu ne sera plus affiché dans ta collection. Tu peux annuler cela à tout moment dans [Paramètres] > [Configuration des plateformes] > [Plateforme] > [Modifier] en sélectionnant à nouveau le jeu.</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Le jeu ne sera plus affiché dans ta collection. Tu peux annuler cela à tout moment dans [Paramètres] > [Plateformes] > [Plateforme] > [Modifier] en sélectionnant à nouveau le jeu.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Masquer le jeu</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -275,7 +275,7 @@
     <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">Déplacer \"%1$s\" vers le tiroir d\'applications?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">Tu peux annuler cela à tout moment dans [Paramètres] > [Configuration des plateformes] > [Plateforme] > [Modifier] en marquant à nouveau l\'application comme un jeu.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Tu peux annuler cela à tout moment dans [Paramètres] > [Plateformes] > [Plateforme] > [Modifier] en marquant à nouveau l\'application comme un jeu.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">Déplacer l\'application</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 

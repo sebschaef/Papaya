@@ -89,6 +89,8 @@
 
     <!-- Gallery - Search -->
     <string name="gallery_search_search_bar_placeholder">Spiele, Apps oder im Web suchen</string>
+    <string name="gallery_search_section_games">@string/gallery_top_bar_category_games</string>
+    <string name="gallery_search_section_apps">@string/gallery_top_bar_category_apps</string>
     <string name="gallery_search_section_other">Sonstiges</string>
     <string name="gallery_search_section_recently_searched_games">Zuletzt gesuchte Spiele</string>
     <string name="gallery_search_section_recently_searched_apps">Zuletzt gesuchte Apps</string>
@@ -256,7 +258,7 @@
     <string name="item_options_game_file_menu_option_open_scraper_website">Auf %1$s ansehen</string>
     <string name="item_options_game_file_collections_dialog_empty">Noch keine Sammlungen erstellt</string>
     <string name="item_options_game_file_warning_dialog_hide_title">\”%1$s\" ausblenden?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">Das Spiel wird nicht mehr in deiner Sammlung angezeigt werden. Du kannst es aber jederzeit wieder hinzufügen. Gehe dann dazu ins Menü [Einstellungen] > [Plattform-Einstellungen] > [Plattform] > [Bearbeiten].</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Das Spiel wird nicht mehr in deiner Sammlung angezeigt werden. Du kannst es aber jederzeit wieder hinzufügen. Gehe dann dazu ins Menü [Einstellungen] > [Plattformen] > [Plattform] > [Bearbeiten].</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Spiel ausblenden</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -271,9 +273,10 @@
     <string name="item_options_game_app_menu_option_hide">Kein Spiel</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">\”%1$s\" in den Apps-Tab verschieben?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">Du kannst das jederzeit wieder rückgängig machen indem du die App in [Einstellungen] > [Plattform-Einstellungen] > [Plattform] > [Bearbeiten] wieder als Spiel markierst.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Du kannst das jederzeit wieder rückgängig machen indem du die App in [Einstellungen] > [Plattformen] > [Plattform] > [Bearbeiten] wieder als Spiel markierst.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">App verschieben</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -337,29 +340,46 @@
     <string name="settings_collections_title">Sammlungen</string>
     <string name="settings_collections_cta_add">Sammlung erstellen</string>
     <string name="settings_collections_reorder_title">Sammlungen neu anordnen</string>
+    <string name="settings_collections_reorder_cta_add">@string/common_done</string>
+    <string name="settings_collections_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Gruppiere deine Spiele nach deinen Wünschen</string>
     <string name="settings_collections_tip_box_description">Erstelle eigene Sammlungen und füge beliebige deiner Spiele hinzu. Z.B. eine Sammlung mit allen GTA-Spielen über verschiedene Plattformen hinweg oder eine Sammlung deiner liebsten Kindheitsspiele.\nAuf deine Sammlungen kannst du dann auf dem Hauptbildschirm zugreifen, indem du die [Sortieren]-Funktion mit \"Nach Sammlung\" verwendest.</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Erscheinungsbild der Sammlung</string>
     <string name="settings_collection_options_menu_option_games">Spiele</string>
+    <string name="settings_collection_options_menu_option_remove">@string/settings_platform_options_menu_option_remove</string>
     <string name="settings_collection_options_warning_dialog_remove_title">Sammlung \"%1$s\" löschen?</string>
     <string name="settings_collection_options_warning_dialog_remove_text">Die Sammlung wird gelöscht. Deine Spieledateien und Apps bleiben unberührt.</string>
     <string name="settings_collection_options_warning_dialog_remove_confirm">Sammlung löschen</string>
+    <string name="settings_collection_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Collection appearance -->
     <string name="settings_collection_edit_appearance_section_title">Erscheinungsbild der Sammlung</string>
     <string name="settings_collection_edit_appearance_section_config_title">Benenne deine Sammlung</string>
     <string name="settings_collection_edit_appearance_section_collection_image">Bild der Sammlung (Optional)</string>
+    <string name="settings_collection_edit_appearance_section_collection_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_collection_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_collection_edit_appearance_section_short_name">@string/settings_platform_edit_appearance_section_short_name</string>
+    <string name="settings_collection_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
     <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Den Erscheinungsbild-Editor der Sammlung verlassen?</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
     <string name="settings_collection_edit_appearance_remove_image_dialog_title">Das Bild der Sammlung entfernen?</string>
     <string name="settings_collection_edit_appearance_remove_image_dialog_text">Die Sammlung verwendet stattdessen das Standard-Icon oder den Namen.</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
     <string name="settings_collection_edit_appearance_key_hints_next_step">Nächster Schritt</string>
 
     <!-- Settings - Collection game selection -->
     <string name="settings_collection_game_selection_title">Spiele in der Sammlung</string>
     <string name="settings_collection_game_selection_config_title">Wähle die Spiele für die Sammlung aus</string>
     <string name="settings_collection_game_selection_search_placeholder">Spiele suchen</string>
+    <string name="settings_collection_game_selection_no_results">@string/item_options_scrape_no_results</string>
+    <string name="settings_collection_game_selection_fetching_results_for">@string/item_options_scrape_fetching_results_for</string>
+    <string name="settings_collection_game_selection_error_unknown">@string/item_options_scrape_error_unknown</string>
     <string name="settings_collection_game_selection_key_hints_done">Fertig</string>
     <plurals name="settings_collection_game_selection_checked_games_count">
         <item quantity="one">Ein Spiel ausgewählt</item>
@@ -548,6 +568,7 @@
     <!-- Settings - Behavior -->
     <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
     <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Alte RetroArch-Pfade verwenden</string>
+    <string name="settings_search_title">@string/settings_appearance_general_setting_search_preferences_title</string>
 
     <!-- Settings - Search -->
     <string name="settings_search_setting_search_engine_title">Suchmaschine</string>
@@ -755,6 +776,7 @@
     <string name="settings_more_menu_option_privacy_policy">Datenschutzerklärung</string>
     <string name="settings_more_menu_option_licenses">Lizenzen</string>
     <string name="settings_more_menu_option_about">Über</string>
+    <string name="settings_release_notes_title">@string/settings_more_menu_option_release_notes</string>
 
     <!-- Settings - Release notes -->
     <string name="settings_release_notes_intro_title">Was ist neu?</string>
@@ -766,6 +788,7 @@
     <string name="settings_release_notes_section_fixes">Fehlerbehebungen und Verbesserungen</string>
     <string name="settings_release_notes_section_notes">Anmerkungen</string>
     <string name="settings_release_notes_footer_discord">Die Versionshinweise der Alpha- und Beta-Versionen findest du im Papaya Discord.</string>
+    <string name="settings_release_notes_key_hints_scroll">Scrollen</string>
     <string name="settings_release_notes_key_hints_jump_version">Zur Version springen</string>
 
     <!-- Settings - Privacy Policy -->

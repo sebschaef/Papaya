@@ -266,7 +266,7 @@
     <string name="item_options_game_file_menu_option_open_scraper_website">View on %1$s</string>
     <string name="item_options_game_file_collections_dialog_empty">No collections created yet</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Hide \”%1$s\"?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">The game won\'t be displayed in your collection anymore. You can revert this anytime in [Settings] > [Platform configuration] > [Platform] > [Edit] by selecting the game again.</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">The game won\'t be displayed in your collection anymore. You can revert this anytime in [Settings] > [Platforms] > [Platform] > [Edit] by selecting the game again.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Hide game</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -284,7 +284,7 @@
     <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">Move \”%1$s\" to the App drawer?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">You can revert this anytime in [Settings] > [Platform configuration] > [Platform] > [Edit] by marking the App as a game again.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">You can revert this anytime in [Settings] > [Platforms] > [Platform] > [Edit] by marking the App as a game again.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">Move App</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
