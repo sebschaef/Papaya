@@ -2,6 +2,7 @@
 
     <!-- Common -->
     <string name="common_select">Selecionar</string>
+    <string name="common_select_unselect">Marcar / Desmarcar</string>
     <string name="common_navigate">Navegar</string>
     <string name="common_back">Voltar</string>
     <string name="common_exit">Sair</string>
@@ -38,6 +39,7 @@
     <string name="gallery_top_bar_category_apps">Apps</string>
     <string name="gallery_top_bar_category_streaming">Streaming</string>
     <string name="gallery_top_bar_category_emulators">Emuladores</string>
+    <string name="gallery_top_bar_category_search">Pesquisar</string>
 
     <!-- Gallery - Key hints -->
     <string name="gallery_key_hints_buy_license">Licença</string>
@@ -76,6 +78,7 @@
     <string name="gallery_games_sorting_option_by_release_year">Por data de lançamento</string>
     <string name="gallery_games_sorting_option_by_first_letter">Por nome</string>
     <string name="gallery_games_sorting_option_by_genre">Por gênero</string>
+    <string name="gallery_games_sorting_option_by_collection">Por coleção</string>
     <string name="gallery_games_sorting_option_all">Todo</string>
 
     <string name="gallery_games_sorting_section_recents_title">Recentes</string>
@@ -83,6 +86,17 @@
     <string name="gallery_games_sorting_section_release_year_missing_title">Nenhum</string>
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numérico</string>
     <string name="gallery_games_sorting_section_all_title">Todo</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Pesquisar jogos, apps ou na web</string>
+    <string name="gallery_search_section_games">@string/gallery_top_bar_category_games</string>
+    <string name="gallery_search_section_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="gallery_search_section_other">Outros</string>
+    <string name="gallery_search_section_recently_searched_games">Jogos pesquisados recentemente</string>
+    <string name="gallery_search_section_recently_searched_apps">Apps pesquisados recentemente</string>
+    <string name="gallery_search_section_recently_searched_other">Pesquisas recentes na web</string>
+    <string name="gallery_search_web_search_content_description">Pesquisa na web</string>
+    <string name="gallery_search_open_browser_content_description">Abrir navegador</string>
 
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Opções de ordenação</string>
@@ -93,6 +107,7 @@
     <string name="xmb_settings_title">Configurações</string>
     <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
     <string name="xmb_settings_option_settings_title">Configurações do Papaya</string>
+    <string name="xmb_search_option_new_search_title">Nova pesquisa</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Próxima etapa</string>
@@ -239,7 +254,9 @@
     <string name="item_options_game_file_menu_option_favourite_remove">Remover dos favoritos</string>
     <string name="item_options_game_file_menu_option_hide">Ocultar jogo</string>
     <string name="item_options_game_file_menu_option_change_emulator">Mudar Emulador</string>
+    <string name="item_options_game_file_menu_option_collections">Coleções</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">Ver em %1$s</string>
+    <string name="item_options_game_file_collections_dialog_empty">Nenhuma coleção criada ainda</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Ocultar \"%1$s\"?</string>
     <string name="item_options_game_file_warning_dialog_hide_text">O jogo não será mais exibido em sua coleção. Você pode reverter isso a qualquer momento em [Configurações] > [Configuração de plataforma] > [Plataforma] > [Editar] selecionando o jogo novamente.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Ocultar jogo</string>
@@ -256,6 +273,7 @@
     <string name="item_options_game_app_menu_option_hide">Não é um jogo</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">Mover "%1$s" para a gaveta de Apps?</string>
     <string name="item_options_game_app_warning_dialog_hide_text">Você pode reverter isso a qualquer momento em [Configurações] > [Configuração da plataforma] > [Plataforma] > [Editar], marcando o aplicativo como um jogo novamente.</string>
@@ -281,6 +299,7 @@
 
     <!-- Item options - Edit -->
     <string name="item_options_edit_section_cover_image">Imagem de capa</string>
+    <string name="item_options_edit_section_background_image">Imagem de fundo</string>
     <string name="item_options_edit_section_cover_name">Nome</string>
     <string name="item_options_edit_section_cover_sortname">Nome para ordenação</string>
     <string name="item_options_edit_section_placeholder_sortname">Não definido</string>
@@ -301,7 +320,8 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Configurações</string>
     <string name="settings_main_menu_menu_option_android">Configurações do dispositivo</string>
-    <string name="settings_main_menu_menu_option_platform">Configuração de plataforma</string>
+    <string name="settings_main_menu_menu_option_platform">Plataformas</string>
+    <string name="settings_main_menu_menu_option_collections">Coleções</string>
     <string name="settings_main_menu_menu_option_appearance">Aparência &amp; comportamento</string>
     <string name="settings_main_menu_menu_option_advanced">Configuração avançada</string>
     <string name="settings_main_menu_menu_option_more">Mais</string>
@@ -316,6 +336,56 @@
     <string name="settings_platforms_content_description_move_up">Mover para cima</string>
     <string name="settings_platforms_content_description_move_down">Mover para baixo</string>
 
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Coleções</string>
+    <string name="settings_collections_cta_add">Criar coleção</string>
+    <string name="settings_collections_reorder_title">Reordenar coleções</string>
+    <string name="settings_collections_reorder_cta_add">@string/common_done</string>
+    <string name="settings_collections_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_collections_tip_box_title">Agrupe seus jogos do seu jeito</string>
+    <string name="settings_collections_tip_box_description">Crie coleções personalizadas e adicione qualquer um dos seus jogos a elas. Ex.: uma coleção com todos os jogos de GTA de várias plataformas ou uma coleção dos seus jogos favoritos da infância.\nDepois, você pode acessar suas coleções na tela principal usando a função [Ordenar] com \"Por coleção\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Aparência da coleção</string>
+    <string name="settings_collection_options_menu_option_games">Jogos</string>
+    <string name="settings_collection_options_menu_option_remove">@string/settings_platform_options_menu_option_remove</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">Remover coleção \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">A coleção será excluída. Seus arquivos de jogos e apps permanecerão intactos.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Remover coleção</string>
+    <string name="settings_collection_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Aparência da coleção</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Dê um nome à sua coleção</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Imagem da coleção (opcional)</string>
+    <string name="settings_collection_edit_appearance_section_collection_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_collection_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_collection_edit_appearance_section_short_name">@string/settings_platform_edit_appearance_section_short_name</string>
+    <string name="settings_collection_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Sair do editor de aparência da coleção?</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Remover a imagem da coleção?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">A coleção usará o ícone ou nome padrão no lugar.</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Próxima etapa</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Jogos na coleção</string>
+    <string name="settings_collection_game_selection_config_title">Selecione os jogos para a coleção</string>
+    <string name="settings_collection_game_selection_search_placeholder">Pesquisar jogos</string>
+    <string name="settings_collection_game_selection_no_results">@string/item_options_scrape_no_results</string>
+    <string name="settings_collection_game_selection_fetching_results_for">@string/item_options_scrape_fetching_results_for</string>
+    <string name="settings_collection_game_selection_error_unknown">@string/item_options_scrape_error_unknown</string>
+    <string name="settings_collection_game_selection_key_hints_done">Concluído</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">%d jogo selecionado</item>
+        <item quantity="other">%d jogos selecionados</item>
+    </plurals>
+
     <!-- Settings - All Platforms options -->
     <string name="settings_all_platform_options_menu_option_remove">Remover todas</string>
     <string name="settings_all_platform_options_warning_dialog_remove_title">Remover todas as plataformas?</string>
@@ -324,6 +394,7 @@
     <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Detectar novos jogos automaticamente</string>
     <string name="settings_platform_options_menu_option_detect_new_games">Detectar novos jogos e alterações</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Buscar capas e detalhes de jogos ausentes</string>
     <string name="settings_platform_options_menu_option_scrape_all">Buscar capas e detalhes de jogos todos</string>
@@ -417,10 +488,12 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Formato dos ícones de apps</string>
     <string name="settings_appearance_general_setting_background_style_title">Fundo</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Definir Papaya como launcher</string>
+    <string name="settings_appearance_general_setting_search_preferences_title">Preferências de pesquisa</string>
     <string name="settings_appearance_general_setting_launch_display_title">Tela de inicialização padrão</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Mesma tela (revelia)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Outra tela</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Sempre pergunte</string>
+    <string name="settings_appearance_general_setting_blur_title">Desfoque e efeitos de vidro</string>
     <string name="settings_appearance_general_setting_key_hints_title">Dicas de botões</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Desativado</string>
     <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Proporção da capa do app</string>
@@ -428,6 +501,7 @@
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptável</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Exibir barra de navegação do sistema</string>
     <string name="settings_appearance_general_setting_recents_section_title">Exibir a seção "Recentes"</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Exibir fundos dos jogos</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Exibir a seção "Favoritos"</string>
 
     <!-- Settings - Appearance - Layout-->
@@ -476,6 +550,11 @@
     <string name="settings_appearance_background_animation_stars">Estrelas</string>
     <string name="settings_appearance_background_animation_waves">Ondas</string>
     <string name="settings_appearance_background_animation_sparkles">Brilhos</string>
+    <string name="settings_appearance_background_image_key_hint_delete">Excluir</string>
+    <string name="settings_appearance_background_delete_image_dialog_title">Excluir esta imagem?</string>
+    <string name="settings_appearance_background_delete_image_dialog_text">A imagem será removida apenas do Papaya. A imagem original no seu dispositivo permanecerá intacta.</string>
+    <string name="settings_appearance_background_delete_image_dialog_confirm">Excluir imagem</string>
+    <string name="settings_appearance_background_delete_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Configuração avançada</string>
@@ -489,6 +568,12 @@
     <!-- Settings - Behavior -->
     <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
     <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Usar caminhos antigos do RetroArch</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_title">@string/settings_appearance_general_setting_search_preferences_title</string>
+    <string name="settings_search_setting_search_engine_title">Mecanismo de pesquisa</string>
+    <string name="settings_search_setting_clear_search_history_title">Limpar histórico de pesquisa</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Histórico de pesquisa limpo</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
@@ -532,6 +617,10 @@
     <!-- Settings - Scraper options -->
     <string name="settings_scraper_options_title">Configurações do %1$s</string>
     <string name="settings_scraper_options_setting_is_enabled_label">Ativado</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Buscar artes como fundos dos jogos</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Buscar fanarts como fundos dos jogos</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Buscar capturas de tela como fundo do jogo se não houver artes</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Buscar imagens hero como fundos dos jogos</string>
     <string name="settings_scraper_options_setting_api_key_label">Chave de API pessoal</string>
     <string name="settings_scraper_options_setting_api_key_value_not_set">Não definido</string>
     <string name="settings_scraper_options_setting_website_label">Abra %1$s no navegador</string>
@@ -539,7 +628,7 @@
     <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Qualquer</string>
     <string name="settings_scraper_options_setting_cover_type_label">Tipo de capa</string>
     <string name="settings_scraper_options_setting_cover_type_option_any">Qualquer</string>
-    <string name="settings_scraper_options_setting_cover_type_option_static">Estatístico</string>
+    <string name="settings_scraper_options_setting_cover_type_option_static">Estático</string>
     <string name="settings_scraper_options_setting_cover_type_option_animated">Animado</string>
 
     <!-- Settings - Scraper API key -->
@@ -682,10 +771,25 @@
 
     <!-- Settings - More -->
     <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_release_notes">Notas de versão</string>
     <string name="settings_more_menu_option_roadmap">Roadmap</string>
     <string name="settings_more_menu_option_privacy_policy">Política de privacidade</string>
     <string name="settings_more_menu_option_licenses">Licenças</string>
     <string name="settings_more_menu_option_about">Sobre</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_title">@string/settings_more_menu_option_release_notes</string>
+    <string name="settings_release_notes_intro_title">O que há de novo?</string>
+    <string name="settings_release_notes_intro_text">Todas as mudanças das versões estáveis do Papaya em um só lugar.</string>
+    <string name="settings_release_notes_version_label">Versão</string>
+    <string name="settings_release_notes_badge_latest">Mais recente</string>
+    <string name="settings_release_notes_badge_installed">Instalada</string>
+    <string name="settings_release_notes_section_new_features">Novos recursos</string>
+    <string name="settings_release_notes_section_fixes">Correções e melhorias</string>
+    <string name="settings_release_notes_section_notes">Observações</string>
+    <string name="settings_release_notes_footer_discord">As notas das versões alfa e beta estão disponíveis no Discord do Papaya.</string>
+    <string name="settings_release_notes_key_hints_scroll">Rolar</string>
+    <string name="settings_release_notes_key_hints_jump_version">Ir para a versão</string>
 
     <!-- Settings - Privacy Policy -->
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
@@ -713,6 +817,7 @@
     <string name="settings_about_section_attribution_it">🇮🇹 Italiano por &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_fi">🇫🇮 Finlandês por &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
     <string name="settings_about_section_attribution_ru">🇷🇺 Russo por &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_tr">🇹🇷 Turco por &lt;a href="https://github.com/lunishworks"&gt;Lunar&lt;/a&gt;. Çok teşekkürler! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sons e ícones</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Obrigado pelos ícones incríveis da plataforma! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS e SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Obrigado pelo incrível ícone de plataforma para o PICO-8! 🙏</string>
