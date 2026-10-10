@@ -1,4 +1,7 @@
-# Papaya
+<a href="https://play.google.com/store/apps/details?id=com.sebschaef.papaya" target="_blank"><img src="https://repository-images.githubusercontent.com/1111172046/34cb36b0-9784-468d-b8dd-05d5a11f3472"/></a>
+
+<a href="https://play.google.com/store/apps/details?id=com.sebschaef.papaya" target="_blank"><img src="https://raw.githubusercontent.com/pioug/google-play-badges/refs/heads/main/svg/en.svg" width="300" /></a>
+
 This repository contains various assets which are used by the [Papaya Games Launcher](https://play.google.com/store/apps/details?id=com.sebschaef.papaya) Android app:
 - Translations
 - Icons for the various supported gaming platforms

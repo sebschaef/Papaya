@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================== Changed ============================== -->
+
+    <!-- Platform configuration -->
+    <string name="settings_main_menu_menu_option_platform">Plataformas</string>
+
+    <!-- ================================ New ================================ -->
+
+    <!-- Common -->
+    <string name="common_select_unselect">Seleccionar / Deseleccionar</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_category_search">Buscar</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_sorting_option_by_collection">Por colección</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Buscar juegos, apps o en la web</string>
+    <string name="gallery_search_section_other">Otros</string>
+    <string name="gallery_search_section_recently_searched_games">Juegos buscados recientemente</string>
+    <string name="gallery_search_section_recently_searched_apps">Apps buscadas recientemente</string>
+    <string name="gallery_search_section_recently_searched_other">Búsquedas web recientes</string>
+    <string name="gallery_search_web_search_content_description">Búsqueda web</string>
+    <string name="gallery_search_open_browser_content_description">Abrir navegador</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_search_option_new_search_title">Nueva búsqueda</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_option_collections">Colecciones</string>
+    <string name="item_options_game_file_collections_dialog_empty">Aún no has creado colecciones</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_menu_option_collections">Colecciones</string>
+
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Colecciones</string>
+    <string name="settings_collections_cta_add">Crear colección</string>
+    <string name="settings_collections_reorder_title">Reordenar colecciones</string>
+    <string name="settings_collections_tip_box_title">Agrupa tus juegos a tu manera</string>
+    <string name="settings_collections_tip_box_description">Crea colecciones personalizadas y agrega cualquiera de tus juegos. Por ejemplo, una colección con todos los juegos de GTA de varias plataformas o una colección con tus juegos favoritos de la infancia.\nLuego podrás acceder a tus colecciones en la pantalla principal usando la función [Ordenar] con \"Por colección\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Apariencia de la colección</string>
+    <string name="settings_collection_options_menu_option_games">Juegos</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">¿Eliminar la colección \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">Se borrará la colección. Tus archivos de juegos y apps no se modificarán.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Eliminar colección</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Apariencia de la colección</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Ponle un nombre a tu colección</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Imagen de la colección (opcional)</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">¿Salir del editor de apariencia de la colección?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">¿Quitar la imagen de la colección?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">La colección usará el ícono o el nombre predeterminado.</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Siguiente paso</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Juegos de la colección</string>
+    <string name="settings_collection_game_selection_config_title">Selecciona los juegos para la colección</string>
+    <string name="settings_collection_game_selection_search_placeholder">Buscar juegos</string>
+    <string name="settings_collection_game_selection_key_hints_done">Listo</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">Un juego seleccionado</item>
+        <item quantity="other">%d juegos seleccionados</item>
+    </plurals>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Detectar juegos nuevos automáticamente</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_setting_search_preferences_title">Preferencias de búsqueda</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Mostrar fondos de juegos</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_setting_search_engine_title">Motor de búsqueda</string>
+    <string name="settings_search_setting_clear_search_history_title">Borrar historial de búsqueda</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Historial de búsqueda borrado</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Obtener artes como fondos de juegos</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Obtener fanarts como fondos de juegos</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Obtener capturas de pantalla como fondo del juego si no hay artes</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Obtener imágenes hero como fondos de juegos</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_intro_title">¿Qué hay de nuevo?</string>
+    <string name="settings_release_notes_intro_text">Todos los cambios de las versiones estables de Papaya de un vistazo.</string>
+    <string name="settings_release_notes_version_label">Versión</string>
+    <string name="settings_release_notes_badge_latest">Más reciente</string>
+    <string name="settings_release_notes_badge_installed">Instalada</string>
+    <string name="settings_release_notes_section_new_features">Funciones nuevas</string>
+    <string name="settings_release_notes_section_fixes">Correcciones y mejoras</string>
+    <string name="settings_release_notes_section_notes">Notas</string>
+    <string name="settings_release_notes_footer_discord">Las notas de versión de las versiones alfa y beta están disponibles en el Discord de Papaya.</string>
+    <string name="settings_release_notes_key_hints_jump_version">Ir a la versión</string>
+
+</resources>
