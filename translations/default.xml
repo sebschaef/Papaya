@@ -9,6 +9,7 @@
 
     <!-- Common -->
     <string name="common_select">Select</string>
+    <string name="common_select_unselect">Select / Unselect</string>
     <string name="common_navigate">Navigate</string>
     <string name="common_back">Back</string>
     <string name="common_exit">Exit</string>
@@ -45,6 +46,7 @@
     <string name="gallery_top_bar_category_apps">Apps</string>
     <string name="gallery_top_bar_category_streaming">Streaming</string>
     <string name="gallery_top_bar_category_emulators">Emulators</string>
+    <string name="gallery_top_bar_category_search">Search</string>
 
     <!-- Gallery - Key hints -->
     <string name="gallery_key_hints_buy_license">License</string>
@@ -84,6 +86,7 @@
     <string name="gallery_games_sorting_option_by_release_year">By release date</string>
     <string name="gallery_games_sorting_option_by_first_letter">By name</string>
     <string name="gallery_games_sorting_option_by_genre">By genre</string>
+    <string name="gallery_games_sorting_option_by_collection">By collection</string>
     <string name="gallery_games_sorting_option_all">All</string>
 
     <string name="gallery_games_sorting_section_recents_title">Recents</string>
@@ -91,6 +94,17 @@
     <string name="gallery_games_sorting_section_release_year_missing_title">None</string>
     <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Numerical</string>
     <string name="gallery_games_sorting_section_all_title">All</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Search games, apps or the web</string>
+    <string name="gallery_search_section_games">@string/gallery_top_bar_category_games</string>
+    <string name="gallery_search_section_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="gallery_search_section_other">Other</string>
+    <string name="gallery_search_section_recently_searched_games">Recently searched games</string>
+    <string name="gallery_search_section_recently_searched_apps">Recently searched apps</string>
+    <string name="gallery_search_section_recently_searched_other">Recent web searches</string>
+    <string name="gallery_search_web_search_content_description">Web search</string>
+    <string name="gallery_search_open_browser_content_description">Open browser</string>
 
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Sorting options</string>
@@ -101,6 +115,7 @@
     <string name="xmb_settings_title">Settings</string>
     <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
     <string name="xmb_settings_option_settings_title">Papaya Settings</string>
+    <string name="xmb_search_option_new_search_title">New search</string>
 
     <!-- Platform configuration - Key hints-->
     <string name="platform_configuration_key_hints_next_step">Next step</string>
@@ -109,7 +124,7 @@
     <string name="platform_configuration_key_hints_navigate">@string/common_navigate</string>
     <string name="platform_configuration_key_hints_exit">@string/common_exit</string>
     <string name="platform_configuration_key_hints_cancel">@string/common_cancel</string>
-    <string name="platform_configuration_key_hints_select_unselect">Select / Unselect</string>
+    <string name="platform_configuration_key_hints_select_unselect">@string/common_select_unselect</string>
     <string name="platform_configuration_key_hints_select">@string/common_select</string>
     <string name="platform_configuration_key_hints_add_remove_folder">Add / Remove folder</string>
     <string name="platform_configuration_key_hints_open_emulator_selection">Open emulator selection</string>
@@ -247,9 +262,11 @@
     <string name="item_options_game_file_menu_option_favourite_remove">Remove from Favorites</string>
     <string name="item_options_game_file_menu_option_hide">Hide game</string>
     <string name="item_options_game_file_menu_option_change_emulator">Change Emulator</string>
+    <string name="item_options_game_file_menu_option_collections">Collections</string>
     <string name="item_options_game_file_menu_option_open_scraper_website">View on %1$s</string>
+    <string name="item_options_game_file_collections_dialog_empty">No collections created yet</string>
     <string name="item_options_game_file_warning_dialog_hide_title">Hide \”%1$s\"?</string>
-    <string name="item_options_game_file_warning_dialog_hide_text">The game won\'t be displayed in your collection anymore. You can revert this anytime in [Settings] > [Platform configuration] > [Platform] > [Edit] by selecting the game again.</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">The game won\'t be displayed in your collection anymore. You can revert this anytime in [Settings] > [Platforms] > [Platform] > [Edit] by selecting the game again.</string>
     <string name="item_options_game_file_warning_dialog_hide_confirm">Hide game</string>
     <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -264,9 +281,10 @@
     <string name="item_options_game_app_menu_option_hide">Not a game</string>
     <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
     <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
     <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
     <string name="item_options_game_app_warning_dialog_hide_title">Move \”%1$s\" to the App drawer?</string>
-    <string name="item_options_game_app_warning_dialog_hide_text">You can revert this anytime in [Settings] > [Platform configuration] > [Platform] > [Edit] by marking the App as a game again.</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">You can revert this anytime in [Settings] > [Platforms] > [Platform] > [Edit] by marking the App as a game again.</string>
     <string name="item_options_game_app_warning_dialog_hide_confirm">Move App</string>
     <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
 
@@ -289,6 +307,7 @@
 
     <!-- Item options - Edit -->
     <string name="item_options_edit_section_cover_image">Cover image</string>
+    <string name="item_options_edit_section_background_image">Background image</string>
     <string name="item_options_edit_section_cover_name">Name</string>
     <string name="item_options_edit_section_cover_sortname">Sortname</string>
     <string name="item_options_edit_section_placeholder_sortname">Not set</string>
@@ -309,7 +328,8 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Settings</string>
     <string name="settings_main_menu_menu_option_android">Device settings</string>
-    <string name="settings_main_menu_menu_option_platform">Platform configuration</string>
+    <string name="settings_main_menu_menu_option_platform">Platforms</string>
+    <string name="settings_main_menu_menu_option_collections">Collections</string>
     <string name="settings_main_menu_menu_option_appearance">Appearance &amp; behaviour</string>
     <string name="settings_main_menu_menu_option_advanced">Advanced configuration</string>
     <string name="settings_main_menu_menu_option_more">More</string>
@@ -326,6 +346,56 @@
     <string name="settings_platforms_content_description_move_up">Move up</string>
     <string name="settings_platforms_content_description_move_down">Move down</string>
 
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Collections</string>
+    <string name="settings_collections_cta_add">Create collection</string>
+    <string name="settings_collections_reorder_title">Reorder collections</string>
+    <string name="settings_collections_reorder_cta_add">@string/common_done</string>
+    <string name="settings_collections_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_collections_tip_box_title">Group your games your way</string>
+    <string name="settings_collections_tip_box_description">Create custom collections and place any of your games in them. E.g. A collection containing all GTA games across various platforms or a collection of your favourite childhood games.\nYou can then access your collections on the main screen by using the [Sort] function with \"By collection\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Collection appearance</string>
+    <string name="settings_collection_options_menu_option_games">Games</string>
+    <string name="settings_collection_options_menu_option_remove">@string/settings_platform_options_menu_option_remove</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">Remove collection \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">The collection will be deleted. Your game files and apps remain untouched.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Remove collection</string>
+    <string name="settings_collection_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Collection appearance</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Name your collection</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Collection image (Optional)</string>
+    <string name="settings_collection_edit_appearance_section_collection_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_collection_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_collection_edit_appearance_section_short_name">@string/settings_platform_edit_appearance_section_short_name</string>
+    <string name="settings_collection_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Exit the collection appearance editor?</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Remove the collection image?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">The collection will use the default icon or name instead.</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Next step</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Games in the collection</string>
+    <string name="settings_collection_game_selection_config_title">Select the games for the collection</string>
+    <string name="settings_collection_game_selection_search_placeholder">Search games</string>
+    <string name="settings_collection_game_selection_no_results">@string/item_options_scrape_no_results</string>
+    <string name="settings_collection_game_selection_fetching_results_for">@string/item_options_scrape_fetching_results_for</string>
+    <string name="settings_collection_game_selection_error_unknown">@string/item_options_scrape_error_unknown</string>
+    <string name="settings_collection_game_selection_key_hints_done">Done</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="one">One game selected</item>
+        <item quantity="other">%d games selected</item>
+    </plurals>
+
     <!-- Settings - All Platforms options -->
     <string name="settings_all_platform_options_menu_option_remove">Remove all</string>
     <string name="settings_all_platform_options_warning_dialog_remove_title">Remove all platforms?</string>
@@ -334,6 +404,7 @@
     <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Automatically detect new games</string>
     <string name="settings_platform_options_menu_option_detect_new_games">Detect new games and changes</string>
     <string name="settings_platform_options_menu_option_scrape_missing">Scrape missing covers and game details</string>
     <string name="settings_platform_options_menu_option_scrape_all">Scrape all covers and game details</string>
@@ -427,11 +498,12 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">App icons shape</string>
     <string name="settings_appearance_general_setting_background_style_title">Background</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Set Papaya as launcher</string>
+    <string name="settings_appearance_general_setting_search_preferences_title">Search preferences</string>
     <string name="settings_appearance_general_setting_launch_display_title">Default launch display</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Same display (default)</string>
     <string name="settings_appearance_general_setting_launch_display_option_other">Other display</string>
     <string name="settings_appearance_general_setting_launch_display_option_ask">Always ask</string>
-    <string name="settings_appearance_general_setting_blur_title" translatable="false">Blur</string>
+    <string name="settings_appearance_general_setting_blur_title">Blur and glass effects</string>
     <string name="settings_appearance_general_setting_key_hints_title">Button hints</string>
     <string name="settings_appearance_general_setting_key_hints_option_disabled">Disabled</string>
     <string name="settings_appearance_general_setting_key_hints_option_android" translatable="false">Android</string>
@@ -448,6 +520,7 @@
     <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_4_3" translatable="false">@string/settings_appearance_general_setting_app_cover_aspect_ratio_option_4_3</string>
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Display system navigation bar</string>
     <string name="settings_appearance_general_setting_recents_section_title">Display \"Recents\" section</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Display game backgrounds</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Display \"Favorites\" section</string>
 
     <!-- Settings - Appearance - Layout-->
@@ -499,6 +572,11 @@
     <string name="settings_appearance_background_animation_stars">Stars</string>
     <string name="settings_appearance_background_animation_waves">Waves</string>
     <string name="settings_appearance_background_animation_sparkles">Sparkles</string>
+    <string name="settings_appearance_background_image_key_hint_delete">Delete</string>
+    <string name="settings_appearance_background_delete_image_dialog_title">Delete this image?</string>
+    <string name="settings_appearance_background_delete_image_dialog_text">The image will only be removed from Papaya. The original image on your device remains untouched.</string>
+    <string name="settings_appearance_background_delete_image_dialog_confirm">Delete image</string>
+    <string name="settings_appearance_background_delete_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Advanced -->
     <string name="settings_advanced_title">Advanced configuration</string>
@@ -512,6 +590,19 @@
     <!-- Settings - Behavior -->
     <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
     <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Use legacy RetroArch paths</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_title">@string/settings_appearance_general_setting_search_preferences_title</string>
+    <string name="settings_search_setting_search_engine_title">Search engine</string>
+    <string name="settings_search_setting_search_engine_option_google" translatable="false">Google</string>
+    <string name="settings_search_setting_search_engine_option_bing" translatable="false">Bing</string>
+    <string name="settings_search_setting_search_engine_option_duckduckgo" translatable="false">DuckDuckGo</string>
+    <string name="settings_search_setting_search_engine_option_brave" translatable="false">Brave</string>
+    <string name="settings_search_setting_search_engine_option_ecosia" translatable="false">Ecosia</string>
+    <string name="settings_search_setting_search_engine_option_yandex" translatable="false">Yandex</string>
+    <string name="settings_search_setting_search_engine_option_perplexity" translatable="false">Perplexity</string>
+    <string name="settings_search_setting_clear_search_history_title">Clear search history</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Cleared search history</string>
 
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
@@ -555,6 +646,10 @@
     <!-- Settings - Scraper options -->
     <string name="settings_scraper_options_title">%1$s Settings</string>
     <string name="settings_scraper_options_setting_is_enabled_label">Enabled</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Fetch artworks as game backgrounds</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Fetch fanart as game backgrounds</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Fetch screenshots as game background if no artworks exist</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Fetch heroes as game backgrounds</string>
     <string name="settings_scraper_options_setting_api_key_label">Personal API key</string>
     <string name="settings_scraper_options_setting_api_key_value_not_set">Not set</string>
     <string name="settings_scraper_options_setting_website_label">Open %1$s in Browser</string>
@@ -719,10 +814,131 @@
 
     <!-- Settings - More -->
     <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_release_notes">Release notes</string>
     <string name="settings_more_menu_option_roadmap">Roadmap</string>
     <string name="settings_more_menu_option_privacy_policy">Privacy policy</string>
     <string name="settings_more_menu_option_licenses">Licenses</string>
     <string name="settings_more_menu_option_about">About</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_title">@string/settings_more_menu_option_release_notes</string>
+    <string name="settings_release_notes_intro_title">What’s new?</string>
+    <string name="settings_release_notes_intro_text">All changes of the stable Papaya versions at a glance.</string>
+    <string name="settings_release_notes_version_label">Version</string>
+    <string name="settings_release_notes_badge_latest">Latest</string>
+    <string name="settings_release_notes_badge_installed">Installed</string>
+    <string name="settings_release_notes_section_new_features">New features</string>
+    <string name="settings_release_notes_section_fixes">Fixes and improvements</string>
+    <string name="settings_release_notes_section_notes">Notes</string>
+    <string name="settings_release_notes_footer_discord">The release notes of alpha and beta versions can be found in the Papaya Discord.</string>
+    <string name="settings_release_notes_key_hints_scroll">Scroll</string>
+    <string name="settings_release_notes_key_hints_jump_version">Jump to version</string>
+
+    <!-- Settings - Roadmap -->
+    <string name="settings_roadmap_title" translatable="false">@string/settings_more_menu_option_roadmap</string>
+    <string name="settings_roadmap_intro_title" translatable="false">Post-1.0.0 Roadmap</string>
+    <string name="settings_roadmap_intro_text" translatable="false">Contains features which are planned to be added after the recently released 1.0.0 version. Each section is listed by priority.</string>
+    <string name="settings_roadmap_intro_disclaimer" translatable="false">This does not mean that they are being developed strictly in this order and it’s also not a 100% promise that all of these features will come.</string>
+    <string name="settings_roadmap_progress" translatable="false">%1$d of %2$d done</string>
+    <string name="settings_roadmap_entry_count" translatable="false">%1$d entries</string>
+    <string name="settings_roadmap_done" translatable="false">Done</string>
+    <string name="settings_roadmap_key_hints_scroll" translatable="false">Scroll</string>
+    <string name="settings_roadmap_key_hints_jump_section" translatable="false">Jump to section</string>
+
+    <string name="settings_roadmap_section_issues_title" translatable="false">Issues</string>
+    <string name="settings_roadmap_section_issues_description" translatable="false">Bugs and shortcomings which need to be addressed</string>
+    <string name="settings_roadmap_section_small_features_title" translatable="false">Small features</string>
+    <string name="settings_roadmap_section_small_features_description" translatable="false">Features which have a relatively small complexity</string>
+    <string name="settings_roadmap_section_big_features_title" translatable="false">Big features</string>
+    <string name="settings_roadmap_section_big_features_description" translatable="false">Features with a larger complexity and are usually included in a major version</string>
+    <string name="settings_roadmap_section_long_term_title" translatable="false">Long term ideas</string>
+    <string name="settings_roadmap_section_long_term_description" translatable="false">These are not planned yet, but I want to make them visible already</string>
+
+    <string name="settings_roadmap_issue_legacy_paths_title" translatable="false">Support Legacy RetroArch paths</string>
+    <string name="settings_roadmap_issue_legacy_paths_text" translatable="false">Support legacy paths for specific cores which do not support content URIs yet (e.g. FB Alpha 2012) and potentially add an option to force the legacy path for all cores to keep the history and save data in RA clean. Display implications of this setting („Does not support launching games from SD Card“).</string>
+    <string name="settings_roadmap_issue_xmb_category_jump_title" translatable="false">Jumping XMB category selection</string>
+    <string name="settings_roadmap_issue_xmb_category_jump_text" translatable="false">After starting up Papaya, a bug causes the category selection sometimes to jump from Games to Settings.</string>
+    <string name="settings_roadmap_issue_home_button_update_title" translatable="false">Main screen is not properly updated when navigating back via Home button</string>
+    <string name="settings_roadmap_issue_home_button_update_text" translatable="false">When Papaya is set as the Launcher, you can always return to it through the Home button or Home gesture. In some edge cases when you edit a setting and then return to the main screen through the Home button (instead of back navigation), the main screen misses the update and displays an outdated state.</string>
+    <string name="settings_roadmap_issue_text_field_keyboard_title" translatable="false">TextField interaction with keyboards</string>
+    <string name="settings_roadmap_issue_text_field_keyboard_text" translatable="false">When the device is connected and used with a physical keyboard, the TextFields are losing the focus when a letter is typed. Workaround found by a user: Holding down the enter key 😄</string>
+    <string name="settings_roadmap_issue_xmb_vertical_scroll_title" translatable="false">Vertical scroll in XMB categories</string>
+    <string name="settings_roadmap_issue_xmb_vertical_scroll_text" translatable="false">Improve the scrolling animations and scrolling via touch.</string>
+
+    <string name="settings_roadmap_small_emulator_sources_title" translatable="false">Link to emulator sources</string>
+    <string name="settings_roadmap_small_emulator_sources_text" translatable="false">In the platform configurator, display a „Get it on PlayStore“ etc. link on supported emulators which are not installed yet. When clicking on it, you’ll be directly lead to the source and can download and install it immediately. This simplifies the setup for people new to the scene as well.</string>
+    <string name="settings_roadmap_small_delete_covers_title" translatable="false">Delete wrongly scraped game covers</string>
+    <string name="settings_roadmap_small_delete_covers_text" translatable="false">Or provide a way to explicitly use the app icon instead.</string>
+    <string name="settings_roadmap_small_delete_wallpapers_title" translatable="false">Delete wallpaper images</string>
+    <string name="settings_roadmap_small_delete_wallpapers_text" translatable="false">Currently, you can only add as many as you want, but can’t delete them.</string>
+    <string name="settings_roadmap_small_esde_importer_title" translatable="false">Improve ES-DE importer</string>
+    <string name="settings_roadmap_small_esde_importer_text" translatable="false">Currently, the importer selects the first emulator match as a game’s emulator. In some cases you will then end up with the „wrong“ match and need to change it manually after importing (E.g. PPSSPP instead of PPSSPP Gold). To improve this, Papaya should match the emulator selection against the installed apps.\n\nWhen the importer is used, it will always create new platforms for all detected ES-DE systems. If the systems are imported multiple times, Papaya will create duplicated platforms for them. Instead, each imported platform should be linked 1:1 to an ES-DE system. The importer should rather update already existing platforms.</string>
+    <string name="settings_roadmap_small_game_count_title" translatable="false">Display amount of games in a section</string>
+    <string name="settings_roadmap_small_game_count_text" translatable="false">Can be easily combined with the index of the currently selected game to see how far you have scrolled.</string>
+    <string name="settings_roadmap_small_random_game_title" translatable="false">Random game picker</string>
+    <string name="settings_roadmap_small_random_game_text" translatable="false">Let Papaya pick a random game for you. An idea could be to introduce this as a sorting method (like „by platform“, „by release date“) where you will then see 3-5 randomly picked games.</string>
+    <string name="settings_roadmap_small_accent_colors_title" translatable="false">More accent colors</string>
+    <string name="settings_roadmap_small_accent_colors_text" translatable="false">Especially more darker options.</string>
+    <string name="settings_roadmap_small_jump_letter_title" translatable="false">Jump to next letter</string>
+    <string name="settings_roadmap_small_jump_letter_text" translatable="false">You should be able to quickly jump to the next letter within a section to quick scroll through a larger list. This could become more complex because of the paging mechanism: To keep the RAM usage of Papaya lightweight and to reduce loading times, Papaya loads only the first X items of a section. More are only loaded when scrolling to the end.</string>
+    <string name="settings_roadmap_small_clickable_key_hints_title" translatable="false">Clickable key hints</string>
+    <string name="settings_roadmap_small_clickable_key_hints_text" translatable="false">The hints at the bottom of the screen which tell you what the different buttons do should be clickable via touch and trigger the specific action.</string>
+    <string name="settings_roadmap_small_sort_by_settings_title" translatable="false">„Sort by“ settings</string>
+    <string name="settings_roadmap_small_sort_by_settings_text" translatable="false">Sorting options like „by platform“, „by release date“ etc. should be toggleable (enabled/disabled) and you should be able to, well, sort them. Especially when the list of sorting options grows larger: „by genre“, „by franchise“, „by collections“, „by play time“ etc.</string>
+    <string name="settings_roadmap_small_swipe_sections_title" translatable="false">Swipe to change the sections</string>
+    <string name="settings_roadmap_small_swipe_sections_text" translatable="false">Allow touch gestures (left/right) to change between sections in the Gallery Grid and Gallery List layouts.</string>
+
+    <string name="settings_roadmap_big_custom_collections_title" translatable="false">Custom collections</string>
+    <string name="settings_roadmap_big_custom_collections_text" translatable="false">Curate your games in your own lists like „My favourite childhood games“, „Super Mario“ etc. This will include a new settings screen to manage the collections (similar to platforms) with a search function to quickly find all games to add. Also, you should be able to sort your library by your collections (like by platform, by release date etc): „My favourite childhood games“ and „Super Mario“ would appear as sections. Each custom collection should have a customisable appearance: icon/logo, name, short name.</string>
+    <string name="settings_roadmap_big_custom_sounds_title" translatable="false">Custom sounds</string>
+    <string name="settings_roadmap_big_custom_sounds_text" translatable="false">Select custom sounds for the background music, selection, back navigation etc. in a new settings menu which can be entered from the „Appearance &amp; behaviour“ settings.</string>
+    <string name="settings_roadmap_big_backgrounds_logos_title" translatable="false">Game backgrounds/logos</string>
+    <string name="settings_roadmap_big_backgrounds_logos_text" translatable="false">Display backgrounds and logos for games. This requires scraping these images from the scraper services and importing them from ES-DE. Plus, the manual scraping screen needs to be revamped to support selecting them individually.</string>
+    <string name="settings_roadmap_big_streaming_apps_title" translatable="false">Streaming apps settings</string>
+    <string name="settings_roadmap_big_streaming_apps_text" translatable="false">Select/Unselect the apps which should appear in the Streaming category.</string>
+    <string name="settings_roadmap_big_detect_android_games_title" translatable="false">Detect new Android games (automatically)</string>
+    <string name="settings_roadmap_big_detect_android_games_text" translatable="false">When Papaya is launched for the first time, it automatically detects game apps. However you currently need to manually select later installed games. Papaya should provide the option to detect new games on a button click and an automatic detection.</string>
+    <string name="settings_roadmap_big_animation_options_title" translatable="false">Animation options</string>
+    <string name="settings_roadmap_big_animation_options_text" translatable="false">You should be able to customise the background animations more to your liking: Pick different colors than the accent color and modify some parameters (e.g. wavelength, speed of the waves, bubble size etc.).</string>
+    <string name="settings_roadmap_big_more_scrapers_title" translatable="false">More scrapers</string>
+    <string name="settings_roadmap_big_more_scrapers_text" translatable="false">Screenscraper.fr, LaunchBox for example.</string>
+    <string name="settings_roadmap_big_game_search_title" translatable="false">Game search</string>
+    <string name="settings_roadmap_big_game_search_text" translatable="false">Enter a search term and quickly look up games. Potentially extend this feature with a web search etc.</string>
+    <string name="settings_roadmap_big_play_time_title" translatable="false">Play time tracking</string>
+    <string name="settings_roadmap_big_play_time_text" translatable="false">Request the permission to track app usage statistics (Optional) to estimate the play time of all games/apps. Potentially add the option to sort all games by play time.</string>
+    <string name="settings_roadmap_big_app_shortcuts_title" translatable="false">Full app shortcut support</string>
+    <string name="settings_roadmap_big_app_shortcuts_text" translatable="false">Currently, app shortcuts are only supported for streaming apps and in the app options menu if Papaya is set as the Launcher. There should be a proper integration of app shortcuts in the games category: For example, you should be able to pin GameHub and Eden shortcuts to Papaya. When pinning the shortcut, you should be able to select the platform you want to add it to. E.g. GameHub shortcuts to a PC platform, Eden shortcuts to a Switch platform.</string>
+    <string name="settings_roadmap_big_custom_emulator_settings_title" translatable="false">Improve custom emulator settings</string>
+    <string name="settings_roadmap_big_custom_emulator_settings_text" translatable="false">There should be a way to copy existing configurations, so you can quickly adapt to emulator changes. E.g. If PPSSPP suddenly requires an extra parameter, you could copy Papaya’s PPSSPP config, easily add the parameter and save it as a custom config. Also, the current editor is useful for people which need some guidance, but it’s also too restrictive in some scenarios. There should be an advanced mode which allows entering ADB commands.</string>
+    <string name="settings_roadmap_big_import_export_title" translatable="false">Import/Export</string>
+    <string name="settings_roadmap_big_import_export_text" translatable="false">Support exporting/importing the whole Papaya configuration. The biggest challenge will be to properly guide you during the import: The same/similar folders need to be selected again by you, so Papaya gains the permission to read the same Roms again. Papaya should communicate mismatches and provide fallbacks.</string>
+    <string name="settings_roadmap_big_sort_by_genre_title" translatable="false">Sort by genre</string>
+    <string name="settings_roadmap_big_sort_by_genre_text" translatable="false">Similar to sort by platform, by release date etc. Considered a bigger feature because the genre information from the various scrapers needs to be aligned, because menus to manage that information need to be created and the info needs to be imported from ES-DE properly.</string>
+    <string name="settings_roadmap_big_retro_achievements_title" translatable="false">Retro Achievements</string>
+    <string name="settings_roadmap_big_retro_achievements_text" translatable="false">Adding a dedicated space which provides an overview over all your trophies. Plus, integrating it into other screens like the game category, game options etc.</string>
+    <string name="settings_roadmap_big_app_folders_title" translatable="false">App folders and/or favourite apps</string>
+    <string name="settings_roadmap_big_app_folders_text" translatable="false">Similar to game sections, you should be able to sort your apps to your liking. You should also be able to mark certain apps as favourites so they appear in a quick access menu.</string>
+    <string name="settings_roadmap_big_sort_by_franchise_title" translatable="false">Sort by franchise</string>
+    <string name="settings_roadmap_big_sort_by_franchise_text" translatable="false">Similar to sort by platform, by release date etc. Same complexity reasons like the „Sort by genre“ feature, but with the extra challenge that not all scrapers provide this info. In a perfect world, you should then be able to use the quick sort function to see sections like „Grand Theft Auto“ containing all GTA games across all platforms.</string>
+    <string name="settings_roadmap_big_more_themes_title" translatable="false">More themes</string>
+    <string name="settings_roadmap_big_more_themes_text" translatable="false">Please let me know what kind of themes you would like to see. There have been requests for an XBOX 360 like theme for example. The themes do not have to be based on any original and could be something completely new.</string>
+    <string name="settings_roadmap_big_more_animations_title" translatable="false">More background animations</string>
+    <string name="settings_roadmap_big_more_animations_text" translatable="false">Please let me know what kind of animations you would like to see.</string>
+    <string name="settings_roadmap_big_home_screen_title" translatable="false">Home Screen</string>
+    <string name="settings_roadmap_big_home_screen_text" translatable="false">A separate home tab/section. This can be potentially a place to display the recents/favourites section, your recently unlocked Retro Achievements, favourite apps, recommended games and game apps (optional) and more.</string>
+    <string name="settings_roadmap_big_discord_title" translatable="false">Discord Rich Presence</string>
+    <string name="settings_roadmap_big_discord_text" translatable="false">If you want to, you should be able to log in with your Discord account to share your currently played game with your friends.</string>
+    <string name="settings_roadmap_big_dual_screen_title" translatable="false">Extensive dual screen support</string>
+    <string name="settings_roadmap_big_dual_screen_text" translatable="false">Currently Papaya only supports selecting the different screens where an app/game should be launched on. When Papaya is opened on a Dual Screen device, the not focused second screen could display some additional information (Game cover, logo, Retro Achievements etc). The priority of this feature is low, because there are other Frontends with that specific focus and the effort is bigger to integrate this nicely: What information is useful to be displayed? Avoiding duplicate information etc.</string>
+    <string name="settings_roadmap_big_surprise_title" translatable="false">Surprise feature</string>
+    <string name="settings_roadmap_big_surprise_text" translatable="false">🙂</string>
+
+    <string name="settings_roadmap_long_term_degoogled_title" translatable="false">Degoogled distribution of Papaya</string>
+    <string name="settings_roadmap_long_term_degoogled_text" translatable="false">Some devices don’t support the Google Play Services and some people don’t want to use any Google services. There should be a way to buy Papaya outside the Google ecosystem. Supporters who bought the app in Google Play should be able to retrieve the degoogled APK as well without paying a second time.</string>
+    <string name="settings_roadmap_long_term_theme_api_title" translatable="false">Open Sourcing the theme API</string>
+    <string name="settings_roadmap_long_term_theme_api_text" translatable="false">There could be a repository with the theme API and some theme samples. Anybody who is familiar with Kotlin and Jetpack Compose could easily contribute their own themes that way.</string>
+    <string name="settings_roadmap_long_term_libretro_title" translatable="false">Alternative version with libretro cores included</string>
+    <string name="settings_roadmap_long_term_libretro_text" translatable="false">Not sure if that is feasible though. This is „shooting for the stars“ material. It would be neat to download libretro cores on demand and have them directly integrated in Papaya. However, there are lots of things to consider: Due to the licenses, this Papaya version would probably need to be free and supporters definitely need to receive something extra. Also, there must be proper settings to configure the cores, manage saves etc.</string>
 
     <!-- Settings - Privacy Policy -->
     <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
@@ -750,6 +966,7 @@
     <string name="settings_about_section_attribution_it">🇮🇹 Italian by &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
     <string name="settings_about_section_attribution_fi">🇫🇮 Finnish by &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
     <string name="settings_about_section_attribution_ru">🇷🇺 Russian by &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_tr">🇹🇷 Turkish by &lt;a href="https://github.com/lunishworks"&gt;Lunar&lt;/a&gt;. Çok teşekkürler! 🙏</string>
     <string name="settings_about_section_attribution_subtitle_sounds_icons">Sounds &amp; Icons</string>
     <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Thank you for the amazing platform icons! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS and SNES.</string>
     <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Thank you for the amazing platform icon for PICO-8! 🙏</string>
