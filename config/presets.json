@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 4,
-  "presetConfigurationVersion": 22,
+  "presetConfigurationVersion": 23,
   "platforms": [
     {
       "key": "and",
@@ -1660,6 +1660,18 @@
       "supportedFiles": [
         {
           "type": "pkg"
+        },
+        {
+          "type": "ps3"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "pup"
+        },
+        {
+          "type": "zip"
         },
         {
           "type": "elf"
@@ -9937,6 +9949,25 @@
       }
     },
     {
+      "packageName": "com.pizzaemulators.pbds",
+      "name": "Pizza Boy Double Slice",
+      "supportedPlatforms": [
+        "nds"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.pizzaemulators.pbds.MainActivity",
+        "fileParameterName": "rom_uri"
+      },
+      "references": {
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.pizzaemulators.pbds"
+          }
+        ]
+      }
+    },
+    {
       "packageName": "it.dbtecno.pizzaboypro",
       "name": "Pizza Boy C Pro",
       "supportedPlatforms": [
@@ -10028,6 +10059,23 @@
             "url": "https://play.google.com/store/apps/details?id=it.dbtecno.pizzaboyscbasic"
           }
         ]
+      }
+    },
+    {
+      "packageName": "com.pokedaisy.app",
+      "name": "PokeDaisy",
+      "supportedPlatforms": [
+        "gb",
+        "gbc",
+        "gba"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.pokedaisy.app.LaunchActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "POKEDAISY"
+        }
       }
     },
     {
