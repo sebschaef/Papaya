@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 4,
-  "presetConfigurationVersion": 23,
+  "presetConfigurationVersion": 24,
   "platforms": [
     {
       "key": "and",
@@ -2298,6 +2298,37 @@
       "references": {
         "esDe": {
           "path": "flash"
+        }
+      }
+    },
+    {
+      "key": "nvb",
+      "shortName": "NVB",
+      "name": "Nintendo Virtual Boy",
+      "supportedFiles": [
+        {
+          "type": "vb"
+        },
+        {
+          "type": "zip"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "vboy"
+        },
+        {
+          "type": "7z"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "87",
+        "tgdb": "4918"
+      },
+      "references": {
+        "esDe": {
+          "path": "virtualboy"
         }
       }
     }
@@ -4849,6 +4880,28 @@
       }
     },
     {
+      "packageName": "com.retroarch",
+      "core": "mednafen_vb",
+      "name": "RetroArch - Beetle VB",
+      "supportedPlatforms": [
+        "nvb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle VB"
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch"
+          }
+        ]
+      }
+    },
+    {
       "packageName": "com.retroarch.aarch64",
       "core": "opera_libretro_android.so",
       "name": "RetroArch (64bit) - Opera",
@@ -7258,6 +7311,28 @@
       }
     },
     {
+      "packageName": "com.retroarch.aarch64",
+      "core": "mednafen_vb",
+      "name": "RetroArch (64bit) - Beetle VB",
+      "supportedPlatforms": [
+        "nvb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle VB"
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.retroarch.aarch64"
+          }
+        ]
+      }
+    },
+    {
       "packageName": "com.retroarch.ra32",
       "core": "opera_libretro_android.so",
       "name": "RetroArch (32bit) - Opera",
@@ -9009,6 +9084,22 @@
       }
     },
     {
+      "packageName": "com.retroarch.ra32",
+      "core": "mednafen_vb",
+      "name": "RetroArch (32bit) - Beetle VB",
+      "supportedPlatforms": [
+        "nvb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
+      },
+      "references": {
+        "esDe": {
+          "label": "Beetle VB"
+        }
+      }
+    },
+    {
       "packageName": "org.mupen64plusae.v3.fzurita.pro",
       "name": "M64Plus FZ Pro",
       "supportedPlatforms": [
@@ -10067,7 +10158,8 @@
       "supportedPlatforms": [
         "gb",
         "gbc",
-        "gba"
+        "gba",
+        "nds"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.pokedaisy.app.LaunchActivity"
@@ -10800,6 +10892,27 @@
           {
             "type": "googleplay",
             "url": "https://play.google.com/store/apps/details?id=com.issess.flashplayer"
+          }
+        ]
+      }
+    },
+    {
+      "packageName": "com.simongellis.vvb",
+      "name": "Virtual Virtual Boy",
+      "supportedPlatforms": [
+        "nvb"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.simongellis.vvb.MainActivity"
+      },
+      "references": {
+        "esDe": {
+          "label": "Virtual Virtual Boy (Standalone)"
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.simongellis.vvb"
           }
         ]
       }
