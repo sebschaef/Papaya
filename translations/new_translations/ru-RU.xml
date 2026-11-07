@@ -1,0 +1,141 @@
+<resources>
+    <!-- Deckish - Apps -->
+    <string name="deckish_apps_shelf_favourites_title">@string/gallery_games_sorting_section_favourites_title</string>
+    <string name="deckish_apps_shelf_other_title">@string/gallery_search_section_other</string>
+
+    <!-- Item options - App -->
+    <string name="item_options_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_app_menu_option_hide">Скрыть приложение</string>
+    <string name="item_options_app_menu_warning_dialog_hide_title">@string/item_options_game_file_warning_dialog_hide_title</string>
+    <string name="item_options_app_menu_warning_dialog_hide_text">Приложение больше не будет отображаться в вашем списке приложений. Вы всегда можете вернуть его в [Настройки] > [Приложения] > [Приложение].</string>
+    <string name="item_options_app_menu_warning_dialog_hide_confirm">@string/item_options_app_menu_option_hide</string>
+    <string name="item_options_app_menu_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_menu_option_games">Игры</string>
+    <string name="settings_main_menu_menu_option_apps">Приложения</string>
+
+    <!-- Settings - Games -->
+    <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
+    <string name="settings_games_menu_option_platforms">Платформы</string>
+    <string name="settings_games_menu_option_collections">Коллекции</string>
+
+    <!-- Settings - Apps -->
+    <string name="settings_apps_title">Приложения</string>
+    <string name="settings_apps_cta_create_folder">Создать папку</string>
+    <string name="settings_apps_favourites">Избранное</string>
+    <string name="settings_apps_reorder_title">Изменить порядок приложений</string>
+    <string name="settings_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+
+    <!-- Settings - Favourite apps -->
+    <string name="settings_favourite_apps_title">@string/settings_apps_favourites</string>
+    <string name="settings_favourite_apps_reorder_title">Изменить порядок избранного</string>
+    <string name="settings_favourite_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_favourite_apps_empty">Пока нет избранных приложений</string>
+    <string name="settings_favourite_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_favourite_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_favourite_apps_tip_box_title">Где найти избранные приложения?</string>
+    <string name="settings_favourite_apps_tip_box_description">Избранные приложения используются только в некоторых темах. Например, тема Deckish показывает их в самом верху вкладки приложений.</string>
+
+    <!-- Settings - Emulator apps folder -->
+    <string name="settings_emulator_apps_folder_title">@string/gallery_top_bar_category_emulators</string>
+    <string name="settings_emulator_apps_folder_setting_enabled_title">Включено</string>
+    <string name="settings_emulator_apps_folder_tip_box_title">Управляемая папка эмуляторов</string>
+    <string name="settings_emulator_apps_folder_tip_box_description">Эта папка автоматически собирает все установленные эмуляторы, которые поддерживает Papaya. Если её отключить, эмуляторы появятся в общем списке приложений, и вы сможете свободно их перемещать.</string>
+    <string name="managed_emulator_apps_folder_name">Эмуляторы</string>
+
+    <!-- Settings - App options -->
+    <string name="settings_app_options_menu_option_move_to">Переместить в</string>
+    <string name="settings_app_options_menu_option_favourite">Добавить в избранное</string>
+    <string name="settings_app_options_menu_option_hide">Скрыть</string>
+    <string name="settings_app_options_move_to_dialog_top_level">Верхний уровень</string>
+    <string name="settings_app_options_move_to_dialog_new_folder">Новая папка</string>
+
+    <!-- Settings - App folder -->
+    <string name="settings_app_folder_menu_option_appearance">Изменить внешний вид папки</string>
+    <string name="settings_app_folder_menu_option_delete">Удалить папку</string>
+    <string name="settings_app_folder_empty_info">Добавляйте приложения в эту папку через меню параметров приложения с помощью [%1$s].</string>
+    <string name="settings_app_folder_reorder_title">@string/settings_apps_reorder_title</string>
+    <string name="settings_app_folder_reorder_cta_done">@string/common_done</string>
+    <string name="settings_app_folder_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_app_folder_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_app_folder_delete_dialog_title">Удалить папку \"%1$s\"?</string>
+    <string name="settings_app_folder_delete_dialog_text">Папка будет удалена. Все приложения из этой папки будут перемещены на верхний уровень.</string>
+    <string name="settings_app_folder_delete_dialog_confirm">@string/settings_app_folder_menu_option_delete</string>
+    <string name="settings_app_folder_delete_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - App folder appearance -->
+    <string name="settings_app_folder_edit_appearance_section_title">Внешний вид папки</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image">Изображение папки (необязательно)</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_app_folder_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_app_folder_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_title">Выйти из редактора внешнего вида папки?</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_title">Удалить изображение папки?</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_text">Для папки будет использоваться значок по умолчанию.</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_platform_background">Фон платформы</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_title">Удалить фон платформы?</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_text">Игры этой платформы без собственного фона больше не будут отображать фон.</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_confirm">Удалить фон</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Appearance -->
+    <string name="settings_appearance_menu_menu_option_game_appearance">Игры</string>
+    <string name="settings_appearance_menu_menu_option_app_appearance">Приложения</string>
+
+    <!-- Settings - Appearance - Games -->
+    <string name="settings_appearance_games_menu_title">@string/settings_appearance_menu_menu_option_game_appearance</string>
+
+    <!-- Settings - Appearance - Apps -->
+    <string name="settings_appearance_apps_menu_title">@string/settings_appearance_menu_menu_option_app_appearance</string>
+    <string name="settings_appearance_apps_setting_app_icons_title">@string/settings_appearance_app_icon_menu_title</string>
+
+    <!-- Settings - Appearance - Apps - App icon -->
+    <string name="settings_appearance_app_icon_menu_title">Внешний вид значков приложений</string>
+    <string name="settings_appearance_app_icon_preview_label">Предпросмотр</string>
+    <string name="settings_appearance_app_icon_setting_shape_title">Форма значка</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_circle">Круг</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_square">Квадрат</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_square">Скруглённый квадрат</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_squircle">Сквиркл</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_teardrop">Капля</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexagon">Шестиугольник</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexadecagon">Волнистый круг</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_pixel_circle">Пиксельный круг</string>
+    <string name="settings_appearance_app_icon_setting_glass_background_title">Стеклянный фон</string>
+    <string name="settings_appearance_app_icon_setting_themed_title">Тематические значки</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_setting_start_category_title">Стартовая категория</string>
+    <string name="settings_appearance_general_setting_start_category_option_games">@string/gallery_top_bar_category_games</string>
+    <string name="settings_appearance_general_setting_start_category_option_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="settings_appearance_general_setting_start_category_option_streaming">@string/gallery_top_bar_category_streaming</string>
+    <string name="settings_appearance_general_setting_start_category_option_search">@string/gallery_top_bar_category_search</string>
+    <string name="settings_appearance_general_setting_platform_backgrounds_title">Показывать фоны платформ</string>
+
+    <!-- Settings - Appearance - Landscape layout-->
+    <string name="settings_appearance_landscape_layout_menu_title">Тема в альбомной ориентации</string>
+
+    <!-- Settings - Appearance - Portrait layout-->
+    <string name="settings_appearance_portrait_layout_menu_title">Тема в портретной ориентации</string>
+
+    <!-- Shared UI -->
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded_no_new_games">Завершено: Поиск новых игр. Новых игр не найдено.</string>
+    <plurals name="snackbar_platform_detect_new_games_all_platforms_succeeded_new_games">
+        <item quantity="one">Завершено: Поиск новых игр. Найдена %1$s новая игра.</item>
+        <item quantity="few">Завершено: Поиск новых игр. Найдено %1$s новые игры.</item>
+        <item quantity="many">Завершено: Поиск новых игр. Найдено %1$s новых игр.</item>
+        <item quantity="other">Завершено: Поиск новых игр. Найдено %1$s новой игры.</item>
+    </plurals>
+    <string name="snackbar_new_config_version_available">Доступна для установки новая версия конфигурации эмуляторов.</string>
+</resources>
