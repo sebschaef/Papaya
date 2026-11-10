@@ -106,6 +106,10 @@
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Opcje sortowania</string>
 
+    <!-- Deckish - Apps -->
+    <string name="deckish_apps_shelf_favourites_title">@string/gallery_games_sorting_section_favourites_title</string>
+    <string name="deckish_apps_shelf_other_title">@string/gallery_search_section_other</string>
+
     <!-- XMB - Games -->
     <string name="xmb_games_option_reorder_title">Sortowanie</string>
     <string name="xmb_games_error_no_games_available">Brak dostępnych gier</string>
@@ -338,12 +342,15 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Ustawienia</string>
     <string name="settings_main_menu_menu_option_android">Ustawienia urządzenia</string>
-    <string name="settings_main_menu_menu_option_platform">Platformy</string>
-    <string name="settings_main_menu_menu_option_collections">Kolekcje</string>
+    <string name="settings_main_menu_menu_option_games">Gry</string>
     <string name="settings_main_menu_menu_option_appearance">Wygląd i zachowanie</string>
     <string name="settings_main_menu_menu_option_advanced">Zaawansowane</string>
     <string name="settings_main_menu_menu_option_more">Więcej</string>
     <string name="settings_main_menu_menu_option_buy_license">Kup wersję bez ograniczeń</string>
+
+    <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
+    <string name="settings_games_menu_option_platforms">Platformy</string>
+    <string name="settings_games_menu_option_collections">Kolekcje</string>
 
     <!-- Settings - Platforms -->
     <string name="settings_platforms_title">Platformy</string>
@@ -363,6 +370,15 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Grupuj gry po swojemu</string>
     <string name="settings_collections_tip_box_description">Twórz własne kolekcje i dodawaj do nich dowolne gry. Np. kolekcję wszystkich gier GTA z różnych platform albo kolekcję ulubionych gier z dzieciństwa.\nDo swoich kolekcji przejdziesz potem na ekranie głównym, używając funkcji [Sortuj] z opcją „Według kolekcji”.</string>
+    <string name="settings_apps_folder_label_empty">Pusty</string>
+    <plurals name="settings_apps_folder_label_app_quantity">
+        <item quantity="one">%d aplikacja</item>
+        <item quantity="few">%d aplikacje</item>
+        <item quantity="many">%d aplikacji</item>
+        <item quantity="other">%d aplikacji</item>
+    </plurals>
+    <string name="settings_apps_emulators_folder_badge_managed">Zarządzany</string>
+    <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Wygląd kolekcji</string>
@@ -508,6 +524,11 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Kształt ikon aplikacji</string>
     <string name="settings_appearance_general_setting_background_style_title">Tło</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Ustaw Papayę jako domyślny launcher</string>
+    <string name="settings_appearance_general_setting_start_category_title">Kategoria startowa</string>
+    <string name="settings_appearance_general_setting_start_category_option_games">@string/gallery_top_bar_category_games</string>
+    <string name="settings_appearance_general_setting_start_category_option_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="settings_appearance_general_setting_start_category_option_streaming">@string/gallery_top_bar_category_streaming</string>
+    <string name="settings_appearance_general_setting_start_category_option_search">@string/gallery_top_bar_category_search</string>
     <string name="settings_appearance_general_setting_search_preferences_title">Preferencje wyszukiwania</string>
     <string name="settings_appearance_general_setting_launch_display_title">Domyślny ekran uruchamiania</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Ten sam ekran (domyślnie)</string>
@@ -914,6 +935,7 @@
     <string name="shared_ui_last_played_yesterday">Wczoraj</string>
     <string name="shared_ui_last_played_days_ago">%1$s dni temu</string>
     <string name="shared_ui_error_no_app_found_to_handle_action">Twoje urządzenie nie ma aplikacji do obsługi tej akcji</string>
+    <string name="shared_ui_new_folder_name">Nowy folder</string>
     
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>

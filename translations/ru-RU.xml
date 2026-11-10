@@ -98,6 +98,10 @@
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Опции сортировки</string>
 
+    <!-- Deckish - Apps -->
+    <string name="deckish_apps_shelf_favourites_title">@string/gallery_games_sorting_section_favourites_title</string>
+    <string name="deckish_apps_shelf_other_title">@string/gallery_search_section_other</string>
+
     <!-- XMB - Games -->
     <string name="xmb_games_option_reorder_title">Сортировать</string>
     <string name="xmb_games_error_no_games_available">Нет доступных игр</string>
@@ -317,12 +321,15 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Настройки</string>
     <string name="settings_main_menu_menu_option_android">Настройки устройства</string>
-    <string name="settings_main_menu_menu_option_platform">Платформы</string>
-    <string name="settings_main_menu_menu_option_collections">Коллекции</string>
+    <string name="settings_main_menu_menu_option_games">Игры</string>
     <string name="settings_main_menu_menu_option_appearance">Внешний вид и поведение</string>
     <string name="settings_main_menu_menu_option_advanced">Расширенная конфигурация</string>
     <string name="settings_main_menu_menu_option_more">Дополнительно</string>
     <string name="settings_main_menu_menu_option_buy_license">Купить безлимитную лицензию</string>
+
+    <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
+    <string name="settings_games_menu_option_platforms">Платформы</string>
+    <string name="settings_games_menu_option_collections">Коллекции</string>
 
     <!-- Settings - Platforms -->
     <string name="settings_platforms_title">Платформы</string>
@@ -342,6 +349,15 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Группируйте игры по-своему</string>
     <string name="settings_collections_tip_box_description">Создавайте собственные коллекции и добавляйте в них любые игры. Например, коллекцию всех игр GTA на разных платформах или коллекцию любимых игр детства.\nЗатем коллекции можно открыть на главном экране с помощью функции [Сортировать] с опцией \"По коллекции\".</string>
+    <string name="settings_apps_folder_label_empty">Пустая</string>
+    <plurals name="settings_apps_folder_label_app_quantity">
+        <item quantity="one">%d приложение</item>
+        <item quantity="few">%d приложения</item>
+        <item quantity="many">%d приложений</item>
+        <item quantity="other">%d приложения</item>
+    </plurals>
+    <string name="settings_apps_emulators_folder_badge_managed">Управляемая</string>
+    <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Внешний вид коллекции</string>
@@ -487,6 +503,11 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Форма значков приложений</string>
     <string name="settings_appearance_general_setting_background_style_title">Фон</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Сделать Papaya запускаемым по умолчанию</string>
+    <string name="settings_appearance_general_setting_start_category_title">Стартовая категория</string>
+    <string name="settings_appearance_general_setting_start_category_option_games">@string/gallery_top_bar_category_games</string>
+    <string name="settings_appearance_general_setting_start_category_option_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="settings_appearance_general_setting_start_category_option_streaming">@string/gallery_top_bar_category_streaming</string>
+    <string name="settings_appearance_general_setting_start_category_option_search">@string/gallery_top_bar_category_search</string>
     <string name="settings_appearance_general_setting_search_preferences_title">Настройки поиска</string>
     <string name="settings_appearance_general_setting_launch_display_title">Дисплей запуска по умолчанию</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Тот же дисплей (по умолчанию)</string>
@@ -883,6 +904,7 @@
     <string name="shared_ui_last_played_yesterday">Вчера</string>
     <string name="shared_ui_last_played_days_ago">%1$s дней назад</string>
     <string name="shared_ui_error_no_app_found_to_handle_action">На вашем устройстве нет приложения, которое может выполнить это действие</string>
+    <string name="shared_ui_new_folder_name">Новая папка</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>

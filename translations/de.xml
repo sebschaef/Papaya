@@ -369,6 +369,13 @@
     <string name="settings_apps_reorder_cta_done">@string/common_done</string>
     <string name="settings_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
     <string name="settings_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_apps_folder_label_empty">Leer</string>
+    <plurals name="settings_apps_folder_label_app_quantity">
+        <item quantity="one">%d App</item>
+        <item quantity="other">%d Apps</item>
+    </plurals>
+    <string name="settings_apps_emulators_folder_badge_managed">Verwaltet</string>
+    <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
 
     <!-- Settings - Favourite apps -->
     <string name="settings_favourite_apps_title">@string/settings_apps_favourites</string>
@@ -1002,6 +1009,7 @@
     <string name="shared_ui_last_played_yesterday">Gestern</string>
     <string name="shared_ui_last_played_days_ago">Vor %1$s Tagen</string>
     <string name="shared_ui_error_no_app_found_to_handle_action">Dein Gerät stellt keine App bereit, um diese Aktion auszuführen</string>
+    <string name="shared_ui_new_folder_name">Neuer Ordner</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
