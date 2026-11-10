@@ -693,11 +693,6 @@
     <string name="settings_search_setting_clear_search_history_title">Suchverlauf löschen</string>
     <string name="settings_search_setting_cleared_search_history_toast">Suchverlauf gelöscht</string>
 
-    <!-- Settings - Search -->
-    <string name="settings_search_setting_search_engine_title">Suchmaschine</string>
-    <string name="settings_search_setting_clear_search_history_title">Suchverlauf löschen</string>
-    <string name="settings_search_setting_cleared_search_history_toast">Suchverlauf gelöscht</string>
-
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
     <string name="settings_config_updater_label_checking_for_update">Nach Updates suchen</string>
@@ -912,18 +907,6 @@
     <string name="settings_release_notes_section_notes">Anmerkungen</string>
     <string name="settings_release_notes_footer_discord">Die Versionshinweise der Alpha- und Beta-Versionen findest du im Papaya Discord.</string>
     <string name="settings_release_notes_key_hints_scroll">Scrollen</string>
-    <string name="settings_release_notes_key_hints_jump_version">Zur Version springen</string>
-
-    <!-- Settings - Release notes -->
-    <string name="settings_release_notes_intro_title">Was ist neu?</string>
-    <string name="settings_release_notes_intro_text">Alle Änderungen der stabilen Papaya-Versionen auf einen Blick.</string>
-    <string name="settings_release_notes_version_label">Version</string>
-    <string name="settings_release_notes_badge_latest">Neueste</string>
-    <string name="settings_release_notes_badge_installed">Installiert</string>
-    <string name="settings_release_notes_section_new_features">Neue Features</string>
-    <string name="settings_release_notes_section_fixes">Fehlerbehebungen und Verbesserungen</string>
-    <string name="settings_release_notes_section_notes">Anmerkungen</string>
-    <string name="settings_release_notes_footer_discord">Die Versionshinweise der Alpha- und Beta-Versionen findest du im Papaya Discord.</string>
     <string name="settings_release_notes_key_hints_jump_version">Zur Version springen</string>
 
     <!-- Settings - Privacy Policy -->

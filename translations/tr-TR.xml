@@ -595,11 +595,6 @@
     <string name="settings_search_setting_clear_search_history_title">Arama geçmişini temizle</string>
     <string name="settings_search_setting_cleared_search_history_toast">Arama geçmişi temizlendi</string>
 
-    <!-- Settings - Search -->
-    <string name="settings_search_setting_search_engine_title">Arama motoru</string>
-    <string name="settings_search_setting_clear_search_history_title">Arama geçmişini temizle</string>
-    <string name="settings_search_setting_cleared_search_history_toast">Arama geçmişi temizlendi</string>
-
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
     <string name="settings_config_updater_label_checking_for_update">Güncellemeler denetleniyor</string>
@@ -813,18 +808,6 @@
     <string name="settings_release_notes_section_notes">Notlar</string>
     <string name="settings_release_notes_footer_discord">Alpha ve Beta sürüm notları Papaya Discord kanalında bulunabilir.</string>
     <string name="settings_release_notes_key_hints_scroll">Kaydır</string>
-    <string name="settings_release_notes_key_hints_jump_version">Sürüme atla</string>
-
-    <!-- Settings - Release notes -->
-    <string name="settings_release_notes_intro_title">Neler yeni?</string>
-    <string name="settings_release_notes_intro_text">Papaya\'nın kararlı sürümlerindeki tüm değişiklikler bir arada.</string>
-    <string name="settings_release_notes_version_label">Sürüm</string>
-    <string name="settings_release_notes_badge_latest">Güncel sürüm</string>
-    <string name="settings_release_notes_badge_installed">Yüklü</string>
-    <string name="settings_release_notes_section_new_features">Yeni özellikler</string>
-    <string name="settings_release_notes_section_fixes">Hata düzeltmeleri ve iyileştirmeler</string>
-    <string name="settings_release_notes_section_notes">Notlar</string>
-    <string name="settings_release_notes_footer_discord">Alpha ve Beta sürüm notları Papaya Discord kanalında bulunabilir.</string>
     <string name="settings_release_notes_key_hints_jump_version">Sürüme atla</string>
 
     <!-- Settings - Privacy Policy -->

@@ -595,11 +595,6 @@
     <string name="settings_search_setting_clear_search_history_title">Очистить историю поиска</string>
     <string name="settings_search_setting_cleared_search_history_toast">История поиска очищена</string>
 
-    <!-- Settings - Search -->
-    <string name="settings_search_setting_search_engine_title">Поисковая система</string>
-    <string name="settings_search_setting_clear_search_history_title">Очистить историю поиска</string>
-    <string name="settings_search_setting_cleared_search_history_toast">История поиска очищена</string>
-
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
     <string name="settings_config_updater_label_checking_for_update">Проверка обновлений</string>
@@ -813,18 +808,6 @@
     <string name="settings_release_notes_section_notes">Примечания</string>
     <string name="settings_release_notes_footer_discord">Примечания к выпускам альфа- и бета-версий можно найти на Discord-сервере Papaya.</string>
     <string name="settings_release_notes_key_hints_scroll">Прокрутка</string>
-    <string name="settings_release_notes_key_hints_jump_version">Перейти к версии</string>
-
-    <!-- Settings - Release notes -->
-    <string name="settings_release_notes_intro_title">Что нового?</string>
-    <string name="settings_release_notes_intro_text">Все изменения стабильных версий Papaya в одном месте.</string>
-    <string name="settings_release_notes_version_label">Версия</string>
-    <string name="settings_release_notes_badge_latest">Последняя</string>
-    <string name="settings_release_notes_badge_installed">Установлена</string>
-    <string name="settings_release_notes_section_new_features">Новые функции</string>
-    <string name="settings_release_notes_section_fixes">Исправления и улучшения</string>
-    <string name="settings_release_notes_section_notes">Примечания</string>
-    <string name="settings_release_notes_footer_discord">Примечания к выпускам альфа- и бета-версий можно найти на Discord-сервере Papaya.</string>
     <string name="settings_release_notes_key_hints_jump_version">Перейти к версии</string>
 
     <!-- Settings - Privacy Policy -->

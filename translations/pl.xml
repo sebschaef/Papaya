@@ -715,11 +715,6 @@
     <string name="settings_search_setting_clear_search_history_title">Wyczyść historię wyszukiwania</string>
     <string name="settings_search_setting_cleared_search_history_toast">Wyczyszczono historię wyszukiwania</string>
 
-    <!-- Settings - Search -->
-    <string name="settings_search_setting_search_engine_title">Wyszukiwarka</string>
-    <string name="settings_search_setting_clear_search_history_title">Wyczyść historię wyszukiwania</string>
-    <string name="settings_search_setting_cleared_search_history_toast">Wyczyszczono historię wyszukiwania</string>
-
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
     <string name="settings_config_updater_label_checking_for_update">Sprawdzanie aktualizacji…</string>
@@ -943,18 +938,6 @@
     <string name="settings_release_notes_section_notes">Uwagi</string>
     <string name="settings_release_notes_footer_discord">Informacje o wydaniach wersji alfa i beta znajdziesz na Discordzie Papaya.</string>
     <string name="settings_release_notes_key_hints_scroll">Przewiń</string>
-    <string name="settings_release_notes_key_hints_jump_version">Przejdź do wersji</string>
-
-    <!-- Settings - Release notes -->
-    <string name="settings_release_notes_intro_title">Co nowego?</string>
-    <string name="settings_release_notes_intro_text">Wszystkie zmiany w stabilnych wersjach Papaya w skrócie.</string>
-    <string name="settings_release_notes_version_label">Wersja</string>
-    <string name="settings_release_notes_badge_latest">Najnowsza</string>
-    <string name="settings_release_notes_badge_installed">Zainstalowana</string>
-    <string name="settings_release_notes_section_new_features">Nowe funkcje</string>
-    <string name="settings_release_notes_section_fixes">Poprawki i ulepszenia</string>
-    <string name="settings_release_notes_section_notes">Uwagi</string>
-    <string name="settings_release_notes_footer_discord">Informacje o wydaniach wersji alfa i beta znajdziesz na Discordzie Papaya.</string>
     <string name="settings_release_notes_key_hints_jump_version">Przejdź do wersji</string>
 
     <!-- Settings - Privacy Policy -->

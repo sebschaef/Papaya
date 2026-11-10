@@ -591,11 +591,6 @@
     <string name="settings_search_setting_clear_search_history_title">Tyhjennä hakuhistoria</string>
     <string name="settings_search_setting_cleared_search_history_toast">Hakuhistoria tyhjennetty</string>
 
-    <!-- Settings - Search -->
-    <string name="settings_search_setting_search_engine_title">Hakukone</string>
-    <string name="settings_search_setting_clear_search_history_title">Tyhjennä hakuhistoria</string>
-    <string name="settings_search_setting_cleared_search_history_toast">Hakuhistoria tyhjennetty</string>
-
     <!-- Settings - Config Updater -->
     <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
     <string name="settings_config_updater_label_checking_for_update">Tarkistetaan päivityksiä</string>
@@ -809,18 +804,6 @@
     <string name="settings_release_notes_section_notes">Huomiot</string>
     <string name="settings_release_notes_footer_discord">Alfa- ja beetaversioiden julkaisutiedot löytyvät Papayan Discordista.</string>
     <string name="settings_release_notes_key_hints_scroll">Vieritä</string>
-    <string name="settings_release_notes_key_hints_jump_version">Siirry versioon</string>
-
-    <!-- Settings - Release notes -->
-    <string name="settings_release_notes_intro_title">Mitä uutta?</string>
-    <string name="settings_release_notes_intro_text">Kaikki Papayan vakaiden versioiden muutokset yhdellä silmäyksellä.</string>
-    <string name="settings_release_notes_version_label">Versio</string>
-    <string name="settings_release_notes_badge_latest">Uusin</string>
-    <string name="settings_release_notes_badge_installed">Asennettu</string>
-    <string name="settings_release_notes_section_new_features">Uudet ominaisuudet</string>
-    <string name="settings_release_notes_section_fixes">Korjaukset ja parannukset</string>
-    <string name="settings_release_notes_section_notes">Huomiot</string>
-    <string name="settings_release_notes_footer_discord">Alfa- ja beetaversioiden julkaisutiedot löytyvät Papayan Discordista.</string>
     <string name="settings_release_notes_key_hints_jump_version">Siirry versioon</string>
 
     <!-- Settings - Privacy Policy -->
