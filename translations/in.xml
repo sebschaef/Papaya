@@ -101,6 +101,10 @@
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Opsi pengurutan</string>
 
+    <!-- Deckish - Apps -->
+    <string name="deckish_apps_shelf_favourites_title">@string/gallery_games_sorting_section_favourites_title</string>
+    <string name="deckish_apps_shelf_other_title">@string/gallery_search_section_other</string>
+
     <!-- XMB - Games -->
     <string name="xmb_games_option_reorder_title">Urutkan</string>
     <string name="xmb_games_error_no_games_available">Tidak ada game yang tersedia</string>
@@ -315,12 +319,15 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Pengaturan</string>
     <string name="settings_main_menu_menu_option_android">Pengaturan perangkat</string>
-    <string name="settings_main_menu_menu_option_platform">Platform</string>
-    <string name="settings_main_menu_menu_option_collections">Koleksi</string>
+    <string name="settings_main_menu_menu_option_games">Game</string>
     <string name="settings_main_menu_menu_option_appearance">Tampilan &amp; perilaku</string>
     <string name="settings_main_menu_menu_option_advanced">Konfigurasi lanjutan</string>
     <string name="settings_main_menu_menu_option_more">Lainnya</string>
     <string name="settings_main_menu_menu_option_buy_license">Beli lisensi tanpa batas</string>
+
+    <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
+    <string name="settings_games_menu_option_platforms">Platform</string>
+    <string name="settings_games_menu_option_collections">Koleksi</string>
 
     <!-- Settings - Platforms -->
     <string name="settings_platforms_title">Platform</string>
@@ -340,6 +347,12 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Kelompokkan game sesukamu</string>
     <string name="settings_collections_tip_box_description">Buat koleksi kustom dan masukkan game apa pun ke dalamnya. Misalnya koleksi berisi semua game GTA dari berbagai platform, atau koleksi game favorit masa kecilmu.\nKamu lalu bisa membuka koleksimu di layar utama dengan fungsi [Urutkan] dan memilih \"Menurut koleksi\".</string>
+    <string name="settings_apps_folder_label_empty">Kosong</string>
+    <plurals name="settings_apps_folder_label_app_quantity">
+        <item quantity="other">%d aplikasi</item>
+    </plurals>
+    <string name="settings_apps_emulators_folder_badge_managed">Terkelola</string>
+    <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Tampilan koleksi</string>
@@ -482,6 +495,11 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Bentuk ikon aplikasi</string>
     <string name="settings_appearance_general_setting_background_style_title">Latar belakang</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Jadikan Papaya sebagai launcher</string>
+    <string name="settings_appearance_general_setting_start_category_title">Kategori awal</string>
+    <string name="settings_appearance_general_setting_start_category_option_games">@string/gallery_top_bar_category_games</string>
+    <string name="settings_appearance_general_setting_start_category_option_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="settings_appearance_general_setting_start_category_option_streaming">@string/gallery_top_bar_category_streaming</string>
+    <string name="settings_appearance_general_setting_start_category_option_search">@string/gallery_top_bar_category_search</string>
     <string name="settings_appearance_general_setting_search_preferences_title">Preferensi pencarian</string>
     <string name="settings_appearance_general_setting_launch_display_title">Layar peluncuran bawaan</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Layar yang sama (bawaan)</string>
@@ -878,6 +896,7 @@
     <string name="shared_ui_last_played_yesterday">Kemarin</string>
     <string name="shared_ui_last_played_days_ago">%1$s hari lalu</string>
     <string name="shared_ui_error_no_app_found_to_handle_action">Tidak ada aplikasi di perangkatmu yang dapat menangani tindakan ini</string>
+    <string name="shared_ui_new_folder_name">Folder baru</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
