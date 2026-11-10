@@ -239,6 +239,13 @@
     <string name="item_options_app_menu_option_uninstall">Desinstalar app</string>
     <string name="item_options_app_menu_option_launch_display">Tela</string>
     <string name="item_options_app_menu_option_launch_display_option_not_set">Padrão</string>
+    <string name="item_options_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_app_menu_option_hide">Ocultar app</string>
+    <string name="item_options_app_menu_warning_dialog_hide_title">@string/item_options_game_file_warning_dialog_hide_title</string>
+    <string name="item_options_app_menu_warning_dialog_hide_text">O app não será mais exibido na sua lista de apps. Você pode reverter isso a qualquer momento em [Configurações] > [Apps] > [App].</string>
+    <string name="item_options_app_menu_warning_dialog_hide_confirm">@string/item_options_app_menu_option_hide</string>
+    <string name="item_options_app_menu_warning_dialog_hide_dismiss">@string/common_cancel</string>
     <string name="item_options_app_menu_error_launch_shortcut_title">Não foi possível iniciar o atalho</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
@@ -325,6 +332,7 @@
     <string name="settings_main_menu_title">Configurações</string>
     <string name="settings_main_menu_menu_option_android">Configurações do dispositivo</string>
     <string name="settings_main_menu_menu_option_games">Jogos</string>
+    <string name="settings_main_menu_menu_option_apps">Apps</string>
     <string name="settings_main_menu_menu_option_appearance">Aparência &amp; comportamento</string>
     <string name="settings_main_menu_menu_option_advanced">Configuração avançada</string>
     <string name="settings_main_menu_menu_option_more">Mais</string>
@@ -352,6 +360,13 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Agrupe seus jogos do seu jeito</string>
     <string name="settings_collections_tip_box_description">Crie coleções personalizadas e adicione qualquer um dos seus jogos a elas. Ex.: uma coleção com todos os jogos de GTA de várias plataformas ou uma coleção dos seus jogos favoritos da infância.\nDepois, você pode acessar suas coleções na tela principal usando a função [Ordenar] com \"Por coleção\".</string>
+    <string name="settings_apps_title">Apps</string>
+    <string name="settings_apps_cta_create_folder">Criar pasta</string>
+    <string name="settings_apps_favourites">Favoritos</string>
+    <string name="settings_apps_reorder_title">Reordenar apps</string>
+    <string name="settings_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_apps_folder_label_empty">Vazia</string>
     <plurals name="settings_apps_folder_label_app_quantity">
         <item quantity="one">%d app</item>
@@ -360,6 +375,58 @@
     </plurals>
     <string name="settings_apps_emulators_folder_badge_managed">Gerenciada</string>
     <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
+
+    <!-- Settings - Favourite apps -->
+    <string name="settings_favourite_apps_title">@string/settings_apps_favourites</string>
+    <string name="settings_favourite_apps_reorder_title">Reordenar favoritos</string>
+    <string name="settings_favourite_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_favourite_apps_empty">Nenhum app favorito ainda</string>
+    <string name="settings_favourite_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_favourite_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_favourite_apps_tip_box_title">Onde posso ver meus apps favoritos?</string>
+    <string name="settings_favourite_apps_tip_box_description">Apenas alguns temas usam seus apps favoritos. Por exemplo, o tema Deckish os exibe bem no topo da aba de apps.</string>
+
+    <!-- Settings - Emulator apps folder -->
+    <string name="settings_emulator_apps_folder_title">@string/gallery_top_bar_category_emulators</string>
+    <string name="settings_emulator_apps_folder_setting_enabled_title">Ativado</string>
+    <string name="settings_emulator_apps_folder_tip_box_title">Pasta de emuladores gerenciada</string>
+    <string name="settings_emulator_apps_folder_tip_box_description">Esta pasta reúne automaticamente todos os apps de emuladores instalados que são compatíveis com o Papaya. Quando desativada, os apps de emuladores aparecerão na lista geral de apps e você poderá movê-los livremente.</string>
+    <string name="managed_emulator_apps_folder_name">Emuladores</string>
+
+    <!-- Settings - App options -->
+    <string name="settings_app_options_menu_option_move_to">Mover para</string>
+    <string name="settings_app_options_menu_option_favourite">Marcar como favorito</string>
+    <string name="settings_app_options_menu_option_hide">Ocultar</string>
+    <string name="settings_app_options_move_to_dialog_top_level">Nível superior</string>
+    <string name="settings_app_options_move_to_dialog_new_folder">Nova pasta</string>
+
+    <!-- Settings - App folder -->
+    <string name="settings_app_folder_menu_option_appearance">Editar aparência da pasta</string>
+    <string name="settings_app_folder_menu_option_delete">Excluir pasta</string>
+    <string name="settings_app_folder_empty_info">Adicione apps a esta pasta pelo menu de opções de um app usando [%1$s].</string>
+    <string name="settings_app_folder_reorder_title">@string/settings_apps_reorder_title</string>
+    <string name="settings_app_folder_reorder_cta_done">@string/common_done</string>
+    <string name="settings_app_folder_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_app_folder_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_app_folder_delete_dialog_title">Excluir a pasta \"%1$s\"?</string>
+    <string name="settings_app_folder_delete_dialog_text">A pasta será excluída. Todos os apps desta pasta serão movidos para o nível superior.</string>
+    <string name="settings_app_folder_delete_dialog_confirm">@string/settings_app_folder_menu_option_delete</string>
+    <string name="settings_app_folder_delete_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - App folder appearance -->
+    <string name="settings_app_folder_edit_appearance_section_title">Aparência da pasta</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image">Imagem da pasta (opcional)</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_app_folder_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_app_folder_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_title">Sair do editor de aparência da pasta?</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_title">Remover a imagem da pasta?</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_text">A pasta usará o ícone padrão no lugar.</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Aparência da coleção</string>
@@ -425,6 +492,7 @@
     <string name="settings_platform_edit_appearance_section_title">Aparência da plataforma</string>
     <string name="settings_platform_edit_appearance_section_platform_image">Imagem da plataforma</string>
     <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Monocromático</string>
+    <string name="settings_platform_edit_appearance_section_platform_background">Fundo da plataforma</string>
     <string name="settings_platform_edit_appearance_section_name">Nome</string>
     <string name="settings_platform_edit_appearance_section_short_name">Nome curto</string>
     <string name="settings_platform_edit_appearance_key_hint_remove_image">Remover</string>
@@ -436,6 +504,10 @@
     <string name="settings_platform_edit_appearance_remove_image_dialog_text">A plataforma usará o ícone ou nome padrão no lugar.</string>
     <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Remover imagem</string>
     <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_title">Remover o fundo da plataforma?</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_text">Jogos desta plataforma sem um fundo próprio não exibirão mais nenhum fundo.</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_confirm">Remover fundo</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
@@ -474,6 +546,30 @@
     <string name="settings_appearance_menu_menu_option_general">Geral</string>
     <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
     <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_game_appearance">Jogos</string>
+    <string name="settings_appearance_menu_menu_option_app_appearance">Apps</string>
+
+    <!-- Settings - Appearance - Games -->
+    <string name="settings_appearance_games_menu_title">@string/settings_appearance_menu_menu_option_game_appearance</string>
+
+    <!-- Settings - Appearance - Apps -->
+    <string name="settings_appearance_apps_menu_title">@string/settings_appearance_menu_menu_option_app_appearance</string>
+    <string name="settings_appearance_apps_setting_app_icons_title">@string/settings_appearance_app_icon_menu_title</string>
+
+    <!-- Settings - Appearance - Apps - App icon -->
+    <string name="settings_appearance_app_icon_menu_title">Aparência dos ícones de apps</string>
+    <string name="settings_appearance_app_icon_preview_label">Prévia</string>
+    <string name="settings_appearance_app_icon_setting_shape_title">Formato do ícone</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_circle">Círculo</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_square">Quadrado</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_square">Quadrado arredondado</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_squircle">Squircle</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_teardrop">Gota</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexagon">Hexágono</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexadecagon">Ondulado</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_pixel_circle">Círculo pixelado</string>
+    <string name="settings_appearance_app_icon_setting_glass_background_title">Fundo de vidro</string>
+    <string name="settings_appearance_app_icon_setting_themed_title">Ícones com tema</string>
 
     <!-- Settings - Appearance - General -->
     <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
@@ -522,6 +618,7 @@
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Exibir barra de navegação do sistema</string>
     <string name="settings_appearance_general_setting_recents_section_title">Exibir a seção "Recentes"</string>
     <string name="settings_appearance_general_setting_game_backgrounds_title">Exibir fundos dos jogos</string>
+    <string name="settings_appearance_general_setting_platform_backgrounds_title">Exibir fundos das plataformas</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Exibir a seção "Favoritos"</string>
 
     <!-- Settings - Appearance - Layout-->
@@ -893,11 +990,18 @@
     <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">Na fila: Detectando novos jogos.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_running">Executando em segundo plano: Detectando novos jogos.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Detecção de novos jogos concluída.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded_no_new_games">Detecção de novos jogos concluída. Nenhum jogo novo encontrado.</string>
+    <plurals name="snackbar_platform_detect_new_games_all_platforms_succeeded_new_games">
+        <item quantity="one">Detecção de novos jogos concluída. Um jogo novo encontrado.</item>
+        <item quantity="many">Detecção de novos jogos concluída. %1$s jogos novos encontrados.</item>
+        <item quantity="other">Detecção de novos jogos concluída. %1$s jogos novos encontrados.</item>
+    </plurals>
     <string name="snackbar_platform_detect_new_games_all_platforms_failure">Falha ao detectar novos jogos.</string>
     <string name="snackbar_platform_scrape_streaming_game_enqueued">Na fila: Buscando detalhes do jogo de streaming fixado.</string>
     <string name="snackbar_platform_scrape_streaming_game_running">Executando em segundo plano: Buscando detalhes do jogo de streaming fixado.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Busca de detalhes do jogo de streaming fixado concluída.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Falha ao buscar detalhes do jogo de streaming fixado.</string>
+    <string name="snackbar_new_config_version_available">Uma nova versão da configuração de emuladores está disponível para instalar.</string>
     <string name="shared_ui_display_selection_this_display">Esta tela</string>
     <string name="shared_ui_display_selection_external_display">Externo</string>
     <string name="shared_ui_display_selection_launch_on">Lançar em</string>
