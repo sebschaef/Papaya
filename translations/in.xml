@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="common_select">Pilih</string>
+    <string name="common_select_unselect">Pilih / Batalkan pilihan</string>
+    <string name="common_navigate">Navigasi</string>
+    <string name="common_back">Kembali</string>
+    <string name="common_exit">Keluar</string>
+    <string name="common_cancel">Batal</string>
+    <string name="common_custom">KUSTOM</string>
+    <string name="common_save">Simpan</string>
+    <string name="common_saving">Menyimpan</string>
+    <string name="common_okay">Oke</string>
+    <string name="common_done">Selesai</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Selamat datang di Papaya</string>
+    <string name="onboarding_welcome_subtitle">Semua game kamu di satu tempat</string>
+    <string name="onboarding_welcome_cta">Mulai</string>
+    <string name="onboarding_dark_mode_title">Atur suasananya</string>
+    <string name="onboarding_dark_mode_subtitle">Kamu bisa mengubahnya kapan saja nanti di Pengaturan</string>
+    <string name="onboarding_theme_title">Pilih tampilanmu</string>
+    <string name="onboarding_theme_subtitle">@string/onboarding_dark_mode_subtitle</string>
+    <string name="onboarding_theme_option_gallery_description">Gamepad + Sentuh</string>
+    <string name="onboarding_theme_option_deckish_description">Seperti TV</string>
+    <string name="onboarding_theme_option_xmb_description">Nuansa PSP</string>
+    <string name="onboarding_collection_setup_title">Mulai koleksi game kamu</string>
+    <string name="onboarding_collection_setup_subtitle">Kamu selalu bisa menambahkan game dan platform baru nanti.</string>
+    <string name="onboarding_collection_setup_option_quick_start">Mulai cepat</string>
+    <string name="onboarding_collection_setup_option_quick_start_description">Deteksi otomatis game Android kamu dan tambahkan game retro kapan pun kamu mau.</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de">Impor dari ES-DE</string>
+    <string name="onboarding_collection_setup_option_import_from_es_de_description">Ini juga bisa dilakukan nanti di Pengaturan.</string>
+    <string name="onboarding_finish_cta">Selesai</string>
+
+    <!-- Gallery - Top bar -->
+    <string name="gallery_top_bar_buy_license">Beli lisensi</string>
+    <string name="gallery_top_bar_settings">Pengaturan</string>
+    <string name="gallery_top_bar_category_games">Game</string>
+    <string name="gallery_top_bar_category_apps">Aplikasi</string>
+    <string name="gallery_top_bar_category_streaming">Streaming</string>
+    <string name="gallery_top_bar_category_emulators">Emulator</string>
+    <string name="gallery_top_bar_category_search">Cari</string>
+
+    <!-- Gallery - Key hints -->
+    <string name="gallery_key_hints_buy_license">Lisensi</string>
+    <string name="gallery_key_hints_settings">@string/gallery_top_bar_settings</string>
+    <string name="gallery_key_hints_tab">Tab</string>
+    <string name="gallery_key_hints_navigate">@string/common_navigate</string>
+    <string name="gallery_key_hints_reorder">Urutkan</string>
+    <string name="gallery_key_hints_options">Opsi</string>
+    <string name="gallery_key_hints_back">@string/common_back</string>
+    <string name="gallery_key_hints_launch">Mainkan</string>
+
+    <!-- Gallery - Games -->
+    <string name="gallery_games_welcome_dialog_title">Selamat datang!</string>
+    <string name="gallery_games_welcome_dialog_text">Aku menemukan %1$s dan sudah menambahkannya ke koleksimu.\nMau unduh sampulnya sekarang?\n</string>
+    <string name="gallery_games_welcome_dialog_confirm">Ya, ambil sampulnya</string>
+    <string name="gallery_games_welcome_dialog_dismiss">Tidak, nanti saja</string>
+    <plurals name="gallery_games_welcome_dialog_text_game_quantity">
+        <item quantity="other">%d game Android</item>
+    </plurals>
+
+    <string name="gallery_games_welcome_embedded_title">@string/gallery_games_welcome_dialog_title</string>
+    <string name="gallery_games_welcome_embedded_text">Mulai dengan menambahkan game kamu:</string>
+    <string name="gallery_games_welcome_embedded_cta">Tambahkan platform pertamamu</string>
+
+    <string name="gallery_games_cover_loading_label">Memuat</string>
+
+    <string name="gallery_games_error_game_launch_failed_title">Game tidak dapat dijalankan</string>
+    <string name="gallery_games_error_game_launch_failed_app_not_found">Gagal menjalankan \"%1$s\". Pastikan aplikasi tersebut terpasang dan diaktifkan.</string> <!-- "Starting "PPSSPP" failed. ..." -->
+    <string name="gallery_games_error_game_launch_failed_generic">Gagal menjalankan \"%1$s\" karena alasan yang tidak diketahui:\n%2$s</string> <!-- "Starting "PPSSPP" failed for an unknown reason: RuntimeException ..." -->
+    <string name="gallery_games_error_app_launch_failed_title">Aplikasi tidak dapat dijalankan</string>
+    <string name="gallery_games_error_app_launch_failed_app_not_found">@string/gallery_games_error_game_launch_failed_app_not_found</string>
+    <string name="gallery_games_error_app_launch_failed_generic">@string/gallery_games_error_game_launch_failed_generic</string>
+
+    <string name="gallery_games_sorting_option_by_platform">Menurut platform</string>
+    <string name="gallery_games_sorting_option_by_release_year">Menurut tanggal rilis</string>
+    <string name="gallery_games_sorting_option_by_first_letter">Menurut nama</string>
+    <string name="gallery_games_sorting_option_by_genre">Menurut genre</string>
+    <string name="gallery_games_sorting_option_by_collection">Menurut koleksi</string>
+    <string name="gallery_games_sorting_option_all">Semua</string>
+
+    <string name="gallery_games_sorting_section_recents_title">Terbaru</string>
+    <string name="gallery_games_sorting_section_favourites_title">Favorit</string>
+    <string name="gallery_games_sorting_section_release_year_missing_title">Tidak ada</string>
+    <string name="gallery_games_sorting_section_first_letter_of_name_number_title">Angka</string>
+    <string name="gallery_games_sorting_section_all_title">Semua</string>
+
+    <!-- Gallery - Search -->
+    <string name="gallery_search_search_bar_placeholder">Cari game, aplikasi, atau web</string>
+    <string name="gallery_search_section_games">@string/gallery_top_bar_category_games</string>
+    <string name="gallery_search_section_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="gallery_search_section_other">Lainnya</string>
+    <string name="gallery_search_section_recently_searched_games">Game yang baru dicari</string>
+    <string name="gallery_search_section_recently_searched_apps">Aplikasi yang baru dicari</string>
+    <string name="gallery_search_section_recently_searched_other">Pencarian web terbaru</string>
+    <string name="gallery_search_web_search_content_description">Pencarian web</string>
+    <string name="gallery_search_open_browser_content_description">Buka browser</string>
+
+    <!-- Deckish - Games -->
+    <string name="deckish_games_sorting_button_content_description">Opsi pengurutan</string>
+
+    <!-- XMB - Games -->
+    <string name="xmb_games_option_reorder_title">Urutkan</string>
+    <string name="xmb_games_error_no_games_available">Tidak ada game yang tersedia</string>
+    <string name="xmb_settings_title">Pengaturan</string>
+    <string name="xmb_settings_option_buy_license_title">@string/buy_license_cta_buy_license</string>
+    <string name="xmb_settings_option_settings_title">Pengaturan Papaya</string>
+    <string name="xmb_search_option_new_search_title">Pencarian baru</string>
+
+    <!-- Platform configuration - Key hints-->
+    <string name="platform_configuration_key_hints_next_step">Langkah berikutnya</string>
+    <string name="platform_configuration_key_hints_previous_step_done">Langkah sebelumnya / Selesai</string>
+    <string name="platform_configuration_key_hints_previous_step_next_step">Langkah sebelumnya / berikutnya</string>
+    <string name="platform_configuration_key_hints_navigate">@string/common_navigate</string>
+    <string name="platform_configuration_key_hints_exit">@string/common_exit</string>
+    <string name="platform_configuration_key_hints_cancel">@string/common_cancel</string>
+    <string name="platform_configuration_key_hints_select_unselect">@string/common_select_unselect</string>
+    <string name="platform_configuration_key_hints_select">@string/common_select</string>
+    <string name="platform_configuration_key_hints_add_remove_folder">Tambah / Hapus folder</string>
+    <string name="platform_configuration_key_hints_open_emulator_selection">Buka pilihan emulator</string>
+
+    <!-- Platform configuration - General -->
+    <string name="platform_configuration_general_loading_read_game_files_title">Mencari file game</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_reading_files">Membaca file %1$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_sub_description_reading_files">Ditemukan: %1$s</string>
+    <string name="platform_configuration_general_loading_read_game_files_description_preparing_file_tree">Menyiapkan tampilan struktur file</string>
+    <string name="platform_configuration_general_saving">@string/common_saving</string>
+    <string name="platform_configuration_general_exit_warning_dialog_title">Keluar dari konfigurator platform?</string>
+    <string name="platform_configuration_general_exit_warning_dialog_text">Semua konfigurasi yang sudah dibuat akan hilang.\nJika kamu hanya ingin mundur satu langkah, gunakan tombol &lt;.</string>
+    <string name="platform_configuration_general_exit_warning_dialog_confirm">Keluar dan buang konfigurasi</string>
+    <string name="platform_configuration_general_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="platform_configuration_general_content_description_previous_step">Langkah sebelumnya</string>
+    <string name="platform_configuration_general_button_done">@string/common_done</string>
+    <string name="platform_configuration_general_button_next_step">Berikutnya</string>
+    <string name="platform_configuration_general_content_description_next_step">Langkah berikutnya</string>
+
+    <!-- Platform configuration - Platform selection step -->
+    <string name="platform_configuration_platform_selection_title">Platform</string>
+    <string name="platform_configuration_platform_selection_description">Pilih platform</string>
+    <string name="platform_configuration_platform_selection_label_custom_platform">@string/common_custom</string>
+
+    <!-- Platform configuration - Android games selection step -->
+    <string name="platform_configuration_android_games_selection_title">Aplikasi Game</string>
+    <string name="platform_configuration_android_games_selection_description">Pilih aplikasi game kamu</string>
+
+    <!-- Platform configuration - Emulator apps selection step -->
+    <string name="platform_configuration_emulator_apps_selection_title">Aplikasi Emulator</string>
+    <string name="platform_configuration_emulator_apps_selection_description">Pilih aplikasi emulator</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_title">Tidak menemukan aplikasi emulatormu di daftar?</string>
+    <string name="platform_configuration_emulator_apps_selection_tip_box_description">Sayangnya, ini berarti emulator tersebut belum didukung secara bawaan.\nNamun, kamu bisa menambahkan konfigurasinya sendiri di [Pengaturan] > [Lanjutan] > [Aplikasi emulator kustom] > [Buat].</string>
+    <string name="platform_configuration_emulator_apps_selection_label_custom_emulator_app">@string/common_custom</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_installed">Terpasang</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_not_installed">Belum terpasang</string>
+    <string name="platform_configuration_emulator_apps_selection_label_emulator_app_get_on_play_store">Dapatkan di Google Play</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_title">Aplikasi emulator belum terpasang</string>
+    <string name="platform_configuration_emulator_apps_selection_error_dialog_text">Unduh dan pasang aplikasi emulator terlebih dahulu agar bisa memilihnya di sini.</string>
+
+    <!-- Platform configuration - Folders selection step -->
+    <string name="platform_configuration_folders_selection_title">Folder</string>
+    <string name="platform_configuration_folders_selection_description">Tambahkan folder yang berisi file game kamu</string>
+    <string name="platform_configuration_folders_selection_cta_add_folder">Tambah folder</string>
+    <string name="platform_configuration_folders_selection_tip_box_title">Muncul pesan \"Tidak ada aplikasi yang dapat melakukan tindakan ini\"?</string>
+    <string name="platform_configuration_folders_selection_tip_box_description">Artinya perangkatmu tidak memiliki aplikasi pemilih folder bawaan.\nNamun, kamu bisa dengan mudah memasang aplikasi pengelola file yang mendukung pemilihan folder. Contohnya \"My file\" dari PlayStore.</string>
+
+    <!-- Platform configuration - GameList preference step -->
+    <string name="platform_configuration_game_list_preference_title">Preferensi GameList</string>
+    <string name="platform_configuration_game_list_preference_description">Atur cara file gamelist.xml ditangani</string>
+    <string name="platform_configuration_game_list_preference_option_read_and_write">Baca dan tulis</string>
+    <string name="platform_configuration_game_list_preference_option_read_only">Hanya baca</string>
+    <string name="platform_configuration_game_list_preference_option_read_only_description">Ambil nama game, sampul, dll. dari gamelist.xml. Daftar tersebut tidak akan diubah.</string>
+    <string name="platform_configuration_game_list_preference_option_ignore">Abaikan</string>
+    <string name="platform_configuration_game_list_preference_option_ignore_description">Ambil nama game langsung dari file. gamelist.xml yang terdeteksi akan diabaikan.</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_title">Ditemukan gamelist.xml yang tidak valid</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_invalid_text">Folder yang dipilih berisi setidaknya satu file gamelist.xml yang tidak dapat dibaca karena kesalahan di bawah ini.\nKamu bisa mengabaikan gamelist yang tidak valid dan melanjutkan dengan pengimpor game bawaan Papaya.\n\nKesalahan:%1$s</string>
+    <string name="platform_configuration_game_list_preference_error_gamelist_error_generic">Kesalahan tidak diketahui</string>
+
+    <!-- Platform configuration - Game files selection step -->
+    <string name="platform_configuration_game_files_selection_title">File game</string>
+    <string name="platform_configuration_game_files_selection_description">Pilih file game kamu</string>
+    <string name="platform_configuration_game_files_selection_icon_game_file_content_description">File game</string>
+    <string name="platform_configuration_game_files_selection_icon_game_list_content_description">Diimpor dari game list</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_title">Tidak ada file game di folder ini</string>
+    <string name="platform_configuration_game_files_selection_error_no_files_description">Pilih folder yang berisi file dengan tipe: %1$s.</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_title">Tidak ada akses ke folder ini</string>
+    <string name="platform_configuration_game_files_selection_error_access_denied_description">Sistem menolak akses ke folder berikut. Pastikan kartu SD kamu terpasang, atau mundur satu langkah dan coba tambahkan folder tersebut lagi:\n\n%1$s</string>
+
+    <!-- Platform configuration - Game emulator matching step -->
+    <string name="platform_configuration_game_emulator_matching_title">Kombinasi Game + Emulator</string>
+    <string name="platform_configuration_game_emulator_matching_description">Tentukan emulator yang dipakai untuk menjalankan game kamu</string>
+
+    <!-- Platform configuration - Enable notifications -->
+    <string name="platform_configuration_enable_notifications_title">Aktifkan notifikasi?</string>
+    <string name="platform_configuration_enable_notifications_description">Lihat progresnya lewat notifikasi saat aku mengambil sampul untuk game kamu:</string>
+    <string name="platform_configuration_enable_notifications_option_yes">Ya, saya ingin melihat progres pengambilan</string>
+    <string name="platform_configuration_enable_notifications_option_no">Tidak, nanti saja</string>
+
+    <!-- Platform configuration - summary -->
+    <plurals name="platform_configuration_summary_game_apps">
+        <item quantity="other">%d game</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_emulator_apps">
+        <item quantity="other">%d emulator</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_folders">
+        <item quantity="other">%d folder</item>
+    </plurals>
+    <plurals name="platform_configuration_summary_game_files">
+        <item quantity="other">%d game</item>
+    </plurals>
+    <string name="platform_configuration_summary_amount_games_in_folders">%1$s di %2$s</string>
+    <plurals name="platform_configuration_summary_amount_of_games_in_folders_folders">
+        <item quantity="other">%d folder</item>
+    </plurals>
+    <string name="platform_configuration_summary_steps_left">Langkah %1$d dari %2$d</string>
+
+    <!-- Item options - General -->
+    <string name="item_options_loading_title">Memuat opsi item</string>
+    <string name="item_options_saving_title">@string/common_saving</string>
+
+    <!-- Item options - Key hints -->
+    <string name="item_options_key_hints_navigate">@string/common_navigate</string>
+    <string name="item_options_key_hints_back">@string/common_back</string>
+    <string name="item_options_key_hints_select">@string/common_select</string>
+
+    <!-- Item options - App -->
+    <string name="item_options_app_menu_option_launch">Buka aplikasi</string>
+    <string name="item_options_app_menu_option_settings">Buka pengaturan aplikasi</string>
+    <string name="item_options_app_menu_option_uninstall">Copot aplikasi</string>
+    <string name="item_options_app_menu_option_launch_display">Layar peluncuran</string>
+    <string name="item_options_app_menu_option_launch_display_option_not_set">Standar</string>
+    <string name="item_options_app_menu_error_launch_shortcut_title">Pintasan tidak dapat dijalankan</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
+    <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
+    <string name="item_options_app_menu_error_launch_app_settings_title">Pengaturan tidak dapat dibuka</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_app_not_found">Gagal membuka pengaturan aplikasi. Pastikan aplikasi Setelan sudah diaktifkan.</string>
+    <string name="item_options_app_menu_error_launch_app_settings_message_generic">Gagal membuka pengaturan aplikasi karena alasan yang tidak diketahui:\n%1$s</string>
+
+    <!-- Item options - Game file -->
+    <string name="item_options_game_file_menu_section_launch">Mainkan</string>
+    <string name="item_options_game_file_menu_option_launch_game">Mainkan game</string>
+    <string name="item_options_game_file_menu_option_launch_emulator">Buka emulator</string>
+    <string name="item_options_game_file_menu_section_edit">Edit</string>
+    <string name="item_options_game_file_menu_option_scrape">Ambil detail game</string>
+    <string name="item_options_game_file_menu_option_edit">Edit detail game</string>
+    <string name="item_options_game_file_menu_section_other">Lainnya</string>
+    <string name="item_options_game_file_menu_option_favourite_add">Tambahkan ke Favorit</string>
+    <string name="item_options_game_file_menu_option_favourite_remove">Hapus dari Favorit</string>
+    <string name="item_options_game_file_menu_option_hide">Sembunyikan game</string>
+    <string name="item_options_game_file_menu_option_change_emulator">Ganti emulator</string>
+    <string name="item_options_game_file_menu_option_collections">Koleksi</string>
+    <string name="item_options_game_file_menu_option_open_scraper_website">Lihat di %1$s</string>
+    <string name="item_options_game_file_collections_dialog_empty">Belum ada koleksi yang dibuat</string>
+    <string name="item_options_game_file_warning_dialog_hide_title">Sembunyikan \"%1$s\"?</string>
+    <string name="item_options_game_file_warning_dialog_hide_text">Game ini tidak akan ditampilkan lagi di koleksimu. Kamu bisa membatalkannya kapan saja di [Pengaturan] > [Platform] > [Platform] > [Edit] dengan memilih game ini lagi.</string>
+    <string name="item_options_game_file_warning_dialog_hide_confirm">Sembunyikan game</string>
+    <string name="item_options_game_file_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Game app -->
+    <string name="item_options_game_app_menu_section_launch">@string/item_options_game_file_menu_section_launch</string>
+    <string name="item_options_game_app_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_game_app_menu_section_edit">@string/item_options_game_file_menu_section_edit</string>
+    <string name="item_options_game_app_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_game_app_menu_section_other">@string/item_options_game_file_menu_section_other</string>
+    <string name="item_options_game_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_game_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_game_app_menu_option_hide">Bukan game</string>
+    <string name="item_options_game_app_menu_option_settings">@string/item_options_app_menu_option_settings</string>
+    <string name="item_options_game_app_menu_option_uninstall">@string/item_options_app_menu_option_uninstall</string>
+    <string name="item_options_game_app_menu_option_collections">@string/item_options_game_file_menu_option_collections</string>
+    <string name="item_options_game_app_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_game_app_warning_dialog_hide_title">Pindahkan \"%1$s\" ke laci aplikasi?</string>
+    <string name="item_options_game_app_warning_dialog_hide_text">Kamu bisa membatalkannya kapan saja di [Pengaturan] > [Platform] > [Platform] > [Edit] dengan menandai aplikasi ini sebagai game lagi.</string>
+    <string name="item_options_game_app_warning_dialog_hide_confirm">Pindahkan aplikasi</string>
+    <string name="item_options_game_app_warning_dialog_hide_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Streaming game -->
+    <string name="item_options_streaming_game_menu_option_launch_game">@string/item_options_game_file_menu_option_launch_game</string>
+    <string name="item_options_streaming_game_menu_option_launch_streaming_app">Buka aplikasi streaming game</string>
+    <string name="item_options_streaming_game_menu_option_scrape">@string/item_options_game_file_menu_option_scrape</string>
+    <string name="item_options_streaming_game_menu_option_unpin">Lepas sematan game</string>
+    <string name="item_options_streaming_game_menu_option_open_scraper_website">@string/item_options_game_file_menu_option_open_scraper_website</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_title">Lepas sematan \"%1$s\"?</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_text">Pintasan game ini tidak akan ditampilkan lagi di koleksimu. Kamu bisa membatalkannya kapan saja dengan membuat pintasan dari dalam aplikasi streaming game.</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_confirm">Lepas sematan game</string>
+    <string name="item_options_streaming_game_warning_dialog_unpin_dismiss">@string/common_cancel</string>
+
+    <!-- Item options - Scrape -->
+    <string name="item_options_scrape_no_results">Tidak ada hasil</string>
+    <string name="item_options_scrape_fetching_results_for">hasil untuk \"%1$s\"…</string>
+    <string name="item_options_scrape_error_no_internet_connection">Tidak ada koneksi internet</string>
+    <string name="item_options_scrape_error_unknown">Kesalahan tidak diketahui</string>
+
+    <!-- Item options - Edit -->
+    <string name="item_options_edit_section_cover_image">Gambar sampul</string>
+    <string name="item_options_edit_section_background_image">Gambar latar</string>
+    <string name="item_options_edit_section_cover_name">Nama</string>
+    <string name="item_options_edit_section_cover_sortname">Nama urutan</string>
+    <string name="item_options_edit_section_placeholder_sortname">Belum diatur</string>
+    <string name="item_options_edit_section_cover_release_date">Tanggal rilis</string>
+    <string name="item_options_edit_section_cover_release_date_key_hint_increment_decrement">Edit</string>
+    <string name="item_options_edit_exit_warning_dialog_title">Keluar dari editor detail game?</string>
+    <string name="item_options_edit_exit_warning_dialog_text">Semua konfigurasi yang sudah dibuat akan hilang.</string>
+    <string name="item_options_edit_exit_warning_dialog_confirm">Keluar dan buang perubahan</string>
+    <string name="item_options_edit_exit_warning_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Key hints -->
+    <string name="settings_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_key_hints_back">@string/common_back</string>
+    <string name="settings_key_hints_select">@string/common_select</string>
+    <string name="settings_key_hints_move">Pindahkan</string>
+    <string name="settings_key_hints_done">@string/common_done</string>
+
+    <!-- Settings - Main menu -->
+    <string name="settings_main_menu_title">Pengaturan</string>
+    <string name="settings_main_menu_menu_option_android">Pengaturan perangkat</string>
+    <string name="settings_main_menu_menu_option_platform">Platform</string>
+    <string name="settings_main_menu_menu_option_collections">Koleksi</string>
+    <string name="settings_main_menu_menu_option_appearance">Tampilan &amp; perilaku</string>
+    <string name="settings_main_menu_menu_option_advanced">Konfigurasi lanjutan</string>
+    <string name="settings_main_menu_menu_option_more">Lainnya</string>
+    <string name="settings_main_menu_menu_option_buy_license">Beli lisensi tanpa batas</string>
+
+    <!-- Settings - Platforms -->
+    <string name="settings_platforms_title">Platform</string>
+    <string name="settings_platforms_cta_add">Tambah platform</string>
+    <string name="settings_platforms_all_platforms">Semua platform</string>
+    <string name="settings_platforms_reorder_title">Ubah urutan platform</string>
+    <string name="settings_platforms_reorder_cta_add">@string/common_done</string>
+    <string name="settings_platforms_content_description_move_up">Pindah ke atas</string>
+    <string name="settings_platforms_content_description_move_down">Pindah ke bawah</string>
+
+    <!-- Settings - Collections -->
+    <string name="settings_collections_title">Koleksi</string>
+    <string name="settings_collections_cta_add">Buat koleksi</string>
+    <string name="settings_collections_reorder_title">Ubah urutan koleksi</string>
+    <string name="settings_collections_reorder_cta_add">@string/common_done</string>
+    <string name="settings_collections_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_collections_tip_box_title">Kelompokkan game sesukamu</string>
+    <string name="settings_collections_tip_box_description">Buat koleksi kustom dan masukkan game apa pun ke dalamnya. Misalnya koleksi berisi semua game GTA dari berbagai platform, atau koleksi game favorit masa kecilmu.\nKamu lalu bisa membuka koleksimu di layar utama dengan fungsi [Urutkan] dan memilih \"Menurut koleksi\".</string>
+
+    <!-- Settings - Collection options -->
+    <string name="settings_collection_options_menu_option_appearance">Tampilan koleksi</string>
+    <string name="settings_collection_options_menu_option_games">Game</string>
+    <string name="settings_collection_options_menu_option_remove">@string/settings_platform_options_menu_option_remove</string>
+    <string name="settings_collection_options_warning_dialog_remove_title">Hapus koleksi \"%1$s\"?</string>
+    <string name="settings_collection_options_warning_dialog_remove_text">Koleksi ini akan dihapus. File game dan aplikasimu tidak akan tersentuh.</string>
+    <string name="settings_collection_options_warning_dialog_remove_confirm">Hapus koleksi</string>
+    <string name="settings_collection_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Collection appearance -->
+    <string name="settings_collection_edit_appearance_section_title">Tampilan koleksi</string>
+    <string name="settings_collection_edit_appearance_section_config_title">Beri nama koleksimu</string>
+    <string name="settings_collection_edit_appearance_section_collection_image">Gambar koleksi (Opsional)</string>
+    <string name="settings_collection_edit_appearance_section_collection_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_collection_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_collection_edit_appearance_section_short_name">@string/settings_platform_edit_appearance_section_short_name</string>
+    <string name="settings_collection_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_title">Keluar dari editor tampilan koleksi?</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_title">Hapus gambar koleksi?</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_text">Koleksi ini akan memakai ikon atau nama bawaan sebagai gantinya.</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_collection_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_collection_edit_appearance_key_hints_next_step">Langkah berikutnya</string>
+
+    <!-- Settings - Collection game selection -->
+    <string name="settings_collection_game_selection_title">Game dalam koleksi</string>
+    <string name="settings_collection_game_selection_config_title">Pilih game untuk koleksi ini</string>
+    <string name="settings_collection_game_selection_search_placeholder">Cari game</string>
+    <string name="settings_collection_game_selection_no_results">@string/item_options_scrape_no_results</string>
+    <string name="settings_collection_game_selection_fetching_results_for">@string/item_options_scrape_fetching_results_for</string>
+    <string name="settings_collection_game_selection_error_unknown">@string/item_options_scrape_error_unknown</string>
+    <string name="settings_collection_game_selection_key_hints_done">Selesai</string>
+    <plurals name="settings_collection_game_selection_checked_games_count">
+        <item quantity="other">%d game dipilih</item>
+    </plurals>
+
+    <!-- Settings - All Platforms options -->
+    <string name="settings_all_platform_options_menu_option_remove">Hapus semua</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_title">Hapus semua platform?</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_text">Semua konfigurasi akan dihapus. File game dan aplikasimu tidak akan tersentuh.</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_confirm">Hapus semua platform</string>
+    <string name="settings_all_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform options -->
+    <string name="settings_platform_options_menu_option_auto_detect_new_games">Deteksi game baru secara otomatis</string>
+    <string name="settings_platform_options_menu_option_detect_new_games">Deteksi game baru dan perubahan</string>
+    <string name="settings_platform_options_menu_option_scrape_missing">Ambil sampul dan detail game yang belum ada</string>
+    <string name="settings_platform_options_menu_option_scrape_all">Ambil semua sampul dan detail game</string>
+    <string name="settings_platform_options_menu_option_appearance">Tampilan</string>
+    <string name="settings_platform_options_menu_option_edit">Edit</string>
+    <string name="settings_platform_options_menu_option_remove">Hapus</string>
+    <string name="settings_platform_options_warning_dialog_remove_title">Hapus platform \"%1$s\"?</string>
+    <string name="settings_platform_options_warning_dialog_remove_text">Konfigurasi ini akan dihapus. File game dan aplikasimu tidak akan tersentuh.</string>
+    <string name="settings_platform_options_warning_dialog_remove_confirm">Hapus platform</string>
+    <string name="settings_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform Appearance -->
+    <string name="settings_platform_edit_appearance_section_title">Tampilan platform</string>
+    <string name="settings_platform_edit_appearance_section_platform_image">Gambar platform</string>
+    <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Monokrom</string>
+    <string name="settings_platform_edit_appearance_section_name">Nama</string>
+    <string name="settings_platform_edit_appearance_section_short_name">Nama singkat</string>
+    <string name="settings_platform_edit_appearance_key_hint_remove_image">Hapus</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_title">Keluar dari editor tampilan platform?</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_text">Semua perubahan yang sudah dibuat akan hilang.</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_confirm">Keluar dan buang perubahan</string>
+    <string name="settings_platform_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_title">Hapus gambar platform?</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_text">Platform ini akan memakai ikon atau nama bawaan sebagai gantinya.</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Hapus gambar</string>
+    <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit - Key hints -->
+    <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
+    <string name="settings_platform_edit_key_hints_back">@string/common_back</string>
+    <string name="settings_platform_edit_key_hints_select">@string/common_select</string>
+    <string name="settings_platform_edit_key_hints_back_to_overview">Kembali ke ringkasan</string>
+    <string name="settings_platform_edit_key_hints_select_unselect">Pilih / Batalkan pilihan</string>
+    <string name="settings_platform_edit_key_hints_add_remove_folder">Tambah / Hapus folder</string>
+    <string name="settings_platform_edit_key_hints_open_emulator_selection">Buka pilihan emulator</string>
+    <string name="settings_platform_edit_key_hints_cancel">@string/common_cancel</string>
+
+    <!-- Settings - Platform edit -->
+    <string name="settings_platform_edit_loading_config">Memuat konfigurasi</string>
+    <string name="settings_platform_edit_loading_prepare_reading_files">Bersiap membaca file game</string>
+    <string name="settings_platform_edit_loading_reading_files">Membaca file game</string>
+    <string name="settings_platform_edit_loading_reading_more_files">Membaca file game lainnya</string>
+    <string name="settings_platform_edit_loading_prepare_parsing_gamelists">Bersiap membaca file gamelist.xml</string>
+    <string name="settings_platform_edit_loading_parsing_gamelists">Membaca file gamelist.xml</string>
+    <string name="settings_platform_edit_loading_combining_gamelists_with_files">Menggabungkan gamelist dengan file</string>
+    <string name="settings_platform_edit_loading_setting_up_menu">Menyiapkan struktur menu</string>
+    <string name="settings_platform_edit_loading_error_access_denied_title">Tidak ada akses ke folder platform ini</string>
+    <string name="settings_platform_edit_loading_error_access_denied_description">Sistem menolak akses ke folder berikut. Pastikan kartu SD kamu terpasang, atau kembali dan coba buka editor lagi:\n\n%1$s</string>
+    <string name="settings_platform_edit_title_saving">@string/common_saving</string>
+    <string name="settings_platform_edit_warning_dialog_exit_title">Keluar dari editor platform?</string>
+    <string name="settings_platform_edit_warning_dialog_exit_text">Semua perubahan yang sudah dibuat akan hilang.</string>
+    <string name="settings_platform_edit_warning_dialog_exit_confirm">Keluar dan buang perubahan</string>
+    <string name="settings_platform_edit_warning_dialog_exit_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_cta_save">@string/common_save</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_apps">Pilih setidaknya satu aplikasi game untuk menyimpan konfigurasi yang diubah</string>
+    <string name="settings_platform_edit_cta_save_information_no_emulator_apps">Pilih setidaknya satu aplikasi emulator untuk menyimpan konfigurasi yang diubah</string>
+    <string name="settings_platform_edit_cta_save_information_no_folder">Tambahkan setidaknya satu folder untuk menyimpan konfigurasi yang diubah</string>
+    <string name="settings_platform_edit_cta_save_information_no_game_files">Pilih setidaknya satu file game untuk menyimpan konfigurasi yang diubah</string>
+
+    <!-- Settings - Appearance -->
+    <string name="settings_appearance_menu_title">@string/settings_main_menu_menu_option_appearance</string>
+    <string name="settings_appearance_menu_menu_option_general">Umum</string>
+    <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+
+    <!-- Settings - Appearance - General -->
+    <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
+    <string name="settings_appearance_general_behaviour_title">Perilaku</string>
+    <string name="settings_appearance_general_appearance_title">Tampilan</string>
+    <string name="settings_appearance_general_setting_audio_feedback_title">Suara</string>
+    <string name="settings_appearance_general_setting_haptic_feedback_title">Getaran</string>
+    <string name="settings_appearance_general_setting_dark_mode_title">Mode gelap</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_system">Ikuti sistem</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_dark">Gelap</string>
+    <string name="settings_appearance_general_setting_dark_mode_option_light">Terang</string>
+    <string name="settings_appearance_general_setting_theme_color_title">Warna tema</string>
+    <string name="settings_appearance_general_setting_theme_color_option_auto">Otomatis</string>
+    <string name="settings_appearance_general_setting_theme_color_option_blue">Biru</string>
+    <string name="settings_appearance_general_setting_theme_color_option_red">Merah</string>
+    <string name="settings_appearance_general_setting_theme_color_option_green">Hijau</string>
+    <string name="settings_appearance_general_setting_theme_color_option_yellow">Kuning</string>
+    <string name="settings_appearance_general_setting_theme_color_option_purple">Ungu</string>
+    <string name="settings_appearance_general_setting_theme_color_option_orange">Oranye</string>
+    <string name="settings_appearance_general_setting_theme_color_option_teal">Hijau kebiruan</string>
+    <string name="settings_appearance_general_setting_theme_color_option_pink">Merah muda</string>
+    <string name="settings_appearance_general_setting_theme_color_option_indigo">Nila</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_title">Warna teks di wallpaper</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_auto">Otomatis</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_black">Hitam</string>
+    <string name="settings_appearance_general_setting_wallpaper_text_color_option_white">Putih</string>
+    <string name="settings_appearance_general_setting_adaptive_app_icons_title">Bentuk ikon aplikasi</string>
+    <string name="settings_appearance_general_setting_background_style_title">Latar belakang</string>
+    <string name="settings_appearance_general_setting_default_launcher_title">Jadikan Papaya sebagai launcher</string>
+    <string name="settings_appearance_general_setting_search_preferences_title">Preferensi pencarian</string>
+    <string name="settings_appearance_general_setting_launch_display_title">Layar peluncuran bawaan</string>
+    <string name="settings_appearance_general_setting_launch_display_option_default">Layar yang sama (bawaan)</string>
+    <string name="settings_appearance_general_setting_launch_display_option_other">Layar lain</string>
+    <string name="settings_appearance_general_setting_launch_display_option_ask">Selalu tanya</string>
+    <string name="settings_appearance_general_setting_blur_title">Efek blur dan kaca</string>
+    <string name="settings_appearance_general_setting_key_hints_title">Petunjuk tombol</string>
+    <string name="settings_appearance_general_setting_key_hints_option_disabled">Nonaktif</string>
+    <string name="settings_appearance_general_setting_app_cover_aspect_ratio_title">Rasio aspek sampul aplikasi</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_title">Rasio aspek sampul game</string>
+    <string name="settings_appearance_general_setting_game_cover_aspect_ratio_option_adaptive">Adaptif</string>
+    <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Tampilkan bilah navigasi sistem</string>
+    <string name="settings_appearance_general_setting_recents_section_title">Tampilkan bagian \"Terbaru\"</string>
+    <string name="settings_appearance_general_setting_game_backgrounds_title">Tampilkan latar belakang game</string>
+    <string name="settings_appearance_general_setting_favourites_section_title">Tampilkan bagian \"Favorit\"</string>
+
+    <!-- Settings - Appearance - Layout-->
+    <string name="settings_appearance_layout_menu_theme_title">Tema</string>
+    <string name="settings_appearance_layout_menu_theme_configuration_title">Konfigurasi tema</string>
+    <string name="settings_appearance_layout_menu_gallery_type_title">Tipe</string>
+    <string name="settings_appearance_layout_menu_gallery_type_touch">Sentuh</string>
+    <string name="settings_appearance_layout_menu_gallery_type_controller">Controller</string>
+    <string name="settings_appearance_layout_menu_gallery_general_title">Umum</string>
+    <string name="settings_appearance_layout_menu_gallery_general_auto_hide_toolbar">Tampilkan bilah tab hanya saat berinteraksi</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_title">Tata letak</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_carousel">Carousel</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_grid">Grid</string>
+    <string name="settings_appearance_layout_menu_option_theme_type_layout_list">Daftar</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_title">Preferensi carousel</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_auto_hide_section_bar">Tampilkan bilah platform hanya saat berinteraksi</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment">Perataan</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_top">Atas</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_center">Tengah</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_alignment_option_bottom">Bawah</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_height">Ukuran</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position">Posisi judul game</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_below">Di bawah sampul game</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_carousel_game_title_position_option_above">Di atas sampul game</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_title">Preferensi grid</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_size">Ukuran</string>
+    <string name="settings_appearance_layout_menu_gallery_layout_grid_display_game_title">Tampilkan judul game di bawah sampul</string>
+    <string name="settings_appearance_layout_menu_deckish_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_deckish_row_height">Tinggi baris</string>
+    <string name="settings_appearance_layout_menu_xmb_general_title">@string/settings_appearance_layout_menu_gallery_general_title</string>
+    <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Gunakan ikon kategori klasik</string>
+
+    <!-- Settings - Appearance - Landscape layout-->
+    <string name="settings_appearance_landscape_layout_menu_title">Tata letak mode lanskap</string>
+
+    <!-- Settings - Appearance - Portrait layout-->
+    <string name="settings_appearance_portrait_layout_menu_title">Tata letak mode potret</string>
+
+    <!-- Settings - Appearance - Background -->
+    <string name="settings_appearance_background_title">Latar belakang</string>
+    <string name="settings_appearance_background_system_title">Sistem</string>
+    <string name="settings_appearance_background_system_option_system">Latar belakang sistem</string>
+    <string name="settings_appearance_background_image_title">Gambar</string>
+    <string name="settings_appearance_background_color_title">Warna</string>
+    <string name="settings_appearance_background_animation_title">Animasi</string>
+    <string name="settings_appearance_background_animation_stars">Bintang</string>
+    <string name="settings_appearance_background_animation_waves">Gelombang</string>
+    <string name="settings_appearance_background_animation_sparkles">Kilauan</string>
+    <string name="settings_appearance_background_image_key_hint_delete">Hapus</string>
+    <string name="settings_appearance_background_delete_image_dialog_title">Hapus gambar ini?</string>
+    <string name="settings_appearance_background_delete_image_dialog_text">Gambar ini hanya akan dihapus dari Papaya. Gambar asli di perangkatmu tidak akan tersentuh.</string>
+    <string name="settings_appearance_background_delete_image_dialog_confirm">Hapus gambar</string>
+    <string name="settings_appearance_background_delete_image_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - Advanced -->
+    <string name="settings_advanced_title">Konfigurasi lanjutan</string>
+    <string name="settings_advanced_menu_option_behavior">Perilaku</string>
+    <string name="settings_advanced_menu_option_config_updater">Pembaruan konfigurasi platform &amp; emulator</string>
+    <string name="settings_advanced_menu_option_scrapers">Pengaturan scraper</string>
+    <string name="settings_advanced_menu_option_custom_platform_config">Konfigurasi platform kustom</string>
+    <string name="settings_advanced_menu_option_custom_emulator_apps">Aplikasi emulator kustom</string>
+    <string name="settings_advanced_menu_option_import_export">Impor/Ekspor</string>
+
+    <!-- Settings - Behavior -->
+    <string name="settings_behavior_title">@string/settings_advanced_menu_option_behavior</string>
+    <string name="settings_behavior_setting_use_legacy_retroarch_paths_title">Gunakan path RetroArch lama</string>
+
+    <!-- Settings - Search -->
+    <string name="settings_search_title">@string/settings_appearance_general_setting_search_preferences_title</string>
+    <string name="settings_search_setting_search_engine_title">Mesin pencari</string>
+    <string name="settings_search_setting_clear_search_history_title">Hapus riwayat pencarian</string>
+    <string name="settings_search_setting_cleared_search_history_toast">Riwayat pencarian dihapus</string>
+
+    <!-- Settings - Config Updater -->
+    <string name="settings_config_updater_title">@string/settings_advanced_menu_option_config_updater</string>
+    <string name="settings_config_updater_label_checking_for_update">Memeriksa pembaruan</string>
+    <string name="settings_config_updater_label_up_to_date">Konfigurasimu sudah versi terbaru</string>
+    <string name="settings_config_updater_label_up_to_date_update_successful">Pembaruan berhasil dipasang</string>
+    <string name="settings_config_updater_label_up_to_date_installed_version">Versi %d</string>
+    <string name="settings_config_updater_cta_update">Perbarui sekarang</string>
+    <string name="settings_config_updater_update_title">Pembaruan tersedia</string>
+    <string name="settings_config_updater_update_subtitle">@string/settings_config_updater_label_up_to_date_installed_version</string>
+    <string name="settings_config_updater_update_description">Pembaruan ini mencakup:</string>
+    <string name="settings_config_updater_update_hint">Pemasangan biasanya hanya butuh beberapa detik</string>
+    <string name="settings_config_updater_button_cancel_update">Nanti saja</string>
+    <string name="settings_config_updater_error_cta_retry">Coba lagi</string>
+    <string name="settings_config_updater_error_button_cancel">@string/common_cancel</string>
+    <string name="settings_config_updater_cta_up_to_date">@string/common_okay</string>
+    <string name="settings_config_updater_installation_progress_initial">Menyiapkan pemasangan</string>
+    <string name="settings_config_updater_installation_progress_download">Mengunduh pembaruan</string>
+    <string name="settings_config_updater_installation_progress_verification">Memverifikasi pembaruan</string>
+    <string name="settings_config_updater_installation_progress_installation">Memasang pembaruan</string>
+    <string name="settings_config_updater_installation_progress_warning">Jangan tutup aplikasi! Menutup aplikasi sekarang bisa merusak konfigurasimu.</string>
+    <string name="settings_config_updater_error_no_internet_connection">@string/item_options_scrape_error_no_internet_connection</string>
+    <string name="settings_config_updater_error_checking_updates_failed">Gagal memeriksa pembaruan</string>
+    <string name="settings_config_updater_error_download_failed">Gagal mengunduh pembaruan</string>
+    <string name="settings_config_updater_error_incompatible_schema">Pembaruan ini tidak kompatibel dengan versi aplikasimu</string>
+    <string name="settings_config_updater_error_incompatible_schema_subtitle">Cek PlayStore apakah ada versi aplikasi yang baru.</string>
+    <string name="settings_config_updater_error_verification_failed">File pembaruan rusak</string>
+    <string name="settings_config_updater_error_installation_failed">Pemasangan gagal</string>
+    <string name="settings_config_updater_error_generic">@string/settings_config_updater_error_installation_failed</string>
+    <string name="settings_config_updater_error_subtitle_not_installed">Tidak ada perubahan pada konfigurasi yang terpasang.</string>
+
+    <!-- Settings - Scrapers -->
+    <string name="settings_scrapers_title">Scraper</string>
+    <string name="settings_scrapers_reorder_title">Ubah urutan scraper</string>
+    <string name="settings_scrapers_reorder_cta_done">@string/common_done</string>
+    <string name="settings_scrapers_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_scrapers_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_scrapers_label_disabled">Nonaktif</string>
+    <string name="settings_scrapers_label_missing_api_key">Butuh API key</string>
+
+    <!-- Settings - Scraper options -->
+    <string name="settings_scraper_options_title">Pengaturan %1$s</string>
+    <string name="settings_scraper_options_setting_is_enabled_label">Aktif</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_artworks_as_background_label">Ambil artwork sebagai latar belakang game</string>
+    <string name="settings_scraper_options_setting_tgdb_fetch_fanart_as_background_label">Ambil fanart sebagai latar belakang game</string>
+    <string name="settings_scraper_options_setting_igdb_fetch_screenshots_as_background_label">Ambil screenshot sebagai latar belakang game jika tidak ada artwork</string>
+    <string name="settings_scraper_options_setting_sgdb_fetch_heroes_as_background_label">Ambil gambar hero sebagai latar belakang game</string>
+    <string name="settings_scraper_options_setting_api_key_label">API key pribadi</string>
+    <string name="settings_scraper_options_setting_api_key_value_not_set">Belum diatur</string>
+    <string name="settings_scraper_options_setting_website_label">Buka %1$s di browser</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_label">Rasio aspek sampul</string>
+    <string name="settings_scraper_options_setting_cover_aspect_ratio_option_any">Apa saja</string>
+    <string name="settings_scraper_options_setting_cover_type_label">Tipe sampul</string>
+    <string name="settings_scraper_options_setting_cover_type_option_any">Apa saja</string>
+    <string name="settings_scraper_options_setting_cover_type_option_static">Statis</string>
+    <string name="settings_scraper_options_setting_cover_type_option_animated">Animasi</string>
+
+    <!-- Settings - Scraper API key -->
+    <string name="settings_scraper_api_key_title">API key %1$s</string>
+    <string name="settings_scraper_api_key_hint">@string/settings_scraper_options_setting_api_key_label</string>
+    <string name="settings_scraper_api_key_save_try">Simpan &amp; coba</string>
+    <string name="settings_scraper_api_key_test_idle_label">Setelah disimpan, kamu akan melihat di sini apakah key-nya valid.</string>
+    <string name="settings_scraper_api_key_test_request_sent_label">Permintaan uji terkirim. Menunggu respons…</string>
+    <string name="settings_scraper_api_key_test_success_label">✅ Permintaan uji berhasil! Key kamu valid dan berhasil disimpan.</string>
+    <string name="settings_scraper_api_key_test_failure_no_internet_connection_label">⚠️ Tidak ada koneksi internet. Key kamu berhasil disimpan, tetapi tidak dapat diverifikasi.</string>
+    <string name="settings_scraper_api_key_test_failure_unrelated_connection_label">⚠️ Permintaan uji gagal karena alasan lain. Key kamu berhasil disimpan, tetapi tidak dapat diverifikasi.</string>
+    <string name="settings_scraper_api_key_test_failure_wrong_credentials_label">❌ Permintaan uji gagal. Key yang dimasukkan sepertinya tidak valid. Pastikan tidak ada karakter yang terlewat. Key yang dimasukkan tetap disimpan.</string>
+
+    <!-- Settings - Custom emulator apps -->
+    <string name="settings_custom_emulator_apps_title">Konfigurasi emulator kustom</string>
+    <string name="settings_custom_emulator_apps_cta_add">Tambah konfigurasi emulator</string>
+
+    <!-- Settings - Custom emulator app options -->
+    <string name="settings_custom_emulator_app_options_menu_option_edit">Edit</string>
+    <string name="settings_custom_emulator_app_options_menu_option_remove">Hapus</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_title">Hapus \"%1$s\"?</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_text">Konfigurasi aplikasi emulator kustom ini akan dihapus dan tidak dapat dipulihkan.</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_confirm">Hapus konfigurasi emulator</string>
+    <string name="settings_custom_emulator_app_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_title">Tidak dapat dihapus!</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_text">Konfigurasi aplikasi emulator kustom ini masih digunakan. Pilih emulator lain untuk game berikut:\n%1$s</string>
+    <string name="settings_custom_emulator_app_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom emulator app creator -->
+    <string name="settings_custom_emulator_app_title">Konfigurasi aplikasi emulator kustom baru</string>
+    <string name="settings_custom_emulator_app_section_metadata_title">Metadata</string>
+    <string name="settings_custom_emulator_app_section_metadata_label_name">Nama</string>
+    <string name="settings_custom_emulator_app_section_metadata_hint_name">Contohnya \"Retroarch - PPSSPP\"</string>
+    <string name="settings_custom_emulator_app_section_platform_title">Platform</string>
+    <string name="settings_custom_emulator_app_section_platform_label_config">Konfigurasi</string>
+    <string name="settings_custom_emulator_app_section_platform_hint_config">Berisi informasi seperti tipe file yang didukung. Kamu bisa membuat konfigurasi platform kustom sendiri di [Pengaturan] > [Lanjutan] > [Konfigurasi platform kustom] > [Buat].</string>
+    <string name="settings_custom_emulator_app_section_emulator_title">Emulator</string>
+    <string name="settings_custom_emulator_app_section_emulator_label_app">Aplikasi</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_core">Retroarch membutuhkan path ke core emulator, contohnya \"/data/data/com.retroarch/cores/ppsspp_libretro_android.so\".</string>
+    <string name="settings_custom_emulator_app_section_emulator_option_activity_unspecified">Tidak ditentukan</string>
+    <string name="settings_custom_emulator_app_section_emulator_hint_activity">Sebagian besar aplikasi tidak membutuhkan Activity eksplisit, jadi biasanya kamu bisa membiarkannya di [Tidak ditentukan]. Namun, beberapa aplikasi perlu dituju dengan Activity eksplisit: Cari nama yang cocok seperti \"EmulationActivity\".</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_title">Tipe parameter</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_file">File game</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_option_id">ID game</string>
+    <string name="settings_custom_emulator_app_section_parameter_type_hint_type">Biasanya emulator ingin langsung diarahkan ke sebuah \"File game\". Namun, untuk beberapa platform tidak ada satu file tunggal yang bisa dituju. Dalam kasus seperti itu, emulator sering merujuk ke game melalui \"ID game\" (misalnya Vita3K, ScummVM).</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_title">Penanganan ID game</string>
+    <string name="settings_custom_emulator_app_section_game_id_warning_platform_not_supporting_id">Konfigurasi platform yang dipilih di atas tidak menyertakan spesifikasi tipe file ID. Kamu bisa membuat konfigurasi platform kustom sendiri dan menambahkan tipe file dengan spesifikasi cara mendapatkan ID game. Buka [Pengaturan] > [Lanjutan] > [Konfigurasi platform kustom] > [Buat] untuk membuatnya.\nKamu tetap bisa melanjutkan pengaturan konfigurasi ini dan menyimpannya. Kamu bahkan bisa mencoba menjalankan game, tetapi kemungkinan besar akan gagal karena aku tidak tahu dari mana harus mengambil ID game-nya.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_intent_action">Intent action standar untuk membuka dokumen adalah \"android.intent.action.VIEW\", yang digunakan oleh sebagian besar aplikasi emulator. Dalam kasus yang jarang, action kustom digunakan: Misalnya untuk emulator berbasis Yuzu, action-nya adalah \"android.nfc.action.TECH_DISCOVERED\".</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_file_parameter">Parameter ID</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_option_file_parameter_data_parameter">Kirim ID melalui parameter DATA</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_file_parameter">Cara standar untuk mengirim ID ke aplikasi lain adalah melalui parameter DATA. Namun, beberapa emulator mengharuskannya dikirim melalui parameter kustom.</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_label_custom">Nama parameter ID kustom</string>
+    <string name="settings_custom_emulator_app_section_game_id_handling_hint_type">Biasanya ID dikirim sebagai tipe teks (\"String\"). Namun, jika ID berupa angka, ada kemungkinan ID tersebut dikirim secara eksplisit sebagai tipe angka (\"Integer\").</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_title">Penanganan file game</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_intent_action">Intent action standar untuk membuka file adalah \"android.intent.action.VIEW\", yang digunakan oleh sebagian besar aplikasi emulator. Dalam kasus yang jarang, action kustom digunakan: Misalnya untuk emulator berbasis Yuzu, action-nya adalah \"android.nfc.action.TECH_DISCOVERED\".</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_file_parameter">Parameter file</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_file_parameter_data_parameter">Kirim file melalui parameter DATA</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_file_parameter">Cara standar untuk mengirim file ke aplikasi lain adalah melalui parameter DATA. Namun, beberapa emulator mengharuskan file dikirim melalui parameter kustom.</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_label_custom">Parameter file kustom</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_option_custom_absolute_url">URL absolut</string>
+    <string name="settings_custom_emulator_app_section_game_file_handling_hint_custom">Aplikasi modern biasanya merujuk ke file melalui \"content URI\". Aplikasi lama mungkin menggunakan \"URL absolut\": Salah satu petunjuknya adalah aplikasi tersebut menggunakan izin \"READ_EXTERNAL_STORAGE\".</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_button_add">Tambah parameter</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_key">key</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_string">Nilai teks</string>
+    <string name="settings_custom_emulator_app_section_addtional_parameters_dialog_add_hint_value_int">Nilai angka</string>
+    <string name="settings_custom_emulator_app_cta_save">@string/common_save</string>
+    <string name="settings_custom_emulator_app_box_try_it_title">Coba sekarang!</string>
+    <string name="settings_custom_emulator_app_box_try_it_button_select_test_file">Pilih file uji</string>
+    <string name="settings_custom_emulator_app_box_try_it_cta_launch">Jalankan</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_success">✅ Aplikasi berhasil dijalankan!</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_empty">Setelah mengetuk \"Jalankan\", kamu akan melihat hasilnya di sini.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_file_type">❌ ID game tidak ditemukan! Konfigurasi ini menentukan bahwa emulator dijalankan dengan ID game. Namun, aku tidak bisa mengambil ID game dari tipe file \"%1$s\" yang didefinisikan di konfigurasi platform yang dipilih. Tentukan di konfigurasi platform bagaimana aku bisa membaca ID dari tipe file tersebut.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_folder">❌ ID game tidak ditemukan! Konfigurasi ini menentukan bahwa emulator dijalankan dengan ID game. Tipe \"%1$s\" menentukan bahwa ID game dibaca dari nama folder. Namun, sepertinya file uji tidak berada di dalam folder.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_id_content">❌ ID game tidak ditemukan! Konfigurasi ini menentukan bahwa emulator dijalankan dengan ID game. Tipe \"%1$s\" menentukan bahwa ID game dibaca dari isi file. Namun, sepertinya file uji tidak berisi ID dalam format yang bisa dibaca: ID harus menjadi satu-satunya isi file tersebut.</string>
+    <string name="settings_custom_emulator_app_box_try_it_result_error_no_access_content">❌ ID game tidak ditemukan! Konfigurasi ini menentukan bahwa emulator dijalankan dengan ID game. Tipe \"%1$s\" menentukan bahwa ID game dibaca dari isi file. Namun, aku tidak bisa mengakses isi file tersebut.</string>
+
+    <!-- Settings - Custom platforms -->
+    <string name="settings_custom_platforms_title">Konfigurasi platform kustom</string>
+    <string name="settings_custom_platforms_cta_add">Tambah konfigurasi platform</string>
+
+    <!-- Settings - Custom emulator app options -->
+    <string name="settings_custom_platform_options_menu_option_edit">Edit</string>
+    <string name="settings_custom_platform_options_menu_option_remove">Hapus</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_title">Hapus \"%1$s\"?</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_text">Konfigurasi platform kustom ini akan dihapus dan tidak dapat dipulihkan.</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_confirm">Hapus konfigurasi platform</string>
+    <string name="settings_custom_platform_options_warning_dialog_remove_dismiss">@string/common_cancel</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_title">Tidak dapat dihapus!</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text">Konfigurasi platform kustom ini masih digunakan. Hapus penggunaannya terlebih dahulu:\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_emulator_apps">Konfigurasi aplikasi emulator: %1$s\n</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_text_platforms">Konfigurasi platform: %1$s</string>
+    <string name="settings_custom_platform_options_error_dialog_removal_not_possible_confirm">@string/common_okay</string>
+
+    <!-- Settings - Custom platform creator -->
+    <string name="settings_custom_platform_creator_title">Konfigurasi platform kustom baru</string>
+    <string name="settings_custom_platform_creator_section_platform_abbreviation_title">Singkatan platform</string>
+    <string name="settings_custom_platform_creator_section_platform_name_title">Nama platform</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_title">Tipe file game</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_button_add">Tambah tipe file</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_file">File game</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_file">File ID game</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_where">Di mana ID-nya didefinisikan?</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_content">Di dalam file</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_game_id_folder">Nama folder induk</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_cancel">@string/common_cancel</string>
+    <string name="settings_custom_platform_creator_section_game_file_types_add_dialog_add">Tambah</string>
+    <string name="settings_custom_platform_creator_cta_save">@string/common_save</string>
+    <string name="settings_custom_platform_creator_error_dialog_title">Tidak dapat dihapus!</string>
+    <string name="settings_custom_platform_creator_error_dialog_text">Konfigurasi platform kustom ini sudah digunakan, jadi kamu tidak bisa menghapus tipe file yang sudah ditambahkan sebelumnya.\nKamu hanya bisa menambahkan tipe file baru, atau menghapus platform yang menggunakan konfigurasi ini: %1$s</string>
+    <string name="settings_custom_platform_creator_error_dialog_confirm">@string/common_okay</string>
+
+    <!-- Settings - Import/Export -->
+    <string name="settings_import_export_title">Impor/Ekspor</string>
+    <string name="settings_import_export_menu_option_import_from_esde">Impor dari konfigurasi ES-DE</string>
+
+    <!-- Settings - Import from ES-DE -->
+    <string name="settings_esde_import_title">Impor dari konfigurasi ES-DE</string>
+    <string name="settings_esde_import_esde_folder_label">Folder ES-DE</string>
+    <string name="settings_esde_import_roms_folder_label">Folder ROM</string>
+    <string name="settings_esde_import_folder_not_selected">Tidak ada</string>
+    <string name="settings_esde_import_message_error_invalid_esde_folder">Folder ES-DE yang dipilih sepertinya tidak valid. Pastikan kamu memilih folder yang berisi subfolder seperti gamelists, downloaded_media, settings, dll.</string>
+    <string name="settings_esde_import_message_error_no_gamelists">Folder ES-DE yang dipilih tidak berisi gamelist apa pun. Setidaknya harus ada satu sistem di konfigurasi ES-DE untuk memulai impor.</string>
+    <string name="settings_esde_import_message_info_verifying_folders">Memverifikasi folder ES-DE dan ROM…</string>
+    <string name="settings_esde_import_message_info_found_gamelists">Ditemukan %1$s platform</string>
+    <string name="settings_esde_import_cta_import">Impor</string>
+    <string name="settings_esde_import_info_import">Papaya langsung merujuk ke gamelist dan sampul di folder ES-DE tanpa menyalinnya. Opsi \"Deteksi game baru dan perubahan\" juga akan mendeteksi perubahan pada konfigurasi ES-DE dan memperbarui platform di Papaya sesuai perubahan tersebut. Mengubah platform di Papaya hanya berpengaruh di Papaya, konfigurasi ES-DE kamu tidak akan diubah.</string>
+    <string name="settings_esde_import_importing_label">Mengimpor</string>
+    <string name="settings_esde_import_importing_description">%1$d platform</string>
+    <string name="settings_esde_import_finished_success_label">Berhasil mengimpor %1$s platform</string>
+    <string name="settings_esde_import_finished_success_failures_label">Tidak diimpor:</string>
+    <string name="settings_esde_import_finished_unsuccessful_label">Gagal mengimpor %1$s platform</string>
+    <string name="settings_esde_import_finished_unsuccessful_failures_label">Alasan:</string>
+    <string name="settings_esde_import_finished_failure_reason_no_matching_platform">Tidak ditemukan platform Papaya yang cocok.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_apps">Tidak berisi aplikasi yang relevan. Pastikan gamelist.xml sesuai dengan file *.app yang sebenarnya dan aplikasi yang didefinisikan sudah terpasang.</string>
+    <string name="settings_esde_import_finished_failure_reason_empty_games">Tidak berisi file game yang relevan. Pastikan gamelist.xml sesuai dengan file game yang sebenarnya. Alasan lain mungkin karena Papaya tidak mendukung tipe file dari semua file game yang didefinisikan, atau semua game ditandai sebagai tersembunyi/rusak di gamelist.xml.</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read">gamelist.xml tidak dapat dibaca:\n%1$s</string>
+    <string name="settings_esde_import_finished_failure_reason_game_list_not_read_reason_generic">Kesalahan tidak diketahui</string>
+    <string name="settings_esde_import_finished_cta_okay">@string/common_okay</string>
+
+    <!-- Settings - More -->
+    <string name="settings_more_menu_title">@string/settings_main_menu_menu_option_more</string>
+    <string name="settings_more_menu_option_release_notes">Catatan rilis</string>
+    <string name="settings_more_menu_option_roadmap">Roadmap</string>
+    <string name="settings_more_menu_option_privacy_policy">Kebijakan privasi</string>
+    <string name="settings_more_menu_option_licenses">Lisensi</string>
+    <string name="settings_more_menu_option_about">Tentang</string>
+
+    <!-- Settings - Release notes -->
+    <string name="settings_release_notes_title">@string/settings_more_menu_option_release_notes</string>
+    <string name="settings_release_notes_intro_title">Apa yang baru?</string>
+    <string name="settings_release_notes_intro_text">Semua perubahan di versi stabil Papaya dalam sekilas.</string>
+    <string name="settings_release_notes_version_label">Versi</string>
+    <string name="settings_release_notes_badge_latest">Terbaru</string>
+    <string name="settings_release_notes_badge_installed">Terpasang</string>
+    <string name="settings_release_notes_section_new_features">Fitur baru</string>
+    <string name="settings_release_notes_section_fixes">Perbaikan dan peningkatan</string>
+    <string name="settings_release_notes_section_notes">Catatan</string>
+    <string name="settings_release_notes_footer_discord">Catatan rilis untuk versi alpha dan beta bisa ditemukan di Discord Papaya.</string>
+    <string name="settings_release_notes_key_hints_scroll">Gulir</string>
+    <string name="settings_release_notes_key_hints_jump_version">Lompat ke versi</string>
+
+    <!-- Settings - Privacy Policy -->
+    <string name="settings_privacy_policy_title">@string/settings_more_menu_option_privacy_policy</string>
+    <string name="settings_privacy_policy_section_processed_data_title">Data pribadi yang diproses</string>
+    <string name="settings_privacy_policy_section_processed_data_text">Papaya memproses informasi tentang aplikasi yang terpasang di perangkatmu. Selain itu, jika kamu secara eksplisit memberi Papaya akses ke folder tertentu di perangkatmu, Papaya juga akan memproses metadata file yang ada di dalam folder tersebut (nama file, nama folder).</string>
+    <string name="settings_privacy_policy_section_data_usage_title">Bagaimana datamu digunakan</string>
+    <string name="settings_privacy_policy_section_data_usage_text">Papaya menggunakan informasi tentang aplikasi yang terpasang di perangkatmu hanya untuk menampilkan daftar aplikasi di layar utama dan untuk memandumu saat menyiapkan pintasan ke game di dalam aplikasi tersebut (memilih aplikasi terpasang secara otomatis). Data ini tidak dibagikan kepada pihak ketiga mana pun dan hanya disimpan secara lokal di perangkatmu.&lt;br&gt;&lt;br&gt;Metadata file dari folder tertentu yang secara eksplisit kamu izinkan untuk diakses Papaya, digunakan untuk melengkapi pintasan ke game di aplikasi lain: Nama file atau nama folder mungkin dikirim ke &lt;a href="https://api.igdb.com/"&gt;api.igdb.com&lt;/a&gt;, &lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;, &lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt; dan/atau &lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt; untuk mendapatkan detail lebih lanjut tentang pintasan game tersebut. Detail tersebut mencakup gambar sampul, tanggal rilis, genre, dll. Data tambahan ini juga hanya digunakan untuk ditampilkan di layar utamamu. Perlu diketahui bahwa metadata file ini mungkin hanya dibagikan kepada salah satu dari empat layanan yang disebutkan di atas.</string>
+    <string name="settings_privacy_policy_section_managing_data_title">Mengelola data pribadimu</string>
+    <string name="settings_privacy_policy_section_managing_data_text">Papaya menyimpan data pribadimu (aplikasi terpasang, metadata file) di perangkatmu. Kamu bisa menghapus semua data pribadimu melalui menu pengaturan aplikasi Android: Tekan lama ikon aplikasi Papaya, pilih \"Info aplikasi\", ketuk \"Penyimpanan &amp; cache\", lalu \"Hapus penyimpanan\". Catatan: Mencopot aplikasi belum tentu menghapus data pribadimu jika opsi pencadangan diaktifkan.</string>
+    <string name="settings_privacy_policy_section_contact_title">Kontak</string>
+    <string name="settings_privacy_policy_section_contact_text">Jika kamu punya pertanyaan lebih lanjut tentang data pribadimu dan penggunaannya, kamu bisa mengirimiku email: &lt;a href="mailto:mail@sebschaef.com"&gt;mail@sebschaef.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Penanggung jawab: Sebastian Schäf</string>
+
+    <!-- Settings - About -->
+    <string name="settings_about_title">@string/settings_more_menu_option_about</string>
+    <string name="settings_about_section_attribution_title">Atribusi</string>
+    <string name="settings_about_section_attribution_subtitle_scrapers">Metadata game</string>
+    <string name="settings_about_section_attribution_igdb">&lt;a href="https://igdb.com/"&gt;IGDB.com&lt;/a&gt;: Memperkaya koleksi game kamu dengan sampul yang indah dan detail lainnya</string>
+    <string name="settings_about_section_attribution_tgdb">&lt;a href="https://thegamesdb.net/"&gt;thegamesdb.net&lt;/a&gt;: Memperkaya koleksi game kamu dengan sampul yang indah dan detail lainnya</string>
+    <string name="settings_about_section_attribution_sgdb">&lt;a href="https://steamgriddb.com/"&gt;steamgriddb.com&lt;/a&gt;: Memperkaya koleksi game kamu dengan sampul yang indah dan detail lainnya</string>
+    <string name="settings_about_section_attribution_rawg">&lt;a href="https://rawg.io/"&gt;rawg.io&lt;/a&gt;: Memperkaya koleksi game kamu dengan sampul yang indah dan detail lainnya</string>
+    <string name="settings_about_section_attribution_subtitle_translations">Terjemahan</string>
+    <string name="settings_about_section_attribution_pt_br">🇧🇷 Bahasa Portugis Brasil oleh &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. Muito obrigado! 🙏</string>
+    <string name="settings_about_section_attribution_es_419">🌎 Bahasa Spanyol Amerika Latin dan Karibia juga oleh &lt;a href="https://github.com/arielamaral"&gt;Ariel&lt;/a&gt;. ¡Muchas gracias! 🙏</string>
+    <string name="settings_about_section_attribution_pl">🇵🇱 Bahasa Polandia oleh &lt;a href="https://trk88.pl/"&gt;TRK88PL&lt;/a&gt;. Dzięki wielkie! 🙏</string>
+    <string name="settings_about_section_attribution_it">🇮🇹 Bahasa Italia oleh &lt;a href="https://github.com/Cappy13"&gt;Cappy13&lt;/a&gt;. Grazie mille! 🙏</string>
+    <string name="settings_about_section_attribution_fi">🇫🇮 Bahasa Finlandia oleh &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Kiitos paljon! 🙏</string>
+    <string name="settings_about_section_attribution_ru">🇷🇺 Bahasa Rusia oleh &lt;a href="https://github.com/johakovi"&gt;johakovi&lt;/a&gt;. Большое спасибо! 🙏</string>
+    <string name="settings_about_section_attribution_tr">🇹🇷 Bahasa Turki oleh &lt;a href="https://github.com/lunishworks"&gt;Lunar&lt;/a&gt;. Çok teşekkürler! 🙏</string>
+    <string name="settings_about_section_attribution_id">🇮🇩 Bahasa Indonesia oleh &lt;a href="https://instagram.com/wan23four"&gt;Wawan&lt;/a&gt;. Terima kasih banyak! 🙏</string>
+    <string name="settings_about_section_attribution_subtitle_sounds_icons">Suara &amp; Ikon</string>
+    <string name="settings_about_section_attribution_statehaschanged">✏️ &lt;b&gt;StateHasChanged&lt;/b&gt;: Terima kasih atas ikon platform yang keren! 🙏 Arcade, C64, Amiga, GBA, MAME, Neo Geo, NES, DS, 3DS, PC Engine, PS2, PS3, Saturn, SMS, dan SNES.</string>
+    <string name="settings_about_section_attribution_puribu">✏️ &lt;b&gt;Puribu&lt;/b&gt;: Terima kasih atas ikon platform PICO-8 yang keren! 🙏</string>
+    <string name="settings_about_section_attribution_freesound">🔊 &lt;a href="https://pixabay.com/users/freesound_community-46691455/"&gt;freesound_community&lt;/a&gt;: Suara navigasi klik-klak yang renyah</string>
+    <string name="settings_about_section_attribution_universfield">🔊 &lt;a href="https://pixabay.com/users/universfield-28281460/"&gt;Universfield&lt;/a&gt;: Memberi nuansa retro saat game dijalankan dan suara peringatan yang jelas pada dialog</string>
+    <string name="settings_about_section_attribution_icons8">✏️ &lt;a href="https://icons8.de"&gt;Icons8&lt;/a&gt;: Untuk ikon Discord yang keren di bawah ini</string>
+    <string name="settings_about_section_attribution_subtitle_platform_emulator_config">Konfigurasi platform &amp; emulator</string>
+    <string name="settings_about_section_attribution_statehaschanged_config">🔧 &lt;b&gt;StateHasChanged&lt;/b&gt;: Terima kasih telah menambahkan dukungan untuk lebih banyak tipe file di berbagai platform! 🙏 Jaguar, Lynx, NES, Neo Geo, PICO-8, SMS, Mega Drive, NDS, dan 3DS.</string>
+    <string name="settings_about_section_community_title">Komunitas</string>
+    <string name="settings_about_section_community_text">Jika kamu ingin berkontribusi dan ikut membentuk masa depan Papaya, ayo bergabung dengan komunitas. Tentu saja kamu juga sangat disambut jika hanya ingin mengikuti kabar terbaru atau menemukan bug!</string>
+    <string name="settings_about_section_community_option_discord">Papaya Discord</string>
+    <string name="settings_about_section_community_option_github">Papaya GitHub</string>
+    <string name="settings_about_section_community_option_email">Email</string>
+    <string name="settings_about_section_built_by_title">Dibuat oleh</string>
+    <string name="settings_about_section_built_by_text">Sebastian Schäf di Berlin</string>
+    <string name="settings_about_section_built_by_thank_you">Terima kasih telah menggunakan Papaya! 🧡</string>
+
+    <!-- Buy license -->
+    <string name="buy_license_trial_title">Uji coba</string>
+    <string name="buy_license_trial_progress_days_left">hari tersisa</string>
+    <string name="buy_license_trial_progress_trial_ended">Uji coba\nberakhir</string>
+    <string name="buy_license_purchase_payment_pending">Pembayaran tertunda</string>
+    <string name="buy_license_purchase_payment_successful">Terima kasih atas dukunganmu! ❤️ Selamat menikmati Papaya!</string>
+    <string name="buy_license_benefit_title">Lisensi tanpa batas:</string>
+    <string name="buy_license_benefit_no_limit">Hapus batas uji coba %1$d hari ✅</string>
+    <string name="buy_license_benefit_no_ads">Dijamin tanpa iklan ✅</string>
+    <string name="buy_license_benefit_unlimited_devices">Perangkat tanpa batas ✅</string>
+    <string name="buy_license_benefit_support_development">Dukung pengembangan ✅</string>
+    <string name="buy_license_cta_buy_license">Beli lisensi tanpa batas</string>
+    <string name="buy_license_cancel_back">Nanti saja</string>
+    <string name="buy_license_cancel_quit">Tutup Papaya</string>
+    <string name="buy_license_go_back">Kembali</string>
+    <string name="buy_license_error_generic_title">Pembayaran tidak dapat dimulai</string>
+    <string name="buy_license_error_generic_message">Pastikan koneksi internetmu berfungsi dan Layanan Google Play sudah diaktifkan.</string>
+
+    <!-- Shared UI -->
+    <string name="shared_ui_loading_screen_label_default">Memuat</string>
+    <string name="shared_ui_toggleablebox_contentdescription_checked">Dipilih</string>
+    <string name="shared_ui_toggleablebox_contentdescription_unchecked">Tidak dipilih</string>
+    <string name="snackbar_platform_scraper_enqueued">Dalam antrean: Mengambil detail game \"%1$s\" kamu.</string>
+    <string name="snackbar_platform_scraper_running">Berjalan di latar belakang: Mengambil detail game \"%1$s\" kamu.</string>
+    <string name="snackbar_platform_scraper_succeeded">Selesai mengambil detail game \"%1$s\" kamu.</string>
+    <string name="snackbar_platform_scraper_failure">Gagal mengambil detail game \"%1$s\" kamu.</string>
+    <string name="snackbar_platform_scraper_all_platforms_enqueued">Dalam antrean: Mengambil detail game kamu.</string>
+    <string name="snackbar_platform_scraper_all_platforms_running">Berjalan di latar belakang: Mengambil detail game kamu.</string>
+    <string name="snackbar_platform_scraper_all_platforms_succeeded">Selesai mengambil detail game kamu.</string>
+    <string name="snackbar_platform_scraper_all_platforms_failure">Gagal mengambil detail game kamu.</string>
+    <string name="snackbar_platform_detect_new_games_enqueued">Dalam antrean: Mendeteksi game \"%1$s\" baru.</string>
+    <string name="snackbar_platform_detect_new_games_running">Berjalan di latar belakang: Mendeteksi game \"%1$s\" baru.</string>
+    <string name="snackbar_platform_detect_new_games_succeeded">Selesai mendeteksi game \"%1$s\" baru.</string>
+    <string name="snackbar_platform_detect_new_games_failure">Gagal mendeteksi game \"%1$s\" baru.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">Dalam antrean: Mendeteksi game baru.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_running">Berjalan di latar belakang: Mendeteksi game baru.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Selesai mendeteksi game baru.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_failure">Gagal mendeteksi game baru.</string>
+    <string name="snackbar_platform_scrape_streaming_game_enqueued">Dalam antrean: Mengambil detail game streaming yang disematkan.</string>
+    <string name="snackbar_platform_scrape_streaming_game_running">Berjalan di latar belakang: Mengambil detail game streaming yang disematkan.</string>
+    <string name="snackbar_platform_scrape_streaming_game_succeeded">Selesai mengambil detail game streaming yang disematkan.</string>
+    <string name="snackbar_platform_scrape_streaming_game_failure">Gagal mengambil detail game streaming yang disematkan.</string>
+    <string name="shared_ui_display_selection_this_display">Layar ini</string>
+    <string name="shared_ui_display_selection_external_display">Eksternal</string>
+    <string name="shared_ui_display_selection_launch_on">Jalankan di</string>
+    <string name="shared_ui_last_played_today">Hari ini</string>
+    <string name="shared_ui_last_played_yesterday">Kemarin</string>
+    <string name="shared_ui_last_played_days_ago">%1$s hari lalu</string>
+    <string name="shared_ui_error_no_app_found_to_handle_action">Tidak ada aplikasi di perangkatmu yang dapat menangani tindakan ini</string>
+
+    <!-- Background work -->
+    <string name="background_work_action_cancel">@string/common_cancel</string>
+    <string name="background_work_notification_channel_name">Progres pengambilan di latar belakang</string>
+    <string name="background_work_notification_channel_description">Informasi detail tentang progres pengambilan. Contohnya: Jumlah game yang tersisa.</string>
+    <string name="background_work_platform_scraper_base_title">Mengambil detail game kamu</string>
+    <string name="background_work_platform_scraper_generic_title">Mengambil detail untuk %1$d game \"%2$s\" kamu</string><!-- "Scraping game details for 12 "PlayStation Portable" games" -->
+    <string name="background_work_platform_scraper_progress_title">Mengambil detail game (%1$d/%2$d): %3$s</string><!-- "Scraping details (2/15): PlayStation Portable -->
+    <string name="background_work_detect_new_games_generic_title">Mencari file game baru</string>
+    <string name="background_work_detect_new_games_generic_platform_title">Mencari file game \"%1$s\" baru</string>
+    <string name="background_work_detect_new_games_scraper_progress_title">@string/background_work_platform_scraper_progress_title</string>
+    <string name="background_work_streaming_game_scraper_title">Mengambil sampul dan detail game</string>
+
+</resources>
