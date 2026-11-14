@@ -236,6 +236,13 @@
     <string name="item_options_app_menu_option_uninstall">Poista sovellus</string>
     <string name="item_options_app_menu_option_launch_display">Käynnistä näyttö</string>
     <string name="item_options_app_menu_option_launch_display_option_not_set">Oletus</string>
+    <string name="item_options_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_app_menu_option_hide">Piilota sovellus</string>
+    <string name="item_options_app_menu_warning_dialog_hide_title">@string/item_options_game_file_warning_dialog_hide_title</string>
+    <string name="item_options_app_menu_warning_dialog_hide_text">Sovellusta ei enää näytetä sovelluslistassasi. Voit perua tämän milloin tahansa kohdasta [Asetukset] > [Sovellukset] > [Sovellus].</string>
+    <string name="item_options_app_menu_warning_dialog_hide_confirm">@string/item_options_app_menu_option_hide</string>
+    <string name="item_options_app_menu_warning_dialog_hide_dismiss">@string/common_cancel</string>
     <string name="item_options_app_menu_error_launch_shortcut_title">Pikakuvaketta ei voitu käynnistää</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
@@ -322,11 +329,13 @@
     <string name="settings_main_menu_title">Asetukset</string>
     <string name="settings_main_menu_menu_option_android">Laitteen asetukset</string>
     <string name="settings_main_menu_menu_option_games">Pelit</string>
+    <string name="settings_main_menu_menu_option_apps">Sovellukset</string>
     <string name="settings_main_menu_menu_option_appearance">Ulkoasu ja käyttäytyminen</string>
     <string name="settings_main_menu_menu_option_advanced">Edistynyt konfigurointi</string>
     <string name="settings_main_menu_menu_option_more">Lisää</string>
     <string name="settings_main_menu_menu_option_buy_license">Osta rajoittamaton lisenssi</string>
 
+    <!-- Settings - Games -->
     <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
     <string name="settings_games_menu_option_platforms">Alustat</string>
     <string name="settings_games_menu_option_collections">Kokoelmat</string>
@@ -349,6 +358,15 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Organisoi pelejäsi omalla tavallasi</string>
     <string name="settings_collections_tip_box_description">Luo omia kokoelmia ja lisää niihin mitä tahansa pelejäsi. Esim. kokoelma kaikista GTA-peleistä eri alustoilla tai kokoelma lapsuutesi suosikkipeleistä.\nVoit sitten avata kokoelmasi päänäkymässä käyttämällä [Järjestä]-toimintoa valinnalla \"Kokoelman mukaan\".</string>
+
+    <!-- Settings - Apps -->
+    <string name="settings_apps_title">Sovellukset</string>
+    <string name="settings_apps_cta_create_folder">Luo kansio</string>
+    <string name="settings_apps_favourites">Suosikit</string>
+    <string name="settings_apps_reorder_title">Järjestä sovellukset uudelleen</string>
+    <string name="settings_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_apps_folder_label_empty">Tyhjä</string>
     <plurals name="settings_apps_folder_label_app_quantity">
         <item quantity="one">%d sovellus</item>
@@ -356,6 +374,58 @@
     </plurals>
     <string name="settings_apps_emulators_folder_badge_managed">Hallinnoitu</string>
     <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
+
+    <!-- Settings - Favourite apps -->
+    <string name="settings_favourite_apps_title">@string/settings_apps_favourites</string>
+    <string name="settings_favourite_apps_reorder_title">Järjestä suosikit uudelleen</string>
+    <string name="settings_favourite_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_favourite_apps_empty">Suosikkisovelluksia ei lisätty</string>
+    <string name="settings_favourite_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_favourite_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_favourite_apps_tip_box_title">Mistä näen suosikkisovelluksiani?</string>
+    <string name="settings_favourite_apps_tip_box_description">Vain tietyt teemat käyttävät suosikkisovelluksiasi. Esimerkiksi Deckish-teema näyttää ne Sovellukset-välilehden yläreunassa.</string>
+
+    <!-- Settings - Emulator apps folder -->
+    <string name="settings_emulator_apps_folder_title">@string/gallery_top_bar_category_emulators</string>
+    <string name="settings_emulator_apps_folder_setting_enabled_title">Käytössä</string>
+    <string name="settings_emulator_apps_folder_tip_box_title">Hallinnoitu emulaattorikansio</string>
+    <string name="settings_emulator_apps_folder_tip_box_description">Tämä kansio kerää automaattisesti kaikki asennetut emulaattorisovellukset, joita Papaya tukee. Kun se on pois käytöstä, emulaattorisovellukset näkyvät yleisessä sovelluslistassa ja voit siirrellä niitä vapaasti.</string>
+    <string name="managed_emulator_apps_folder_name">Emulaattorit</string>
+
+    <!-- Settings - App options -->
+    <string name="settings_app_options_menu_option_move_to">Siirrä kohteeseen</string>
+    <string name="settings_app_options_menu_option_favourite">Merkitse suosikiksi</string>
+    <string name="settings_app_options_menu_option_hide">Piilota</string>
+    <string name="settings_app_options_move_to_dialog_top_level">Ylin taso</string>
+    <string name="settings_app_options_move_to_dialog_new_folder">Uusi kansio</string>
+
+    <!-- Settings - App folder -->
+    <string name="settings_app_folder_menu_option_appearance">Muokkaa kansion ulkoasua</string>
+    <string name="settings_app_folder_menu_option_delete">Poista kansio</string>
+    <string name="settings_app_folder_empty_info">Lisää sovelluksia tähän kansioon avaamalla sovelluksen valikko ja valitsemalla [%1$s].</string>
+    <string name="settings_app_folder_reorder_title">@string/settings_apps_reorder_title</string>
+    <string name="settings_app_folder_reorder_cta_done">@string/common_done</string>
+    <string name="settings_app_folder_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_app_folder_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_app_folder_delete_dialog_title">Poistetaanko kansio \"%1$s\"?</string>
+    <string name="settings_app_folder_delete_dialog_text">Kansio poistetaan. Kaikki tämän kansion sovellukset siirretään ylimmälle tasolle.</string>
+    <string name="settings_app_folder_delete_dialog_confirm">@string/settings_app_folder_menu_option_delete</string>
+    <string name="settings_app_folder_delete_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - App folder appearance -->
+    <string name="settings_app_folder_edit_appearance_section_title">Kansion ulkoasu</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image">Kansion kuva (valinnainen)</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_app_folder_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_app_folder_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_title">Poistutaanko kansion ulkoasun muokkauksesta?</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_title">Poistetaanko kansion kuva?</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_text">Kansio käyttää sen sijaan oletuskuvaketta.</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Kokoelman ulkoasu</string>
@@ -421,6 +491,7 @@
     <string name="settings_platform_edit_appearance_section_title">Alustan ulkoasu</string>
     <string name="settings_platform_edit_appearance_section_platform_image">Alustan kuva</string>
     <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Yksivärinen</string>
+    <string name="settings_platform_edit_appearance_section_platform_background">Alustan taustakuva</string>
     <string name="settings_platform_edit_appearance_section_name">Nimi</string>
     <string name="settings_platform_edit_appearance_section_short_name">Lyhyt nimi</string>
     <string name="settings_platform_edit_appearance_key_hint_remove_image">Poista</string>
@@ -432,6 +503,10 @@
     <string name="settings_platform_edit_appearance_remove_image_dialog_text">Alusta käyttää oletuskuvaa tai nimeä sen sijaan.</string>
     <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Poista kuva</string>
     <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_title">Poistetaanko alustan taustakuva?</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_text">Tämän alustan pelit, joilla ei ole omaa taustakuvaa, eivät enää näytä taustakuvaa.</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_confirm">Poista taustakuva</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
@@ -470,6 +545,30 @@
     <string name="settings_appearance_menu_menu_option_general">Yleiset</string>
     <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
     <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_game_appearance">Pelit</string>
+    <string name="settings_appearance_menu_menu_option_app_appearance">Sovellukset</string>
+
+    <!-- Settings - Appearance - Games -->
+    <string name="settings_appearance_games_menu_title">@string/settings_appearance_menu_menu_option_game_appearance</string>
+
+    <!-- Settings - Appearance - Apps -->
+    <string name="settings_appearance_apps_menu_title">@string/settings_appearance_menu_menu_option_app_appearance</string>
+    <string name="settings_appearance_apps_setting_app_icons_title">@string/settings_appearance_app_icon_menu_title</string>
+
+    <!-- Settings - Appearance - Apps - App icon -->
+    <string name="settings_appearance_app_icon_menu_title">Sovelluskuvakkeiden ulkoasu</string>
+    <string name="settings_appearance_app_icon_preview_label">Esikatselu</string>
+    <string name="settings_appearance_app_icon_setting_shape_title">Kuvakkeen muoto</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_circle">Ympyrä</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_square">Neliö</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_square">Pyöristetty neliö</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_squircle">Pyöristetty neliö</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_teardrop">Pisara</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexagon">Kuusikulmio</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexadecagon">Aaltoileva</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_pixel_circle">Pikseliympyrä</string>
+    <string name="settings_appearance_app_icon_setting_glass_background_title">Lasitausta</string>
+    <string name="settings_appearance_app_icon_setting_themed_title">Teeman mukaiset kuvakkeet</string>
 
     <!-- Settings - Appearance - General -->
     <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
@@ -518,6 +617,7 @@
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Näytä järjestelmän navigaatiopalkki</string>
     <string name="settings_appearance_general_setting_recents_section_title">Näytä "Viimeisimmät"-osio</string>
     <string name="settings_appearance_general_setting_game_backgrounds_title">Näytä pelien taustakuvat</string>
+    <string name="settings_appearance_general_setting_platform_backgrounds_title">Näytä alustojen taustakuvat</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Näytä "Suosikit"-osio</string>
 
     <!-- Settings - Appearance - Layout -->
@@ -551,10 +651,10 @@
     <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Käytä klassisia luokkakuva-ikoneja</string>
 
     <!-- Settings - Appearance - Landscape layout -->
-    <string name="settings_appearance_landscape_layout_menu_title">Asettelu vaaka-asennossa</string>
+    <string name="settings_appearance_landscape_layout_menu_title">Teema vaaka-asennossa</string>
 
     <!-- Settings - Appearance - Portrait layout -->
-    <string name="settings_appearance_portrait_layout_menu_title">Asettelu pysty-asennossa</string>
+    <string name="settings_appearance_portrait_layout_menu_title">Teema pystyasennossa</string>
 
     <!-- Settings - Appearance - Background -->
     <string name="settings_appearance_background_title">Tausta</string>
@@ -888,11 +988,17 @@
     <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">Jonossa: Etsitään uusia pelejä.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_running">Käynnissä taustalla: Etsitään uusia pelejä.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Valmis: Uusien pelien etsiminen.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded_no_new_games">Uusien pelien etsintä valmis: Uusia pelejä ei löytynyt.</string>
+    <plurals name="snackbar_platform_detect_new_games_all_platforms_succeeded_new_games">
+        <item quantity="one">Uusien pelien etsintä valmis: Löytyi yksi uusi peli.</item>
+        <item quantity="other">Uusien pelien etsintä valmis: Löytyi %1$s uutta peliä.</item>
+    </plurals>
     <string name="snackbar_platform_detect_new_games_all_platforms_failure">Uusien pelien etsiminen epäonnistui.</string>
     <string name="snackbar_platform_scrape_streaming_game_enqueued">Jonossa: Haetaan kiinnitetyn suoratoistopelin tietoja.</string>
     <string name="snackbar_platform_scrape_streaming_game_running">Käynnissä taustalla: Haetaan kiinnitetyn suoratoistopelin tietoja.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Valmis: Kiinnitetyn suoratoistopelin tietojen haku.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Kiinnitetyn suoratoistopelin tietojen haku epäonnistui.</string>
+    <string name="snackbar_new_config_version_available">Emulaattori konfiguraatiosta on saatavilla uusi versio asennettavaksi.</string>
     <string name="shared_ui_display_selection_this_display">Tämä näyttö</string>
     <string name="shared_ui_display_selection_external_display">Ulkoinen näyttö</string>
     <string name="shared_ui_display_selection_launch_on">Käynnistä näytöllä</string>
