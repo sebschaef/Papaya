@@ -102,6 +102,10 @@
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Sıralama seçenekleri</string>
 
+    <!-- Deckish - Apps -->
+    <string name="deckish_apps_shelf_favourites_title">@string/gallery_games_sorting_section_favourites_title</string>
+    <string name="deckish_apps_shelf_other_title">@string/gallery_search_section_other</string>
+
     <!-- XMB - Games -->
     <string name="xmb_games_option_reorder_title">Sırala</string>
     <string name="xmb_games_error_no_games_available">Kullanılabilir oyun yok</string>
@@ -321,12 +325,15 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Ayarlar</string>
     <string name="settings_main_menu_menu_option_android">Cihaz ayarları</string>
-    <string name="settings_main_menu_menu_option_platform">Platformlar</string>
-    <string name="settings_main_menu_menu_option_collections">Koleksiyonlar</string>
+    <string name="settings_main_menu_menu_option_games">Oyunlar</string>
     <string name="settings_main_menu_menu_option_appearance">Görünüm ve davranış</string>
     <string name="settings_main_menu_menu_option_advanced">Gelişmiş yapılandırma</string>
     <string name="settings_main_menu_menu_option_more">Daha fazla</string>
     <string name="settings_main_menu_menu_option_buy_license">Sınırsız lisans satın al</string>
+
+    <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
+    <string name="settings_games_menu_option_platforms">Platformlar</string>
+    <string name="settings_games_menu_option_collections">Koleksiyonlar</string>
 
     <!-- Settings - Platforms -->
     <string name="settings_platforms_title">Platformlar</string>
@@ -346,6 +353,13 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Oyunlarını dilediğin gibi grupla</string>
     <string name="settings_collections_tip_box_description">Koleksiyon oluşturup seçtiğin oyunları ekle. Mesela farklı platformlardaki tüm GTA oyunları veya çocukluğundaki en sevdiğin oyunlar.\nKoleksiyonlarına ana ekrandaki [Sırala] işlevi üzerinden "Koleksiyonlara göre" seçeneğiyle erişebilirsin.</string>
+    <string name="settings_apps_folder_label_empty">Boş</string>
+    <plurals name="settings_apps_folder_label_app_quantity">
+        <item quantity="one">%d uygulama</item>
+        <item quantity="other">%d uygulama</item>
+    </plurals>
+    <string name="settings_apps_emulators_folder_badge_managed">Yönetilen</string>
+    <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Koleksiyon görünümü</string>
@@ -489,6 +503,11 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Uygulama simgesi şekli</string>
     <string name="settings_appearance_general_setting_background_style_title">Arka plan</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Papaya\'yı varsayılan başlatıcı yap</string>
+    <string name="settings_appearance_general_setting_start_category_title">Başlangıç kategorisi</string>
+    <string name="settings_appearance_general_setting_start_category_option_games">@string/gallery_top_bar_category_games</string>
+    <string name="settings_appearance_general_setting_start_category_option_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="settings_appearance_general_setting_start_category_option_streaming">@string/gallery_top_bar_category_streaming</string>
+    <string name="settings_appearance_general_setting_start_category_option_search">@string/gallery_top_bar_category_search</string>
     <string name="settings_appearance_general_setting_search_preferences_title">Arama tercihleri</string>
     <string name="settings_appearance_general_setting_launch_display_title">Varsayılan başlatma ekranı</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Aynı ekran (varsayılan)</string>
@@ -885,6 +904,7 @@
     <string name="shared_ui_last_played_yesterday">Dün</string>
     <string name="shared_ui_last_played_days_ago">%1$s gün önce</string>
     <string name="shared_ui_error_no_app_found_to_handle_action">Cihazınızda bu eylemi gerçekleştirecek bir uygulama yok</string>
+    <string name="shared_ui_new_folder_name">Yeni klasör</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
