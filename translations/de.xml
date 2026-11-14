@@ -570,7 +570,7 @@
     <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexadecagon">Gewellt</string>
     <string name="settings_appearance_app_icon_setting_shape_option_pixel_circle">Pixel-Kreis</string>
     <string name="settings_appearance_app_icon_setting_glass_background_title">Glas-Hintergrund</string>
-    <string name="settings_appearance_app_icon_setting_themed_title">Designsymbole</string>
+    <string name="settings_appearance_app_icon_setting_themed_title">In Akzentfarben</string>
 
     <!-- Settings - Appearance - General -->
     <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
