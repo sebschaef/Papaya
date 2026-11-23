@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Common -->
     <string name="common_select">Selecionar</string>
@@ -992,7 +992,7 @@
     <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Detecção de novos jogos concluída.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_succeeded_no_new_games">Detecção de novos jogos concluída. Nenhum jogo novo encontrado.</string>
     <plurals name="snackbar_platform_detect_new_games_all_platforms_succeeded_new_games">
-        <item quantity="one">Detecção de novos jogos concluída. Um jogo novo encontrado.</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">Detecção de novos jogos concluída. Um jogo novo encontrado.</item>
         <item quantity="many">Detecção de novos jogos concluída. %1$s jogos novos encontrados.</item>
         <item quantity="other">Detecção de novos jogos concluída. %1$s jogos novos encontrados.</item>
     </plurals>
