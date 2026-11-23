@@ -101,6 +101,10 @@
     <!-- Deckish - Games -->
     <string name="deckish_games_sorting_button_content_description">Opsi pengurutan</string>
 
+    <!-- Deckish - Apps -->
+    <string name="deckish_apps_shelf_favourites_title">@string/gallery_games_sorting_section_favourites_title</string>
+    <string name="deckish_apps_shelf_other_title">@string/gallery_search_section_other</string>
+
     <!-- XMB - Games -->
     <string name="xmb_games_option_reorder_title">Urutkan</string>
     <string name="xmb_games_error_no_games_available">Tidak ada game yang tersedia</string>
@@ -230,6 +234,13 @@
     <string name="item_options_app_menu_option_uninstall">Copot aplikasi</string>
     <string name="item_options_app_menu_option_launch_display">Layar peluncuran</string>
     <string name="item_options_app_menu_option_launch_display_option_not_set">Standar</string>
+    <string name="item_options_app_menu_option_favourite_add">@string/item_options_game_file_menu_option_favourite_add</string>
+    <string name="item_options_app_menu_option_favourite_remove">@string/item_options_game_file_menu_option_favourite_remove</string>
+    <string name="item_options_app_menu_option_hide">Sembunyikan aplikasi</string>
+    <string name="item_options_app_menu_warning_dialog_hide_title">@string/item_options_game_file_warning_dialog_hide_title</string>
+    <string name="item_options_app_menu_warning_dialog_hide_text">Aplikasi ini tidak akan ditampilkan lagi di daftar aplikasimu. Kamu bisa membatalkannya kapan saja di [Pengaturan] > [Aplikasi] > [Aplikasi].</string>
+    <string name="item_options_app_menu_warning_dialog_hide_confirm">@string/item_options_app_menu_option_hide</string>
+    <string name="item_options_app_menu_warning_dialog_hide_dismiss">@string/common_cancel</string>
     <string name="item_options_app_menu_error_launch_shortcut_title">Pintasan tidak dapat dijalankan</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_app_not_found">@string/gallery_games_error_app_launch_failed_app_not_found</string>
     <string name="item_options_app_menu_error_launch_shortcut_message_generic">@string/gallery_games_error_app_launch_failed_generic</string>
@@ -315,12 +326,17 @@
     <!-- Settings - Main menu -->
     <string name="settings_main_menu_title">Pengaturan</string>
     <string name="settings_main_menu_menu_option_android">Pengaturan perangkat</string>
-    <string name="settings_main_menu_menu_option_platform">Platform</string>
-    <string name="settings_main_menu_menu_option_collections">Koleksi</string>
+    <string name="settings_main_menu_menu_option_games">Game</string>
+    <string name="settings_main_menu_menu_option_apps">Aplikasi</string>
     <string name="settings_main_menu_menu_option_appearance">Tampilan &amp; perilaku</string>
     <string name="settings_main_menu_menu_option_advanced">Konfigurasi lanjutan</string>
     <string name="settings_main_menu_menu_option_more">Lainnya</string>
     <string name="settings_main_menu_menu_option_buy_license">Beli lisensi tanpa batas</string>
+
+    <!-- Settings - Games -->
+    <string name="settings_games_menu_title">@string/settings_main_menu_menu_option_games</string>
+    <string name="settings_games_menu_option_platforms">Platform</string>
+    <string name="settings_games_menu_option_collections">Koleksi</string>
 
     <!-- Settings - Platforms -->
     <string name="settings_platforms_title">Platform</string>
@@ -340,6 +356,73 @@
     <string name="settings_collections_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
     <string name="settings_collections_tip_box_title">Kelompokkan game sesukamu</string>
     <string name="settings_collections_tip_box_description">Buat koleksi kustom dan masukkan game apa pun ke dalamnya. Misalnya koleksi berisi semua game GTA dari berbagai platform, atau koleksi game favorit masa kecilmu.\nKamu lalu bisa membuka koleksimu di layar utama dengan fungsi [Urutkan] dan memilih \"Menurut koleksi\".</string>
+
+    <!-- Settings - Apps -->
+    <string name="settings_apps_title">Aplikasi</string>
+    <string name="settings_apps_cta_create_folder">Buat folder</string>
+    <string name="settings_apps_favourites">Favorit</string>
+    <string name="settings_apps_reorder_title">Ubah urutan aplikasi</string>
+    <string name="settings_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_apps_folder_label_empty">Kosong</string>
+    <plurals name="settings_apps_folder_label_app_quantity">
+        <item quantity="other">%d aplikasi</item>
+    </plurals>
+    <string name="settings_apps_emulators_folder_badge_managed">Terkelola</string>
+    <string name="settings_apps_emulators_folder_badge_disabled">@string/settings_scrapers_label_disabled</string>
+
+    <!-- Settings - Favourite apps -->
+    <string name="settings_favourite_apps_title">@string/settings_apps_favourites</string>
+    <string name="settings_favourite_apps_reorder_title">Ubah urutan favorit</string>
+    <string name="settings_favourite_apps_reorder_cta_done">@string/common_done</string>
+    <string name="settings_favourite_apps_empty">Belum ada aplikasi favorit</string>
+    <string name="settings_favourite_apps_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_favourite_apps_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_favourite_apps_tip_box_title">Di mana aku bisa melihat aplikasi favoritku?</string>
+    <string name="settings_favourite_apps_tip_box_description">Hanya tema tertentu yang memakai aplikasi favoritmu. Misalnya, tema Deckish menampilkannya di bagian paling atas tab aplikasi.</string>
+
+    <!-- Settings - Emulator apps folder -->
+    <string name="settings_emulator_apps_folder_title">@string/gallery_top_bar_category_emulators</string>
+    <string name="settings_emulator_apps_folder_setting_enabled_title">Aktif</string>
+    <string name="settings_emulator_apps_folder_tip_box_title">Folder emulator terkelola</string>
+    <string name="settings_emulator_apps_folder_tip_box_description">Folder ini otomatis mengumpulkan semua aplikasi emulator terpasang yang didukung Papaya. Kalau dinonaktifkan, aplikasi emulator akan muncul di daftar aplikasi umum dan kamu bisa memindahkannya dengan bebas.</string>
+    <string name="managed_emulator_apps_folder_name">Emulator</string>
+
+    <!-- Settings - App options -->
+    <string name="settings_app_options_menu_option_move_to">Pindahkan ke</string>
+    <string name="settings_app_options_menu_option_favourite">Tandai sebagai favorit</string>
+    <string name="settings_app_options_menu_option_hide">Sembunyikan</string>
+    <string name="settings_app_options_move_to_dialog_top_level">Tingkat teratas</string>
+    <string name="settings_app_options_move_to_dialog_new_folder">Folder baru</string>
+
+    <!-- Settings - App folder -->
+    <string name="settings_app_folder_menu_option_appearance">Edit tampilan folder</string>
+    <string name="settings_app_folder_menu_option_delete">Hapus folder</string>
+    <string name="settings_app_folder_empty_info">Tambahkan aplikasi ke folder ini lewat menu opsi aplikasi dengan memilih [%1$s].</string>
+    <string name="settings_app_folder_reorder_title">@string/settings_apps_reorder_title</string>
+    <string name="settings_app_folder_reorder_cta_done">@string/common_done</string>
+    <string name="settings_app_folder_content_description_move_up">@string/settings_platforms_content_description_move_up</string>
+    <string name="settings_app_folder_content_description_move_down">@string/settings_platforms_content_description_move_down</string>
+    <string name="settings_app_folder_delete_dialog_title">Hapus folder \"%1$s\"?</string>
+    <string name="settings_app_folder_delete_dialog_text">Folder ini akan dihapus. Semua aplikasi di dalamnya akan dipindahkan ke tingkat teratas.</string>
+    <string name="settings_app_folder_delete_dialog_confirm">@string/settings_app_folder_menu_option_delete</string>
+    <string name="settings_app_folder_delete_dialog_dismiss">@string/common_cancel</string>
+
+    <!-- Settings - App folder appearance -->
+    <string name="settings_app_folder_edit_appearance_section_title">Tampilan folder</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image">Gambar folder (Opsional)</string>
+    <string name="settings_app_folder_edit_appearance_section_folder_image_is_monochrome">@string/settings_platform_edit_appearance_section_platform_image_is_monochrome</string>
+    <string name="settings_app_folder_edit_appearance_section_name">@string/settings_platform_edit_appearance_section_name</string>
+    <string name="settings_app_folder_edit_appearance_key_hint_remove_image">@string/settings_platform_edit_appearance_key_hint_remove_image</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_title">Keluar dari editor tampilan folder?</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_text">@string/settings_platform_edit_appearance_exit_warning_dialog_text</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_confirm">@string/settings_platform_edit_appearance_exit_warning_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_exit_warning_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_title">Hapus gambar folder?</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_text">Folder ini akan memakai ikon bawaan sebagai gantinya.</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_confirm">@string/settings_platform_edit_appearance_remove_image_dialog_confirm</string>
+    <string name="settings_app_folder_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Collection options -->
     <string name="settings_collection_options_menu_option_appearance">Tampilan koleksi</string>
@@ -404,6 +487,7 @@
     <string name="settings_platform_edit_appearance_section_title">Tampilan platform</string>
     <string name="settings_platform_edit_appearance_section_platform_image">Gambar platform</string>
     <string name="settings_platform_edit_appearance_section_platform_image_is_monochrome">Monokrom</string>
+    <string name="settings_platform_edit_appearance_section_platform_background">Latar belakang platform</string>
     <string name="settings_platform_edit_appearance_section_name">Nama</string>
     <string name="settings_platform_edit_appearance_section_short_name">Nama singkat</string>
     <string name="settings_platform_edit_appearance_key_hint_remove_image">Hapus</string>
@@ -415,6 +499,10 @@
     <string name="settings_platform_edit_appearance_remove_image_dialog_text">Platform ini akan memakai ikon atau nama bawaan sebagai gantinya.</string>
     <string name="settings_platform_edit_appearance_remove_image_dialog_confirm">Hapus gambar</string>
     <string name="settings_platform_edit_appearance_remove_image_dialog_dismiss">@string/common_cancel</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_title">Hapus latar belakang platform?</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_text">Game di platform ini yang tidak punya latar belakang sendiri tidak akan menampilkan latar belakang lagi.</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_confirm">Hapus latar belakang</string>
+    <string name="settings_platform_edit_appearance_remove_background_dialog_dismiss">@string/common_cancel</string>
 
     <!-- Settings - Platform edit - Key hints -->
     <string name="settings_platform_edit_key_hints_navigate">@string/common_navigate</string>
@@ -453,6 +541,30 @@
     <string name="settings_appearance_menu_menu_option_general">Umum</string>
     <string name="settings_appearance_menu_menu_option_landscape_layout">@string/settings_appearance_landscape_layout_menu_title</string>
     <string name="settings_appearance_menu_menu_option_portrait_layout">@string/settings_appearance_portrait_layout_menu_title</string>
+    <string name="settings_appearance_menu_menu_option_game_appearance">Game</string>
+    <string name="settings_appearance_menu_menu_option_app_appearance">Aplikasi</string>
+
+    <!-- Settings - Appearance - Games -->
+    <string name="settings_appearance_games_menu_title">@string/settings_appearance_menu_menu_option_game_appearance</string>
+
+    <!-- Settings - Appearance - Apps -->
+    <string name="settings_appearance_apps_menu_title">@string/settings_appearance_menu_menu_option_app_appearance</string>
+    <string name="settings_appearance_apps_setting_app_icons_title">@string/settings_appearance_app_icon_menu_title</string>
+
+    <!-- Settings - Appearance - Apps - App icon -->
+    <string name="settings_appearance_app_icon_menu_title">Tampilan ikon aplikasi</string>
+    <string name="settings_appearance_app_icon_preview_label">Pratinjau</string>
+    <string name="settings_appearance_app_icon_setting_shape_title">Bentuk ikon</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_circle">Lingkaran</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_square">Persegi</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_square">Persegi membulat</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_squircle">Squircle</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_teardrop">Tetesan</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexagon">Segi enam</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_rounded_hexadecagon">Bergelombang</string>
+    <string name="settings_appearance_app_icon_setting_shape_option_pixel_circle">Lingkaran piksel</string>
+    <string name="settings_appearance_app_icon_setting_glass_background_title">Latar belakang kaca</string>
+    <string name="settings_appearance_app_icon_setting_themed_title">Ikon bertema</string>
 
     <!-- Settings - Appearance - General -->
     <string name="settings_appearance_general_menu_title">@string/settings_appearance_menu_menu_option_general</string>
@@ -482,6 +594,11 @@
     <string name="settings_appearance_general_setting_adaptive_app_icons_title">Bentuk ikon aplikasi</string>
     <string name="settings_appearance_general_setting_background_style_title">Latar belakang</string>
     <string name="settings_appearance_general_setting_default_launcher_title">Jadikan Papaya sebagai launcher</string>
+    <string name="settings_appearance_general_setting_start_category_title">Kategori awal</string>
+    <string name="settings_appearance_general_setting_start_category_option_games">@string/gallery_top_bar_category_games</string>
+    <string name="settings_appearance_general_setting_start_category_option_apps">@string/gallery_top_bar_category_apps</string>
+    <string name="settings_appearance_general_setting_start_category_option_streaming">@string/gallery_top_bar_category_streaming</string>
+    <string name="settings_appearance_general_setting_start_category_option_search">@string/gallery_top_bar_category_search</string>
     <string name="settings_appearance_general_setting_search_preferences_title">Preferensi pencarian</string>
     <string name="settings_appearance_general_setting_launch_display_title">Layar peluncuran bawaan</string>
     <string name="settings_appearance_general_setting_launch_display_option_default">Layar yang sama (bawaan)</string>
@@ -496,6 +613,7 @@
     <string name="settings_appearance_general_setting_display_system_navigation_bar_title">Tampilkan bilah navigasi sistem</string>
     <string name="settings_appearance_general_setting_recents_section_title">Tampilkan bagian \"Terbaru\"</string>
     <string name="settings_appearance_general_setting_game_backgrounds_title">Tampilkan latar belakang game</string>
+    <string name="settings_appearance_general_setting_platform_backgrounds_title">Tampilkan latar belakang platform</string>
     <string name="settings_appearance_general_setting_favourites_section_title">Tampilkan bagian \"Favorit\"</string>
 
     <!-- Settings - Appearance - Layout-->
@@ -529,10 +647,10 @@
     <string name="settings_appearance_layout_menu_xmb_general_use_classic_category_icons">Gunakan ikon kategori klasik</string>
 
     <!-- Settings - Appearance - Landscape layout-->
-    <string name="settings_appearance_landscape_layout_menu_title">Tata letak mode lanskap</string>
+    <string name="settings_appearance_landscape_layout_menu_title">Tema mode lanskap</string>
 
     <!-- Settings - Appearance - Portrait layout-->
-    <string name="settings_appearance_portrait_layout_menu_title">Tata letak mode potret</string>
+    <string name="settings_appearance_portrait_layout_menu_title">Tema mode potret</string>
 
     <!-- Settings - Appearance - Background -->
     <string name="settings_appearance_background_title">Latar belakang</string>
@@ -866,11 +984,16 @@
     <string name="snackbar_platform_detect_new_games_all_platforms_enqueued">Dalam antrean: Mendeteksi game baru.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_running">Berjalan di latar belakang: Mendeteksi game baru.</string>
     <string name="snackbar_platform_detect_new_games_all_platforms_succeeded">Selesai mendeteksi game baru.</string>
+    <string name="snackbar_platform_detect_new_games_all_platforms_succeeded_no_new_games">Selesai mendeteksi game baru. Tidak ada game baru yang ditemukan.</string>
+    <plurals name="snackbar_platform_detect_new_games_all_platforms_succeeded_new_games">
+        <item quantity="other">Selesai mendeteksi game baru. %1$s game baru ditemukan.</item>
+    </plurals>
     <string name="snackbar_platform_detect_new_games_all_platforms_failure">Gagal mendeteksi game baru.</string>
     <string name="snackbar_platform_scrape_streaming_game_enqueued">Dalam antrean: Mengambil detail game streaming yang disematkan.</string>
     <string name="snackbar_platform_scrape_streaming_game_running">Berjalan di latar belakang: Mengambil detail game streaming yang disematkan.</string>
     <string name="snackbar_platform_scrape_streaming_game_succeeded">Selesai mengambil detail game streaming yang disematkan.</string>
     <string name="snackbar_platform_scrape_streaming_game_failure">Gagal mengambil detail game streaming yang disematkan.</string>
+    <string name="snackbar_new_config_version_available">Versi baru konfigurasi emulator tersedia untuk dipasang.</string>
     <string name="shared_ui_display_selection_this_display">Layar ini</string>
     <string name="shared_ui_display_selection_external_display">Eksternal</string>
     <string name="shared_ui_display_selection_launch_on">Jalankan di</string>
@@ -878,6 +1001,7 @@
     <string name="shared_ui_last_played_yesterday">Kemarin</string>
     <string name="shared_ui_last_played_days_ago">%1$s hari lalu</string>
     <string name="shared_ui_error_no_app_found_to_handle_action">Tidak ada aplikasi di perangkatmu yang dapat menangani tindakan ini</string>
+    <string name="shared_ui_new_folder_name">Folder baru</string>
 
     <!-- Background work -->
     <string name="background_work_action_cancel">@string/common_cancel</string>
