@@ -1,6 +1,6 @@
 {
   "presetSchemaVersion": 4,
-  "presetConfigurationVersion": 24,
+  "presetConfigurationVersion": 25,
   "platforms": [
     {
       "key": "and",
@@ -1331,6 +1331,73 @@
       }
     },
     {
+      "key": "scd",
+      "shortName": "SCD",
+      "name": "Sega CD",
+      "supportedFiles": [
+        {
+          "type": "68k"
+        },
+        {
+          "type": "bin"
+        },
+        {
+          "type": "bms"
+        },
+        {
+          "type": "chd"
+        },
+        {
+          "type": "cue"
+        },
+        {
+          "type": "gen"
+        },
+        {
+          "type": "gg"
+        },
+        {
+          "type": "iso"
+        },
+        {
+          "type": "m3u"
+        },
+        {
+          "type": "md"
+        },
+        {
+          "type": "mdx"
+        },
+        {
+          "type": "sg"
+        },
+        {
+          "type": "sgd"
+        },
+        {
+          "type": "smd"
+        },
+        {
+          "type": "sms"
+        },
+        {
+          "type": "7z"
+        },
+        {
+          "type": "zip"
+        }
+      ],
+      "scraperPlatformId": {
+        "igdb": "78",
+        "tgdb": "21"
+      },
+      "references": {
+        "esDe": {
+          "path": "segacd"
+        }
+      }
+    },
+    {
       "key": "gb",
       "shortName": "GB",
       "name": "Nintendo Game Boy",
@@ -1973,6 +2040,12 @@
         },
         {
           "type": "xci"
+        },
+        {
+          "type": "nsz"
+        },
+        {
+          "type": "xcz"
         }
       ],
       "scraperPlatformId": {
@@ -3531,7 +3604,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3555,7 +3629,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -3579,7 +3654,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -5962,7 +6038,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -5986,7 +6063,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -6010,7 +6088,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8111,7 +8190,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8129,7 +8209,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -8147,7 +8228,8 @@
       "supportedPlatforms": [
         "sgg",
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.retroarch.browser.retroactivity.RetroActivityFuture"
@@ -9373,6 +9455,28 @@
       }
     },
     {
+      "packageName": "com.armsx3.play",
+      "name": "ARMSX3 (Google Play)",
+      "supportedPlatforms": [
+        "ps3"
+      ],
+      "launchConfiguration": {
+        "explicitActivity": "com.armsx2.Main",
+        "filePathType": "absolute"
+      },
+      "references": {
+        "esDe": {
+          "label": "ARMSX3 (Standalone)"
+        },
+        "sources": [
+          {
+            "type": "googleplay",
+            "url": "https://play.google.com/store/apps/details?id=com.armsx3.play"
+          }
+        ]
+      }
+    },
+    {
       "packageName": "com.explusalpha.Snes9xPlus",
       "name": "SNES9x EX+",
       "supportedPlatforms": [
@@ -9461,7 +9565,8 @@
       "name": "MD.emu",
       "supportedPlatforms": [
         "gen",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "com.imagine.BaseActivity"
@@ -10110,7 +10215,8 @@
       "supportedPlatforms": [
         "gen",
         "sgg",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboyscpro.MainActivity",
@@ -10134,7 +10240,8 @@
       "supportedPlatforms": [
         "gen",
         "sgg",
-        "sms"
+        "sms",
+        "scd"
       ],
       "launchConfiguration": {
         "explicitActivity": "it.dbtecno.pizzaboyscbasic.MainActivity",
